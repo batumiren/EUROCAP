@@ -3,6 +3,7 @@ import { z } from "zod";
 import { db, getOperator, nextItemCode } from "@/lib/db";
 import { apiError } from "@/lib/http";
 import { CONDITIONS, STATUSES } from "@/lib/types";
+import { scheduleDataSync } from "@/lib/data-sync";
 
 const createSchema = z.object({
   name: z.string().trim().min(1), roomId: z.number().int().positive(), quantity: z.number().int().positive(),
@@ -36,6 +37,7 @@ export async function POST(request: NextRequest) {
       db.prepare("INSERT INTO item_history (inventory_id,action,details,operator_email,created_at) VALUES (?,?,?,?,?)").run(id, "ჩანაწერის შექმნა", `რაოდენობა: ${input.quantity}`, operator.operator_email, now);
       return { id, code };
     })();
+    scheduleDataSync();
     return NextResponse.json(result, { status: 201 });
   } catch (error) { return apiError(error); }
 }

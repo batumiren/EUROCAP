@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { apiError } from "@/lib/http";
 import { saveInspection } from "@/lib/services";
+import { scheduleDataSync } from "@/lib/data-sync";
 
 export async function GET(request: NextRequest) {
   const roomId = request.nextUrl.searchParams.get("roomId");
@@ -14,6 +15,6 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
-  try { return NextResponse.json(saveInspection(db, await request.json()), { status: 201 }); }
+  try { const result = saveInspection(db, await request.json()); scheduleDataSync(); return NextResponse.json(result, { status: 201 }); }
   catch (error) { return apiError(error); }
 }

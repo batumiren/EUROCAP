@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "test": "vitest run",
-    "db:init": "tsx scripts/init-db.ts"
+    "db:init": "tsx scripts/init-db.ts",
+    "data:sync": "tsx scripts/sync-data.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",

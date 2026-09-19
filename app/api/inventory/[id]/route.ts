@@ -4,6 +4,7 @@ import { db, getOperator } from "@/lib/db";
 import { apiError } from "@/lib/http";
 import { AppError } from "@/lib/services";
 import { CONDITIONS, STATUSES } from "@/lib/types";
+import { scheduleDataSync } from "@/lib/data-sync";
 
 export async function GET(_: NextRequest, context: { params: Promise<{ id: string }> }) {
   const id = Number((await context.params).id);
@@ -41,6 +42,7 @@ export async function PATCH(request: NextRequest, context: { params: Promise<{ i
       }
       db.prepare("INSERT INTO item_history (inventory_id,action,details,operator_email,created_at) VALUES (?,?,?,?,?)").run(id, action, details, operator.operator_email, now);
     })();
+    scheduleDataSync();
     return NextResponse.json({ ok: true });
   } catch (error) { return apiError(error); }
 }
