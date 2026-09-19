@@ -3,14 +3,14 @@ import { z } from "zod";
 import { db } from "@/lib/db";
 import { apiError } from "@/lib/http";
 import { AppError } from "@/lib/services";
-import { scheduleDataSync } from "@/lib/data-sync";
+import { syncDataAfterWrite } from "@/lib/data-sync";
 
 export async function GET(request: NextRequest) {
   const includeArchived = request.nextUrl.searchParams.get("archived") === "true";
   return NextResponse.json({ rooms: db.prepare(`SELECT r.*,(SELECT count(*) FROM inventory i WHERE i.room_id=r.id AND i.archived_at IS NULL) AS active_items FROM rooms r ${includeArchived ? "" : "WHERE r.archived_at IS NULL"} ORDER BY r.name`).all() });
 }
 export async function POST(request: NextRequest) {
-  try { const { name } = z.object({ name: z.string().trim().min(1) }).parse(await request.json()); const id = Number(db.prepare("INSERT INTO rooms (name) VALUES (?)").run(name).lastInsertRowid); scheduleDataSync(); return NextResponse.json({ id }, { status: 201 }); }
+  try { const { name } = z.object({ name: z.string().trim().min(1) }).parse(await request.json()); const id = Number(db.prepare("INSERT INTO rooms (name) VALUES (?)").run(name).lastInsertRowid); try { await syncDataAfterWrite(); } catch (syncError) { console.error("GitHub data sync failed:", syncError); } return NextResponse.json({ id }, { status: 201 }); }
   catch (error) { return apiError(error); }
 }
 export async function PATCH(request: NextRequest) {
@@ -22,7 +22,7 @@ export async function PATCH(request: NextRequest) {
       if (count) throw new AppError("ოთახში აქტიური ინვენტარია და მისი არქივირება შეუძლებელია.");
       db.prepare("UPDATE rooms SET archived_at=? WHERE id=?").run(new Date().toISOString(), input.id);
     }
-    scheduleDataSync();
+    try { await syncDataAfterWrite(); } catch (syncError) { console.error("GitHub data sync failed:", syncError); }
     return NextResponse.json({ ok: true });
   } catch (error) { return apiError(error); }
 }

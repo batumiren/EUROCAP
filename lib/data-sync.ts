@@ -12,13 +12,32 @@ const backupDirectory = path.join(process.cwd(), "backups");
 const backupPath = path.join(backupDirectory, "latest.json");
 let syncTimer: NodeJS.Timeout | undefined;
 
-export function createDataSnapshot(database: Database.Database = db) {
+function snapshotContents(database: Database.Database) {
   const data = Object.fromEntries(tables.map((table) => [table, database.prepare(`SELECT * FROM ${table} ORDER BY rowid`).all()]));
+  return `${JSON.stringify({ format: "EUROCAP-data-v1", exportedAt: new Date().toISOString(), tables: data }, null, 2)}\n`;
+}
+
+export function createDataSnapshot(database: Database.Database = db) {
   fs.mkdirSync(backupDirectory, { recursive: true });
   const temporaryPath = `${backupPath}.tmp`;
-  fs.writeFileSync(temporaryPath, `${JSON.stringify({ format: "EUROCAP-data-v1", exportedAt: new Date().toISOString(), tables: data }, null, 2)}\n`, "utf8");
+  fs.writeFileSync(temporaryPath, snapshotContents(database), "utf8");
   fs.renameSync(temporaryPath, backupPath);
   return backupPath;
+}
+
+async function syncDataThroughGitHubApi(database: Database.Database) {
+  const token = process.env.GITHUB_SYNC_TOKEN;
+  if (!token) throw new Error("GITHUB_SYNC_TOKEN is not configured.");
+  const endpoint = "https://api.github.com/repos/batumiren/EUROCAP/contents/backups/latest.json";
+  const headers = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json" };
+  const current = await fetch(endpoint, { headers, cache: "no-store" });
+  if (!current.ok) throw new Error(`GitHub snapshot lookup failed (${current.status}).`);
+  const { sha } = await current.json() as { sha: string };
+  const response = await fetch(endpoint, {
+    method: "PUT", headers,
+    body: JSON.stringify({ message: "data: sync inventory snapshot", content: Buffer.from(snapshotContents(database)).toString("base64"), sha, branch: "main" }),
+  });
+  if (!response.ok) throw new Error(`GitHub snapshot update failed (${response.status}): ${await response.text()}`);
 }
 
 export function syncDataToGitHub(database: Database.Database = db) {
@@ -42,4 +61,9 @@ export function scheduleDataSync(database: Database.Database = db) {
       console.error("GitHub data synchronization failed:", error);
     }
   }, 1500);
+}
+
+export async function syncDataAfterWrite(database: Database.Database = db) {
+  if (process.env.VERCEL) await syncDataThroughGitHubApi(database);
+  else scheduleDataSync(database);
 }

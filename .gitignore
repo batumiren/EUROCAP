@@ -5,4 +5,7 @@ data/*.db-*
 *.log
 *.tsbuildinfo
 *.swp
+*.swo
 .DS_Store
+.vercel
+.env*

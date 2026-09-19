@@ -2,7 +2,10 @@ import Database from "better-sqlite3";
 import fs from "node:fs";
 import path from "node:path";
 
-const defaultPath = path.join(process.cwd(), "data", "euro-inventory.db");
+const isVercelRuntime = Boolean(process.env.VERCEL || process.env.VERCEL_ENV);
+const defaultPath = isVercelRuntime
+  ? path.join("/tmp", "euro-inventory.db")
+  : path.join(process.cwd(), "data", "euro-inventory.db");
 
 function openDatabase() {
   const databasePath = process.env.DATABASE_PATH || defaultPath;
@@ -108,10 +111,37 @@ function openDatabase() {
       created_at TEXT NOT NULL
     );
   `);
+  restoreDeploymentSnapshot(db);
   seed(db);
   expandDemoData(db);
   ensureDemoActiveCount(db);
   return db;
+}
+
+function restoreDeploymentSnapshot(db: Database.Database) {
+  if (!isVercelRuntime) return;
+  try {
+    const count = (db.prepare("SELECT count(*) AS count FROM inventory").get() as { count: number }).count;
+    if (count > 0) return;
+    const snapshotPath = path.join(process.cwd(), "backups", "latest.json");
+    if (!fs.existsSync(snapshotPath)) return;
+    const snapshot = JSON.parse(fs.readFileSync(snapshotPath, "utf8")) as { tables?: Record<string, Record<string, unknown>[]> };
+    const tableOrder = ["rooms", "settings", "inventory", "inspections", "inspection_results", "inspection_unexpected_items", "transfers", "item_history", "app_metadata"];
+    db.transaction(() => {
+      for (const table of tableOrder) {
+        const rows = snapshot.tables?.[table] ?? [];
+        for (const row of rows) {
+          const columns = Object.keys(row);
+          if (!columns.length) continue;
+          const names = columns.map((column) => `"${column}"`).join(",");
+          const placeholders = columns.map(() => "?").join(",");
+          db.prepare(`INSERT INTO "${table}" (${names}) VALUES (${placeholders})`).run(...columns.map((column) => row[column]));
+        }
+      }
+    })();
+  } catch (error) {
+    console.error("Deployment snapshot restore failed:", error);
+  }
 }
 
 function seed(db: Database.Database) {
