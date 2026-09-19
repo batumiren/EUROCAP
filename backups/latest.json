@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-19T20:26:19.656Z",
+  "exportedAt": "2026-09-19T20:26:58.429Z",
   "tables": {
     "rooms": [
       {
@@ -1594,9 +1594,9 @@
         "notes": "საკონცერტო ფორტეპიანო",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.504Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.504Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 103,
@@ -1609,9 +1609,9 @@
         "notes": "სასწავლო სინთეზატორი",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.578Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.578Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 104,
@@ -1624,9 +1624,9 @@
         "notes": "ექვსსიმიანი აკუსტიკური გიტარა",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.661Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.661Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 105,
@@ -1639,9 +1639,9 @@
         "notes": "ნეილონის სიმებიანი გიტარა",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.751Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.751Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 106,
@@ -1654,9 +1654,9 @@
         "notes": "სასწავლო ვიოლინო ხემით",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.808Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.808Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 107,
@@ -1669,9 +1669,9 @@
         "notes": "სასწავლო ჩელო ხემით",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.869Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.869Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 108,
@@ -1684,9 +1684,9 @@
         "notes": "სასწავლო ჩასაბერი საკრავი",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.916Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.916Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 109,
@@ -1699,9 +1699,9 @@
         "notes": "ხის ჩასაბერი საკრავი",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:03.968Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:03.968Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 110,
@@ -1714,9 +1714,9 @@
         "notes": "ტრადიციული დასარტყამი საკრავების წყვილი",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:04.003Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:04.003Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 111,
@@ -1729,9 +1729,9 @@
         "notes": "სასწავლო დასარტყამი საკრავი",
         "responsible_person": "მუსიკის მასწავლებელი",
         "registered_at": "2026-09-19T19:56:04.057Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T19:56:04.057Z"
+        "updated_at": "2026-09-19T20:26:58.224Z"
       },
       {
         "id": 112,
@@ -1775,6 +1775,19 @@
         "quantity_discrepancies": 0,
         "condition_changes": 0,
         "created_at": "2026-09-19T09:19:12.519Z"
+      },
+      {
+        "id": 3,
+        "inspection_code": "CHK-20260919-202658-AC71B5",
+        "room_id": 14,
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "operator_name": "დემო ოპერატორი",
+        "operator_email": "operator@euro.local",
+        "checked_count": 10,
+        "expected_count": 10,
+        "quantity_discrepancies": 0,
+        "condition_changes": 0,
+        "created_at": "2026-09-19T20:26:58.224Z"
       }
     ],
     "inspection_results": [
@@ -1846,6 +1859,146 @@
         "checked": 1,
         "actual_quantity": 6,
         "observed_condition": "დამაკმაყოფილებელი",
+        "notes": ""
+      },
+      {
+        "id": 6,
+        "inspection_id": 3,
+        "inventory_id": 104,
+        "item_code_snapshot": "EUR-000104",
+        "item_name_snapshot": "აკუსტიკური გიტარა",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 7,
+        "inspection_id": 3,
+        "inventory_id": 103,
+        "item_code_snapshot": "EUR-000103",
+        "item_name_snapshot": "ელექტრონული სინთეზატორი",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 8,
+        "inspection_id": 3,
+        "inventory_id": 106,
+        "item_code_snapshot": "EUR-000106",
+        "item_name_snapshot": "ვიოლინო",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 9,
+        "inspection_id": 3,
+        "inventory_id": 109,
+        "item_code_snapshot": "EUR-000109",
+        "item_name_snapshot": "კლარნეტი",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "დამაკმაყოფილებელი",
+        "notes": ""
+      },
+      {
+        "id": 10,
+        "inspection_id": 3,
+        "inventory_id": 105,
+        "item_code_snapshot": "EUR-000105",
+        "item_name_snapshot": "კლასიკური გიტარა",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "დამაკმაყოფილებელი",
+        "notes": ""
+      },
+      {
+        "id": 11,
+        "inspection_id": 3,
+        "inventory_id": 108,
+        "item_code_snapshot": "EUR-000108",
+        "item_name_snapshot": "ფლეიტა",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 12,
+        "inspection_id": 3,
+        "inventory_id": 102,
+        "item_code_snapshot": "EUR-000102",
+        "item_name_snapshot": "ფორტეპიანო",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 13,
+        "inspection_id": 3,
+        "inventory_id": 110,
+        "item_code_snapshot": "EUR-000110",
+        "item_name_snapshot": "ქართული დოლი",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 2,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 2,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 14,
+        "inspection_id": 3,
+        "inventory_id": 111,
+        "item_code_snapshot": "EUR-000111",
+        "item_name_snapshot": "ქსილოფონი",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 15,
+        "inspection_id": 3,
+        "inventory_id": 107,
+        "item_code_snapshot": "EUR-000107",
+        "item_name_snapshot": "ჩელო",
+        "room_name_snapshot": "მუსიკის ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
         "notes": ""
       }
     ],
@@ -2146,6 +2299,106 @@
         "reference_id": null,
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-19T20:26:19.488Z"
+      },
+      {
+        "id": 26,
+        "inventory_id": 104,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 27,
+        "inventory_id": 103,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 28,
+        "inventory_id": 106,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 29,
+        "inventory_id": 109,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 30,
+        "inventory_id": 105,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 31,
+        "inventory_id": 108,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 32,
+        "inventory_id": 102,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 33,
+        "inventory_id": 110,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 2",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 34,
+        "inventory_id": 111,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 35,
+        "inventory_id": 107,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20260919-202658-AC71B5: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 3,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:58.224Z"
       }
     ],
     "app_metadata": [
