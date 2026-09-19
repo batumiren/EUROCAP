@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-19T19:16:37.454Z",
+  "exportedAt": "2026-09-19T19:55:29.967Z",
   "tables": {
     "rooms": [
       {
@@ -51,6 +51,11 @@
       {
         "id": 13,
         "name": "სააქტო დარბაზი",
+        "archived_at": null
+      },
+      {
+        "id": 14,
+        "name": "მუსიკის ოთახი",
         "archived_at": null
       }
     ],
