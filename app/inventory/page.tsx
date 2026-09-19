@@ -1,0 +1,62 @@
+"use client";
+import { FormEvent, useCallback, useEffect, useState } from "react";
+import { CONDITIONS, InventoryItem, STATUSES } from "@/lib/types";
+import { Badge, ConditionBadge, Empty, fetchJson, formatDate, Modal, Notice, submitJson } from "@/components/ui";
+
+type Room = { id: number; name: string };
+type Detail = { item: InventoryItem; inspections: any[]; transfers: any[]; history: any[] };
+
+export default function InventoryPage() {
+  const [items, setItems] = useState<InventoryItem[]>([]); const [rooms, setRooms] = useState<Room[]>([]);
+  const [summary, setSummary] = useState({ records: 0, units: 0, repairs: 0 }); const [loading, setLoading] = useState(true);
+  const [visibleCount, setVisibleCount] = useState(10);
+  const [filters, setFilters] = useState({ search: "", room: "", condition: "", status: "", archived: false });
+  const [modal, setModal] = useState<"create" | "edit" | "correct" | "detail" | null>(null); const [selected, setSelected] = useState<InventoryItem | null>(null); const [detail, setDetail] = useState<Detail | null>(null);
+  const [message, setMessage] = useState(""); const [error, setError] = useState(""); const [saving, setSaving] = useState(false);
+  const load = useCallback(async () => {
+    setLoading(true); const q = new URLSearchParams(); Object.entries(filters).forEach(([k, v]) => v && q.set(k, String(v)));
+    const [inventory, roomData] = await Promise.all([fetchJson<any>(`/api/inventory?${q}`), fetchJson<any>("/api/rooms")]);
+    setItems(inventory.items); setSummary(inventory.summary); setRooms(roomData.rooms); setLoading(false);
+  }, [filters]);
+  useEffect(() => { setVisibleCount(10); load(); }, [load]);
+  const notify = (text: string) => { setMessage(text); setError(""); window.setTimeout(() => setMessage(""), 4000); };
+  const fail = (e: unknown) => setError(e instanceof Error ? e.message : "მოთხოვნა ვერ შესრულდა.");
+  async function submitItem(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault(); setSaving(true); setError(""); const form = new FormData(event.currentTarget);
+    try {
+      if (modal === "create") await submitJson("/api/inventory", "POST", { name: form.get("name"), roomId: Number(form.get("roomId")), quantity: Number(form.get("quantity")), condition: form.get("condition"), status: form.get("status"), notes: form.get("notes"), responsiblePerson: form.get("responsiblePerson") });
+      else if (modal === "edit" && selected) await submitJson(`/api/inventory/${selected.id}`, "PATCH", { action: "edit", name: form.get("name"), condition: form.get("condition"), status: form.get("status"), notes: form.get("notes"), responsiblePerson: form.get("responsiblePerson") });
+      else if (selected) await submitJson(`/api/inventory/${selected.id}`, "PATCH", { action: "correctQuantity", quantity: Number(form.get("quantity")), reason: form.get("reason") });
+      setModal(null); await load(); notify(modal === "correct" ? "რაოდენობა წარმატებით დაკორექტირდა." : "ინვენტარის ჩანაწერი შენახულია.");
+    } catch (e) { fail(e); } finally { setSaving(false); }
+  }
+  async function openDetail(item: InventoryItem) { setSelected(item); setModal("detail"); setDetail(null); setDetail(await fetchJson<Detail>(`/api/inventory/${item.id}`)); }
+  async function archive(item: InventoryItem) { if (!confirm(`ნამდვილად გსურთ ${item.code} ჩანაწერის არქივირება?`)) return; try { await submitJson(`/api/inventory/${item.id}`, "PATCH", { action: "archive" }); await load(); notify("ჩანაწერი დაარქივდა და ისტორია შენარჩუნებულია."); } catch (e) { fail(e); } }
+
+  return <div className="mx-auto max-w-[1600px]">
+    <div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><h1 className="text-2xl font-bold">ინვენტარი</h1><p className="mt-1 text-sm text-slate-500">აქტივების სრული აღრიცხვა ოთახების მიხედვით</p></div><div className="flex gap-2"><button className="btn-secondary" disabled={loading} onClick={load}>{loading ? "ახლდება..." : "განახლება"}</button><button className="btn-primary" onClick={() => { setSelected(null); setModal("create"); }}>+ ნივთის დამატება</button></div></div>
+    {message && <Notice message={message} />}{error && <Notice message={error} error />}
+    <div className="mb-6 grid gap-4 sm:grid-cols-3">
+      {[['აქტიური ჩანაწერები', summary.records, 'ჩანაწერი'], ['სულ ერთეული', summary.units, 'ერთეული'], ['საჭიროებს შეკეთებას', summary.repairs || 0, 'ჩანაწერი']].map(([label, value, unit]) => <div className="card p-5" key={String(label)}><p className="text-sm font-medium text-slate-500">{label}</p><div className="mt-2 flex items-baseline gap-2"><strong className="text-3xl">{value}</strong><span className="text-xs text-slate-400">{unit}</span></div></div>)}
+    </div>
+    <div className="card mb-5 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-5">
+      <input aria-label="ძებნა" placeholder="კოდი ან დასახელება" value={filters.search} onChange={e => setFilters({ ...filters, search: e.target.value })} />
+      <select aria-label="ოთახი" value={filters.room} onChange={e => setFilters({ ...filters, room: e.target.value })}><option value="">ყველა ოთახი</option>{rooms.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}</select>
+      <select aria-label="მდგომარეობა" value={filters.condition} onChange={e => setFilters({ ...filters, condition: e.target.value })}><option value="">ყველა მდგომარეობა</option>{CONDITIONS.map(v => <option key={v}>{v}</option>)}</select>
+      <select aria-label="სტატუსი" value={filters.status} onChange={e => setFilters({ ...filters, status: e.target.value })}><option value="">ყველა სტატუსი</option>{STATUSES.map(v => <option key={v}>{v}</option>)}</select>
+      <label className="flex items-center gap-2 rounded-lg border px-3 text-sm"><input type="checkbox" checked={filters.archived} onChange={e => setFilters({ ...filters, archived: e.target.checked })} /> არქივის ნახვა</label>
+    </div>
+    {loading ? <div className="card p-12 text-center text-slate-500">იტვირთება...</div> : items.length === 0 ? <Empty>შერჩეული პირობებით ჩანაწერები არ მოიძებნა.</Empty> : <><div className="table-wrap"><table><thead><tr>{["ნივთის კოდი","დასახელება","ოთახი","რაოდენობა","მდგომარეობა","სტატუსი","ბოლო შემოწმების თარიღი","აღწერა / შენიშვნა","პასუხისმგებელი პირი","რეგისტრაციის თარიღი", "მოქმედებები"].map(h => <th key={h}>{h}</th>)}</tr></thead><tbody>{items.slice(0,visibleCount).map(item => <tr key={item.id} className="hover:bg-slate-50"><td><button className="font-semibold text-blue-700 hover:underline" onClick={() => openDetail(item)}>{item.code}</button></td><td className="font-medium">{item.name}</td><td>{item.room_name}</td><td>{item.quantity}</td><td><ConditionBadge value={item.condition} /></td><td><Badge tone={item.status === "გამოყენებაში" ? "blue" : "slate"}>{item.status}</Badge></td><td>{formatDate(item.last_inspected_at)}</td><td className="max-w-xs whitespace-normal text-slate-600">{item.notes || "—"}</td><td>{item.responsible_person || "—"}</td><td>{formatDate(item.registered_at)}</td><td><div className="flex gap-2">{item.archived_at ? <Badge>მხოლოდ ისტორია</Badge> : <><button className="text-blue-700 hover:underline" onClick={() => { setSelected(item); setModal("edit"); }}>რედაქტირება</button><button className="text-slate-700 hover:underline" onClick={() => { setSelected(item); setModal("correct"); }}>კორექტირება</button><button className="text-red-700 hover:underline" onClick={() => archive(item)}>არქივი</button></>}</div></td></tr>)}</tbody></table></div>{visibleCount<items.length&&<div className="mt-4 flex flex-col items-center gap-2"><button className="btn-secondary min-w-40" onClick={()=>setVisibleCount(count=>count+10)}>მეტი ↓</button><p className="text-xs text-slate-500">ნაჩვენებია {Math.min(visibleCount,items.length)} / {items.length} ჩანაწერი</p></div>}</>}
+    {(modal === "create" || modal === "edit") && <Modal title={modal === "create" ? "ახალი ნივთის დამატება" : `რედაქტირება: ${selected?.code}`} onClose={() => setModal(null)}><ItemForm item={modal === "edit" ? selected : null} rooms={rooms} saving={saving} onSubmit={submitItem} /></Modal>}
+    {modal === "correct" && selected && <Modal title="რაოდენობის კორექტირება" onClose={() => setModal(null)}><form onSubmit={submitItem} className="space-y-4"><p className="rounded-lg bg-slate-50 p-3 text-sm">{selected.code} · მიმდინარე რაოდენობა: <b>{selected.quantity}</b></p><label><span className="label">ახალი რაოდენობა *</span><input className="w-full" name="quantity" type="number" min="1" required defaultValue={selected.quantity} /></label><label><span className="label">კორექტირების მიზეზი *</span><textarea className="w-full" name="reason" required rows={3} /></label><button disabled={saving} className="btn-primary w-full">{saving ? "ინახება..." : "კორექტირების შენახვა"}</button></form></Modal>}
+    {modal === "detail" && <Modal title={`ნივთის დეტალები: ${selected?.code}`} onClose={() => setModal(null)} wide>{!detail ? <p className="py-8 text-center text-slate-500">იტვირთება...</p> : <DetailView data={detail} />}</Modal>}
+  </div>;
+}
+
+function ItemForm({ item, rooms, saving, onSubmit }: { item: InventoryItem | null; rooms: Room[]; saving: boolean; onSubmit: (e: FormEvent<HTMLFormElement>) => void }) {
+  return <form onSubmit={onSubmit} className="grid gap-4 sm:grid-cols-2"><label className="sm:col-span-2"><span className="label">დასახელება *</span><input className="w-full" name="name" required defaultValue={item?.name} /></label>{!item && <><label><span className="label">ოთახი *</span><select className="w-full" name="roomId" required defaultValue=""><option value="" disabled>აირჩიეთ ოთახი</option>{rooms.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}</select></label><label><span className="label">რაოდენობა *</span><input className="w-full" name="quantity" type="number" min="1" required defaultValue="1" /></label></>}<label><span className="label">მდგომარეობა *</span><select className="w-full" name="condition" required defaultValue={item?.condition || "კარგი"}>{CONDITIONS.map(v => <option key={v}>{v}</option>)}</select></label><label><span className="label">სტატუსი *</span><select className="w-full" name="status" required defaultValue={item?.status || "გამოყენებაში"}>{STATUSES.map(v => <option key={v}>{v}</option>)}</select></label><label className="sm:col-span-2"><span className="label">პასუხისმგებელი პირი</span><input className="w-full" name="responsiblePerson" defaultValue={item?.responsible_person} /></label><label className="sm:col-span-2"><span className="label">აღწერა / შენიშვნა</span><textarea className="w-full" name="notes" rows={3} defaultValue={item?.notes} /></label><button className="btn-primary sm:col-span-2" disabled={saving}>{saving ? "ინახება..." : "შენახვა"}</button></form>;
+}
+
+function DetailView({ data }: { data: Detail }) {
+  return <div className="space-y-6"><div className="grid gap-3 rounded-lg bg-slate-50 p-4 text-sm sm:grid-cols-3"><p><span className="text-slate-500">დასახელება</span><br/><b>{data.item.name}</b></p><p><span className="text-slate-500">ოთახი</span><br/><b>{data.item.room_name}</b></p><p><span className="text-slate-500">რაოდენობა</span><br/><b>{data.item.quantity}</b></p></div><section><h3 className="mb-3 font-bold">ცვლილებების ისტორია</h3>{data.history.length ? <div className="table-wrap"><table><thead><tr><th>თარიღი</th><th>მოქმედება</th><th>დეტალები</th><th>ოპერატორი</th></tr></thead><tbody>{data.history.map(h => <tr key={h.id}><td>{formatDate(h.created_at)}</td><td>{h.action}</td><td>{h.details}</td><td>{h.operator_email}</td></tr>)}</tbody></table></div> : <p className="text-sm text-slate-500">ისტორია ცარიელია.</p>}</section><section><h3 className="mb-3 font-bold">შემოწმებები ({data.inspections.length})</h3>{data.inspections.map(i => <p key={i.id} className="mb-2 rounded-lg border p-3 text-sm"><b>{i.inspection_code}</b> · {formatDate(i.created_at)} · {i.checked ? `ნაპოვნია ${i.actual_quantity}` : "არ შემოწმებულა"}</p>)}</section><section><h3 className="mb-3 font-bold">გადაადგილებები ({data.transfers.length})</h3>{data.transfers.map(t => <p key={t.id} className="mb-2 rounded-lg border p-3 text-sm"><b>{formatDate(t.created_at)}</b> · {t.source_room_snapshot} → {t.destination_room_snapshot} · {t.quantity} ერთეული</p>)}</section></div>;
+}
