@@ -1,3 +1,4 @@
+import { withDatabase } from "@/lib/cloud-db";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { db, getOperator } from "@/lib/db";
@@ -6,7 +7,7 @@ import { AppError } from "@/lib/services";
 import { CONDITIONS, STATUSES } from "@/lib/types";
 import { scheduleDataSync } from "@/lib/data-sync";
 
-export async function GET(_: NextRequest, context: { params: Promise<{ id: string }> }) {
+async function handleGET(_: NextRequest, context: { params: Promise<{ id: string }> }) {
   const id = Number((await context.params).id);
   const item = db.prepare("SELECT i.*,r.name AS room_name FROM inventory i JOIN rooms r ON r.id=i.room_id WHERE i.id=?").get(id);
   if (!item) return NextResponse.json({ error: "ჩანაწერი ვერ მოიძებნა." }, { status: 404 });
@@ -22,7 +23,7 @@ const editSchema = z.discriminatedUnion("action", [
   z.object({ action: z.literal("archive") }),
 ]);
 
-export async function PATCH(request: NextRequest, context: { params: Promise<{ id: string }> }) {
+async function handlePATCH(request: NextRequest, context: { params: Promise<{ id: string }> }) {
   try {
     const id = Number((await context.params).id); const input = editSchema.parse(await request.json());
     db.transaction(() => {
@@ -46,3 +47,6 @@ export async function PATCH(request: NextRequest, context: { params: Promise<{ i
     return NextResponse.json({ ok: true });
   } catch (error) { return apiError(error); }
 }
+
+export const GET = withDatabase(handleGET, false);
+export const PATCH = withDatabase(handlePATCH, true);

@@ -2,7 +2,7 @@ import type Database from "better-sqlite3";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
-import { db } from "@/lib/db";
+import { db, usesCloudStorage } from "@/lib/db";
 
 const tables = [
   "rooms", "settings", "inventory", "inspections", "inspection_results",
@@ -32,7 +32,7 @@ export function syncDataToGitHub(database: Database.Database = db) {
 }
 
 export function scheduleDataSync(database: Database.Database = db) {
-  if (process.env.NODE_ENV === "test") return;
+  if (process.env.NODE_ENV === "test" || usesCloudStorage()) return;
   if (syncTimer) clearTimeout(syncTimer);
   syncTimer = setTimeout(() => {
     syncTimer = undefined;

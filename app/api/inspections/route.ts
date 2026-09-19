@@ -1,10 +1,11 @@
+import { withDatabase } from "@/lib/cloud-db";
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { apiError } from "@/lib/http";
 import { saveInspection } from "@/lib/services";
 import { scheduleDataSync } from "@/lib/data-sync";
 
-export async function GET(request: NextRequest) {
+async function handleGET(request: NextRequest) {
   const roomId = request.nextUrl.searchParams.get("roomId");
   if (roomId) {
     const room = db.prepare("SELECT * FROM rooms WHERE id=? AND archived_at IS NULL").get(Number(roomId));
@@ -14,7 +15,10 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({ inspections: db.prepare("SELECT * FROM inspections ORDER BY created_at DESC").all() });
 }
 
-export async function POST(request: NextRequest) {
+async function handlePOST(request: NextRequest) {
   try { const result = saveInspection(db, await request.json()); scheduleDataSync(); return NextResponse.json(result, { status: 201 }); }
   catch (error) { return apiError(error); }
 }
+
+export const GET = withDatabase(handleGET, false);
+export const POST = withDatabase(handlePOST, true);
