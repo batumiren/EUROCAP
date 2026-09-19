@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-19T19:56:05.561Z",
+  "exportedAt": "2026-09-19T20:26:05.670Z",
   "tables": {
     "rooms": [
       {
@@ -1732,6 +1732,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-09-19T19:56:04.057Z"
+      },
+      {
+        "id": 112,
+        "code": "EUR-000112",
+        "name": "ვერიფიკაციის საკრავი",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "წარმოების ვერიფიკაცია",
+        "responsible_person": "ტესტი",
+        "registered_at": "2026-09-19T20:26:05.472Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-09-19T20:26:05.472Z"
       }
     ],
     "inspections": [
@@ -2111,6 +2126,16 @@
         "reference_id": null,
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-19T19:56:04.057Z"
+      },
+      {
+        "id": 24,
+        "inventory_id": 112,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-19T20:26:05.472Z"
       }
     ],
     "app_metadata": [
