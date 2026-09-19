@@ -24,16 +24,22 @@ export function Modal({ title, children, onClose, wide = false }: { title: strin
 export function Notice({ message, error = false }: { message: string; error?: boolean }) { return <div className={`mb-5 rounded-lg border px-4 py-3 text-sm ${error ? "border-red-200 bg-red-50 text-red-800" : "border-emerald-200 bg-emerald-50 text-emerald-800"}`}>{message}</div>; }
 export function Empty({ children }: { children: ReactNode }) { return <div className="card p-12 text-center text-sm text-slate-500">{children}</div>; }
 
+export async function readJsonResponse(response: Response) {
+  const fallback = `მოთხოვნა ვერ შესრულდა (HTTP ${response.status}). სცადეთ განახლება.`;
+  let data;
+  try { data = await response.json(); } catch { throw new Error(fallback); }
+  if (!response.ok) throw new Error(typeof data?.error === "string" ? data.error : fallback);
+  return data;
+}
+
 export async function submitJson(url: string, method: string, body: unknown) {
   const response = await fetch(url, { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-  const data = await response.json(); if (!response.ok) throw new Error(data.error || "მოთხოვნა ვერ შესრულდა."); return data;
+  return readJsonResponse(response);
 }
 
 export async function fetchJson<T = any>(url: string): Promise<T> {
   const response = await fetch(url, { cache: "no-store" });
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || "მონაცემების მიღება ვერ მოხერხდა.");
-  return data;
+  return readJsonResponse(response);
 }
 
 export function preventDoubleSubmit(handler: (form: FormData) => Promise<void>) {

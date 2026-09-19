@@ -14,9 +14,14 @@ export default function InventoryPage() {
   const [modal, setModal] = useState<"create" | "edit" | "correct" | "detail" | null>(null); const [selected, setSelected] = useState<InventoryItem | null>(null); const [detail, setDetail] = useState<Detail | null>(null);
   const [message, setMessage] = useState(""); const [error, setError] = useState(""); const [saving, setSaving] = useState(false);
   const load = useCallback(async () => {
-    setLoading(true); const q = new URLSearchParams(); Object.entries(filters).forEach(([k, v]) => v && q.set(k, String(v)));
-    const [inventory, roomData] = await Promise.all([fetchJson<any>(`/api/inventory?${q}`), fetchJson<any>("/api/rooms")]);
-    setItems(inventory.items); setSummary(inventory.summary); setRooms(roomData.rooms); setLoading(false);
+    setLoading(true); setError("");
+    try {
+      const q = new URLSearchParams(); Object.entries(filters).forEach(([k, v]) => v && q.set(k, String(v)));
+      const [inventory, roomData] = await Promise.all([fetchJson<any>(`/api/inventory?${q}`), fetchJson<any>("/api/rooms")]);
+      setItems(inventory.items); setSummary(inventory.summary); setRooms(roomData.rooms);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "მონაცემების მიღება ვერ მოხერხდა.");
+    } finally { setLoading(false); }
   }, [filters]);
   useEffect(() => { setVisibleCount(10); load(); }, [load]);
   const notify = (text: string) => { setMessage(text); setError(""); window.setTimeout(() => setMessage(""), 4000); };

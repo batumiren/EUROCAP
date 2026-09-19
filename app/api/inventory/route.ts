@@ -1,3 +1,4 @@
+import { withDatabase } from "@/lib/cloud-db";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { db, getOperator, nextItemCode } from "@/lib/db";
@@ -10,7 +11,7 @@ const createSchema = z.object({
   condition: z.enum(CONDITIONS), status: z.enum(STATUSES), notes: z.string().default(""), responsiblePerson: z.string().default(""),
 });
 
-export async function GET(request: NextRequest) {
+async function handleGET(request: NextRequest) {
   const p = request.nextUrl.searchParams;
   const clauses = [p.get("archived") === "true" ? "i.archived_at IS NOT NULL" : "i.archived_at IS NULL"];
   const values: unknown[] = [];
@@ -24,7 +25,7 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({ items, summary });
 }
 
-export async function POST(request: NextRequest) {
+async function handlePOST(request: NextRequest) {
   try {
     const input = createSchema.parse(await request.json());
     const room = db.prepare("SELECT id FROM rooms WHERE id=? AND archived_at IS NULL").get(input.roomId);
@@ -41,3 +42,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(result, { status: 201 });
   } catch (error) { return apiError(error); }
 }
+
+export const GET = withDatabase(handleGET, false);
+export const POST = withDatabase(handlePOST, true);

@@ -1,12 +1,12 @@
 import Database from "better-sqlite3";
+import { AsyncLocalStorage } from "node:async_hooks";
 import fs from "node:fs";
 import path from "node:path";
 
 const defaultPath = path.join(process.cwd(), "data", "euro-inventory.db");
 
-function openDatabase() {
-  const databasePath = process.env.DATABASE_PATH || defaultPath;
-  fs.mkdirSync(path.dirname(databasePath), { recursive: true });
+export function openDatabase(databasePath = process.env.DATABASE_PATH || defaultPath, seedDemo = true) {
+  if (databasePath !== ":memory:") fs.mkdirSync(path.dirname(databasePath), { recursive: true });
   const db = new Database(databasePath);
   db.pragma("journal_mode = WAL");
   db.pragma("foreign_keys = ON");
@@ -108,9 +108,11 @@ function openDatabase() {
       created_at TEXT NOT NULL
     );
   `);
-  seed(db);
-  expandDemoData(db);
-  ensureDemoActiveCount(db);
+  if (seedDemo) {
+    seed(db);
+    expandDemoData(db);
+    ensureDemoActiveCount(db);
+  }
   return db;
 }
 
@@ -217,8 +219,21 @@ function ensureDemoActiveCount(db: Database.Database) {
 }
 
 const globalDb = globalThis as unknown as { euroDb?: Database.Database };
-export const db = globalDb.euroDb ?? openDatabase();
-if (process.env.NODE_ENV !== "production") globalDb.euroDb = db;
+export const requestDatabase = new AsyncLocalStorage<Database.Database>();
+export function usesCloudStorage() { return process.env.VERCEL === "1" || Boolean(process.env.BLOB_STORE_ID || process.env.BLOB_READ_WRITE_TOKEN); }
+
+// Resolve the connection per request; importing a route must never write to disk.
+export const db = new Proxy({} as Database.Database, {
+  get(_target, property) {
+    let database = requestDatabase.getStore();
+    if (!database) {
+      if (usesCloudStorage()) throw new Error("Cloud database requires a request context");
+      database = globalDb.euroDb ??= openDatabase();
+    }
+    const value = Reflect.get(database, property, database);
+    return typeof value === "function" ? value.bind(database) : value;
+  },
+});
 
 export function getOperator(database = db) {
   return database.prepare("SELECT operator_name, operator_email, demo_data FROM settings WHERE id = 1").get() as {
