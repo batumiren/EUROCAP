@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-20T18:32:28.411Z",
+  "exportedAt": "2026-09-20T18:34:57.989Z",
   "tables": {
     "rooms": [
       {
@@ -62,9 +62,9 @@
     "settings": [
       {
         "id": 1,
-        "operator_name": "დემო ოპერატორი",
-        "operator_email": "operator@euro.local",
-        "demo_data": 1
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "demo_data": 0
       }
     ],
     "inventory": [
