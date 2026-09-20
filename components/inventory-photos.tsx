@@ -2,7 +2,6 @@
 
 import {
   ChangeEvent,
-  FormEvent,
   useCallback,
   useEffect,
   useId,
@@ -10,8 +9,6 @@ import {
   useState,
 } from "react";
 
-const TOKEN_KEY = "eurocap-photo-token";
-const SESSION_KEY = "eurocap-photo-session";
 const MAX_SIDE = 800;
 const TARGET_BYTES = 100 * 1024;
 const MIN_QUALITY = 0.35;
@@ -26,12 +23,6 @@ type Photo = {
   uploader: string;
   uploadedAt: string;
   sha256: string;
-};
-
-type PhotoSession = {
-  name: string;
-  email: string;
-  token: string;
 };
 
 export type InventoryPhotosProps = {
@@ -179,15 +170,10 @@ export function InventoryPhotos({
   onPhotoCountChange,
 }: InventoryPhotosProps) {
   const headingId = useId();
-  const [authReady, setAuthReady] = useState(false);
-  const [token, setToken] = useState("");
-  const [session, setSession] = useState<PhotoSession | null>(null);
   const [photos, setPhotos] = useState<Photo[]>([]);
   const [metadataLoading, setMetadataLoading] = useState(false);
   const [metadataError, setMetadataError] = useState("");
   const [retry, setRetry] = useState(0);
-  const [authLoading, setAuthLoading] = useState(false);
-  const [authError, setAuthError] = useState("");
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState("");
   const [actionError, setActionError] = useState("");
@@ -200,40 +186,8 @@ export function InventoryPhotos({
   const binaryRequests = useRef(new Map<number, { promise: Promise<void>; controller: AbortController }>());
   const mountedRef = useRef(true);
 
-  const clearBlobUrls = useCallback(() => {
-    Object.values(urlsRef.current).forEach(url => URL.revokeObjectURL(url));
-    urlsRef.current = {};
-    setPhotoUrls({});
-  }, []);
-
-  const clearAuthorization = useCallback((message = "") => {
-    binaryRequests.current.forEach(request => request.controller.abort());
-    binaryRequests.current.clear();
-    sessionStorage.removeItem(TOKEN_KEY);
-    sessionStorage.removeItem(SESSION_KEY);
-    setToken("");
-    setSession(null);
-    setPhotos([]);
-    clearBlobUrls();
-    if (message) setAuthError(message);
-  }, [clearBlobUrls]);
-
   useEffect(() => {
     mountedRef.current = true;
-    const storedToken = sessionStorage.getItem(TOKEN_KEY) || "";
-    const storedSession = sessionStorage.getItem(SESSION_KEY);
-    if (storedToken) {
-      setToken(storedToken);
-      if (storedSession) {
-        try {
-          const parsed = JSON.parse(storedSession) as PhotoSession;
-          if (parsed && typeof parsed.email === "string") setSession(parsed);
-        } catch {
-          sessionStorage.removeItem(SESSION_KEY);
-        }
-      }
-    }
-    setAuthReady(true);
     return () => {
       mountedRef.current = false;
       binaryRequests.current.forEach(request => request.controller.abort());
@@ -244,7 +198,8 @@ export function InventoryPhotos({
   }, []);
 
   useEffect(() => {
-    if (!authReady || !token || photoCount <= 0) {
+    if (photoCount <= 0) {
+      setPhotos([]);
       setMetadataLoading(false);
       return;
     }
@@ -253,15 +208,10 @@ export function InventoryPhotos({
     setMetadataLoading(true);
     setMetadataError("");
     fetch(`/api/inventory/${inventoryId}/photos`, {
-      headers: { Authorization: `Bearer ${token}` },
       cache: "no-store",
       signal: controller.signal,
     }).then(async response => {
       const data = await responseData(response);
-      if (response.status === 401) {
-        clearAuthorization("სესია ამოიწურა. გაიარეთ ავტორიზაცია ხელახლა.");
-        return;
-      }
       if (!response.ok) throw new Error(messageFromResponse(data, "ფოტოების სიის მიღება ვერ მოხერხდა."));
       const nextPhotos = data && typeof data === "object" && "photos" in data && Array.isArray(data.photos)
         ? data.photos as Photo[]
@@ -275,12 +225,10 @@ export function InventoryPhotos({
     });
 
     return () => controller.abort();
-    // photoCount intentionally is not a dependency: metadata is loaded once when this detail component opens.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [authReady, token, inventoryId, retry, clearAuthorization]);
+  }, [inventoryId, photoCount, retry]);
 
   const fetchBinary = useCallback((photoId: number) => {
-    if (!token || urlsRef.current[photoId]) return Promise.resolve();
+    if (urlsRef.current[photoId]) return Promise.resolve();
     const pending = binaryRequests.current.get(photoId);
     if (pending) return pending.promise;
 
@@ -288,14 +236,9 @@ export function InventoryPhotos({
     setBinaryErrors(current => ({ ...current, [photoId]: "" }));
     const controller = new AbortController();
     const request = fetch(`/api/inventory/${inventoryId}/photos/${photoId}`, {
-      headers: { Authorization: `Bearer ${token}` },
       cache: "no-store",
       signal: controller.signal,
     }).then(async response => {
-      if (response.status === 401) {
-        clearAuthorization("სესია ამოიწურა. გაიარეთ ავტორიზაცია ხელახლა.");
-        return;
-      }
       if (!response.ok) {
         const data = await responseData(response);
         throw new Error(messageFromResponse(data, "ფოტოს ჩატვირთვა ვერ მოხერხდა."));
@@ -323,100 +266,63 @@ export function InventoryPhotos({
     });
     binaryRequests.current.set(photoId, { promise: request, controller });
     return request;
-  }, [clearAuthorization, inventoryId, token]);
+  }, [inventoryId]);
 
   useEffect(() => {
     if (viewerPhotoId !== null) void fetchBinary(viewerPhotoId);
   }, [fetchBinary, viewerPhotoId]);
 
-  async function authenticate(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setAuthLoading(true);
-    setAuthError("");
-    const form = new FormData(event.currentTarget);
-    try {
-      const response = await fetch("/api/photo-auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: form.get("email"), password: form.get("password") }),
-      });
-      const data = await responseData(response);
-      if (!response.ok) throw new Error(messageFromResponse(data, "ავტორიზაცია ვერ მოხერხდა."));
-      if (!data || typeof data !== "object" || !("session" in data)) throw new Error("სერვერის პასუხი არასრულია.");
-      const nextSession = data.session as PhotoSession;
-      if (!nextSession?.token) throw new Error("სერვერის პასუხი არასრულია.");
-      sessionStorage.setItem(TOKEN_KEY, nextSession.token);
-      sessionStorage.setItem(SESSION_KEY, JSON.stringify(nextSession));
-      setSession(nextSession);
-      setToken(nextSession.token);
-    } catch (error) {
-      setAuthError(error instanceof Error ? error.message : "ავტორიზაცია ვერ მოხერხდა.");
-    } finally {
-      setAuthLoading(false);
-    }
-  }
-
   async function uploadPhotos(event: ChangeEvent<HTMLInputElement>) {
     const input = event.currentTarget;
     const files = Array.from(input.files || []);
     input.value = "";
-    if (!files.length || !token || archived || deletingId !== null || uploading) return;
+    if (!files.length || archived || deletingId !== null || uploading) return;
 
     setUploading(true);
     setActionError("");
-    const uploaded: Photo[] = [];
+    const prepared: Array<PreparedPhoto & { originalName: string }> = [];
     const failures: string[] = [];
     for (let index = 0; index < files.length; index += 1) {
       const file = files[index];
-      setUploadProgress(`${index + 1}/${files.length} · ${file.name}`);
+      setUploadProgress(`მუშავდება ${index + 1}/${files.length} · ${file.name}`);
       try {
-        const prepared = await preparePhoto(file);
-        const body = new FormData();
-        body.append("photo", prepared.blob, prepared.filename);
-        body.append("name", file.name);
-        body.append("width", String(prepared.width));
-        body.append("height", String(prepared.height));
-        const response = await fetch(`/api/inventory/${inventoryId}/photos`, {
-          method: "POST",
-          headers: { Authorization: `Bearer ${token}` },
-          body,
-        });
-        const data = await responseData(response);
-        if (response.status === 401) {
-          clearAuthorization("სესია ამოიწურა. გაიარეთ ავტორიზაცია ხელახლა.");
-          break;
-        }
-        if (!response.ok) throw new Error(messageFromResponse(data, "ატვირთვა ვერ მოხერხდა."));
-        if (!data || typeof data !== "object" || !("photo" in data)) throw new Error("სერვერის პასუხი არასრულია.");
-        uploaded.push(data.photo as Photo);
+        prepared.push({ ...(await preparePhoto(file)), originalName: file.name });
       } catch (error) {
         failures.push(error instanceof Error ? error.message : `${file.name}: ატვირთვა ვერ მოხერხდა.`);
       }
     }
-
-    if (uploaded.length) {
-      setPhotos(current => [...uploaded, ...current]);
-      onPhotoCountChange(photos.length + uploaded.length);
+    if (prepared.length) {
+      setUploadProgress(`${prepared.length} ფოტო იტვირთება...`);
+      try {
+        const body = new FormData();
+        prepared.forEach(photo => body.append("photos", photo.blob, photo.filename));
+        body.append("metadata", JSON.stringify(prepared.map(photo => ({ originalName: photo.originalName }))));
+        const response = await fetch(`/api/inventory/${inventoryId}/photos`, { method: "POST", body });
+        const data = await responseData(response);
+        if (!response.ok) throw new Error(messageFromResponse(data, "ფოტოების ატვირთვა ვერ მოხერხდა."));
+        if (!data || typeof data !== "object" || !("photos" in data) || !Array.isArray(data.photos)) throw new Error("სერვერის პასუხი არასრულია.");
+        const uploaded = data.photos as Photo[];
+        setPhotos(current => [...current, ...uploaded]);
+        onPhotoCountChange(photos.length + uploaded.length);
+      } catch (error) {
+        failures.push(error instanceof Error ? error.message : "ფოტოების ატვირთვა ვერ მოხერხდა.");
+      }
     }
+    if (!prepared.length && !failures.length) failures.push("აირჩიეთ სურათის ფორმატის ფაილი.");
     if (failures.length) setActionError(failures.join(" "));
     setUploadProgress("");
     setUploading(false);
   }
 
   async function deletePhoto(photo: Photo) {
-    if (archived || !token || uploading || deletingId !== null || !window.confirm(`ნამდვილად გსურთ „${photo.originalName}“ ფოტოს წაშლა?`)) return;
+    if (archived || uploading || deletingId !== null || !window.confirm(`ნამდვილად გსურთ „${photo.originalName}“ ფოტოს წაშლა?`)) return;
     setDeletingId(photo.id);
     setActionError("");
     try {
       const response = await fetch(`/api/inventory/${inventoryId}/photos/${photo.id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${token}` },
       });
       const data = await responseData(response);
-      if (response.status === 401) {
-        clearAuthorization("სესია ამოიწურა. გაიარეთ ავტორიზაცია ხელახლა.");
-        return;
-      }
       if (!response.ok) throw new Error(messageFromResponse(data, "ფოტოს წაშლა ვერ მოხერხდა."));
       setPhotos(current => current.filter(item => item.id !== photo.id));
       onPhotoCountChange(Math.max(0, photos.length - 1));
@@ -447,33 +353,6 @@ export function InventoryPhotos({
     setViewerPhotoId(photos[(viewerIndex + 1) % photos.length].id);
   };
 
-  if (!authReady) {
-    return <div className="card animate-pulse p-4" aria-label="ფოტოების განყოფილება იტვირთება"><div className="h-10 rounded-lg bg-slate-100" /></div>;
-  }
-
-  if (!token) {
-    return (
-      <section className="card border-dashed p-4" aria-labelledby={headingId}>
-        <div className="mb-3">
-          <h3 id={headingId} className="font-bold text-slate-900">ფოტოები</h3>
-          <p className="mt-1 text-xs text-slate-500">ფოტოების სანახავად გაიარეთ ავტორიზაცია.</p>
-        </div>
-        {authError && <p className="mb-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700" role="alert">{authError}</p>}
-        <form onSubmit={authenticate} className="grid gap-2 sm:grid-cols-[1fr_1fr_auto]">
-          <label>
-            <span className="sr-only">ელფოსტა</span>
-            <input className="w-full" name="email" type="email" autoComplete="username" placeholder="ელფოსტა" required />
-          </label>
-          <label>
-            <span className="sr-only">პაროლი</span>
-            <input className="w-full" name="password" type="password" autoComplete="current-password" placeholder="პაროლი" required />
-          </label>
-          <button className="btn-primary whitespace-nowrap" disabled={authLoading}>{authLoading ? "მოწმდება..." : "შესვლა"}</button>
-        </form>
-      </section>
-    );
-  }
-
   return (
     <section className="card overflow-hidden" aria-labelledby={headingId}>
       <header className="flex flex-wrap items-center justify-between gap-3 border-b px-4 py-3">
@@ -485,14 +364,12 @@ export function InventoryPhotos({
           <p className="mt-0.5 text-xs text-slate-500">{itemCode} · {itemName}</p>
         </div>
         <div className="flex flex-wrap items-center justify-end gap-2">
-          {session && <span className="max-w-44 truncate text-xs text-slate-500" title={session.email}>{session.name || session.email}</span>}
           {!archived && (
             <label className={`btn-primary cursor-pointer focus-within:ring-2 focus-within:ring-blue-300 focus-within:ring-offset-2 ${uploading || deletingId !== null ? "pointer-events-none opacity-50" : ""}`}>
               <span>{uploading ? "მუშავდება..." : "+ ფოტოების დამატება"}</span>
               <input className="sr-only" type="file" accept="image/*" multiple disabled={uploading || deletingId !== null} onChange={uploadPhotos} />
             </label>
           )}
-          <button className="btn-secondary px-3" type="button" onClick={() => clearAuthorization()} aria-label="ფოტოების სესიიდან გასვლა">გასვლა</button>
         </div>
       </header>
 

@@ -1,8 +1,7 @@
 import { del, get } from "@vercel/blob";
 import { NextRequest, NextResponse } from "next/server";
-import { db } from "@/lib/db";
+import { db, getOperator } from "@/lib/db";
 import { syncDataAfterWrite } from "@/lib/data-sync";
-import { authenticatePhotoRequest } from "@/lib/photo-auth";
 import { retryPhotoCleanup, type StoredInventoryPhoto } from "@/lib/inventory-photo-data";
 
 export const runtime = "nodejs";
@@ -10,8 +9,6 @@ const jsonHeaders = { "Cache-Control": "no-store, max-age=0" };
 const json = (body: object, status = 200) => NextResponse.json(body, { status, headers: jsonHeaders });
 
 export async function GET(request: NextRequest, context: { params: Promise<{ id: string; photoId: string }> }) {
-  const claims = authenticatePhotoRequest(request);
-  if (!claims) return json({ error: "ფოტოს სანახავად ავტორიზაცია საჭიროა." }, 401);
   try {
     const { id, photoId } = await context.params;
     const photo = db.prepare("SELECT * FROM inventory_photos WHERE id=? AND inventory_id=?").get(Number(photoId), Number(id)) as StoredInventoryPhoto | undefined;
@@ -26,8 +23,6 @@ export async function GET(request: NextRequest, context: { params: Promise<{ id:
 }
 
 export async function DELETE(request: NextRequest, context: { params: Promise<{ id: string; photoId: string }> }) {
-  const claims = authenticatePhotoRequest(request);
-  if (!claims) return json({ error: "ფოტოს წასაშლელად ავტორიზაცია საჭიროა." }, 401);
   if (process.env.VERCEL_ENV === "preview") return json({ error: "Preview გარემო მხოლოდ წაკითხვისთვისაა." }, 403);
   try {
     const { id, photoId } = await context.params;
@@ -37,12 +32,13 @@ export async function DELETE(request: NextRequest, context: { params: Promise<{ 
       WHERE p.id=? AND p.inventory_id=?`).get(Number(photoId), inventoryId) as (StoredInventoryPhoto & { archived_at: string | null }) | undefined;
     if (!photo) return json({ error: "ფოტო ვერ მოიძებნა." }, 404);
     if (photo.archived_at) return json({ error: "დაარქივებული ჩანაწერის ფოტოს წაშლა შეუძლებელია." }, 400);
+    const operator = getOperator();
     const now = new Date().toISOString();
     const historyId = db.transaction(() => {
       db.prepare("DELETE FROM inventory_photos WHERE id=?").run(photo.id);
       db.prepare("INSERT OR REPLACE INTO photo_cleanup_queue (blob_path,created_at,attempts,last_error) VALUES (?,?,0,NULL)").run(photo.blob_path, now);
       const result = db.prepare("INSERT INTO item_history (inventory_id,action,details,reference_type,reference_id,operator_email,created_at) VALUES (?,?,?,?,?,?,?)")
-        .run(inventoryId, "ფოტოს წაშლა", `${photo.filename}, SHA-256: ${photo.sha256}`, "photo", photo.id, claims.email, now);
+        .run(inventoryId, "ფოტოს წაშლა", photo.filename, "photo", photo.id, operator.operator_email, now);
       return Number(result.lastInsertRowid);
     })();
     try { await syncDataAfterWrite(); }

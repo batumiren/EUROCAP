@@ -22,7 +22,7 @@ SQLite data is stored at `data/euro-inventory.db`. Foreign keys and WAL mode are
 
 ## Inventory photos
 
-Inventory details support multiple private photos stored in Vercel Blob. Configure `BLOB_READ_WRITE_TOKEN`, `EUROCAP_AUTH_SECRET`, and `EUROCAP_PHOTO_PASSWORD`. The photo login uses the operator email configured in Settings and the environment password. Images are resized and JPEG-compressed in the browser before upload; only photo metadata is stored in SQLite and GitHub snapshots.
+Inventory details support multiple private photos stored in Vercel Blob. Configure `BLOB_READ_WRITE_TOKEN`. Images are resized and JPEG-compressed in the browser before upload; only photo metadata is stored in SQLite and GitHub snapshots.
 
 ## Checks
 
