@@ -19,4 +19,17 @@ export type InventoryItem = {
   last_inspected_at: string | null;
   archived_at: string | null;
   updated_at: string;
+  photoCount: number;
+};
+
+export type InventoryPhoto = {
+  id: number;
+  filename: string;
+  originalName: string;
+  width: number;
+  height: number;
+  byteSize: number;
+  uploader: string;
+  uploadedAt: string;
+  sha256: string;
 };

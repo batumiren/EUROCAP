@@ -8,7 +8,7 @@ import { syncDataAfterWrite } from "@/lib/data-sync";
 
 export async function GET(_: NextRequest, context: { params: Promise<{ id: string }> }) {
   const id = Number((await context.params).id);
-  const item = db.prepare("SELECT i.*,r.name AS room_name FROM inventory i JOIN rooms r ON r.id=i.room_id WHERE i.id=?").get(id);
+  const item = db.prepare("SELECT i.*,r.name AS room_name,(SELECT count(*) FROM inventory_photos p WHERE p.inventory_id=i.id) AS photoCount FROM inventory i JOIN rooms r ON r.id=i.room_id WHERE i.id=?").get(id);
   if (!item) return NextResponse.json({ error: "ჩანაწერი ვერ მოიძებნა." }, { status: 404 });
   const inspections = db.prepare(`SELECT ir.*,ins.inspection_code,ins.created_at,ins.operator_email FROM inspection_results ir JOIN inspections ins ON ins.id=ir.inspection_id WHERE ir.inventory_id=? ORDER BY ins.created_at DESC`).all(id);
   const transfers = db.prepare("SELECT * FROM transfers WHERE source_inventory_id=? OR destination_inventory_id=? ORDER BY created_at DESC").all(id, id);

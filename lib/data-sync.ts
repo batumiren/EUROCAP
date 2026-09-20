@@ -5,7 +5,7 @@ import path from "node:path";
 import { db } from "@/lib/db";
 
 const tables = [
-  "rooms", "settings", "inventory", "inspections", "inspection_results",
+  "rooms", "settings", "inventory", "inventory_photos", "photo_cleanup_queue", "inspections", "inspection_results",
   "inspection_unexpected_items", "transfers", "item_history", "app_metadata",
 ] as const;
 const backupDirectory = path.join(process.cwd(), "backups");

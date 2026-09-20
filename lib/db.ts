@@ -45,6 +45,28 @@ function openDatabase() {
       updated_at TEXT NOT NULL
     );
     CREATE INDEX IF NOT EXISTS inventory_room_idx ON inventory(room_id, archived_at);
+    CREATE TABLE IF NOT EXISTS inventory_photos (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      inventory_id INTEGER NOT NULL REFERENCES inventory(id),
+      blob_path TEXT NOT NULL UNIQUE,
+      filename TEXT NOT NULL,
+      original_name TEXT NOT NULL,
+      width INTEGER NOT NULL CHECK(width > 0 AND width <= 800),
+      height INTEGER NOT NULL CHECK(height > 0 AND height <= 800),
+      byte_size INTEGER NOT NULL CHECK(byte_size > 0),
+      content_type TEXT NOT NULL CHECK(content_type = 'image/jpeg'),
+      uploader TEXT NOT NULL,
+      uploaded_at TEXT NOT NULL,
+      sha256 TEXT NOT NULL CHECK(length(sha256) = 64),
+      sort_order INTEGER NOT NULL DEFAULT 0
+    );
+    CREATE INDEX IF NOT EXISTS inventory_photos_item_idx ON inventory_photos(inventory_id, sort_order, id);
+    CREATE TABLE IF NOT EXISTS photo_cleanup_queue (
+      blob_path TEXT PRIMARY KEY,
+      created_at TEXT NOT NULL,
+      attempts INTEGER NOT NULL DEFAULT 0,
+      last_error TEXT
+    );
     CREATE TABLE IF NOT EXISTS inspections (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       inspection_code TEXT NOT NULL UNIQUE,
@@ -126,7 +148,7 @@ function restoreDeploymentSnapshot(db: Database.Database) {
     const snapshotPath = path.join(process.cwd(), "backups", "latest.json");
     if (!fs.existsSync(snapshotPath)) return;
     const snapshot = JSON.parse(fs.readFileSync(snapshotPath, "utf8")) as { tables?: Record<string, Record<string, unknown>[]> };
-    const tableOrder = ["rooms", "settings", "inventory", "inspections", "inspection_results", "inspection_unexpected_items", "transfers", "item_history", "app_metadata"];
+    const tableOrder = ["rooms", "settings", "inventory", "inventory_photos", "photo_cleanup_queue", "inspections", "inspection_results", "inspection_unexpected_items", "transfers", "item_history", "app_metadata"];
     db.transaction(() => {
       for (const table of tableOrder) {
         const rows = snapshot.tables?.[table] ?? [];

@@ -1,10 +1,11 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "@/lib/db";
 import { bulkUpdateInventory, saveInspection, saveTransfer } from "@/lib/services";
+import { photoBlobPath } from "@/lib/inventory-photo-data";
 
 let roomA: number; let roomB: number; let itemA: number; let itemB: number; let itemC: number;
 beforeEach(() => {
-  db.exec("DELETE FROM item_history; DELETE FROM transfers; DELETE FROM inspection_unexpected_items; DELETE FROM inspection_results; DELETE FROM inspections; DELETE FROM inventory; DELETE FROM rooms; DELETE FROM settings;");
+  db.exec("DELETE FROM item_history; DELETE FROM transfers; DELETE FROM inspection_unexpected_items; DELETE FROM inspection_results; DELETE FROM inspections; DELETE FROM inventory_photos; DELETE FROM photo_cleanup_queue; DELETE FROM inventory; DELETE FROM rooms; DELETE FROM settings;");
   db.prepare("INSERT INTO settings (id,operator_name,operator_email,demo_data) VALUES (1,'ტესტ ოპერატორი','test@euro.local',0)").run();
   roomA = Number(db.prepare("INSERT INTO rooms (name) VALUES ('ოთახი A')").run().lastInsertRowid);
   roomB = Number(db.prepare("INSERT INTO rooms (name) VALUES ('ოთახი B')").run().lastInsertRowid);
@@ -42,6 +43,12 @@ describe("room inspections", () => {
 
 describe("transfers", () => {
   it("preserves total units for full and partial transfers", () => {
+    const addPhoto = db.prepare(`INSERT INTO inventory_photos
+      (inventory_id,blob_path,filename,original_name,width,height,byte_size,content_type,uploader,uploaded_at,sha256,sort_order)
+      VALUES (?,?,?,?,?,?,?,?,?,?,?,0)`);
+    const now = new Date().toISOString();
+    addPhoto.run(itemA, photoBlobPath("EUR-000001", 0), "EUR-000001.jpg", "კომპიუტერი.jpg", 800, 600, 90000, "image/jpeg", "ტესტი", now, "a".repeat(64));
+    addPhoto.run(itemB, photoBlobPath("EUR-000002", 0), "EUR-000002.jpg", "მონიტორი.jpg", 800, 600, 90000, "image/jpeg", "ტესტი", now, "b".repeat(64));
     saveTransfer(db, { inventoryId: itemA, destinationRoomId: roomB, quantity: 6, sender: "ანა", recipient: "გიორგი", reason: "განაწილება" });
     expect((db.prepare("SELECT room_id FROM inventory WHERE id=?").get(itemA) as any).room_id).toBe(roomB);
     saveTransfer(db, { inventoryId: itemB, destinationRoomId: roomB, quantity: 2, sender: "ანა", recipient: "გიორგი", reason: "საჭიროება" });
@@ -52,6 +59,9 @@ describe("transfers", () => {
     expect(split.quantity).toBe(2);
     expect(split.last_inspected_at).toBeNull();
     expect(split.code).not.toBe("EUR-000002");
+    expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(itemA) as any).count).toBe(1);
+    expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(itemB) as any).count).toBe(1);
+    expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(split.id) as any).count).toBe(0);
   });
 
   it("rejects invalid quantity without changing inventory", () => {
