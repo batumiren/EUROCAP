@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-19T20:26:58.429Z",
+  "exportedAt": "2026-09-20T13:19:04.075Z",
   "tables": {
     "rooms": [
       {
@@ -1747,6 +1747,21 @@
         "last_inspected_at": null,
         "archived_at": "2026-09-19T20:26:19.488Z",
         "updated_at": "2026-09-19T20:26:19.488Z"
+      },
+      {
+        "id": 113,
+        "code": "EUR-000113",
+        "name": "ვიოლინო",
+        "room_id": 14,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "ელქტრო ვიოლინო",
+        "responsible_person": "ლაშა აბუსერიძე",
+        "registered_at": "2026-09-20T13:19:03.858Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-09-20T13:19:03.858Z"
       }
     ],
     "inspections": [
@@ -2399,6 +2414,16 @@
         "reference_id": 3,
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-19T20:26:58.224Z"
+      },
+      {
+        "id": 36,
+        "inventory_id": 113,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-20T13:19:03.858Z"
       }
     ],
     "app_metadata": [
