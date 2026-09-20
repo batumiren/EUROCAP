@@ -2,6 +2,7 @@
 
 import {
   ChangeEvent,
+  MouseEvent as ReactMouseEvent,
   useCallback,
   useEffect,
   useId,
@@ -540,6 +541,18 @@ function PhotoViewer({
     };
   }, [onClose, onNext, onPrevious]);
 
+  const handlePhotoClick = (event: ReactMouseEvent<HTMLImageElement>) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    if (rect.width === 0) {
+      onClose();
+      return;
+    }
+    const ratio = (event.clientX - rect.left) / rect.width;
+    if (ratio < 1 / 3) onPrevious();
+    else if (ratio > 2 / 3) onNext();
+    else onClose();
+  };
+
   return (
     <div className="fixed inset-0 z-[70] flex flex-col bg-slate-950/95 text-white" role="dialog" aria-modal="true" aria-label={`${photo.originalName} ფოტოს ნახვა`} onMouseDown={event => event.target === event.currentTarget && onClose()}>
       <header className="flex items-center justify-between gap-3 border-b border-white/10 px-3 py-3 sm:px-5">
@@ -552,7 +565,7 @@ function PhotoViewer({
 
       <div className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden" onMouseDown={event => event.target === event.currentTarget && onClose()}>
         {url ? (
-          <img className="max-h-full max-w-full select-none object-contain" src={url} alt={`${photo.originalName} — ინვენტარის ფოტო`} loading="lazy" draggable={false} />
+          <img className="max-h-full max-w-full cursor-pointer select-none object-contain" src={url} alt={`${photo.originalName} — ინვენტარის ფოტო`} loading="lazy" draggable={false} onClick={handlePhotoClick} title="მარცხენა: წინა · ცენტრი: დახურვა · მარჯვენა: შემდეგი" />
         ) : error ? (
           <div className="rounded-lg bg-white/10 p-5 text-center">
             <p className="text-sm text-red-200">{error}</p>
