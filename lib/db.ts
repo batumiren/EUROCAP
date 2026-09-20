@@ -270,7 +270,7 @@ function ensureDemoActiveCount(db: Database.Database) {
 
 const globalDb = globalThis as unknown as { euroDb?: Database.Database };
 export const db = globalDb.euroDb ?? openDatabase();
-if (process.env.NODE_ENV !== "production") globalDb.euroDb = db;
+globalDb.euroDb = db;
 
 export function getOperator(database = db) {
   return database.prepare("SELECT operator_name, operator_email, demo_data FROM settings WHERE id = 1").get() as {
