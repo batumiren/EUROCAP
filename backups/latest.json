@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-20T19:09:48.816Z",
+  "exportedAt": "2026-09-20T19:17:31.059Z",
   "tables": {
     "rooms": [
       {
@@ -1779,6 +1779,21 @@
         "uploaded_at": "2026-09-20T19:09:48.656Z",
         "sha256": "b2cf5c3ae2460a012f09dcb75c7953b9b3c7b973e672e7650f4c36c11857cc07",
         "sort_order": 1
+      },
+      {
+        "id": 4,
+        "inventory_id": 108,
+        "blob_path": "eurocap/inventory-photos/EUR-000108.jpg",
+        "filename": "EUR-000108.jpg",
+        "original_name": "image.jpg",
+        "width": 600,
+        "height": 800,
+        "byte_size": 75118,
+        "content_type": "image/jpeg",
+        "uploader": "ლაშა აბუსერიძე",
+        "uploaded_at": "2026-09-20T19:17:30.889Z",
+        "sha256": "172613a71a2aea8a336e4af4d41290e3e7abdfa07d696818f8d6f94123f41af0",
+        "sort_order": 0
       }
     ],
     "photo_cleanup_queue": [],
@@ -2592,6 +2607,16 @@
         "reference_id": 3,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-20T19:09:48.656Z"
+      },
+      {
+        "id": 52,
+        "inventory_id": 108,
+        "action": "ფოტოს დამატება",
+        "details": "EUR-000108.jpg, 600×800px, 75118 ბაიტი",
+        "reference_type": "photo",
+        "reference_id": 4,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-20T19:17:30.889Z"
       }
     ],
     "app_metadata": [
