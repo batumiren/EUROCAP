@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-20T18:24:56.845Z",
+  "exportedAt": "2026-09-20T18:25:38.708Z",
   "tables": {
     "rooms": [
       {
@@ -1749,24 +1749,15 @@
         "updated_at": "2026-09-19T20:26:19.488Z"
       }
     ],
-    "inventory_photos": [
+    "inventory_photos": [],
+    "photo_cleanup_queue": [
       {
-        "id": 1,
-        "inventory_id": 111,
         "blob_path": "eurocap/inventory-photos/EUR-000111.jpg",
-        "filename": "EUR-000111.jpg",
-        "original_name": "production-verification.jpg",
-        "width": 64,
-        "height": 48,
-        "byte_size": 286,
-        "content_type": "image/jpeg",
-        "uploader": "დემო ოპერატორი",
-        "uploaded_at": "2026-09-20T18:24:56.674Z",
-        "sha256": "afb85b3ee68f9bd2a1246a5ea0736f967cba4c10f8724107a8f2e2326eab4d0d",
-        "sort_order": 0
+        "created_at": "2026-09-20T18:25:38.541Z",
+        "attempts": 0,
+        "last_error": null
       }
     ],
-    "photo_cleanup_queue": [],
     "inspections": [
       {
         "id": 1,
@@ -2447,6 +2438,16 @@
         "reference_id": 1,
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-20T18:24:56.674Z"
+      },
+      {
+        "id": 39,
+        "inventory_id": 111,
+        "action": "ფოტოს წაშლა",
+        "details": "EUR-000111.jpg, SHA-256: afb85b3ee68f9bd2a1246a5ea0736f967cba4c10f8724107a8f2e2326eab4d0d",
+        "reference_type": "photo",
+        "reference_id": 1,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-20T18:25:38.541Z"
       }
     ],
     "app_metadata": [
