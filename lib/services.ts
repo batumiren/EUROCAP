@@ -131,3 +131,63 @@ export function saveTransfer(database: Database.Database, raw: unknown) {
     return { id: transferId, destinationInventoryId: destinationId };
   })();
 }
+
+const bulkUpdateInput = z.object({
+  inventoryIds: z.array(z.number().int().positive()).min(1).max(500),
+  roomId: z.number().int().positive().optional(),
+  condition: z.enum(CONDITIONS).optional(),
+  status: z.enum(STATUSES).optional(),
+  responsiblePerson: z.string().max(500).optional(),
+  notes: z.string().max(2000).optional(),
+  reason: z.string().trim().min(1),
+}).refine((input) => [input.roomId, input.condition, input.status, input.responsiblePerson, input.notes].some((value) => value !== undefined), {
+  message: "აირჩიეთ შესაცვლელი მინიმუმ ერთი ველი.",
+});
+
+export function bulkUpdateInventory(database: Database.Database, raw: unknown) {
+  const input = bulkUpdateInput.parse(raw);
+  const ids = [...new Set(input.inventoryIds)];
+  return database.transaction(() => {
+    const placeholders = ids.map(() => "?").join(",");
+    const items = database.prepare(`SELECT i.*,r.name AS room_name FROM inventory i JOIN rooms r ON r.id=i.room_id
+      WHERE i.id IN (${placeholders}) AND i.archived_at IS NULL`).all(...ids) as Record<string, any>[];
+    if (items.length !== ids.length) throw new AppError("ერთი ან მეტი აქტიური ჩანაწერი ვერ მოიძებნა.", 404);
+    const destination = input.roomId === undefined ? undefined : database.prepare("SELECT id,name FROM rooms WHERE id=? AND archived_at IS NULL").get(input.roomId) as { id: number; name: string } | undefined;
+    if (input.roomId !== undefined && !destination) throw new AppError("დანიშნულების აქტიური ოთახი ვერ მოიძებნა.");
+
+    const operator = getOperator(database);
+    const now = new Date().toISOString();
+    const update = database.prepare("UPDATE inventory SET room_id=?,condition=?,status=?,responsible_person=?,notes=?,updated_at=? WHERE id=?");
+    const transfer = database.prepare(`INSERT INTO transfers
+      (source_inventory_id,destination_inventory_id,source_code_snapshot,destination_code_snapshot,item_name_snapshot,source_room_snapshot,destination_room_snapshot,quantity,sender,recipient,reason,operator_name,operator_email,created_at)
+      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+    const history = database.prepare("INSERT INTO item_history (inventory_id,action,details,reference_type,reference_id,operator_email,created_at) VALUES (?,?,?,?,?,?,?)");
+    let updated = 0;
+    for (const item of items) {
+      const roomChanged = destination !== undefined && destination.id !== item.room_id;
+      const condition = input.condition ?? item.condition;
+      const status = input.status ?? item.status;
+      const responsiblePerson = input.responsiblePerson ?? item.responsible_person;
+      const notes = input.notes ?? item.notes;
+      const descriptiveChanged = condition !== item.condition || status !== item.status || responsiblePerson !== item.responsible_person || notes !== item.notes;
+      if (!roomChanged && !descriptiveChanged) continue;
+      update.run(destination?.id ?? item.room_id, condition, status, responsiblePerson, notes, now, item.id);
+      if (roomChanged) {
+        const recipient = responsiblePerson || item.responsible_person || operator.operator_name;
+        const result = transfer.run(item.id, item.id, item.code, item.code, item.name, item.room_name, destination.name, item.quantity, operator.operator_name, recipient, input.reason, operator.operator_name, operator.operator_email, now);
+        history.run(item.id, "მასობრივი გადაადგილება", `${item.room_name} → ${destination.name}, რაოდენობა: ${item.quantity}. მიზეზი: ${input.reason}`, "transfer", Number(result.lastInsertRowid), operator.operator_email, now);
+      }
+      if (descriptiveChanged) {
+        const changes = [
+          condition !== item.condition && `მდგომარეობა: ${item.condition} → ${condition}`,
+          status !== item.status && `სტატუსი: ${item.status} → ${status}`,
+          responsiblePerson !== item.responsible_person && `პასუხისმგებელი: ${item.responsible_person || "—"} → ${responsiblePerson || "—"}`,
+          notes !== item.notes && "შენიშვნა განახლდა",
+        ].filter(Boolean).join("; ");
+        history.run(item.id, "მასობრივი რედაქტირება", `${changes}. მიზეზი: ${input.reason}`, "bulk_update", null, operator.operator_email, now);
+      }
+      updated++;
+    }
+    return { updated };
+  })();
+}

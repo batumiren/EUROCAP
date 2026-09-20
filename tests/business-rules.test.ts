@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "@/lib/db";
-import { saveInspection, saveTransfer } from "@/lib/services";
+import { bulkUpdateInventory, saveInspection, saveTransfer } from "@/lib/services";
 
 let roomA: number; let roomB: number; let itemA: number; let itemB: number; let itemC: number;
 beforeEach(() => {
@@ -58,5 +58,18 @@ describe("transfers", () => {
     expect(() => saveTransfer(db, { inventoryId: itemA, destinationRoomId: roomB, quantity: 7, sender: "ანა", recipient: "გიორგი", reason: "შეცდომა" })).toThrow("აღემატება");
     expect((db.prepare("SELECT quantity FROM inventory WHERE id=?").get(itemA) as any).quantity).toBe(6);
     expect((db.prepare("SELECT count(*) AS count FROM transfers").get() as any).count).toBe(0);
+  });
+});
+
+describe("bulk inventory updates", () => {
+  it("moves multiple records without changing units and records transfer history", () => {
+    const before = (db.prepare("SELECT sum(quantity) AS units FROM inventory").get() as any).units;
+    const result = bulkUpdateInventory(db, { inventoryIds: [itemA, itemB], roomId: roomB, condition: "დამაკმაყოფილებელი", responsiblePerson: "მარიამი", reason: "ოთახის მოწყობა" });
+    const moved = db.prepare("SELECT * FROM inventory WHERE id IN (?,?) ORDER BY id").all(itemA, itemB) as any[];
+    expect(result.updated).toBe(2);
+    expect(moved.every((item) => item.room_id === roomB && item.condition === "დამაკმაყოფილებელი" && item.responsible_person === "მარიამი")).toBe(true);
+    expect((db.prepare("SELECT sum(quantity) AS units FROM inventory").get() as any).units).toBe(before);
+    expect((db.prepare("SELECT count(*) AS count FROM transfers").get() as any).count).toBe(2);
+    expect((db.prepare("SELECT count(*) AS count FROM item_history WHERE action='მასობრივი გადაადგილება'").get() as any).count).toBe(2);
   });
 });
