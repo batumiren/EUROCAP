@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-20T18:25:39.629Z",
+  "exportedAt": "2026-09-20T18:32:28.411Z",
   "tables": {
     "rooms": [
       {
@@ -1749,7 +1749,23 @@
         "updated_at": "2026-09-19T20:26:19.488Z"
       }
     ],
-    "inventory_photos": [],
+    "inventory_photos": [
+      {
+        "id": 2,
+        "inventory_id": 111,
+        "blob_path": "eurocap/inventory-photos/EUR-000111.jpg",
+        "filename": "EUR-000111.jpg",
+        "original_name": "euro2000.png",
+        "width": 700,
+        "height": 699,
+        "byte_size": 52383,
+        "content_type": "image/jpeg",
+        "uploader": "დემო ოპერატორი",
+        "uploaded_at": "2026-09-20T18:32:26.902Z",
+        "sha256": "02feeb05be2b03cd1ccbda0bad060cc307996857c5e2c3ff3ed5169145ee820a",
+        "sort_order": 0
+      }
+    ],
     "photo_cleanup_queue": [],
     "inspections": [
       {
@@ -2441,6 +2457,16 @@
         "reference_id": 1,
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-20T18:25:38.541Z"
+      },
+      {
+        "id": 40,
+        "inventory_id": 111,
+        "action": "ფოტოს დამატება",
+        "details": "EUR-000111.jpg, 700×699px, 52383 ბაიტი, SHA-256: 02feeb05be2b03cd1ccbda0bad060cc307996857c5e2c3ff3ed5169145ee820a",
+        "reference_type": "photo",
+        "reference_id": 2,
+        "operator_email": "operator@euro.local",
+        "created_at": "2026-09-20T18:32:26.902Z"
       }
     ],
     "app_metadata": [
