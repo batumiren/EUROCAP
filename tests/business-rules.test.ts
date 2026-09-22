@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "@/lib/db";
-import { bulkUpdateInventory, createInventoryItems, saveInspection, saveTransfer } from "@/lib/services";
+import { bulkUpdateInventory, createInventoryItems, saveInspection, saveTransfers } from "@/lib/services";
 import { photoBlobPath } from "@/lib/inventory-photo-data";
 
 let roomA: number; let roomB: number; let itemA: number; let itemB: number; let itemC: number;
@@ -63,31 +63,26 @@ describe("inventory creation", () => {
 });
 
 describe("transfers", () => {
-  it("preserves total units for full and partial transfers", () => {
+  it("moves selected records together and allows an empty reason", () => {
     const addPhoto = db.prepare(`INSERT INTO inventory_photos
       (inventory_id,blob_path,filename,original_name,width,height,byte_size,content_type,uploader,uploaded_at,sha256,sort_order)
       VALUES (?,?,?,?,?,?,?,?,?,?,?,0)`);
     const now = new Date().toISOString();
     addPhoto.run(itemA, photoBlobPath("EUR-000001", 0), "EUR-000001.jpg", "კომპიუტერი.jpg", 800, 600, 90000, "image/jpeg", "ტესტი", now, "a".repeat(64));
-    addPhoto.run(itemB, photoBlobPath("EUR-000002", 0), "EUR-000002.jpg", "მონიტორი.jpg", 800, 600, 90000, "image/jpeg", "ტესტი", now, "b".repeat(64));
-    saveTransfer(db, { inventoryId: itemA, destinationRoomId: roomB, quantity: 6, sender: "ანა", recipient: "გიორგი", reason: "განაწილება" });
-    expect((db.prepare("SELECT room_id FROM inventory WHERE id=?").get(itemA) as any).room_id).toBe(roomB);
-    saveTransfer(db, { inventoryId: itemB, destinationRoomId: roomB, quantity: 2, sender: "ანა", recipient: "გიორგი", reason: "საჭიროება" });
+    const result = saveTransfers(db, { sourceRoomId: roomA, inventoryIds: [itemA, itemB], destinationRoomId: roomB, sender: "ანა", recipient: "გიორგი" });
     const rows = db.prepare("SELECT * FROM inventory ORDER BY id").all() as any[];
+
+    expect(result.created).toBe(2);
     expect(rows.reduce((sum, row) => sum + row.quantity, 0)).toBe(10);
-    expect(rows.find(row => row.id === itemB).quantity).toBe(1);
-    const split = rows.find(row => ![itemA, itemB, itemC].includes(row.id));
-    expect(split.quantity).toBe(2);
-    expect(split.last_inspected_at).toBeNull();
-    expect(split.code).not.toBe("EUR-000002");
+    expect(rows).toHaveLength(3);
+    expect(rows.filter(row => [itemA, itemB].includes(row.id)).every(row => row.room_id === roomB && row.responsible_person === "გიორგი")).toBe(true);
+    expect((db.prepare("SELECT count(*) AS count FROM transfers WHERE reason='' ").get() as any).count).toBe(2);
     expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(itemA) as any).count).toBe(1);
-    expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(itemB) as any).count).toBe(1);
-    expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(split.id) as any).count).toBe(0);
   });
 
-  it("rejects invalid quantity without changing inventory", () => {
-    expect(() => saveTransfer(db, { inventoryId: itemA, destinationRoomId: roomB, quantity: 7, sender: "ანა", recipient: "გიორგი", reason: "შეცდომა" })).toThrow("აღემატება");
-    expect((db.prepare("SELECT quantity FROM inventory WHERE id=?").get(itemA) as any).quantity).toBe(6);
+  it("rejects a mixed-room selection without moving any records", () => {
+    expect(() => saveTransfers(db, { sourceRoomId: roomA, inventoryIds: [itemA, itemC], destinationRoomId: roomB, sender: "ანა", recipient: "გიორგი", reason: "" })).toThrow("საწყის ოთახში");
+    expect((db.prepare("SELECT room_id FROM inventory WHERE id=?").get(itemA) as any).room_id).toBe(roomA);
     expect((db.prepare("SELECT count(*) AS count FROM transfers").get() as any).count).toBe(0);
   });
 });
