@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-22T19:42:44.588Z",
+  "exportedAt": "2026-09-22T19:42:45.677Z",
   "tables": {
     "rooms": [
       {
@@ -2476,14 +2476,7 @@
         "sort_order": 0
       }
     ],
-    "photo_cleanup_queue": [
-      {
-        "blob_path": "eurocap/inventory-photos/EUR-000157.jpg",
-        "created_at": "2026-09-22T19:42:44.355Z",
-        "attempts": 0,
-        "last_error": null
-      }
-    ],
+    "photo_cleanup_queue": [],
     "inspections": [
       {
         "id": 1,
