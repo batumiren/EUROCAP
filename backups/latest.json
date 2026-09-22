@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-22T19:42:45.677Z",
+  "exportedAt": "2026-09-22T20:11:08.684Z",
   "tables": {
     "rooms": [
       {
@@ -152,16 +152,16 @@
         "id": 6,
         "code": "EUR-000006",
         "name": "მასწავლებლის მაგიდა",
-        "room_id": 1,
+        "room_id": 2,
         "quantity": 1,
         "condition": "კარგი",
         "status": "გამოყენებაში",
         "notes": "ახალი ნაყიდი მასწავლებლის მერხი",
-        "responsible_person": "ლაშა აბუსერიძე",
+        "responsible_person": "ელენე ყაჭეიშვილი",
         "registered_at": "2026-09-19T08:53:35.898Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-09-19T08:53:35.898Z"
+        "updated_at": "2026-09-22T20:11:08.434Z"
       },
       {
         "id": 7,
@@ -227,16 +227,16 @@
         "id": 11,
         "code": "EUR-000011",
         "name": "ფერადი პრინტერი №11",
-        "room_id": 1,
+        "room_id": 2,
         "quantity": 1,
         "condition": "დაზიანებული",
         "status": "გამოყენებაში",
         "notes": "",
-        "responsible_person": "ანა ბერიძე",
+        "responsible_person": "ელენე ყაჭეიშვილი",
         "registered_at": "2026-06-21T11:35:55.525Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-06-21T11:35:55.525Z"
+        "updated_at": "2026-09-22T20:11:08.434Z"
       },
       {
         "id": 12,
@@ -377,16 +377,16 @@
         "id": 21,
         "code": "EUR-000021",
         "name": "ქსელური გამანაწილებელი №21",
-        "room_id": 1,
+        "room_id": 2,
         "quantity": 1,
         "condition": "კარგი",
         "status": "გამოყენებაში",
         "notes": "",
-        "responsible_person": "მარიამ ქავთარაძე",
+        "responsible_person": "ელენე ყაჭეიშვილი",
         "registered_at": "2026-07-01T11:35:55.525Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-07-01T11:35:55.525Z"
+        "updated_at": "2026-09-22T20:11:08.434Z"
       },
       {
         "id": 22,
@@ -3022,6 +3022,57 @@
         "operator_name": "ლაშა აბუსერიძე",
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-22T09:23:54.714Z"
+      },
+      {
+        "id": 8,
+        "source_inventory_id": 6,
+        "destination_inventory_id": 6,
+        "source_code_snapshot": "EUR-000006",
+        "destination_code_snapshot": "EUR-000006",
+        "item_name_snapshot": "მასწავლებლის მაგიდა",
+        "source_room_snapshot": "კომპიუტერული ლაბორატორია",
+        "destination_room_snapshot": "მასწავლებლების ოთახი",
+        "quantity": 1,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ელენე ყაჭეიშვილი",
+        "reason": "დროებით სარგებლობაში გადაცემა",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
+      },
+      {
+        "id": 9,
+        "source_inventory_id": 11,
+        "destination_inventory_id": 11,
+        "source_code_snapshot": "EUR-000011",
+        "destination_code_snapshot": "EUR-000011",
+        "item_name_snapshot": "ფერადი პრინტერი №11",
+        "source_room_snapshot": "კომპიუტერული ლაბორატორია",
+        "destination_room_snapshot": "მასწავლებლების ოთახი",
+        "quantity": 1,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ელენე ყაჭეიშვილი",
+        "reason": "დროებით სარგებლობაში გადაცემა",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
+      },
+      {
+        "id": 10,
+        "source_inventory_id": 21,
+        "destination_inventory_id": 21,
+        "source_code_snapshot": "EUR-000021",
+        "destination_code_snapshot": "EUR-000021",
+        "item_name_snapshot": "ქსელური გამანაწილებელი №21",
+        "source_room_snapshot": "კომპიუტერული ლაბორატორია",
+        "destination_room_snapshot": "მასწავლებლების ოთახი",
+        "quantity": 1,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ელენე ყაჭეიშვილი",
+        "reason": "დროებით სარგებლობაში გადაცემა",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
       }
     ],
     "item_history": [
@@ -4104,6 +4155,36 @@
         "reference_id": 5,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-22T19:42:44.355Z"
+      },
+      {
+        "id": 109,
+        "inventory_id": 6,
+        "action": "გადაადგილება",
+        "details": "კომპიუტერული ლაბორატორია → მასწავლებლების ოთახი, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 8,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
+      },
+      {
+        "id": 110,
+        "inventory_id": 11,
+        "action": "გადაადგილება",
+        "details": "კომპიუტერული ლაბორატორია → მასწავლებლების ოთახი, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 9,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
+      },
+      {
+        "id": 111,
+        "inventory_id": 21,
+        "action": "გადაადგილება",
+        "details": "კომპიუტერული ლაბორატორია → მასწავლებლების ოთახი, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 10,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T20:11:08.434Z"
       }
     ],
     "app_metadata": [
