@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-21T08:21:27.751Z",
+  "exportedAt": "2026-09-22T09:16:41.107Z",
   "tables": {
     "rooms": [
       {
@@ -1662,16 +1662,16 @@
         "id": 107,
         "code": "EUR-000107",
         "name": "ჩელო",
-        "room_id": 14,
+        "room_id": 7,
         "quantity": 1,
         "condition": "კარგი",
         "status": "გამოყენებაში",
         "notes": "სასწავლო ჩელო ხემით",
-        "responsible_person": "მუსიკის მასწავლებელი",
+        "responsible_person": "ნინო",
         "registered_at": "2026-09-19T19:56:03.869Z",
         "last_inspected_at": "2026-09-19T20:26:58.224Z",
         "archived_at": null,
-        "updated_at": "2026-09-19T20:26:58.224Z"
+        "updated_at": "2026-09-22T09:16:40.769Z"
       },
       {
         "id": 108,
@@ -2257,6 +2257,23 @@
         "operator_name": "დემო ოპერატორი",
         "operator_email": "operator@euro.local",
         "created_at": "2026-09-19T10:05:04.071Z"
+      },
+      {
+        "id": 3,
+        "source_inventory_id": 107,
+        "destination_inventory_id": 107,
+        "source_code_snapshot": "EUR-000107",
+        "destination_code_snapshot": "EUR-000107",
+        "item_name_snapshot": "ჩელო",
+        "source_room_snapshot": "მუსიკის ოთახი",
+        "destination_room_snapshot": "ბიბლიოთეკა",
+        "quantity": 1,
+        "sender": "ლაშა",
+        "recipient": "ნინო",
+        "reason": "გადავეცი",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T09:16:40.769Z"
       }
     ],
     "item_history": [
@@ -2799,6 +2816,16 @@
         "reference_id": 4,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-21T08:21:27.455Z"
+      },
+      {
+        "id": 55,
+        "inventory_id": 107,
+        "action": "გადაადგილება",
+        "details": "მუსიკის ოთახი → ბიბლიოთეკა, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 3,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T09:16:40.769Z"
       }
     ],
     "app_metadata": [
