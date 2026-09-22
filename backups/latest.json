@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-22T14:34:38.930Z",
+  "exportedAt": "2026-09-22T14:35:21.421Z",
   "tables": {
     "rooms": [
       {
@@ -2352,6 +2352,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-09-22T14:34:38.631Z"
+      },
+      {
+        "id": 153,
+        "code": "EUR-000153",
+        "name": "ინტერაქტიული ეკრანი",
+        "room_id": 15,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "ინტერაქტიული ეკრანი - სმარტბორდი 65 ინჩიანი",
+        "responsible_person": "ნ. ქაჯაია",
+        "registered_at": "2026-09-22T14:35:21.133Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-09-22T14:35:21.133Z"
       }
     ],
     "inventory_photos": [
@@ -3939,6 +3954,16 @@
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-22T14:34:38.631Z"
+      },
+      {
+        "id": 100,
+        "inventory_id": 153,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T14:35:21.133Z"
       }
     ],
     "app_metadata": [
