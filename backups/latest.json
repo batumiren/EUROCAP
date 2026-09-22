@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-09-22T14:33:28.722Z",
+  "exportedAt": "2026-09-22T14:34:38.930Z",
   "tables": {
     "rooms": [
       {
@@ -2337,6 +2337,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-09-22T14:33:28.484Z"
+      },
+      {
+        "id": 152,
+        "code": "EUR-000152",
+        "name": "თეთრი დაფა",
+        "room_id": 15,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "თეთრი დაფა - მოძრავი",
+        "responsible_person": "ნ. ქაჯაია",
+        "registered_at": "2026-09-22T14:34:38.631Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-09-22T14:34:38.631Z"
       }
     ],
     "inventory_photos": [
@@ -3914,6 +3929,16 @@
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-22T14:33:28.484Z"
+      },
+      {
+        "id": 99,
+        "inventory_id": 152,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-09-22T14:34:38.631Z"
       }
     ],
     "app_metadata": [
