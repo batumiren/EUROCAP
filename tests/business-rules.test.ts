@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "@/lib/db";
-import { bulkUpdateInventory, saveInspection, saveTransfer } from "@/lib/services";
+import { bulkUpdateInventory, createInventoryItems, saveInspection, saveTransfer } from "@/lib/services";
 import { photoBlobPath } from "@/lib/inventory-photo-data";
 
 let roomA: number; let roomB: number; let itemA: number; let itemB: number; let itemC: number;
@@ -38,6 +38,27 @@ describe("room inspections", () => {
     const unexpected = db.prepare("SELECT * FROM inspection_unexpected_items").get() as any;
     expect(unexpected.item_code_snapshot).toBe("EUR-000003");
     expect(unexpected.assigned_room_snapshot).toBe("ოთახი B");
+  });
+});
+
+describe("inventory creation", () => {
+  it("creates one sequentially coded record per requested unit", () => {
+    const result = createInventoryItems(db, {
+      name: "სკამი",
+      roomId: roomA,
+      quantity: 10,
+      condition: "კარგი",
+      status: "გამოყენებაში",
+      notes: "ახალი პარტია",
+      responsiblePerson: "ანა",
+    });
+    const rows = db.prepare("SELECT * FROM inventory WHERE id IN (SELECT value FROM json_each(?)) ORDER BY id").all(JSON.stringify(result.ids)) as any[];
+
+    expect(result.created).toBe(10);
+    expect(result.codes).toEqual(Array.from({ length: 10 }, (_, index) => `EUR-${String(index + 4).padStart(6, "0")}`));
+    expect(rows).toHaveLength(10);
+    expect(rows.every((row) => row.name === "სკამი" && row.quantity === 1 && row.room_id === roomA)).toBe(true);
+    expect((db.prepare("SELECT count(*) AS count FROM item_history WHERE inventory_id IN (SELECT value FROM json_each(?))").get(JSON.stringify(result.ids)) as any).count).toBe(10);
   });
 });
 

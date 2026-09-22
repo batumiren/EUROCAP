@@ -8,6 +8,44 @@ export class AppError extends Error {
   constructor(message: string, public status = 400) { super(message); }
 }
 
+const createInventoryInput = z.object({
+  name: z.string().trim().min(1),
+  roomId: z.number().int().positive(),
+  quantity: z.number().int().positive(),
+  condition: z.enum(CONDITIONS),
+  status: z.enum(STATUSES),
+  notes: z.string().default(""),
+  responsiblePerson: z.string().default(""),
+});
+
+export function createInventoryItems(database: Database.Database, raw: unknown) {
+  const input = createInventoryInput.parse(raw);
+  return database.transaction(() => {
+    const room = database.prepare("SELECT id FROM rooms WHERE id=? AND archived_at IS NULL").get(input.roomId);
+    if (!room) throw new AppError("აქტიური ოთახი ვერ მოიძებნა.");
+
+    const now = new Date().toISOString();
+    const operator = getOperator(database);
+    const insertItem = database.prepare(`INSERT INTO inventory
+      (code,name,room_id,quantity,condition,status,notes,responsible_person,registered_at,updated_at)
+      VALUES (?,?,?,?,?,?,?,?,?,?)`);
+    const insertHistory = database.prepare("INSERT INTO item_history (inventory_id,action,details,operator_email,created_at) VALUES (?,?,?,?,?)");
+    const ids: number[] = [];
+    const codes: string[] = [];
+
+    for (let index = 0; index < input.quantity; index += 1) {
+      const code = nextItemCode(database);
+      const inserted = insertItem.run(code, input.name, input.roomId, 1, input.condition, input.status, input.notes.trim(), input.responsiblePerson.trim(), now, now);
+      const id = Number(inserted.lastInsertRowid);
+      insertHistory.run(id, "ჩანაწერის შექმნა", "რაოდენობა: 1", operator.operator_email, now);
+      ids.push(id);
+      codes.push(code);
+    }
+
+    return { id: ids[0], code: codes[0], ids, codes, created: ids.length };
+  })();
+}
+
 const inspectionInput = z.object({
   roomId: z.number().int().positive(),
   items: z.array(z.object({

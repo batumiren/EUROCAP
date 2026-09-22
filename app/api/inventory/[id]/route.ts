@@ -18,7 +18,6 @@ export async function GET(_: NextRequest, context: { params: Promise<{ id: strin
 
 const editSchema = z.discriminatedUnion("action", [
   z.object({ action: z.literal("edit"), name: z.string().trim().min(1), condition: z.enum(CONDITIONS), status: z.enum(STATUSES), notes: z.string(), responsiblePerson: z.string() }),
-  z.object({ action: z.literal("correctQuantity"), quantity: z.number().int().positive(), reason: z.string().trim().min(1) }),
   z.object({ action: z.literal("archive") }),
 ]);
 
@@ -33,9 +32,6 @@ export async function PATCH(request: NextRequest, context: { params: Promise<{ i
       if (input.action === "edit") {
         db.prepare("UPDATE inventory SET name=?,condition=?,status=?,notes=?,responsible_person=?,updated_at=? WHERE id=?").run(input.name, input.condition, input.status, input.notes.trim(), input.responsiblePerson.trim(), now, id);
         action = "ჩანაწერის რედაქტირება"; details = "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები";
-      } else if (input.action === "correctQuantity") {
-        db.prepare("UPDATE inventory SET quantity=?,updated_at=? WHERE id=?").run(input.quantity, now, id);
-        action = "რაოდენობის კორექტირება"; details = `${item.quantity} → ${input.quantity}. მიზეზი: ${input.reason}`;
       } else {
         db.prepare("UPDATE inventory SET archived_at=?,updated_at=? WHERE id=?").run(now, now, id);
         action = "ჩანაწერის არქივირება"; details = "ჩანაწერი გადატანილია არქივში";

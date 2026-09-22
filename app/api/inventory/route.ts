@@ -1,14 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { z } from "zod";
-import { db, getOperator, nextItemCode } from "@/lib/db";
+import { db, nextItemCode } from "@/lib/db";
 import { apiError } from "@/lib/http";
-import { CONDITIONS, STATUSES } from "@/lib/types";
+import { createInventoryItems } from "@/lib/services";
 import { syncDataAfterWrite } from "@/lib/data-sync";
-
-const createSchema = z.object({
-  name: z.string().trim().min(1), roomId: z.number().int().positive(), quantity: z.number().int().positive(),
-  condition: z.enum(CONDITIONS), status: z.enum(STATUSES), notes: z.string().default(""), responsiblePerson: z.string().default(""),
-});
 
 export async function GET(request: NextRequest) {
   const p = request.nextUrl.searchParams;
@@ -26,17 +20,7 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const input = createSchema.parse(await request.json());
-    const room = db.prepare("SELECT id FROM rooms WHERE id=? AND archived_at IS NULL").get(input.roomId);
-    if (!room) return NextResponse.json({ error: "აქტიური ოთახი ვერ მოიძებნა." }, { status: 400 });
-    const result = db.transaction(() => {
-      const now = new Date().toISOString(); const code = nextItemCode(db); const operator = getOperator();
-      const inserted = db.prepare(`INSERT INTO inventory (code,name,room_id,quantity,condition,status,notes,responsible_person,registered_at,updated_at) VALUES (?,?,?,?,?,?,?,?,?,?)`)
-        .run(code, input.name, input.roomId, input.quantity, input.condition, input.status, input.notes.trim(), input.responsiblePerson.trim(), now, now);
-      const id = Number(inserted.lastInsertRowid);
-      db.prepare("INSERT INTO item_history (inventory_id,action,details,operator_email,created_at) VALUES (?,?,?,?,?)").run(id, "ჩანაწერის შექმნა", `რაოდენობა: ${input.quantity}`, operator.operator_email, now);
-      return { id, code };
-    })();
+    const result = createInventoryItems(db, await request.json());
     try { await syncDataAfterWrite(); } catch (syncError) { console.error("GitHub data sync failed:", syncError); }
     return NextResponse.json(result, { status: 201 });
   } catch (error) { return apiError(error); }
