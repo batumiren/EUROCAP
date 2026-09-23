@@ -16,6 +16,12 @@
   .btn-danger { @apply btn bg-red-600 text-white hover:bg-red-700; }
   .label { @apply mb-1.5 block text-sm font-medium text-slate-700; }
   .table-wrap { @apply overflow-x-auto rounded-xl border bg-white shadow-sm; }
+  .inventory-clamp {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
   table { @apply w-full min-w-max text-left text-sm; }
   th { @apply border-b bg-slate-50 px-4 py-3 font-semibold text-slate-600; }
   td { @apply border-b px-4 py-3 align-top; }
