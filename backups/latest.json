@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-02T08:15:57.982Z",
+  "exportedAt": "2026-10-02T08:16:18.976Z",
   "tables": {
     "rooms": [
       {
@@ -2436,12 +2436,12 @@
         "quantity": 1,
         "condition": "კარგი",
         "status": "გამოყენებაში",
-        "notes": "მუსიკალური ინსტრუმენტი",
-        "responsible_person": "ირაკლი დოლიძე",
-        "registered_at": "2026-10-02T08:15:55.947Z",
+        "notes": "ინსტრუმენტი",
+        "responsible_person": "ლაშა აბუსერიძე",
+        "registered_at": "2026-10-02T08:16:18.688Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-10-02T08:15:55.947Z"
+        "updated_at": "2026-10-02T08:16:18.688Z"
       }
     ],
     "inventory_photos": [
@@ -4209,7 +4209,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
-        "created_at": "2026-10-02T08:15:55.947Z"
+        "created_at": "2026-10-02T08:16:18.688Z"
       }
     ],
     "app_metadata": [
