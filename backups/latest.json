@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-09T16:47:09.047Z",
+  "exportedAt": "2026-10-09T17:00:15.784Z",
   "tables": {
     "rooms": [
       {
@@ -2562,6 +2562,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-10-09T16:37:53.669Z"
+      },
+      {
+        "id": 167,
+        "code": "EUR-000167",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 168,
+        "code": "EUR-000168",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 169,
+        "code": "EUR-000169",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 170,
+        "code": "EUR-000170",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 171,
+        "code": "EUR-000171",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 172,
+        "code": "EUR-000172",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 173,
+        "code": "EUR-000173",
+        "name": "ჭკვიანი დაფა",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ჭკვიანი ეკრანი sony 65 ინჩიანი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T17:00:15.521Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T17:00:15.521Z"
       }
     ],
     "inventory_photos": [
@@ -4465,6 +4570,76 @@
         "reference_id": 5,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-09T16:47:08.825Z"
+      },
+      {
+        "id": 125,
+        "inventory_id": 167,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 126,
+        "inventory_id": 168,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 127,
+        "inventory_id": 169,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 128,
+        "inventory_id": 170,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 129,
+        "inventory_id": 171,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 130,
+        "inventory_id": 172,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 131,
+        "inventory_id": 173,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:15.521Z"
       }
     ],
     "app_metadata": [
