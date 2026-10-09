@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-09T17:00:15.784Z",
+  "exportedAt": "2026-10-09T17:00:40.554Z",
   "tables": {
     "rooms": [
       {
@@ -2650,8 +2650,8 @@
         "responsible_person": "ნინო თურმანიძე",
         "registered_at": "2026-10-09T17:00:15.521Z",
         "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-10-09T17:00:15.521Z"
+        "archived_at": "2026-10-09T17:00:40.344Z",
+        "updated_at": "2026-10-09T17:00:40.344Z"
       },
       {
         "id": 173,
@@ -4640,6 +4640,16 @@
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 132,
+        "inventory_id": 172,
+        "action": "ჩანაწერის არქივირება",
+        "details": "ჩანაწერი გადატანილია არქივში",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T17:00:40.344Z"
       }
     ],
     "app_metadata": [
