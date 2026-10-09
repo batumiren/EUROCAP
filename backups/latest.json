@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-09T17:05:31.572Z",
+  "exportedAt": "2026-10-09T19:36:22.984Z",
   "tables": {
     "rooms": [
       {
@@ -1142,16 +1142,16 @@
         "id": 72,
         "code": "EUR-000072",
         "name": "მოსწავლის მერხი №72",
-        "room_id": 2,
+        "room_id": 3,
         "quantity": 6,
         "condition": "საჭიროებს შეკეთებას",
         "status": "საწყობში",
         "notes": "საჭიროა ტექნიკური დათვალიერება",
-        "responsible_person": "ირაკლი დოლიძე",
+        "responsible_person": "ლაშა აბუსერიძე",
         "registered_at": "2026-08-21T11:35:55.526Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-08-21T11:35:55.526Z"
+        "updated_at": "2026-10-09T19:36:22.729Z"
       },
       {
         "id": 73,
@@ -1292,16 +1292,16 @@
         "id": 82,
         "code": "EUR-000082",
         "name": "დოკუმენტების სკანერი №82",
-        "room_id": 2,
+        "room_id": 3,
         "quantity": 1,
         "condition": "დამაკმაყოფილებელი",
         "status": "გამოყენებაში",
         "notes": "",
-        "responsible_person": "გიორგი კაპანაძე",
+        "responsible_person": "ლაშა აბუსერიძე",
         "registered_at": "2026-08-31T11:35:55.526Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-08-31T11:35:55.526Z"
+        "updated_at": "2026-10-09T19:36:22.729Z"
       },
       {
         "id": 83,
@@ -1442,16 +1442,16 @@
         "id": 92,
         "code": "EUR-000092",
         "name": "უწყვეტი კვების წყარო №92",
-        "room_id": 2,
+        "room_id": 3,
         "quantity": 1,
         "condition": "კარგი",
         "status": "საწყობში",
         "notes": "დემონსტრაციული ინვენტარის ჩანაწერი",
-        "responsible_person": "ლევან მჭედლიშვილი",
+        "responsible_person": "ლაშა აბუსერიძე",
         "registered_at": "2026-09-10T11:35:55.526Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-09-10T11:35:55.526Z"
+        "updated_at": "2026-10-09T19:36:22.729Z"
       },
       {
         "id": 93,
@@ -3328,6 +3328,57 @@
         "operator_name": "ლაშა აბუსერიძე",
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-09-22T20:11:08.434Z"
+      },
+      {
+        "id": 11,
+        "source_inventory_id": 72,
+        "destination_inventory_id": 72,
+        "source_code_snapshot": "EUR-000072",
+        "destination_code_snapshot": "EUR-000072",
+        "item_name_snapshot": "მოსწავლის მერხი №72",
+        "source_room_snapshot": "მასწავლებლების ოთახი",
+        "destination_room_snapshot": "საწყობი",
+        "quantity": 6,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ლაშა აბუსერიძე",
+        "reason": "",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
+      },
+      {
+        "id": 12,
+        "source_inventory_id": 82,
+        "destination_inventory_id": 82,
+        "source_code_snapshot": "EUR-000082",
+        "destination_code_snapshot": "EUR-000082",
+        "item_name_snapshot": "დოკუმენტების სკანერი №82",
+        "source_room_snapshot": "მასწავლებლების ოთახი",
+        "destination_room_snapshot": "საწყობი",
+        "quantity": 1,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ლაშა აბუსერიძე",
+        "reason": "",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
+      },
+      {
+        "id": 13,
+        "source_inventory_id": 92,
+        "destination_inventory_id": 92,
+        "source_code_snapshot": "EUR-000092",
+        "destination_code_snapshot": "EUR-000092",
+        "item_name_snapshot": "უწყვეტი კვების წყარო №92",
+        "source_room_snapshot": "მასწავლებლების ოთახი",
+        "destination_room_snapshot": "საწყობი",
+        "quantity": 1,
+        "sender": "ნინო თურმანიძე",
+        "recipient": "ლაშა აბუსერიძე",
+        "reason": "",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
       }
     ],
     "item_history": [
@@ -4680,6 +4731,36 @@
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-09T17:05:31.332Z"
+      },
+      {
+        "id": 136,
+        "inventory_id": 72,
+        "action": "გადაადგილება",
+        "details": "მასწავლებლების ოთახი → საწყობი, რაოდენობა: 6",
+        "reference_type": "transfer",
+        "reference_id": 11,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
+      },
+      {
+        "id": 137,
+        "inventory_id": 82,
+        "action": "გადაადგილება",
+        "details": "მასწავლებლების ოთახი → საწყობი, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 12,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
+      },
+      {
+        "id": 138,
+        "inventory_id": 92,
+        "action": "გადაადგილება",
+        "details": "მასწავლებლების ოთახი → საწყობი, რაოდენობა: 1",
+        "reference_type": "transfer",
+        "reference_id": 13,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T19:36:22.729Z"
       }
     ],
     "app_metadata": [
