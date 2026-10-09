@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-09T16:35:13.272Z",
+  "exportedAt": "2026-10-09T16:37:03.179Z",
   "tables": {
     "rooms": [
       {
@@ -2517,6 +2517,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 164,
+        "code": "EUR-000164",
+        "name": "მოსწავლის სკამი",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "მოწსავლის სკამი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:37:02.926Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:37:02.926Z"
+      },
+      {
+        "id": 165,
+        "code": "EUR-000165",
+        "name": "მოსწავლის სკამი",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "მოწსავლის სკამი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:37:02.926Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:37:02.926Z"
+      },
+      {
+        "id": 166,
+        "code": "EUR-000166",
+        "name": "მოსწავლის სკამი",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "მოწსავლის სკამი",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:37:02.926Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:37:02.926Z"
       }
     ],
     "inventory_photos": [
@@ -4355,6 +4400,36 @@
         "reference_id": 5,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-09T16:35:11.938Z"
+      },
+      {
+        "id": 120,
+        "inventory_id": 164,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:37:02.926Z"
+      },
+      {
+        "id": 121,
+        "inventory_id": 165,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:37:02.926Z"
+      },
+      {
+        "id": 122,
+        "inventory_id": 166,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:37:02.926Z"
       }
     ],
     "app_metadata": [
