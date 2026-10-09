@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-02T08:16:18.976Z",
+  "exportedAt": "2026-10-09T16:22:34.315Z",
   "tables": {
     "rooms": [
       {
@@ -2442,6 +2442,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-10-02T08:16:18.688Z"
+      },
+      {
+        "id": 159,
+        "code": "EUR-000159",
+        "name": "კომპიუტერი",
+        "room_id": 1,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "all in one computer",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:22:33.853Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 160,
+        "code": "EUR-000160",
+        "name": "კომპიუტერი",
+        "room_id": 1,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "all in one computer",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:22:33.853Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 161,
+        "code": "EUR-000161",
+        "name": "კომპიუტერი",
+        "room_id": 1,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "all in one computer",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:22:33.853Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 162,
+        "code": "EUR-000162",
+        "name": "კომპიუტერი",
+        "room_id": 1,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "all in one computer",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:22:33.853Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 163,
+        "code": "EUR-000163",
+        "name": "კომპიუტერი",
+        "room_id": 1,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "all in one computer",
+        "responsible_person": "ნინო თურმანიძე",
+        "registered_at": "2026-10-09T16:22:33.853Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-09T16:22:33.853Z"
       }
     ],
     "inventory_photos": [
@@ -4210,6 +4285,56 @@
         "reference_id": null,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-02T08:16:18.688Z"
+      },
+      {
+        "id": 113,
+        "inventory_id": 159,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 114,
+        "inventory_id": 160,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 115,
+        "inventory_id": 161,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 116,
+        "inventory_id": 162,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:22:33.853Z"
+      },
+      {
+        "id": 117,
+        "inventory_id": 163,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-09T16:22:33.853Z"
       }
     ],
     "app_metadata": [
