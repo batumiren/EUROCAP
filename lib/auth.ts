@@ -97,7 +97,8 @@ async function readBlob() {
   const result = await get(blobPath, { access: "private", useCache: false });
   if (!result) return null;
   if (result.statusCode !== 200) throw new Error("Auth storage unavailable");
-  return { document: documentSchema.parse(await new Response(result.stream).json()), etag: result.blob.etag };
+  // Blob download responses use weak HTTP ETags; conditional writes expect the strong tag.
+  return { document: documentSchema.parse(await new Response(result.stream).json()), etag: result.blob.etag.replace(/^W\//, "") };
 }
 
 // Local writes are locked across processes and atomically renamed. Never use ephemeral Vercel disk.

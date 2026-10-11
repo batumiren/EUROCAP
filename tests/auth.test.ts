@@ -8,11 +8,11 @@ vi.mock("@vercel/blob", () => {
   return {
     BlobPreconditionFailedError,
     get: vi.fn(async () => storage.content === null ? null : {
-      statusCode: 200, stream: new Response(storage.content).body, blob: { etag: String(storage.revision) },
+      statusCode: 200, stream: new Response(storage.content).body, blob: { etag: `W/"${storage.revision}"` },
     }),
     put: vi.fn(async (_path: string, content: string, options: { allowOverwrite?: boolean; ifMatch?: string }) => {
       if (storage.content !== null && options.allowOverwrite === false) throw new Error("Already exists");
-      if (options.ifMatch && options.ifMatch !== String(storage.revision)) throw new BlobPreconditionFailedError();
+      if (options.ifMatch && options.ifMatch !== `"${storage.revision}"`) throw new BlobPreconditionFailedError();
       if (storage.conflict && options.ifMatch) { storage.conflict = false; storage.revision++; throw new BlobPreconditionFailedError(); }
       if (storage.failPasswordSave && storage.content && JSON.stringify(JSON.parse(content).users) !== JSON.stringify(JSON.parse(storage.content).users)) throw new Error("Storage offline");
       storage.content = content; storage.revision++;
