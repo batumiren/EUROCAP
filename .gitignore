@@ -9,3 +9,6 @@ data/*.db-*
 .DS_Store
 .vercel
 .env*
+data/auth.json
+data/auth.json.*
+data/auth.lock/
