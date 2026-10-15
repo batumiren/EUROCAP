@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T15:24:30.883Z",
+  "exportedAt": "2026-10-15T15:27:17.205Z",
   "tables": {
     "rooms": [
       {
@@ -634,9 +634,9 @@
         "notes": "",
         "responsible_person": "ელენე ყაჭეიშვილი",
         "registered_at": "2026-06-21T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-09-22T20:11:08.434Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 12,
@@ -784,9 +784,9 @@
         "notes": "",
         "responsible_person": "ელენე ყაჭეიშვილი",
         "registered_at": "2026-07-01T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-09-22T20:11:08.434Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 22,
@@ -799,9 +799,9 @@
         "notes": "დემონსტრაციული ინვენტარის ჩანაწერი",
         "responsible_person": "დავით წიკლაური",
         "registered_at": "2026-07-02T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-07-02T11:35:55.525Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 23,
@@ -949,9 +949,9 @@
         "notes": "",
         "responsible_person": "ირაკლი დოლიძე",
         "registered_at": "2026-07-12T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-07-12T11:35:55.525Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 33,
@@ -1249,9 +1249,9 @@
         "notes": "",
         "responsible_person": "ლევან მჭედლიშვილი",
         "registered_at": "2026-08-01T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-08-01T11:35:55.525Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 53,
@@ -1399,9 +1399,9 @@
         "notes": "",
         "responsible_person": "დავით წიკლაური",
         "registered_at": "2026-08-11T11:35:55.525Z",
-        "last_inspected_at": null,
+        "last_inspected_at": "2026-10-15T15:27:16.924Z",
         "archived_at": null,
-        "updated_at": "2026-08-11T11:35:55.525Z"
+        "updated_at": "2026-10-15T15:27:16.924Z"
       },
       {
         "id": 63,
@@ -3197,6 +3197,19 @@
         "quantity_discrepancies": 0,
         "condition_changes": 0,
         "created_at": "2026-10-15T15:24:30.646Z"
+      },
+      {
+        "id": 6,
+        "inspection_code": "CHK-20261015-152716-50EE30",
+        "room_id": 2,
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "operator_name": "ლაშა აბუსერიძე",
+        "operator_email": "la@euro.edu.ge",
+        "checked_count": 6,
+        "expected_count": 11,
+        "quantity_discrepancies": 0,
+        "condition_changes": 0,
+        "created_at": "2026-10-15T15:27:16.924Z"
       }
     ],
     "inspection_results": [
@@ -3703,6 +3716,160 @@
         "actual_quantity": 1,
         "observed_condition": "კარგი",
         "notes": ""
+      },
+      {
+        "id": 37,
+        "inspection_id": 6,
+        "inventory_id": 12,
+        "item_code_snapshot": "EUR-000012",
+        "item_name_snapshot": "დოკუმენტების სკანერი №12",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "საჭიროებს შეკეთებას",
+        "checked": 0,
+        "actual_quantity": null,
+        "observed_condition": null,
+        "notes": ""
+      },
+      {
+        "id": 38,
+        "inspection_id": 6,
+        "inventory_id": 42,
+        "item_code_snapshot": "EUR-000042",
+        "item_name_snapshot": "კომპიუტერის მონიტორი №42",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "საჭიროებს შეკეთებას",
+        "checked": 0,
+        "actual_quantity": null,
+        "observed_condition": null,
+        "notes": ""
+      },
+      {
+        "id": 39,
+        "inspection_id": 6,
+        "inventory_id": 6,
+        "item_code_snapshot": "EUR-000006",
+        "item_name_snapshot": "მასწავლებლის მაგიდა",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 0,
+        "actual_quantity": null,
+        "observed_condition": null,
+        "notes": ""
+      },
+      {
+        "id": 40,
+        "inspection_id": 6,
+        "inventory_id": 3,
+        "item_code_snapshot": "EUR-000003",
+        "item_name_snapshot": "სამუშაო მაგიდა",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 4,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 0,
+        "actual_quantity": null,
+        "observed_condition": null,
+        "notes": ""
+      },
+      {
+        "id": 41,
+        "inspection_id": 6,
+        "inventory_id": 7,
+        "item_code_snapshot": "EUR-000007",
+        "item_name_snapshot": "საოფისე სკამი",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 6,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 0,
+        "actual_quantity": null,
+        "observed_condition": null,
+        "notes": ""
+      },
+      {
+        "id": 42,
+        "inspection_id": 6,
+        "inventory_id": 52,
+        "item_code_snapshot": "EUR-000052",
+        "item_name_snapshot": "საპროექციო ეკრანი №52",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "დამაკმაყოფილებელი",
+        "notes": ""
+      },
+      {
+        "id": 43,
+        "inspection_id": 6,
+        "inventory_id": 22,
+        "item_code_snapshot": "EUR-000022",
+        "item_name_snapshot": "უწყვეტი კვების წყარო №22",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "დამაკმაყოფილებელი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "დამაკმაყოფილებელი",
+        "notes": ""
+      },
+      {
+        "id": 44,
+        "inspection_id": 6,
+        "inventory_id": 11,
+        "item_code_snapshot": "EUR-000011",
+        "item_name_snapshot": "ფერადი პრინტერი №11",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "დაზიანებული",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "დაზიანებული",
+        "notes": ""
+      },
+      {
+        "id": 45,
+        "inspection_id": 6,
+        "inventory_id": 62,
+        "item_code_snapshot": "EUR-000062",
+        "item_name_snapshot": "ფეხბურთის ბურთი №62",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 14,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 14,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 46,
+        "inspection_id": 6,
+        "inventory_id": 21,
+        "item_code_snapshot": "EUR-000021",
+        "item_name_snapshot": "ქსელური გამანაწილებელი №21",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
+      },
+      {
+        "id": 47,
+        "inspection_id": 6,
+        "inventory_id": 32,
+        "item_code_snapshot": "EUR-000032",
+        "item_name_snapshot": "ციფრული ფოტოაპარატი №32",
+        "room_name_snapshot": "მასწავლებლების ოთახი",
+        "expected_quantity": 1,
+        "previous_condition": "კარგი",
+        "checked": 1,
+        "actual_quantity": 1,
+        "observed_condition": "კარგი",
+        "notes": ""
       }
     ],
     "inspection_unexpected_items": [
@@ -3723,6 +3890,15 @@
         "item_name_snapshot": "საინფორმაციო დაფა №100",
         "assigned_room_snapshot": "სააქტო დარბაზი",
         "scanned_in_room_snapshot": "მუსიკის ოთახი"
+      },
+      {
+        "id": 3,
+        "inspection_id": 6,
+        "inventory_id": 53,
+        "item_code_snapshot": "EUR-000053",
+        "item_name_snapshot": "ხმის გამაძლიერებელი №53",
+        "assigned_room_snapshot": "საწყობი",
+        "scanned_in_room_snapshot": "მასწავლებლების ოთახი"
       }
     ],
     "transfers": [
@@ -5438,6 +5614,66 @@
         "reference_id": 5,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-15T15:24:30.646Z"
+      },
+      {
+        "id": 150,
+        "inventory_id": 52,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 151,
+        "inventory_id": 22,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 152,
+        "inventory_id": 11,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 153,
+        "inventory_id": 62,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 14",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 154,
+        "inventory_id": 21,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 155,
+        "inventory_id": 32,
+        "action": "ინვენტარიზაციის შემოწმება",
+        "details": "CHK-20261015-152716-50EE30: ფაქტობრივი რაოდენობა 1",
+        "reference_type": "inspection",
+        "reference_id": 6,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-15T15:27:16.924Z"
       }
     ],
     "app_metadata": [
