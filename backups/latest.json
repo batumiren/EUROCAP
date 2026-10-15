@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:47:51.075Z",
+  "exportedAt": "2026-10-15T09:49:31.364Z",
   "tables": {
     "rooms": [
       {
@@ -231,6 +231,11 @@
       {
         "id": 49,
         "name": "712 - მათემატიკის კათედრა",
+        "archived_at": null
+      },
+      {
+        "id": 50,
+        "name": "812 - ინფორმატიკის ოთახი",
         "archived_at": null
       }
     ],
