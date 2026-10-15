@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:04:21.691Z",
+  "exportedAt": "2026-10-15T09:05:11.291Z",
   "tables": {
     "rooms": [
       {
@@ -95,7 +95,7 @@
       },
       {
         "id": 22,
-        "name": "206 - არქივი",
+        "name": "205 - არქივი",
         "archived_at": null
       }
     ],
