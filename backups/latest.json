@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:40:33.845Z",
+  "exportedAt": "2026-10-15T09:41:54.705Z",
   "tables": {
     "rooms": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "id": 7,
-        "name": "ბიბლიოთეკა",
+        "name": "701 - ბიბლიოთეკა",
         "archived_at": null
       },
       {
