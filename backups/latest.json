@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T08:56:16.645Z",
+  "exportedAt": "2026-10-15T08:57:27.875Z",
   "tables": {
     "rooms": [
       {
@@ -71,6 +71,11 @@
       {
         "id": 17,
         "name": "201 - კანცელარია",
+        "archived_at": null
+      },
+      {
+        "id": 18,
+        "name": "200 - დირექცია",
         "archived_at": null
       }
     ],
