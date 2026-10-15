@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T12:55:20.621Z",
+  "exportedAt": "2026-10-15T15:21:10.141Z",
   "tables": {
     "rooms": [
       {
@@ -462,22 +462,12 @@
         "id": 95,
         "name": "805 - საკლასო ოთახი",
         "archived_at": null
-      },
-      {
-        "id": 96,
-        "name": "803 - საკლასო ოთახი",
-        "archived_at": null
-      },
-      {
-        "id": 97,
-        "name": "806 - საკლასო ოთახი",
-        "archived_at": null
       }
     ],
     "settings": [
       {
         "id": 1,
-        "operator_name": "ლაშა აბუსერიძე",
+        "operator_name": "ნინო თურმანიძე",
         "operator_email": "la@euro.edu.ge",
         "demo_data": 0
       }
