@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:05:11.291Z",
+  "exportedAt": "2026-10-15T09:05:45.870Z",
   "tables": {
     "rooms": [
       {
@@ -96,6 +96,11 @@
       {
         "id": 22,
         "name": "205 - არქივი",
+        "archived_at": null
+      },
+      {
+        "id": 23,
+        "name": "206 - ხელოვნება",
         "archived_at": null
       }
     ],
