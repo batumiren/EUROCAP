@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T11:35:35.295Z",
+  "exportedAt": "2026-10-15T11:36:28.923Z",
   "tables": {
     "rooms": [
       {
@@ -396,6 +396,11 @@
       {
         "id": 82,
         "name": "801 - დარბაზი (ცეკვა,სპორტი)",
+        "archived_at": null
+      },
+      {
+        "id": 83,
+        "name": "800 - საკლასო ოთახი",
         "archived_at": null
       }
     ],
