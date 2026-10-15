@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:46:28.253Z",
+  "exportedAt": "2026-10-15T09:47:51.075Z",
   "tables": {
     "rooms": [
       {
@@ -226,6 +226,11 @@
       {
         "id": 48,
         "name": "601 - სამასწავლებლო (საბაზო,საშუალო)",
+        "archived_at": null
+      },
+      {
+        "id": 49,
+        "name": "712 - მათემატიკის კათედრა",
         "archived_at": null
       }
     ],
