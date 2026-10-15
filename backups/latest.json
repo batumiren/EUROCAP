@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T08:58:51.502Z",
+  "exportedAt": "2026-10-15T09:02:48.752Z",
   "tables": {
     "rooms": [
       {
@@ -81,6 +81,11 @@
       {
         "id": 19,
         "name": "202 - სააქტო დარბაზი",
+        "archived_at": null
+      },
+      {
+        "id": 20,
+        "name": "203 - ბუღალტერია",
         "archived_at": null
       }
     ],
