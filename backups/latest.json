@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:28:13.290Z",
+  "exportedAt": "2026-10-15T09:28:31.850Z",
   "tables": {
     "rooms": [
       {
@@ -190,12 +190,17 @@
       },
       {
         "id": 41,
-        "name": "401 - საკლასო ოთახი",
+        "name": "400 - ფსიქოლოგი",
         "archived_at": null
       },
       {
         "id": 42,
-        "name": "403 - საკლასო ოთახი",
+        "name": "402 - საკლასო ოთახი",
+        "archived_at": null
+      },
+      {
+        "id": 43,
+        "name": "404 - საკლასო ოთახი",
         "archived_at": null
       }
     ],
