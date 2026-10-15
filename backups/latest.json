@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T09:03:35.216Z",
+  "exportedAt": "2026-10-15T09:04:21.691Z",
   "tables": {
     "rooms": [
       {
@@ -91,6 +91,11 @@
       {
         "id": 21,
         "name": "204 - მუსიკა",
+        "archived_at": null
+      },
+      {
+        "id": 22,
+        "name": "206 - არქივი",
         "archived_at": null
       }
     ],
