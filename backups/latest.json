@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-15T15:27:17.205Z",
+  "exportedAt": "2026-10-16T09:49:17.642Z",
   "tables": {
     "rooms": [
       {
@@ -3067,6 +3067,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-10-09T17:00:15.521Z"
+      },
+      {
+        "id": 174,
+        "code": "EUR-000174",
+        "name": "კომპიუტერი",
+        "room_id": 3,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "გამოყენებაში",
+        "notes": "პერსონალური კომპიუტერი",
+        "responsible_person": "ლაშა აბუსერიძე",
+        "registered_at": "2026-10-16T09:49:17.365Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-10-16T09:49:17.365Z"
       }
     ],
     "inventory_photos": [
@@ -5674,6 +5689,16 @@
         "reference_id": 6,
         "operator_email": "la@euro.edu.ge",
         "created_at": "2026-10-15T15:27:16.924Z"
+      },
+      {
+        "id": 156,
+        "inventory_id": 174,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "la@euro.edu.ge",
+        "created_at": "2026-10-16T09:49:17.365Z"
       }
     ],
     "app_metadata": [
