@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-16T11:03:24.134Z",
+  "exportedAt": "2026-10-16T11:04:36.016Z",
   "tables": {
     "rooms": [
       {
@@ -471,6 +471,11 @@
       {
         "id": 97,
         "name": "901 - ბიოლოგია, ქიმია, ფიზიკა",
+        "archived_at": null
+      },
+      {
+        "id": 98,
+        "name": "902 - სპორტის ოთახი",
         "archived_at": null
       }
     ],
