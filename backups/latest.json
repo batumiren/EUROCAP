@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-16T09:50:30.849Z",
+  "exportedAt": "2026-10-16T10:39:12.408Z",
   "tables": {
     "rooms": [
       {
@@ -461,6 +461,11 @@
       {
         "id": 95,
         "name": "805 - საკლასო ოთახი",
+        "archived_at": null
+      },
+      {
+        "id": 96,
+        "name": "709 - საკლასო ოთახი",
         "archived_at": null
       }
     ],
