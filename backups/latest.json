@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-16T11:04:36.016Z",
+  "exportedAt": "2026-10-16T11:07:43.489Z",
   "tables": {
     "rooms": [
       {
@@ -476,6 +476,11 @@
       {
         "id": 98,
         "name": "902 - სპორტის ოთახი",
+        "archived_at": null
+      },
+      {
+        "id": 99,
+        "name": "908 - ინფორმატიკის ოთახი",
         "archived_at": null
       }
     ],
