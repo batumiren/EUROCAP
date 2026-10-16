@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-10-16T11:07:43.489Z",
+  "exportedAt": "2026-10-16T11:08:42.877Z",
   "tables": {
     "rooms": [
       {
@@ -481,6 +481,11 @@
       {
         "id": 99,
         "name": "908 - ინფორმატიკის ოთახი",
+        "archived_at": null
+      },
+      {
+        "id": 100,
+        "name": "809 - ქ.მარინას კაბინეტი",
         "archived_at": null
       }
     ],
