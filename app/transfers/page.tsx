@@ -14,8 +14,6 @@ type Transfer = {
   quantity: number;
   source_room_snapshot: string;
   destination_room_snapshot: string;
-  sender: string;
-  recipient: string;
   reason: string;
 };
 
@@ -28,8 +26,6 @@ export default function TransfersPage() {
   const [sourceRoom, setSourceRoom] = useState("");
   const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
   const [destination, setDestination] = useState("");
-  const [sender, setSender] = useState("");
-  const [recipient, setRecipient] = useState("");
   const [reason, setReason] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
@@ -57,8 +53,6 @@ export default function TransfersPage() {
     setSourceRoom("");
     setSelectedIds(new Set());
     setDestination("");
-    setSender("");
-    setRecipient("");
     setReason("");
   }
 
@@ -80,8 +74,6 @@ export default function TransfersPage() {
         sourceRoomId: Number(sourceRoom),
         inventoryIds: [...selectedIds],
         destinationRoomId: Number(destination),
-        sender,
-        recipient,
         reason,
       }) as { created: number };
       setOpen(false);
@@ -106,7 +98,7 @@ export default function TransfersPage() {
       <input placeholder="საწყისი ან დანიშნულების ოთახი" aria-label="ოთახის ძებნა" value={filters.room} onChange={event => setFilters({ ...filters, room: event.target.value })} />
       <input type="date" aria-label="თარიღი" value={filters.date} onChange={event => setFilters({ ...filters, date: event.target.value })} />
     </div>
-    {!transfers.length ? <Empty>გადაადგილებების ისტორია ჯერ ცარიელია.</Empty> : <div className="table-wrap"><table><thead><tr>{["თარიღი", "ნივთის ID", "დასახელება", "რაოდენობა", "საიდან", "სად", "გადამცემი", "მიმღები", "საფუძველი"].map(heading => <th key={heading}>{heading}</th>)}</tr></thead><tbody>{transfers.map(transfer => <tr key={transfer.id}><td>{formatDate(transfer.created_at)}</td><td><b>{transfer.source_code_snapshot}</b>{transfer.source_code_snapshot !== transfer.destination_code_snapshot && <><br /><span className="text-xs text-slate-500">→ {transfer.destination_code_snapshot}</span></>}</td><td>{transfer.item_name_snapshot}</td><td>{transfer.quantity}</td><td>{transfer.source_room_snapshot}</td><td>{transfer.destination_room_snapshot}</td><td>{transfer.sender}</td><td>{transfer.recipient}</td><td className="max-w-xs whitespace-normal">{transfer.reason || "—"}</td></tr>)}</tbody></table></div>}
+    {!transfers.length ? <Empty>გადაადგილებების ისტორია ჯერ ცარიელია.</Empty> : <div className="table-wrap"><table><thead><tr>{["თარიღი", "ნივთის ID", "დასახელება", "რაოდენობა", "საიდან", "სად", "კომენტარი"].map(heading => <th key={heading}>{heading}</th>)}</tr></thead><tbody>{transfers.map(transfer => <tr key={transfer.id}><td>{formatDate(transfer.created_at)}</td><td><b>{transfer.source_code_snapshot}</b>{transfer.source_code_snapshot !== transfer.destination_code_snapshot && <><br /><span className="text-xs text-slate-500">→ {transfer.destination_code_snapshot}</span></>}</td><td>{transfer.item_name_snapshot}</td><td>{transfer.quantity}</td><td>{transfer.source_room_snapshot}</td><td>{transfer.destination_room_snapshot}</td><td className="max-w-xs whitespace-normal">{transfer.reason || "—"}</td></tr>)}</tbody></table></div>}
 
     {open && <Modal title="ახალი გადაადგილება" onClose={() => { setOpen(false); reset(); }}>
       <form onSubmit={submit} className="space-y-4">
@@ -121,11 +113,7 @@ export default function TransfersPage() {
         </div>}
 
         <label><span className="label">დანიშნულების ოთახი *</span><select required className="w-full" disabled={!sourceRoom} value={destination} onChange={event => setDestination(event.target.value)}><option value="">აირჩიეთ ოთახი</option>{rooms.filter(room => room.id !== Number(sourceRoom)).map(room => <option key={room.id} value={room.id}>{room.name}</option>)}</select></label>
-        <div className="grid gap-4 sm:grid-cols-2">
-          <label><span className="label">გადამცემი *</span><input required className="w-full" value={sender} onChange={event => setSender(event.target.value)} /></label>
-          <label><span className="label">მიმღები *</span><input required className="w-full" value={recipient} onChange={event => setRecipient(event.target.value)} /></label>
-        </div>
-        <label><span className="label">საფუძველი</span><textarea className="w-full" rows={3} value={reason} onChange={event => setReason(event.target.value)} /></label>
+        <label><span className="label">კომენტარი</span><textarea className="w-full" rows={3} value={reason} onChange={event => setReason(event.target.value)} /></label>
         {selectedIds.size > 0 && destinationRoomName && <div className="rounded-lg border border-blue-200 bg-blue-50 p-3 text-sm text-blue-950"><b>დადასტურება:</b> {selectedIds.size} ჩანაწერი, {sourceRoomName} → {destinationRoomName}</div>}
         <button className="btn-primary w-full" disabled={saving || selectedIds.size === 0 || !destination}>{saving ? "ინახება..." : "გადაადგილების დადასტურება"}</button>
       </form>

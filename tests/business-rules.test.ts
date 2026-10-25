@@ -69,15 +69,20 @@ describe("transfers", () => {
       VALUES (?,?,?,?,?,?,?,?,?,?,?,0)`);
     const now = new Date().toISOString();
     addPhoto.run(itemA, photoBlobPath("EUR-000001", 0), "EUR-000001.jpg", "კომპიუტერი.jpg", 800, 600, 90000, "image/jpeg", "ტესტი", now, "a".repeat(64));
-    const result = saveTransfers(db, { sourceRoomId: roomA, inventoryIds: [itemA, itemB], destinationRoomId: roomB, sender: "ანა", recipient: "გიორგი" });
+    const result = saveTransfers(db, { sourceRoomId: roomA, inventoryIds: [itemA, itemB], destinationRoomId: roomB });
     const rows = db.prepare("SELECT * FROM inventory ORDER BY id").all() as any[];
 
     expect(result.created).toBe(2);
     expect(rows.reduce((sum, row) => sum + row.quantity, 0)).toBe(10);
     expect(rows).toHaveLength(3);
-    expect(rows.filter(row => [itemA, itemB].includes(row.id)).every(row => row.room_id === roomB && row.responsible_person === "გიორგი")).toBe(true);
+    expect(rows.filter(row => [itemA, itemB].includes(row.id)).every(row => row.room_id === roomB && row.responsible_person === "ანა")).toBe(true);
     expect((db.prepare("SELECT count(*) AS count FROM transfers WHERE reason='' ").get() as any).count).toBe(2);
     expect((db.prepare("SELECT count(*) AS count FROM inventory_photos WHERE inventory_id=?").get(itemA) as any).count).toBe(1);
+  });
+
+  it("stores optional comments without sender or recipient fields", () => {
+    saveTransfers(db, { sourceRoomId: roomA, inventoryIds: [itemA], destinationRoomId: roomB, reason: "ოთახის განახლება" });
+    expect(db.prepare("SELECT sender,recipient,reason FROM transfers").get()).toEqual({ sender: "", recipient: "", reason: "ოთახის განახლება" });
   });
 
   it("rejects a mixed-room selection without moving any records", () => {
