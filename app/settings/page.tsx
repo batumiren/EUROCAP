@@ -2,6 +2,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { Badge, fetchJson, Notice, submitJson } from "@/components/ui";
 import { PasswordSettings } from "@/components/password-settings";
+import { InventoryImport } from "@/components/inventory-import";
 
 type Room={id:number;name:string;archived_at:string|null;active_items:number};
 export default function SettingsPage(){
@@ -16,6 +17,7 @@ export default function SettingsPage(){
     <div className="grid gap-6 lg:grid-cols-2"><section className="card p-5"><h2 className="mb-1 text-lg font-bold">ოპერატორის პროფილი</h2><p className="mb-5 text-sm text-slate-500">ეს ინფორმაცია ჩაიწერება ახალ მოქმედებებში.</p><form className="space-y-4" onSubmit={saveOperator}><label><span className="label">სახელი და გვარი *</span><input className="w-full" required value={operator.operator_name} onChange={e=>setOperator({...operator,operator_name:e.target.value})}/></label><label><span className="label">ელფოსტა *</span><input className="w-full" required type="email" value={operator.operator_email} onChange={e=>setOperator({...operator,operator_email:e.target.value})}/></label><button disabled={saving} className="btn-primary">{saving?"ინახება...":"პროფილის შენახვა"}</button></form></section>
       <section className="card p-5"><h2 className="mb-1 text-lg font-bold">ოთახების მართვა</h2><p className="mb-5 text-sm text-slate-500">აქტიური ინვენტარის მქონე ოთახი ვერ დაარქივდება.</p><form className="mb-5 flex gap-2" onSubmit={addRoom}><input className="min-w-0 flex-1" required name="name" placeholder="ახალი ოთახის დასახელება"/><button className="btn-primary">დამატება</button></form><div className="space-y-2">{rooms.map(room=><div key={room.id} className="flex items-center justify-between gap-3 rounded-lg border p-3"><div><p className="font-medium">{room.name}</p><p className="text-xs text-slate-500">აქტიური ჩანაწერი: {room.active_items}</p></div>{room.archived_at?<Badge>დაარქივებული</Badge>:<div className="flex gap-2"><button className="text-sm font-medium text-blue-700 hover:underline" onClick={()=>rename(room)}>გადარქმევა</button><button className="text-sm font-medium text-red-700 hover:underline" onClick={()=>archive(room)}>არქივი</button></div>}</div>)}</div></section></div>
     <section className="card mt-6 p-5"><h2 className="mb-1 text-lg font-bold">ინვენტარის ექსპორტი</h2><p className="mb-5 text-sm text-slate-500">ჩამოტვირთეთ სრული ინვენტარი, მათ შორის დაარქივებული ჩანაწერები.</p><div className="flex flex-wrap gap-2"><a className="btn-primary" href="/api/inventory/export?format=xlsx">XLSX ექსპორტი</a><a className="btn-secondary" href="/api/inventory/export?format=csv">CSV ექსპორტი</a></div></section>
+    <InventoryImport />
     <PasswordSettings />
   </div>;
 }
