@@ -1,8 +1,11 @@
 "use client";
 import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import { CONDITIONS, InventoryItem, STATUSES } from "@/lib/types";
-import { Badge, ConditionBadge, Empty, fetchJson, formatDate, Modal, Notice, submitJson } from "@/components/ui";
+import { fetchJson, formatDate, Modal, Notice, submitJson } from "@/components/ui";
 import { InventoryPhotos } from "@/components/inventory-photos";
+import { InventoryRegister } from "@/components/inventory-register";
+import "@fontsource-variable/noto-sans-georgian";
+import styles from "./register.module.css";
 
 type Room = { id: number; name: string };
 type Detail = { item: InventoryItem; inspections: any[]; transfers: any[]; history: any[] };
@@ -51,25 +54,44 @@ export default function InventoryPage() {
       else groups.set(key, { name, quantity: item.quantity });
     }
   }
-  return <div className="mx-auto max-w-[1600px]">
-    <div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><h1 className="text-2xl font-bold">ინვენტარი</h1><p className="mt-1 text-sm text-slate-500">აქტივების სრული აღრიცხვა ოთახების მიხედვით</p></div><div className="flex flex-wrap items-center gap-2"><button className="btn-secondary" disabled={loading} onClick={load}>{loading ? "ახლდება..." : "განახლება"}</button><span className="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm font-bold text-red-700">სულ {filteredUnitCount}</span><button className="btn-primary" onClick={() => { setSelected(null); setCreateMessage(""); setModal("create"); }}>+ ნივთის დამატება</button></div></div>
+  return <div className={`mx-auto max-w-[1600px] ${styles.workspace}`}>
+    <header className={styles.masthead}>
+      <div><p className={styles.eyebrow}>EURO INVENTORY</p><h1 className={styles.title}>ინვენტარი</h1><p className={styles.subtitle}>აქტივების სრული აღრიცხვა ოთახების მიხედვით</p></div>
+      <div className={styles.actions}>
+        <button type="button" className={styles.control} disabled={loading} onClick={load}>{loading ? "ახლდება..." : "განახლება"}</button>
+        <span className={styles.total}>სულ {filteredUnitCount}</span>
+        <button type="button" className={styles.primary} onClick={() => { setSelected(null); setCreateMessage(""); setModal("create"); }}>+ ნივთის დამატება</button>
+      </div>
+    </header>
     {message && <Notice message={message} />}{error && <Notice message={error} error />}
-    <div className="mb-6 grid gap-4 sm:grid-cols-3">
-      {[['აქტიური ჩანაწერები', summary.records, 'ჩანაწერი'], ['სულ ერთეული', summary.units, 'ერთეული'], ['საჭიროებს შეკეთებას', summary.repairs || 0, 'ჩანაწერი']].map(([label, value, unit]) => <div className="card p-5" key={String(label)}><p className="text-sm font-medium text-slate-500">{label}</p><div className="mt-2 flex items-baseline gap-2"><strong className="text-3xl">{value}</strong><span className="text-xs text-slate-400">{unit}</span></div></div>)}
+    <dl className={styles.stats}>
+      {[["აქტიური ჩანაწერები", summary.records, "ჩანაწერი"], ["სულ ერთეული", summary.units, "ერთეული"], ["საჭიროებს შეკეთებას", summary.repairs || 0, "ჩანაწერი"]].map(([label, value, unit]) => <div key={label}><dt>{label}</dt><dd><strong>{value}</strong><span>{unit}</span></dd></div>)}
+    </dl>
+    <div className={styles.filters} role="group" aria-label="ინვენტარის ფილტრები">
+      <label className={`${styles.field} ${styles.searchField}`}><span>ძებნა</span><input type="search" placeholder="კოდი ან დასახელება" value={filters.search} onChange={e => setFilters({ ...filters, search: e.target.value })} /></label>
+      <label className={`${styles.field} ${styles.roomField}`}><span>ოთახი</span><select aria-label="ოთახი" value={filters.room} onChange={e => setFilters({ ...filters, room: e.target.value })}><option value="">ყველა ოთახი</option>{rooms.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}</select></label>
+      <label className={styles.field}><span>მდგომარეობა</span><select aria-label="მდგომარეობა" value={filters.condition} onChange={e => setFilters({ ...filters, condition: e.target.value })}><option value="">ყველა მდგომარეობა</option>{CONDITIONS.map(v => <option key={v}>{v}</option>)}</select></label>
+      <label className={styles.field}><span>სტატუსი</span><select aria-label="სტატუსი" value={filters.status} onChange={e => setFilters({ ...filters, status: e.target.value })}><option value="">ყველა სტატუსი</option>{STATUSES.map(v => <option key={v}>{v}</option>)}</select></label>
+      <div className={styles.toggles}><label><input type="checkbox" checked={filters.archived} onChange={e => setFilters({ ...filters, archived: e.target.checked })} /> არქივი</label><label><input type="checkbox" checked={grouped} onChange={e => setGrouped(e.target.checked)} /> დაჯგუფება</label></div>
     </div>
-    <div className="card mb-5 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)_auto] [&>input]:min-w-0 [&>select]:min-w-0">
-      <input aria-label="ძებნა" placeholder="კოდი ან დასახელება" value={filters.search} onChange={e => setFilters({ ...filters, search: e.target.value })} />
-      <select aria-label="ოთახი" value={filters.room} onChange={e => setFilters({ ...filters, room: e.target.value })}><option value="">ყველა ოთახი</option>{rooms.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}</select>
-      <select aria-label="მდგომარეობა" value={filters.condition} onChange={e => setFilters({ ...filters, condition: e.target.value })}><option value="">ყველა მდგომარეობა</option>{CONDITIONS.map(v => <option key={v}>{v}</option>)}</select>
-      <select aria-label="სტატუსი" value={filters.status} onChange={e => setFilters({ ...filters, status: e.target.value })}><option value="">ყველა სტატუსი</option>{STATUSES.map(v => <option key={v}>{v}</option>)}</select>
-      <div className="flex gap-3 whitespace-nowrap"><label className="flex items-center gap-2 rounded-lg border px-3 py-2 text-sm"><input type="checkbox" checked={filters.archived} onChange={e => setFilters({ ...filters, archived: e.target.checked })} /> არქივი</label><label className="flex items-center gap-2 rounded-lg border px-3 py-2 text-sm"><input type="checkbox" checked={grouped} onChange={e => setGrouped(e.target.checked)} /> დაჯგუფება</label></div>
+    <div className={styles.utilities}>
+      <div>
+        {filters.room ? <a className={styles.passportAction} href={`/api/rooms/passports?roomId=${encodeURIComponent(filters.room)}`} target="_blank" rel="noopener noreferrer">ოთახის პასპორტის ბეჭდვა</a> : <button type="button" className={styles.passportAction} disabled title="ჯერ აირჩიეთ ოთახი">ოთახის პასპორტის ბეჭდვა</button>}
+        <a className={styles.passportAction} href="/api/rooms/passports" target="_blank" rel="noopener noreferrer">ყველა ოთახის პასპორტი</a>
+      </div>
+      <span className={styles.subtitle}>სრული აქტიური ინვენტარი · A4 / PDF</span>
     </div>
-    <div className="mb-5 flex flex-wrap items-center gap-2">
-      {filters.room ? <a className="btn-secondary" href={`/api/rooms/passports?roomId=${encodeURIComponent(filters.room)}`} target="_blank" rel="noopener noreferrer">ოთახის პასპორტის ბეჭდვა</a> : <button className="btn-secondary" disabled title="ჯერ აირჩიეთ ოთახი">ოთახის პასპორტის ბეჭდვა</button>}
-      <a className="btn-secondary" href="/api/rooms/passports" target="_blank" rel="noopener noreferrer">ყველა ოთახის პასპორტი</a>
-      <span className="text-xs text-slate-500">სრული აქტიური ინვენტარი · A4 / PDF</span>
-    </div>
-    {loading ? <div className="card p-12 text-center text-slate-500">იტვირთება...</div> : items.length === 0 ? <Empty>შერჩეული პირობებით ჩანაწერები არ მოიძებნა.</Empty> : grouped ? <div className="table-wrap"><table><thead><tr><th>დასახელება</th><th>რაოდენობა</th></tr></thead><tbody>{Array.from(groups, ([key, group]) => <tr key={key} className="hover:bg-slate-50"><td className="max-w-64 whitespace-normal font-medium"><span className="inventory-clamp" title={group.name}>{group.name}</span></td><td>{group.quantity}</td></tr>)}</tbody></table></div> : <><div className="table-wrap"><table><thead><tr>{["ნივთის კოდი","დასახელება","ოთახი","რაოდენობა","მდგომარეობა","სტატუსი","ბოლო შემოწმების თარიღი","აღწერა / შენიშვნა","პასუხისმგებელი პირი","რეგისტრაციის თარიღი", "მოქმედებები"].map(h => <th key={h}>{h}</th>)}</tr></thead><tbody>{visibleItems.map(item => <tr key={item.id} className="hover:bg-slate-50"><td><button className="font-semibold text-blue-700 hover:underline" onClick={() => openDetail(item)}>{item.code}</button></td><td className="max-w-64 whitespace-normal font-medium"><span className="inventory-clamp" title={item.name}>{item.name}</span></td><td className="max-w-48 whitespace-normal"><span className="inventory-clamp" title={item.room_name}>{item.room_name}</span></td><td>{item.quantity}</td><td><ConditionBadge value={item.condition} /></td><td><Badge tone={item.status === "გამოყენებაში" ? "blue" : "slate"}>{item.status}</Badge></td><td>{formatDate(item.last_inspected_at)}</td><td className="max-w-xs whitespace-normal text-slate-600"><span className="inventory-clamp" title={item.notes || undefined}>{item.notes || "—"}</span></td><td className="max-w-48 whitespace-normal"><span className="inventory-clamp" title={item.responsible_person || undefined}>{item.responsible_person || "—"}</span></td><td>{formatDate(item.registered_at)}</td><td><div className="flex gap-2">{item.archived_at ? <Badge>მხოლოდ ისტორია</Badge> : <><button className="text-blue-700 hover:underline" onClick={() => { setSelected(item); setModal("edit"); }}>რედაქტირება</button><button className="text-red-700 hover:underline" onClick={() => archive(item)}>არქივი</button></>}</div></td></tr>)}</tbody></table></div>{!filters.room && visibleCount<items.length&&<div className="mt-4 flex flex-col items-center gap-2"><button className="btn-secondary min-w-40" onClick={()=>setVisibleCount(count=>count+10)}>მეტი ↓</button><p className="text-xs text-slate-500">ნაჩვენებია {Math.min(visibleCount,items.length)} / {items.length} ჩანაწერი</p></div>}</>}
+    <section className={styles.results} aria-label="ინვენტარის ჩანაწერები" aria-busy={loading}>
+      {loading ? <p className={styles.feedback} role="status">იტვირთება...</p> : !items.length ? <p className={styles.feedback}>შერჩეული პირობებით ჩანაწერები არ მოიძებნა.</p> : grouped ? (
+        <table className={`${styles.ledger} ${styles.grouped}`}>
+          <thead><tr><th scope="col">დასახელება</th><th scope="col" className={styles.quantity}>რაოდენობა</th></tr></thead>
+          <tbody>{Array.from(groups, ([key, group]) => <tr key={key}><td><span className={styles.clamp} title={group.name}>{group.name}</span></td><td className={styles.quantity}>{group.quantity}</td></tr>)}</tbody>
+        </table>
+      ) : <>
+        <InventoryRegister items={visibleItems} onOpen={openDetail} onEdit={item => { setSelected(item); setModal("edit"); }} onArchive={archive} />
+        {!filters.room && visibleCount < items.length && <div className={styles.pagination}><p className={styles.subtitle}>ნაჩვენებია {visibleItems.length} / {items.length} ჩანაწერი</p><button type="button" className={styles.control} onClick={() => setVisibleCount(count => count + 10)}>მეტი ↓</button></div>}
+      </>}
+    </section>
     {(modal === "create" || modal === "edit") && <Modal title={modal === "create" ? "ახალი ნივთის დამატება" : `რედაქტირება: ${selected?.code}`} onClose={() => setModal(null)}><ItemForm item={modal === "edit" ? selected : null} rooms={rooms} saving={saving} nextCode={nextCode} createMessage={createMessage} onSubmit={submitItem} /></Modal>}
     {modal === "detail" && <Modal title={`ნივთის დეტალები: ${selected?.code}`} onClose={() => {detailRequest.current++;setModal(null);}} wide>{!detail ? <p className="py-8 text-center text-slate-500">იტვირთება...</p> : <DetailView data={detail} onPhotoCountChange={(count)=>{setDetail(current=>current?{...current,item:{...current.item,photoCount:count}}:current);setItems(current=>current.map(item=>item.id===detail.item.id?{...item,photoCount:count}:item));}} />}</Modal>}
   </div>;

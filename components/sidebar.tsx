@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import type { AuthUser } from "@/lib/auth";
+import register from "@/app/inventory/register.module.css";
 
 const links = [
   ["/inventory", "ინვენტარი", "▦"], ["/inspections", "შემოწმება", "✓"],
@@ -20,6 +21,21 @@ export function Sidebar({ user }: { user: AuthUser }) {
       window.location.assign("/login");
     } catch (error) { setError(error instanceof Error ? error.message : "გამოსვლა ვერ მოხერხდა."); setLoggingOut(false); }
   }
+  if (path === "/inventory" && user.role === "admin") return (
+    <aside className={register.navigation}>
+      <div className={register.navIdentity}>
+        <div><strong>EURO Inventory</strong><p>ინვენტარის მართვა</p></div>
+        <div className={register.navAccount}>
+          <span>{user.username}</span>
+          <button type="button" disabled={loggingOut} onClick={logout}>{loggingOut ? "მიმდინარეობს..." : "გამოსვლა"}</button>
+        </div>
+      </div>
+      <nav aria-label="მთავარი მენიუ">
+        {links.map(([href, label]) => <Link key={href} href={href} aria-current={path === href ? "page" : undefined}>{label}</Link>)}
+      </nav>
+      {error && <p className="text-sm text-red-800" role="alert">{error}</p>}
+    </aside>
+  );
   return <aside className="border-b bg-slate-950 text-white md:min-h-screen md:w-64 md:border-b-0 md:border-r">
     <div className="flex h-20 items-center px-6"><div><strong className="text-lg tracking-wide">EURO Inventory</strong><p className="text-xs text-slate-400">ინვენტარის მართვა</p></div></div>
     <nav className="flex gap-1 overflow-x-auto px-3 pb-3 md:block md:space-y-1 md:pb-0">
