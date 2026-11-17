@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-17T12:32:26.189Z",
+  "exportedAt": "2026-11-17T12:35:22.115Z",
   "tables": {
     "rooms": [
       {
@@ -483,7 +483,7 @@
       {
         "id": 1,
         "operator_name": "ლაშა აბუსერიძე",
-        "operator_email": "la@euro.edu.ge",
+        "operator_email": "lasha@euro.edu.ge",
         "demo_data": 0
       }
     ],
