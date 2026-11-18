@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:29:34.956Z",
+  "exportedAt": "2026-11-18T09:31:50.180Z",
   "tables": {
     "rooms": [
       {
@@ -6907,6 +6907,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:29:34.633Z"
+      },
+      {
+        "id": 428,
+        "code": "EUR-000428",
+        "name": "ბალახის საკრეჭი აპარატი K-PAX 5200",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0135702825, (61001017972) ნუგზარ ალიშანიძე, 18.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:31:49.903Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:31:49.903Z"
       }
     ],
     "inventory_photos": [],
@@ -11205,6 +11220,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:29:34.633Z"
+      },
+      {
+        "id": 430,
+        "inventory_id": 428,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:31:49.903Z"
       }
     ],
     "app_metadata": [
