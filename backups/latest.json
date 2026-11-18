@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T11:22:11.992Z",
+  "exportedAt": "2026-11-18T11:27:50.059Z",
   "tables": {
     "rooms": [
       {
@@ -9382,6 +9382,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T11:22:11.600Z"
+      },
+      {
+        "id": 593,
+        "code": "EUR-000593",
+        "name": "ფოტოაპარატი (Digital Camera/ Canon EOS/ 700D EF-S 18-55 III DC   , 18.5MP,  DIGIC V, 3.0\" LCD)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0213528811,  (211380691) შპს ალტა, 23.12.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T11:27:49.736Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T11:27:49.736Z"
       }
     ],
     "inventory_photos": [],
@@ -15350,6 +15365,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T11:22:11.600Z"
+      },
+      {
+        "id": 597,
+        "inventory_id": 593,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T11:27:49.736Z"
       }
     ],
     "app_metadata": [
