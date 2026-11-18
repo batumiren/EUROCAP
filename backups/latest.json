@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:59:17.513Z",
+  "exportedAt": "2026-11-18T10:33:36.667Z",
   "tables": {
     "rooms": [
       {
@@ -9217,6 +9217,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:59:17.092Z"
+      },
+      {
+        "id": 582,
+        "code": "EUR-000582",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 583,
+        "code": "EUR-000583",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 584,
+        "code": "EUR-000584",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 585,
+        "code": "EUR-000585",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 586,
+        "code": "EUR-000586",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 587,
+        "code": "EUR-000587",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 588,
+        "code": "EUR-000588",
+        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T10:33:36.344Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T10:33:36.344Z"
       }
     ],
     "inventory_photos": [],
@@ -15055,6 +15160,76 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:59:17.092Z"
+      },
+      {
+        "id": 584,
+        "inventory_id": 582,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 585,
+        "inventory_id": 583,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 586,
+        "inventory_id": 584,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 587,
+        "inventory_id": 585,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 588,
+        "inventory_id": 586,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 589,
+        "inventory_id": 587,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
+      },
+      {
+        "id": 590,
+        "inventory_id": 588,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T10:33:36.344Z"
       }
     ],
     "app_metadata": [
