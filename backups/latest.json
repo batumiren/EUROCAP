@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T12:24:29.629Z",
+  "exportedAt": "2026-11-18T12:25:58.829Z",
   "tables": {
     "rooms": [
       {
@@ -13282,6 +13282,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T12:24:29.271Z"
+      },
+      {
+        "id": 853,
+        "code": "EUR-000853",
+        "name": "კომპიუტერის პროცესორი (Core I5 4460 3.2GHz 6MB/Asus B85M-K/ATX Q2B/DDR III 8GB/Inno3D G/F GT 730 2GB)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0246303843, (245439271) შპს ივიჯი, 28.06.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T12:25:58.432Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T12:25:58.432Z"
       }
     ],
     "inventory_photos": [],
@@ -21850,6 +21865,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T12:24:29.271Z"
+      },
+      {
+        "id": 857,
+        "inventory_id": 853,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T12:25:58.432Z"
       }
     ],
     "app_metadata": [
