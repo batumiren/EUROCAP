@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T11:08:14.849Z",
+  "exportedAt": "2026-11-18T11:22:11.992Z",
   "tables": {
     "rooms": [
       {
@@ -9367,6 +9367,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T11:06:37.885Z"
+      },
+      {
+        "id": 592,
+        "code": "EUR-000592",
+        "name": "მობილური ტელეფონი (iPhone 6 64GB Space Gray)",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "დაზიანებული",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0180949633, (205274148) შპს iPhone+, 25.06.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T11:22:11.600Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T11:22:11.600Z"
       }
     ],
     "inventory_photos": [],
@@ -15325,6 +15340,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T11:08:14.529Z"
+      },
+      {
+        "id": 596,
+        "inventory_id": 592,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T11:22:11.600Z"
       }
     ],
     "app_metadata": [
