@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T11:03:37.966Z",
+  "exportedAt": "2026-11-18T11:06:38.383Z",
   "tables": {
     "rooms": [
       {
@@ -9352,6 +9352,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T11:03:37.611Z"
+      },
+      {
+        "id": 591,
+        "code": "EUR-000591",
+        "name": "მობილური ტელეფონი (Mobile and Smartphones/ Apple/ Apple iPhone 6 Grey 16 GB)",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "დაზიანებული",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0177772635, (211380691) შპს ალტა, 08.06.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T11:06:37.885Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T11:06:37.885Z"
       }
     ],
     "inventory_photos": [],
@@ -15280,6 +15295,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T11:03:37.611Z"
+      },
+      {
+        "id": 593,
+        "inventory_id": 591,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T11:06:37.885Z"
       }
     ],
     "app_metadata": [
