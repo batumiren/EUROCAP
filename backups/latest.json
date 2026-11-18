@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T07:47:51.395Z",
+  "exportedAt": "2026-11-18T07:49:42.312Z",
   "tables": {
     "rooms": [
       {
@@ -3682,6 +3682,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 213,
+        "code": "EUR-000213",
+        "name": "თარო კუთხის ღია",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:49:41.976Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:49:41.976Z"
+      },
+      {
+        "id": 214,
+        "code": "EUR-000214",
+        "name": "თარო კუთხის ღია",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:49:41.976Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:49:41.976Z"
       }
     ],
     "inventory_photos": [],
@@ -5810,6 +5840,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 213,
+        "inventory_id": 213,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:49:41.976Z"
+      },
+      {
+        "id": 214,
+        "inventory_id": 214,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:49:41.976Z"
       }
     ],
     "app_metadata": [
