@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T07:13:37.740Z",
+  "exportedAt": "2026-11-18T07:17:23.665Z",
   "tables": {
     "rooms": [
       {
@@ -547,6 +547,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T07:13:37.459Z"
+      },
+      {
+        "id": 4,
+        "code": "EUR-000004",
+        "name": "ხმის გამაძლიერებელი დინამიკი (BEHRINGER EPA300)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0003941346, (204920906) შპს მი-ფა-სი, 19.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:17:23.405Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:17:23.405Z"
       }
     ],
     "inventory_photos": [],
@@ -585,6 +600,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T07:13:37.459Z"
+      },
+      {
+        "id": 4,
+        "inventory_id": 4,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:17:23.405Z"
       }
     ],
     "app_metadata": [
