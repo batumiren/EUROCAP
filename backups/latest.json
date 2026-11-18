@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T13:53:02.014Z",
+  "exportedAt": "2026-11-18T13:54:22.202Z",
   "tables": {
     "rooms": [
       {
@@ -13807,6 +13807,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T13:53:01.558Z"
+      },
+      {
+        "id": 888,
+        "code": "EUR-000888",
+        "name": "კონდიციონერი (Daewoo DSB-F0985ELH)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0247408495, (245439994) შპს მეფა, 04.07.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T13:54:21.815Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T13:54:21.815Z"
       }
     ],
     "inventory_photos": [],
@@ -22725,6 +22740,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T13:53:01.558Z"
+      },
+      {
+        "id": 892,
+        "inventory_id": 888,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T13:54:21.815Z"
       }
     ],
     "app_metadata": [
