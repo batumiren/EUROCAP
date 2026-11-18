@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T13:19:09.943Z",
+  "exportedAt": "2026-11-18T13:22:41.174Z",
   "tables": {
     "rooms": [
       {
@@ -13372,6 +13372,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T13:19:09.407Z"
+      },
+      {
+        "id": 859,
+        "code": "EUR-000859",
+        "name": "კომპიუტერის მონიტორი (Dell E2316H Monitor 23\", Full HD 1920x1080, 16:9, 250cd/m2, 5ms, 170/160, VGA, Black)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0246716946, (245439271) შპს ივიჯი, 30.06.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T13:22:40.663Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T13:22:40.663Z"
       }
     ],
     "inventory_photos": [],
@@ -22000,6 +22015,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T13:19:09.407Z"
+      },
+      {
+        "id": 863,
+        "inventory_id": 859,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T13:22:40.663Z"
       }
     ],
     "app_metadata": [
