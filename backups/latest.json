@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:03:02.036Z",
+  "exportedAt": "2026-11-18T09:04:55.059Z",
   "tables": {
     "rooms": [
       {
@@ -6007,6 +6007,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:03:01.682Z"
+      },
+      {
+        "id": 368,
+        "code": "EUR-000368",
+        "name": "მიკროფონი (Defender Wireless Microphone MIC142 64142)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0114948136, (245439271) შპს ივიჯი, 14.05.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:04:54.740Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:04:54.740Z"
       }
     ],
     "inventory_photos": [],
@@ -9705,6 +9720,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:03:01.682Z"
+      },
+      {
+        "id": 370,
+        "inventory_id": 368,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:04:54.740Z"
       }
     ],
     "app_metadata": [
