@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T07:43:58.760Z",
+  "exportedAt": "2026-11-18T07:47:51.395Z",
   "tables": {
     "rooms": [
       {
@@ -3592,6 +3592,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T07:43:58.421Z"
+      },
+      {
+        "id": 207,
+        "code": "EUR-000207",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 208,
+        "code": "EUR-000208",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 209,
+        "code": "EUR-000209",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 210,
+        "code": "EUR-000210",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 211,
+        "code": "EUR-000211",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 212,
+        "code": "EUR-000212",
+        "name": "კარადა ღია თაროებით (წიგნების)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0036785206, (200274381) შპს იტალიური სკოლა, 25.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:47:51.137Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:47:51.137Z"
       }
     ],
     "inventory_photos": [],
@@ -5660,6 +5750,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T07:43:58.421Z"
+      },
+      {
+        "id": 207,
+        "inventory_id": 207,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 208,
+        "inventory_id": 208,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 209,
+        "inventory_id": 209,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 210,
+        "inventory_id": 210,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 211,
+        "inventory_id": 211,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
+      },
+      {
+        "id": 212,
+        "inventory_id": 212,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:47:51.137Z"
       }
     ],
     "app_metadata": [
