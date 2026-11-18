@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T13:25:14.309Z",
+  "exportedAt": "2026-11-18T13:26:54.621Z",
   "tables": {
     "rooms": [
       {
@@ -13402,6 +13402,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T13:25:13.910Z"
+      },
+      {
+        "id": 861,
+        "code": "EUR-000861",
+        "name": "კომპიუტერის პროცესორი (ITD X-14 Case with Power Supply 420W )",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ITD X-14 Case with Power Supply 420W",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T13:26:54.256Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T13:26:54.256Z"
       }
     ],
     "inventory_photos": [],
@@ -22050,6 +22065,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T13:25:13.910Z"
+      },
+      {
+        "id": 865,
+        "inventory_id": 861,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T13:26:54.256Z"
       }
     ],
     "app_metadata": [
