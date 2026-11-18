@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:19:24.248Z",
+  "exportedAt": "2026-11-18T09:21:46.179Z",
   "tables": {
     "rooms": [
       {
@@ -6787,6 +6787,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:19:23.952Z"
+      },
+      {
+        "id": 420,
+        "code": "EUR-000420",
+        "name": "კომპიუტერის დინამიკი (SP-i165 White, Genius, Portable Speaker, 2W, USB, Li-ion Battery)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0147332171, (448386425) შპს  csc batumi, 28.11.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:21:45.857Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:21:45.857Z"
       }
     ],
     "inventory_photos": [],
@@ -11005,6 +11020,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:19:23.952Z"
+      },
+      {
+        "id": 422,
+        "inventory_id": 420,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:21:45.857Z"
       }
     ],
     "app_metadata": [
