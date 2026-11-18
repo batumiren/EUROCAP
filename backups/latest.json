@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T08:52:11.867Z",
+  "exportedAt": "2026-11-18T08:54:18.992Z",
   "tables": {
     "rooms": [
       {
@@ -5932,6 +5932,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T08:52:11.542Z"
+      },
+      {
+        "id": 363,
+        "code": "EUR-000363",
+        "name": "კომპიუტერის დინამიკი (Speaker/ Genius/ SP-J200)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T08:54:18.673Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T08:54:18.673Z"
+      },
+      {
+        "id": 364,
+        "code": "EUR-000364",
+        "name": "კომპიუტერის დინამიკი (Speaker/ Genius/ SP-J200)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T08:54:18.673Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T08:54:18.673Z"
       }
     ],
     "inventory_photos": [],
@@ -9580,6 +9610,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T08:52:11.542Z"
+      },
+      {
+        "id": 365,
+        "inventory_id": 363,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T08:54:18.673Z"
+      },
+      {
+        "id": 366,
+        "inventory_id": 364,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T08:54:18.673Z"
       }
     ],
     "app_metadata": [
