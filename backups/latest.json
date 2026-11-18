@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:15:25.121Z",
+  "exportedAt": "2026-11-18T09:16:44.322Z",
   "tables": {
     "rooms": [
       {
@@ -6667,6 +6667,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:15:24.765Z"
+      },
+      {
+        "id": 412,
+        "code": "EUR-000412",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 413,
+        "code": "EUR-000413",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 414,
+        "code": "EUR-000414",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 415,
+        "code": "EUR-000415",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 416,
+        "code": "EUR-000416",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 417,
+        "code": "EUR-000417",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 418,
+        "code": "EUR-000418",
+        "name": "სავარძელი (პლასტმასის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 1014747345, (245599348) შპს სეფა, 07.03.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:16:43.930Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:16:43.930Z"
       }
     ],
     "inventory_photos": [],
@@ -10805,6 +10910,76 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:15:24.765Z"
+      },
+      {
+        "id": 414,
+        "inventory_id": 412,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 415,
+        "inventory_id": 413,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 416,
+        "inventory_id": 414,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 417,
+        "inventory_id": 415,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 418,
+        "inventory_id": 416,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 419,
+        "inventory_id": 417,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 420,
+        "inventory_id": 418,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:16:43.930Z"
       }
     ],
     "app_metadata": [
