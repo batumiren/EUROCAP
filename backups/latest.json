@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T09:16:44.322Z",
+  "exportedAt": "2026-11-18T09:19:24.248Z",
   "tables": {
     "rooms": [
       {
@@ -6772,6 +6772,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 419,
+        "code": "EUR-000419",
+        "name": "ნოუტბუკი (Notebook/ Sony VAIO/ S 13Pro 13.3\" HD+ Intel Core i7-3540M 3.0/3.7GHz 6GB 128GB SSD DVDRW GeForce GT 640M 1GB BT Wlan Windows 8 Professional)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0111933699, (211380691) შპს ალტა, 25.04.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T09:19:23.952Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T09:19:23.952Z"
       }
     ],
     "inventory_photos": [],
@@ -10980,6 +10995,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T09:16:43.930Z"
+      },
+      {
+        "id": 421,
+        "inventory_id": 419,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T09:19:23.952Z"
       }
     ],
     "app_metadata": [
