@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T06:53:04.158Z",
+  "exportedAt": "2026-11-18T06:53:11.457Z",
   "tables": {
     "rooms": [
       {
@@ -480,7 +480,7 @@
       },
       {
         "id": 109,
-        "name": "ჩამოსაწერი",
+        "name": "ჩამოწერილი",
         "archived_at": null
       }
     ],
