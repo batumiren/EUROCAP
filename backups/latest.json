@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T13:30:52.725Z",
+  "exportedAt": "2026-11-18T13:39:39.207Z",
   "tables": {
     "rooms": [
       {
@@ -13732,6 +13732,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T13:30:52.085Z"
+      },
+      {
+        "id": 883,
+        "code": "EUR-000883",
+        "name": "WiFi როუტერი (TL-WR841N, TP-Link)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0228261407, (448386425) შპს  csc batumi, 24.03.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T13:39:38.730Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T13:39:38.730Z"
       }
     ],
     "inventory_photos": [],
@@ -22600,6 +22615,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T13:30:52.085Z"
+      },
+      {
+        "id": 887,
+        "inventory_id": 883,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T13:39:38.730Z"
       }
     ],
     "app_metadata": [
