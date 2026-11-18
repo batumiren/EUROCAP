@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T11:02:15.771Z",
+  "exportedAt": "2026-11-18T11:03:37.966Z",
   "tables": {
     "rooms": [
       {
@@ -9337,6 +9337,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T11:02:15.370Z"
+      },
+      {
+        "id": 590,
+        "code": "EUR-000590",
+        "name": "ხაზის ტელეფონი 10161",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0182600025, (448384882) შპს კანცელარიის სამყარო, 04.07.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T11:03:37.611Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T11:03:37.611Z"
       }
     ],
     "inventory_photos": [],
@@ -15255,6 +15270,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T11:02:15.370Z"
+      },
+      {
+        "id": 592,
+        "inventory_id": 590,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T11:03:37.611Z"
       }
     ],
     "app_metadata": [
