@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T07:35:31.562Z",
+  "exportedAt": "2026-11-18T07:39:17.396Z",
   "tables": {
     "rooms": [
       {
@@ -3562,6 +3562,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T07:35:31.243Z"
+      },
+      {
+        "id": 205,
+        "code": "EUR-000205",
+        "name": "საოფისე სავარძელი ბორბლებზე",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0035675408, (245599348) შპს სეფა, 18.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T07:39:17.136Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T07:39:17.136Z"
       }
     ],
     "inventory_photos": [],
@@ -5610,6 +5625,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T07:35:31.243Z"
+      },
+      {
+        "id": 205,
+        "inventory_id": 205,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T07:39:17.136Z"
       }
     ],
     "app_metadata": [
