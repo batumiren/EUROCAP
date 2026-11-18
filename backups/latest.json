@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T08:07:08.508Z",
+  "exportedAt": "2026-11-18T08:09:26.689Z",
   "tables": {
     "rooms": [
       {
@@ -3742,6 +3742,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T08:07:08.219Z"
+      },
+      {
+        "id": 217,
+        "code": "EUR-000217",
+        "name": "პრინტერი HP LaserJet M1132 MFP (CE847A) Printer-Scanner-Copier A4 18ppm 8000p/month",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0048675898, (245439271) შპს ივიჯი, 18.01.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T08:09:26.405Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T08:09:26.405Z"
       }
     ],
     "inventory_photos": [],
@@ -5910,6 +5925,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T08:07:08.219Z"
+      },
+      {
+        "id": 217,
+        "inventory_id": 217,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T08:09:26.405Z"
       }
     ],
     "app_metadata": [
