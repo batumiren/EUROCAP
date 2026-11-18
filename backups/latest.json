@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T13:39:39.207Z",
+  "exportedAt": "2026-11-18T13:45:43.053Z",
   "tables": {
     "rooms": [
       {
@@ -13747,6 +13747,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-18T13:39:38.730Z"
+      },
+      {
+        "id": 884,
+        "code": "EUR-000884",
+        "name": "WiFi როუტერი (RB2011UiAS-IN)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 202441189, (202441189) შპს ინტელკომ ჯგუფი, 16.11.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T13:45:42.603Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-18T13:45:42.603Z"
       }
     ],
     "inventory_photos": [],
@@ -22625,6 +22640,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T13:39:38.730Z"
+      },
+      {
+        "id": 888,
+        "inventory_id": 884,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T13:45:42.603Z"
       }
     ],
     "app_metadata": [
