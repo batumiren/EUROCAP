@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-18T11:07:09.343Z",
+  "exportedAt": "2026-11-18T11:07:53.982Z",
   "tables": {
     "rooms": [
       {
@@ -9206,7 +9206,7 @@
       {
         "id": 581,
         "code": "EUR-000581",
-        "name": "მობილური პელეფონი (Mobile and Smartphones/ Samsung/ Samsung I9500 Galaxy S4 Black 16GB mSD; 1920x1080)",
+        "name": "მობილური ტელეფონი (Mobile and Smartphones/ Samsung/ Samsung I9500 Galaxy S4 Black 16GB mSD; 1920x1080)",
         "room_id": 110,
         "quantity": 1,
         "condition": "დაზიანებული",
@@ -9216,7 +9216,7 @@
         "registered_at": "2026-11-18T09:59:17.092Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T09:59:17.092Z"
+        "updated_at": "2026-11-18T11:07:52.648Z"
       },
       {
         "id": 582,
@@ -15315,6 +15315,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-18T11:07:08.996Z"
+      },
+      {
+        "id": 595,
+        "inventory_id": 581,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-18T11:07:52.648Z"
       }
     ],
     "app_metadata": [
