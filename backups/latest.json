@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:50:40.057Z",
+  "exportedAt": "2026-11-20T12:51:02.588Z",
   "tables": {
     "rooms": [
       {
@@ -5546,7 +5546,7 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:50:39.808Z"
+        "updated_at": "2026-11-20T12:51:02.174Z"
       },
       {
         "id": 337,
@@ -27064,7 +27064,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:50:39.808Z"
+        "created_at": "2026-11-20T12:51:02.174Z"
       }
     ],
     "app_metadata": [
