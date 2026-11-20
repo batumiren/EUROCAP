@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:58:07.628Z",
+  "exportedAt": "2026-11-20T12:58:20.972Z",
   "tables": {
     "rooms": [
       {
@@ -5405,13 +5405,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:50:28.640Z"
+        "updated_at": "2026-11-20T12:58:20.560Z"
       },
       {
         "id": 328,
@@ -5420,13 +5420,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:58:07.246Z"
+        "updated_at": "2026-11-18T08:50:28.640Z"
       },
       {
         "id": 329,
@@ -27148,13 +27148,23 @@
       },
       {
         "id": 1089,
-        "inventory_id": 328,
+        "inventory_id": 327,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:58:07.246Z"
+        "created_at": "2026-11-20T12:57:23.498Z"
+      },
+      {
+        "id": 1090,
+        "inventory_id": 327,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:58:20.560Z"
       }
     ],
     "app_metadata": [
