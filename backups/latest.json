@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T13:07:26.744Z",
+  "exportedAt": "2026-11-20T13:07:41.530Z",
   "tables": {
     "rooms": [
       {
@@ -5225,6 +5225,21 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-18T08:49:11.304Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T13:07:11.516Z"
+      },
+      {
+        "id": 316,
+        "code": "EUR-000316",
+        "name": "კლავიატურა (Keyboard/ Genius/ Slimstar 110  USB black)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
         "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
@@ -5234,8 +5249,8 @@
         "updated_at": "2026-11-18T08:49:11.304Z"
       },
       {
-        "id": 316,
-        "code": "EUR-000316",
+        "id": 317,
+        "code": "EUR-000317",
         "name": "კლავიატურა (Keyboard/ Genius/ Slimstar 110  USB black)",
         "room_id": 111,
         "quantity": 1,
@@ -5246,22 +5261,7 @@
         "registered_at": "2026-11-18T08:49:11.304Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T13:07:26.462Z"
-      },
-      {
-        "id": 317,
-        "code": "EUR-000317",
-        "name": "კლავიატურა (Keyboard/ Genius/ Slimstar 110  USB black)",
-        "room_id": 111,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "საწყობში",
-        "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
-        "responsible_person": "",
-        "registered_at": "2026-11-18T08:49:11.304Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-18T08:49:11.304Z"
+        "updated_at": "2026-11-20T13:07:41.232Z"
       },
       {
         "id": 318,
@@ -27278,13 +27278,23 @@
       },
       {
         "id": 1102,
-        "inventory_id": 316,
+        "inventory_id": 315,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T13:07:26.462Z"
+        "created_at": "2026-11-20T13:07:11.516Z"
+      },
+      {
+        "id": 1103,
+        "inventory_id": 317,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T13:07:41.232Z"
       }
     ],
     "app_metadata": [
