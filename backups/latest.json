@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:36:35.378Z",
+  "exportedAt": "2026-11-20T12:37:10.185Z",
   "tables": {
     "rooms": [
       {
@@ -16241,7 +16241,7 @@
         "registered_at": "2026-11-20T12:01:49.921Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:36:34.921Z"
+        "updated_at": "2026-11-20T12:37:09.786Z"
       },
       {
         "id": 1050,
@@ -26865,6 +26865,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T12:36:34.921Z"
+      },
+      {
+        "id": 1061,
+        "inventory_id": 1049,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:37:09.786Z"
       }
     ],
     "app_metadata": [
