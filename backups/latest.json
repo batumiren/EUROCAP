@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:01:50.289Z",
+  "exportedAt": "2026-11-20T12:09:31.317Z",
   "tables": {
     "rooms": [
       {
@@ -491,6 +491,11 @@
       {
         "id": 111,
         "name": "საწყობის ოთახი",
+        "archived_at": null
+      },
+      {
+        "id": 112,
+        "name": "მცირე ფასიანი მატერიალური მარაგის ოთახი",
         "archived_at": null
       }
     ],
