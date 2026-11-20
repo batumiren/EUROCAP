@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T07:17:52.184Z",
+  "exportedAt": "2026-11-20T07:36:13.111Z",
   "tables": {
     "rooms": [
       {
@@ -16147,6 +16147,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T07:17:51.768Z"
+      },
+      {
+        "id": 1044,
+        "code": "EUR-001044",
+        "name": "ჩოგბურთის მაგიდის ბადე (E5751 P204)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0264148801, (448381992) შპს E-2010, 27.09.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:36:12.596Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:36:12.596Z"
+      },
+      {
+        "id": 1045,
+        "code": "EUR-001045",
+        "name": "ჩოგბურთის მაგიდის ბადე (E5751 P204)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0264148801, (448381992) შპს E-2010, 27.09.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:36:12.596Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:36:12.596Z"
       }
     ],
     "inventory_photos": [],
@@ -26625,6 +26655,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T07:17:51.768Z"
+      },
+      {
+        "id": 1048,
+        "inventory_id": 1044,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:36:12.596Z"
+      },
+      {
+        "id": 1049,
+        "inventory_id": 1045,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:36:12.596Z"
       }
     ],
     "app_metadata": [
