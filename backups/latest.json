@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:35:04.820Z",
+  "exportedAt": "2026-11-20T12:35:24.477Z",
   "tables": {
     "rooms": [
       {
@@ -9320,13 +9320,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T10:33:36.344Z"
+        "updated_at": "2026-11-20T12:34:31.578Z"
       },
       {
         "id": 589,
@@ -13310,13 +13310,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 024633843, (245439271) შპს ივიჯი, 28.06.2016",
         "responsible_person": "",
         "registered_at": "2026-11-18T13:13:27.132Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:35:04.480Z"
+        "updated_at": "2026-11-18T13:13:27.132Z"
       },
       {
         "id": 855,
@@ -13325,13 +13325,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 024633843, (245439271) შპს ივიჯი, 28.06.2016",
         "responsible_person": "",
         "registered_at": "2026-11-18T13:13:27.132Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T13:13:27.132Z"
+        "updated_at": "2026-11-20T12:34:00.904Z"
       },
       {
         "id": 856,
@@ -16235,13 +16235,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0274473218, (202358126) შპს ნოვა, 21.11.2016",
         "responsible_person": "",
         "registered_at": "2026-11-20T12:01:49.921Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:01:49.921Z"
+        "updated_at": "2026-11-20T12:35:24.068Z"
       },
       {
         "id": 1050,
@@ -26828,23 +26828,33 @@
       },
       {
         "id": 1057,
-        "inventory_id": 854,
+        "inventory_id": 855,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:34:14.806Z"
+        "created_at": "2026-11-20T12:34:00.904Z"
       },
       {
         "id": 1058,
-        "inventory_id": 854,
+        "inventory_id": 588,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:35:04.480Z"
+        "created_at": "2026-11-20T12:34:31.578Z"
+      },
+      {
+        "id": 1059,
+        "inventory_id": 1049,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:35:24.068Z"
       }
     ],
     "app_metadata": [
