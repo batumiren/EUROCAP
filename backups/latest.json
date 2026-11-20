@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:09:31.317Z",
+  "exportedAt": "2026-11-20T12:13:37.037Z",
   "tables": {
     "rooms": [
       {
@@ -16242,6 +16242,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T12:01:49.921Z"
+      },
+      {
+        "id": 1050,
+        "code": "EUR-001050",
+        "name": "მაუსი (Genius Netscroll 100 Mouse Silver 800DPI USB G5)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0037752862, (245439271) შპს ივიჯი, 31.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T12:13:36.663Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T12:13:36.663Z"
       }
     ],
     "inventory_photos": [],
@@ -26780,6 +26795,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T12:01:49.921Z"
+      },
+      {
+        "id": 1054,
+        "inventory_id": 1050,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:13:36.663Z"
       }
     ],
     "app_metadata": [
