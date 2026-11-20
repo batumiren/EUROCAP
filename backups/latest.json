@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:19:12.414Z",
+  "exportedAt": "2026-11-20T12:33:42.415Z",
   "tables": {
     "rooms": [
       {
@@ -16250,13 +16250,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0037752862, (245439271) შპს ივიჯი, 31.10.2012",
         "responsible_person": "",
         "registered_at": "2026-11-20T12:13:36.663Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:13:36.663Z"
+        "updated_at": "2026-11-20T12:33:41.994Z"
       }
     ],
     "inventory_photos": [],
@@ -26815,6 +26815,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T12:19:11.999Z"
+      },
+      {
+        "id": 1056,
+        "inventory_id": 1050,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:33:41.994Z"
       }
     ],
     "app_metadata": [
