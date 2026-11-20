@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T06:20:26.438Z",
+  "exportedAt": "2026-11-20T06:24:43.309Z",
   "tables": {
     "rooms": [
       {
@@ -13882,6 +13882,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T06:20:26.015Z"
+      },
+      {
+        "id": 893,
+        "code": "EUR-000893",
+        "name": "შირმა ხის  \"კუბიკები\" 180x176 (3)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0219025588, (202066655) შპს დი და ჯი, 01.02.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:24:42.944Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 894,
+        "code": "EUR-000894",
+        "name": "შირმა ხის  \"კუბიკები\" 180x176 (3)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0219025588, (202066655) შპს დი და ჯი, 01.02.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:24:42.944Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 895,
+        "code": "EUR-000895",
+        "name": "შირმა ხის  \"კუბიკები\" 180x176 (3)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0219025588, (202066655) შპს დი და ჯი, 01.02.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:24:42.944Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 896,
+        "code": "EUR-000896",
+        "name": "შირმა ხის  \"კუბიკები\" 180x176 (3)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0219025588, (202066655) შპს დი და ჯი, 01.02.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:24:42.944Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:24:42.944Z"
       }
     ],
     "inventory_photos": [],
@@ -22850,6 +22910,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T06:20:26.015Z"
+      },
+      {
+        "id": 897,
+        "inventory_id": 893,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 898,
+        "inventory_id": 894,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 899,
+        "inventory_id": 895,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:24:42.944Z"
+      },
+      {
+        "id": 900,
+        "inventory_id": 896,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:24:42.944Z"
       }
     ],
     "app_metadata": [
