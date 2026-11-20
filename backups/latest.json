@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:34:32.007Z",
+  "exportedAt": "2026-11-20T12:34:50.441Z",
   "tables": {
     "rooms": [
       {
@@ -9305,13 +9305,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T10:33:36.344Z"
+        "updated_at": "2026-11-20T12:34:50.055Z"
       },
       {
         "id": 588,
@@ -9320,13 +9320,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:34:31.578Z"
+        "updated_at": "2026-11-18T10:33:36.344Z"
       },
       {
         "id": 589,
@@ -26838,13 +26838,13 @@
       },
       {
         "id": 1058,
-        "inventory_id": 588,
+        "inventory_id": 587,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:34:31.578Z"
+        "created_at": "2026-11-20T12:34:50.055Z"
       }
     ],
     "app_metadata": [
