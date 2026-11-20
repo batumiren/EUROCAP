@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T06:35:22.904Z",
+  "exportedAt": "2026-11-20T06:38:09.077Z",
   "tables": {
     "rooms": [
       {
@@ -15607,6 +15607,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T06:35:22.518Z"
+      },
+      {
+        "id": 1008,
+        "code": "EUR-001008",
+        "name": "დაფა ორმხრივი სასკოლო",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0257477878, (445467370) შპს კანცელარიის ცენტრი, 24.08.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:38:08.702Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:38:08.702Z"
+      },
+      {
+        "id": 1009,
+        "code": "EUR-001009",
+        "name": "დაფა ორმხრივი სასკოლო",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0257477878, (445467370) შპს კანცელარიის ცენტრი, 24.08.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T06:38:08.702Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T06:38:08.702Z"
       }
     ],
     "inventory_photos": [],
@@ -25725,6 +25755,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T06:35:22.518Z"
+      },
+      {
+        "id": 1012,
+        "inventory_id": 1008,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:38:08.702Z"
+      },
+      {
+        "id": 1013,
+        "inventory_id": 1009,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T06:38:08.702Z"
       }
     ],
     "app_metadata": [
