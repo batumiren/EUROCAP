@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:49:29.406Z",
+  "exportedAt": "2026-11-20T12:49:41.335Z",
   "tables": {
     "rooms": [
       {
@@ -5525,13 +5525,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:50:28.640Z"
+        "updated_at": "2026-11-20T12:49:40.947Z"
       },
       {
         "id": 336,
@@ -5540,13 +5540,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:49:28.955Z"
+        "updated_at": "2026-11-18T08:50:28.640Z"
       },
       {
         "id": 337,
@@ -27038,13 +27038,13 @@
       },
       {
         "id": 1078,
-        "inventory_id": 336,
+        "inventory_id": 335,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:49:28.955Z"
+        "created_at": "2026-11-20T12:49:40.947Z"
       }
     ],
     "app_metadata": [
