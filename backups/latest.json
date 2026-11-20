@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T11:43:25.597Z",
+  "exportedAt": "2026-11-20T12:00:47.604Z",
   "tables": {
     "rooms": [
       {
@@ -16192,6 +16192,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T11:43:25.065Z"
+      },
+      {
+        "id": 1047,
+        "code": "EUR-001047",
+        "name": "კიბე ალუმინის (WG606-7 3*7)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0274473218, (202358126) შპს ნოვა, 21.11.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T12:00:47.204Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T12:00:47.204Z"
       }
     ],
     "inventory_photos": [],
@@ -26700,6 +26715,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T11:43:25.065Z"
+      },
+      {
+        "id": 1051,
+        "inventory_id": 1047,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:00:47.204Z"
       }
     ],
     "app_metadata": [
