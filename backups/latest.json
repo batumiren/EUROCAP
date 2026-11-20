@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T07:06:49.609Z",
+  "exportedAt": "2026-11-20T07:17:52.184Z",
   "tables": {
     "rooms": [
       {
@@ -16132,6 +16132,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T07:06:49.217Z"
+      },
+      {
+        "id": 1043,
+        "code": "EUR-001043",
+        "name": "კომპიუტერის მონიტორი (Philips 223V5LSB/00 Monitor 21.5\" 1920x1080 16/9 250cd/m2 5ms)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0246303843, (245439271) შპს ივიჯი, 28.06.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:17:51.768Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:17:51.768Z"
       }
     ],
     "inventory_photos": [],
@@ -26600,6 +26615,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T07:06:49.217Z"
+      },
+      {
+        "id": 1047,
+        "inventory_id": 1043,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:17:51.768Z"
       }
     ],
     "app_metadata": [
