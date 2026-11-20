@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T13:03:47.003Z",
+  "exportedAt": "2026-11-20T13:04:00.225Z",
   "tables": {
     "rooms": [
       {
@@ -4670,13 +4670,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0048680313, (211380691) შპს ალტა, 18.01.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:37:06.660Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:37:06.660Z"
+        "updated_at": "2026-11-20T13:03:08.588Z"
       },
       {
         "id": 279,
@@ -5045,13 +5045,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:49:11.304Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:49:11.304Z"
+        "updated_at": "2026-11-20T13:03:20.880Z"
       },
       {
         "id": 304,
@@ -5075,13 +5075,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:49:11.304Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T13:03:46.613Z"
+        "updated_at": "2026-11-18T08:49:11.304Z"
       },
       {
         "id": 306,
@@ -5090,13 +5090,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:49:11.304Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:49:11.304Z"
+        "updated_at": "2026-11-20T13:03:59.843Z"
       },
       {
         "id": 307,
@@ -27228,13 +27228,33 @@
       },
       {
         "id": 1097,
-        "inventory_id": 305,
+        "inventory_id": 278,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T13:03:46.613Z"
+        "created_at": "2026-11-20T13:03:08.588Z"
+      },
+      {
+        "id": 1098,
+        "inventory_id": 303,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T13:03:20.880Z"
+      },
+      {
+        "id": 1099,
+        "inventory_id": 306,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T13:03:59.843Z"
       }
     ],
     "app_metadata": [
