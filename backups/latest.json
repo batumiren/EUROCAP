@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:46:13.193Z",
+  "exportedAt": "2026-11-20T12:46:30.554Z",
   "tables": {
     "rooms": [
       {
@@ -5555,13 +5555,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:50:28.640Z"
+        "updated_at": "2026-11-20T12:46:30.157Z"
       },
       {
         "id": 338,
@@ -5576,7 +5576,7 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:46:12.761Z"
+        "updated_at": "2026-11-20T12:44:50.017Z"
       },
       {
         "id": 339,
@@ -5585,13 +5585,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:44:34.811Z"
+        "updated_at": "2026-11-18T08:50:28.640Z"
       },
       {
         "id": 340,
@@ -5600,13 +5600,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:45:27.047Z"
+        "updated_at": "2026-11-18T08:50:28.640Z"
       },
       {
         "id": 341,
@@ -5630,13 +5630,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:50:28.640Z"
+        "updated_at": "2026-11-20T12:44:15.571Z"
       },
       {
         "id": 343,
@@ -9245,13 +9245,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:43:57.741Z"
+        "updated_at": "2026-11-18T10:33:36.344Z"
       },
       {
         "id": 584,
@@ -9275,13 +9275,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T10:33:36.344Z"
+        "updated_at": "2026-11-20T12:43:38.042Z"
       },
       {
         "id": 586,
@@ -26948,43 +26948,53 @@
       },
       {
         "id": 1069,
-        "inventory_id": 583,
+        "inventory_id": 585,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:43:57.741Z"
+        "created_at": "2026-11-20T12:43:38.042Z"
       },
       {
         "id": 1070,
-        "inventory_id": 339,
+        "inventory_id": 342,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:44:34.811Z"
+        "created_at": "2026-11-20T12:44:15.571Z"
       },
       {
         "id": 1071,
-        "inventory_id": 340,
-        "action": "ჩანაწერის რედაქტირება",
-        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:45:27.047Z"
-      },
-      {
-        "id": 1072,
         "inventory_id": 338,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:46:12.761Z"
+        "created_at": "2026-11-20T12:44:50.017Z"
+      },
+      {
+        "id": 1072,
+        "inventory_id": 337,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:45:44.307Z"
+      },
+      {
+        "id": 1073,
+        "inventory_id": 337,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:46:30.157Z"
       }
     ],
     "app_metadata": [
