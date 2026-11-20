@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T07:02:26.598Z",
+  "exportedAt": "2026-11-20T07:04:55.566Z",
   "tables": {
     "rooms": [
       {
@@ -16012,6 +16012,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-20T07:02:26.209Z"
+      },
+      {
+        "id": 1035,
+        "code": "EUR-001035",
+        "name": "სადგამი მიკროფონის (Caymon CST 310/B)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:04:55.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1036,
+        "code": "EUR-001036",
+        "name": "სადგამი მიკროფონის (Caymon CST 310/B)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:04:55.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1037,
+        "code": "EUR-001037",
+        "name": "სადგამი მიკროფონის (Caymon CST 310/B)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:04:55.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1038,
+        "code": "EUR-001038",
+        "name": "სადგამი მიკროფონის (Caymon CST 310/B)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
+        "responsible_person": "",
+        "registered_at": "2026-11-20T07:04:55.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-20T07:04:55.144Z"
       }
     ],
     "inventory_photos": [],
@@ -26400,6 +26460,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-20T07:02:26.209Z"
+      },
+      {
+        "id": 1039,
+        "inventory_id": 1035,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1040,
+        "inventory_id": 1036,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1041,
+        "inventory_id": 1037,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:04:55.144Z"
+      },
+      {
+        "id": 1042,
+        "inventory_id": 1038,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T07:04:55.144Z"
       }
     ],
     "app_metadata": [
