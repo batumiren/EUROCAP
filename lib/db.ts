@@ -1,6 +1,7 @@
 import Database from "better-sqlite3";
 import fs from "node:fs";
 import path from "node:path";
+import { inventoryStatusCheck, migrateInventoryStatuses } from "@/lib/inventory-status-schema";
 
 const isVercelRuntime = Boolean(process.env.VERCEL || process.env.VERCEL_ENV);
 const defaultPath = isVercelRuntime
@@ -36,7 +37,7 @@ function openDatabase() {
       room_id INTEGER NOT NULL REFERENCES rooms(id),
       quantity INTEGER NOT NULL CHECK(quantity > 0),
       condition TEXT NOT NULL CHECK(condition IN ('კარგი','დამაკმაყოფილებელი','დაზიანებული','საჭიროებს შეკეთებას')),
-      status TEXT NOT NULL CHECK(status IN ('გამოყენებაში','საწყობში','ჩამოწერილი')),
+      status TEXT NOT NULL ${inventoryStatusCheck},
       notes TEXT NOT NULL DEFAULT '',
       responsible_person TEXT NOT NULL DEFAULT '',
       registered_at TEXT NOT NULL,
@@ -133,6 +134,7 @@ function openDatabase() {
       created_at TEXT NOT NULL
     );
   `);
+  migrateInventoryStatuses(db);
   restoreDeploymentSnapshot(db);
   seed(db);
   expandDemoData(db);

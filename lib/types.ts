@@ -1,5 +1,5 @@
 export const CONDITIONS = ["კარგი", "დამაკმაყოფილებელი", "დაზიანებული", "საჭიროებს შეკეთებას"] as const;
-export const STATUSES = ["გამოყენებაში", "საწყობში", "ჩამოწერილი"] as const;
+export const STATUSES = ["გამოყენებაში", "საწყობში", "ჩამოწერილი", "მცირეფასიანი მარაგები"] as const;
 
 export type Condition = (typeof CONDITIONS)[number];
 export type ItemStatus = (typeof STATUSES)[number];
