@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-20T12:49:16.821Z",
+  "exportedAt": "2026-11-20T12:49:29.406Z",
   "tables": {
     "rooms": [
       {
@@ -5540,13 +5540,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-18T08:50:28.640Z"
+        "updated_at": "2026-11-20T12:49:28.955Z"
       },
       {
         "id": 337,
@@ -5585,13 +5585,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
         "responsible_person": "",
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:48:24.725Z"
+        "updated_at": "2026-11-18T08:50:28.640Z"
       },
       {
         "id": 340,
@@ -5606,7 +5606,7 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:49:16.398Z"
+        "updated_at": "2026-11-20T12:48:51.587Z"
       },
       {
         "id": 341,
@@ -27018,13 +27018,13 @@
       },
       {
         "id": 1076,
-        "inventory_id": 339,
+        "inventory_id": 340,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:48:24.725Z"
+        "created_at": "2026-11-20T12:48:10.059Z"
       },
       {
         "id": 1077,
@@ -27034,7 +27034,17 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-20T12:49:16.398Z"
+        "created_at": "2026-11-20T12:48:51.587Z"
+      },
+      {
+        "id": 1078,
+        "inventory_id": 336,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-20T12:49:28.955Z"
       }
     ],
     "app_metadata": [
