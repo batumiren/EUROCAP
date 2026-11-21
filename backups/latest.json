@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:14:27.414Z",
+  "exportedAt": "2026-11-21T16:16:25.048Z",
   "tables": {
     "rooms": [
       {
@@ -16527,6 +16527,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:14:27.189Z"
+      },
+      {
+        "id": 1069,
+        "code": "EUR-001069",
+        "name": "კამერა (კამერა ანალოგური 3.6 ლინზითDS-2CE5582P_3.6mm (05246))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0092074558, (61006014509) იმედა ფუტკარაძე, 02.12.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:16:24.771Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1070,
+        "code": "EUR-001070",
+        "name": "კამერა (კამერა ანალოგური 3.6 ლინზითDS-2CE5582P_3.6mm (05246))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0092074558, (61006014509) იმედა ფუტკარაძე, 02.12.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:16:24.771Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1071,
+        "code": "EUR-001071",
+        "name": "კამერა (კამერა ანალოგური 3.6 ლინზითDS-2CE5582P_3.6mm (05246))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0092074558, (61006014509) იმედა ფუტკარაძე, 02.12.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:16:24.771Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1072,
+        "code": "EUR-001072",
+        "name": "კამერა (კამერა ანალოგური 3.6 ლინზითDS-2CE5582P_3.6mm (05246))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0092074558, (61006014509) იმედა ფუტკარაძე, 02.12.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:16:24.771Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:16:24.771Z"
       }
     ],
     "inventory_photos": [],
@@ -28335,6 +28395,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:14:27.189Z"
+      },
+      {
+        "id": 1181,
+        "inventory_id": 1069,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1182,
+        "inventory_id": 1070,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1183,
+        "inventory_id": 1071,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:16:24.771Z"
+      },
+      {
+        "id": 1184,
+        "inventory_id": 1072,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:16:24.771Z"
       }
     ],
     "app_metadata": [
