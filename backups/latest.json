@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:48:25.588Z",
+  "exportedAt": "2026-11-21T17:49:44.462Z",
   "tables": {
     "rooms": [
       {
@@ -18957,6 +18957,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:48:25.347Z"
+      },
+      {
+        "id": 1231,
+        "code": "EUR-001231",
+        "name": "კამერის ჩამწერი (EN-2732M, 32CH 1080P NVR ,Support 32ch 1080P record,Support 4 HDD, App: XMEYE)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0345999593, (448388806) შპს MXM, 03.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:49:44.246Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:49:44.246Z"
       }
     ],
     "inventory_photos": [],
@@ -32475,6 +32490,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:48:25.347Z"
+      },
+      {
+        "id": 1352,
+        "inventory_id": 1231,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:49:44.246Z"
       }
     ],
     "app_metadata": [
