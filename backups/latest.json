@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:27:00.021Z",
+  "exportedAt": "2026-11-21T17:28:06.448Z",
   "tables": {
     "rooms": [
       {
@@ -18357,6 +18357,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:26:59.794Z"
+      },
+      {
+        "id": 1191,
+        "code": "EUR-001191",
+        "name": "ეკრანის საკიდი (MM STAR  MM-907ST (23''-47''))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330114868, (445399300) შპს მეგა ელექტრონიქსი 2011, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:28:06.132Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1192,
+        "code": "EUR-001192",
+        "name": "ეკრანის საკიდი (MM STAR  MM-907ST (23''-47''))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330114868, (445399300) შპს მეგა ელექტრონიქსი 2011, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:28:06.132Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1193,
+        "code": "EUR-001193",
+        "name": "ეკრანის საკიდი (MM STAR  MM-907ST (23''-47''))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330114868, (445399300) შპს მეგა ელექტრონიქსი 2011, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:28:06.132Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:28:06.132Z"
       }
     ],
     "inventory_photos": [],
@@ -31465,6 +31510,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:26:59.794Z"
+      },
+      {
+        "id": 1311,
+        "inventory_id": 1191,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1312,
+        "inventory_id": 1192,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1313,
+        "inventory_id": 1193,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:28:06.132Z"
       }
     ],
     "app_metadata": [
