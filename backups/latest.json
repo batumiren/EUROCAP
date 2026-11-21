@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:23:35.590Z",
+  "exportedAt": "2026-11-21T16:26:18.197Z",
   "tables": {
     "rooms": [
       {
@@ -16647,6 +16647,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:23:35.386Z"
+      },
+      {
+        "id": 1077,
+        "code": "EUR-001077",
+        "name": "ნაგვის ურნა თავსახურით პლასმასის (5173)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0134265147, (445389393) შპს EMI, 10.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:26:17.896Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1078,
+        "code": "EUR-001078",
+        "name": "ნაგვის ურნა თავსახურით პლასმასის (5173)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0134265147, (445389393) შპს EMI, 10.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:26:17.896Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1079,
+        "code": "EUR-001079",
+        "name": "ნაგვის ურნა თავსახურით პლასმასის (5173)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0134265147, (445389393) შპს EMI, 10.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:26:17.896Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1080,
+        "code": "EUR-001080",
+        "name": "ნაგვის ურნა თავსახურით პლასმასის (5173)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0134265147, (445389393) შპს EMI, 10.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:26:17.896Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:26:17.896Z"
       }
     ],
     "inventory_photos": [],
@@ -28535,6 +28595,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:23:35.386Z"
+      },
+      {
+        "id": 1189,
+        "inventory_id": 1077,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1190,
+        "inventory_id": 1078,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1191,
+        "inventory_id": 1079,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:26:17.896Z"
+      },
+      {
+        "id": 1192,
+        "inventory_id": 1080,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:26:17.896Z"
       }
     ],
     "app_metadata": [
