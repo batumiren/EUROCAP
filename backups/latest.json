@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:54:32.670Z",
+  "exportedAt": "2026-11-21T17:55:43.264Z",
   "tables": {
     "rooms": [
       {
@@ -20532,6 +20532,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:54:32.414Z"
+      },
+      {
+        "id": 1336,
+        "code": "EUR-001336",
+        "name": "მიკროფონი ( MIC-142 (64142) Defender 4714033641425)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0348533628, (448386425) შპს  csc batumi, 15.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:55:42.992Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:55:42.992Z"
       }
     ],
     "inventory_photos": [],
@@ -35100,6 +35115,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:54:32.414Z"
+      },
+      {
+        "id": 1457,
+        "inventory_id": 1336,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:55:42.992Z"
       }
     ],
     "app_metadata": [
