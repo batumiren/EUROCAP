@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:04:47.538Z",
+  "exportedAt": "2026-11-21T18:06:14.860Z",
   "tables": {
     "rooms": [
       {
@@ -20652,6 +20652,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:04:47.281Z"
+      },
+      {
+        "id": 1344,
+        "code": "EUR-001344",
+        "name": "საფართოვებელი ავზი მანომეტრით  (500 Lt (10 bar) (1,1/4\"  შ/ხ)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:06:14.635Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1345,
+        "code": "EUR-001345",
+        "name": "საფართოვებელი ავზი მანომეტრით  (500 Lt (10 bar) (1,1/4\"  შ/ხ)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:06:14.635Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1346,
+        "code": "EUR-001346",
+        "name": "საფართოვებელი ავზი მანომეტრით  (500 Lt (10 bar) (1,1/4\"  შ/ხ)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:06:14.635Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1347,
+        "code": "EUR-001347",
+        "name": "საფართოვებელი ავზი მანომეტრით  (500 Lt (10 bar) (1,1/4\"  შ/ხ)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:06:14.635Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:06:14.635Z"
       }
     ],
     "inventory_photos": [],
@@ -35300,6 +35360,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:04:47.281Z"
+      },
+      {
+        "id": 1465,
+        "inventory_id": 1344,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1466,
+        "inventory_id": 1345,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1467,
+        "inventory_id": 1346,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1468,
+        "inventory_id": 1347,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:06:14.635Z"
       }
     ],
     "app_metadata": [
