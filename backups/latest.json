@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:17:23.961Z",
+  "exportedAt": "2026-11-21T19:25:21.107Z",
   "tables": {
     "rooms": [
       {
@@ -27162,6 +27162,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T19:17:23.789Z"
+      },
+      {
+        "id": 1778,
+        "code": "EUR-001778",
+        "name": "დეკორატიული ხე (ლითონის )",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0359979195, (445405954) შპს დავინჩი, 19.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T19:25:20.863Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T19:25:20.863Z"
       }
     ],
     "inventory_photos": [],
@@ -46160,6 +46175,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T19:17:23.789Z"
+      },
+      {
+        "id": 1900,
+        "inventory_id": 1778,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T19:25:20.863Z"
       }
     ],
     "app_metadata": [
