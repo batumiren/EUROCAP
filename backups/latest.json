@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:13:51.769Z",
+  "exportedAt": "2026-11-21T17:14:38.913Z",
   "tables": {
     "rooms": [
       {
@@ -18252,6 +18252,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:13:51.536Z"
+      },
+      {
+        "id": 1184,
+        "code": "EUR-001184",
+        "name": "კამერა (Network IP camera 1.0MP 720P HD security CCTV camera support Onvif P2P waterproof bullet camera ir 30 meter EV-6013)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0202475632, (448388806) შპს MXM, 22.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:14:38.655Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:14:38.655Z"
       }
     ],
     "inventory_photos": [],
@@ -31290,6 +31305,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:13:51.536Z"
+      },
+      {
+        "id": 1304,
+        "inventory_id": 1184,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:14:38.655Z"
       }
     ],
     "app_metadata": [
