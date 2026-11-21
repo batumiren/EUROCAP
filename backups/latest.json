@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:11:29.184Z",
+  "exportedAt": "2026-11-21T19:13:44.563Z",
   "tables": {
     "rooms": [
       {
@@ -27106,17 +27106,32 @@
       {
         "id": 1774,
         "code": "EUR-001774",
-        "name": "აერო გრილი (GRAETZ - HT-C11)",
+        "name": "ჩაიდანი (GORENJE - K17FEII)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0380474156, (202268928) სს ელიტ ელექტრონიქსი, 31.05.2018",
+        "notes": "ს/ზ 0380474155, (202268928) სს ელიტ ელექტრონიქსი, 31.05.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:11:28.947Z",
+        "registered_at": "2026-11-21T19:09:29.544Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:11:28.947Z"
+        "updated_at": "2026-11-21T19:09:29.544Z"
+      },
+      {
+        "id": 1775,
+        "code": "EUR-001775",
+        "name": "ვებ კამერა (Web Camera DEFENDER - C-090 BLACK/63090)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0403919101, (202268928) სს ელიტ ელექტრონიქსი, 19.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T19:13:44.373Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T19:13:44.373Z"
       }
     ],
     "inventory_photos": [],
@@ -46084,7 +46099,17 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:11:28.947Z"
+        "created_at": "2026-11-21T19:09:29.544Z"
+      },
+      {
+        "id": 1897,
+        "inventory_id": 1775,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T19:13:44.373Z"
       }
     ],
     "app_metadata": [
