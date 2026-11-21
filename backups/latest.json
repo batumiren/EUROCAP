@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:06:45.239Z",
+  "exportedAt": "2026-11-21T16:09:00.642Z",
   "tables": {
     "rooms": [
       {
@@ -16437,6 +16437,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1063,
+        "code": "EUR-001063",
+        "name": "კლავიატურა (Keyboard/ Genius/ Slimstar 220 Pro USB Black)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0048680313, (211380691) შპს ალტა, 18.01.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:09:00.333Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:09:00.333Z"
+      },
+      {
+        "id": 1064,
+        "code": "EUR-001064",
+        "name": "კლავიატურა (Keyboard/ Genius/ Slimstar 220 Pro USB Black)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0048680313, (211380691) შპს ალტა, 18.01.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:09:00.333Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:09:00.333Z"
       }
     ],
     "inventory_photos": [],
@@ -28185,6 +28215,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1175,
+        "inventory_id": 1063,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:09:00.333Z"
+      },
+      {
+        "id": 1176,
+        "inventory_id": 1064,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:09:00.333Z"
       }
     ],
     "app_metadata": [
