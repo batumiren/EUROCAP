@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:11:37.843Z",
+  "exportedAt": "2026-11-21T16:12:45.873Z",
   "tables": {
     "rooms": [
       {
@@ -16482,6 +16482,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:11:37.569Z"
+      },
+      {
+        "id": 1066,
+        "code": "EUR-001066",
+        "name": "ვებ კამერა (Web Camera/ Logitech/WebCam C270 HD FingerPrint Flowers 960-000799)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0080835273, (211380691) შპს ალტა, 17.09.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:12:45.621Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:12:45.621Z"
       }
     ],
     "inventory_photos": [],
@@ -28260,6 +28275,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:11:37.569Z"
+      },
+      {
+        "id": 1178,
+        "inventory_id": 1066,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:12:45.621Z"
       }
     ],
     "app_metadata": [
