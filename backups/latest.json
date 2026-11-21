@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:08:50.346Z",
+  "exportedAt": "2026-11-21T17:12:44.948Z",
   "tables": {
     "rooms": [
       {
@@ -18192,6 +18192,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:07:10.436Z"
+      },
+      {
+        "id": 1180,
+        "code": "EUR-001180",
+        "name": "კამერის ჩამწერი (US 4 CH Channel D1 Video Recorder Surveillance Security CCTV DVR System Network)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0197279697, (448388806) შპს MXM, 23.09.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:12:44.715Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:12:44.715Z"
       }
     ],
     "inventory_photos": [],
@@ -31190,6 +31205,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:08:50.156Z"
+      },
+      {
+        "id": 1300,
+        "inventory_id": 1180,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:12:44.715Z"
       }
     ],
     "app_metadata": [
