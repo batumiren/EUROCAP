@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:10:34.451Z",
+  "exportedAt": "2026-11-21T18:17:04.885Z",
   "tables": {
     "rooms": [
       {
@@ -20832,6 +20832,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1356,
+        "code": "EUR-001356",
+        "name": "საათი კედლის (10216)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:17:04.618Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:17:04.618Z"
       }
     ],
     "inventory_photos": [],
@@ -35600,6 +35615,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1477,
+        "inventory_id": 1356,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:17:04.618Z"
       }
     ],
     "app_metadata": [
