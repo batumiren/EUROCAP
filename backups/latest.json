@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:38:21.879Z",
+  "exportedAt": "2026-11-21T17:39:20.937Z",
   "tables": {
     "rooms": [
       {
@@ -18537,6 +18537,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:37:05.443Z"
+      },
+      {
+        "id": 1203,
+        "code": "EUR-001203",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330127284, (445468388) შპს კანცბუმი, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:39:20.660Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1204,
+        "code": "EUR-001204",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330127284, (445468388) შპს კანცბუმი, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:39:20.660Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1205,
+        "code": "EUR-001205",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330127284, (445468388) შპს კანცბუმი, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:39:20.660Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:39:20.660Z"
       }
     ],
     "inventory_photos": [],
@@ -31775,6 +31820,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:38:21.619Z"
+      },
+      {
+        "id": 1324,
+        "inventory_id": 1203,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1325,
+        "inventory_id": 1204,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1326,
+        "inventory_id": 1205,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:39:20.660Z"
       }
     ],
     "app_metadata": [
