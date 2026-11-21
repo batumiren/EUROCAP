@@ -1,4 +1,4 @@
-import type Database from "better-sqlite3";
+import type { Database } from "@/lib/db";
 import { createHash } from "node:crypto";
 import { unzipSync } from "fflate";
 import { readSheet } from "read-excel-file/node";
@@ -63,15 +63,19 @@ function importedDate(value: Cell | undefined, previous: string | null, required
   throw new Error("თარიღი უნდა იყოს სწორი Excel თარიღი ან YYYY-MM-DD / ISO ფორმატში.");
 }
 
-export function importInventoryRows(database: Database.Database, rows: ImportRows, apply = false, expectedRevision?: string) {
-  return database.transaction(() => {
+export async function importInventoryRows(database: Database, rows: ImportRows, apply = false, expectedRevision?: string) {
+  return database.transaction(async database => {
     const headers = (rows[0] ?? []).map(value => text(value).trim());
     if (inventoryHeaders.some(header => headers.filter(value => value === header).length !== 1)) {
       throw new AppError("სვეტების სათაურები არ ემთხვევა ექსპორტს. გამოიყენეთ საიტიდან ჩამოტვირთული ფაილი და არ შეცვალოთ სათაურები.");
     }
     const seen = new Set<string>();
+    const codeColumn = headers.indexOf(inventoryHeaders[0]);
+    const codes = [...new Set(rows.slice(1).map(row => text(row[codeColumn]).trim()).filter(Boolean))];
+    const records = (await database.query("SELECT * FROM inventory WHERE code = ANY($1::text[])", [codes])).rows;
+    const byCode = new Map(records.map(record => [record.code, record]));
     const plans: Array<{ old: Record<string, any>; values: unknown[]; changed: boolean }> = [];
-    const rooms = database.prepare("SELECT id,name,archived_at FROM rooms").all() as Array<{ id: number; name: string; archived_at: string | null }>;
+    const rooms = (await database.prepare("SELECT id,name,archived_at FROM rooms").all()) as Array<{ id: number; name: string; archived_at: string | null }>;
     const now = new Date().toISOString();
     for (let index = 1; index < rows.length; index++) {
       const row = rows[index];
@@ -81,7 +85,7 @@ export function importInventoryRows(database: Database.Database, rows: ImportRow
       try {
         if (!code || seen.has(code)) throw new Error("ნივთის კოდი ცარიელია ან მეორდება.");
         seen.add(code);
-        const old = database.prepare("SELECT * FROM inventory WHERE code=?").get(code) as Record<string, any> | undefined;
+        const old = byCode.get(code);
         if (!old) throw new Error("ნივთის კოდი ვერ მოიძებნა. არსებული კოდები არ შეცვალოთ.");
         const name = text(cell(inventoryHeaders[1])).trim();
         const room = rooms.find(room => room.name.toLocaleLowerCase() === text(cell(inventoryHeaders[2])).trim().toLocaleLowerCase());
@@ -109,16 +113,27 @@ export function importInventoryRows(database: Database.Database, rows: ImportRow
     if (apply && revision !== expectedRevision) throw new AppError("ინვენტარი შეიცვალა. თავიდან შეამოწმეთ ფაილი და დაადასტურეთ იმპორტი.", 409);
     const changes = plans.filter(plan => plan.changed);
     if (apply && changes.length) {
-      const operator = getOperator(database);
-      const update = database.prepare("UPDATE inventory SET name=?,room_id=?,quantity=?,condition=?,status=?,last_inspected_at=?,notes=?,responsible_person=?,registered_at=?,archived_at=?,updated_at=? WHERE id=?");
-      const history = database.prepare("INSERT INTO item_history (inventory_id,action,details,operator_email,created_at) VALUES (?,?,?,?,?)");
-      for (const plan of changes) {
-        update.run(...plan.values, now, plan.old.id);
-        const fields = ["დასახელება", "ოთახი", "რაოდენობა", "მდგომარეობა", "სტატუსი", "ბოლო შემოწმების თარიღი", "აღწერა / შენიშვნა", "პასუხისმგებელი პირი", "რეგისტრაციის თარიღი", "არქივის მდგომარეობა"];
+      const operator = (await getOperator(database));
+      const columns = ["name", "room_id", "quantity", "condition", "status", "last_inspected_at", "notes", "responsible_person", "registered_at", "archived_at"] as const;
+      const fields = ["დასახელება", "ოთახი", "რაოდენობა", "მდგომარეობა", "სტატუსი", "ბოლო შემოწმების თარიღი", "აღწერა / შენიშვნა", "პასუხისმგებელი პირი", "რეგისტრაციის თარიღი", "არქივის მდგომარეობა"];
+      const data = changes.map(plan => {
         const previous = [plan.old.name, plan.old.room_id, plan.old.quantity, plan.old.condition, plan.old.status, plan.old.last_inspected_at, plan.old.notes, plan.old.responsible_person, plan.old.registered_at, plan.old.archived_at];
-        history.run(plan.old.id, "ფაილიდან იმპორტი", fields.filter((_, index) => previous[index] !== plan.values[index]).join(", "), operator.operator_email, now);
-      }
+        return {
+          id: plan.old.id,
+          details: fields.filter((_, index) => previous[index] !== plan.values[index]).join(", "),
+          ...Object.fromEntries(columns.map((column, index) => [column, plan.values[index]])),
+        };
+      });
+      await database.query(`WITH changes AS MATERIALIZED (
+        SELECT * FROM jsonb_to_recordset($1::jsonb) AS c(id integer, details text, name text, room_id integer,
+          quantity integer, condition text, status text, last_inspected_at text, notes text,
+          responsible_person text, registered_at text, archived_at text)
+      ), updated AS (
+        UPDATE inventory i SET ${columns.map(column => `${column}=c.${column}`).join(",")},updated_at=$2
+        FROM changes c WHERE i.id=c.id RETURNING i.id,c.details
+      ) INSERT INTO item_history (inventory_id,action,details,operator_email,created_at)
+        SELECT id,'ფაილიდან იმპორტი',details,$3,$2 FROM updated`, [JSON.stringify(data), now, operator.operator_email]);
     }
     return { total: plans.length, updated: changes.length, unchanged: plans.length - changes.length, revision };
-  })();
+  });
 }

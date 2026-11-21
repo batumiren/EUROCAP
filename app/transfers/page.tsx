@@ -43,7 +43,7 @@ export default function TransfersPage() {
     setRooms(roomData.rooms);
   }, [filters]);
 
-  useEffect(() => { void load(); }, [load]);
+  useEffect(() => { void load().catch(error => setError(error.message)); }, [load]);
 
   const sourceItems = sourceRoom ? items.filter(item => item.room_id === Number(sourceRoom)) : [];
   const sourceRoomName = rooms.find(room => room.id === Number(sourceRoom))?.name;

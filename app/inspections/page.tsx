@@ -13,7 +13,7 @@ export default function InspectionsPage() {
   const [unexpected, setUnexpected] = useState<UnexpectedItem[]>([]); const [scanCode, setScanCode] = useState(""); const [scanMessage, setScanMessage] = useState<{text:string;error:boolean}|null>(null); const scanInput = useRef<HTMLInputElement>(null);
   const [detail, setDetail] = useState<any>(null); const [message, setMessage] = useState(""); const [error, setError] = useState(""); const [saving, setSaving] = useState(false);
   async function load() { const [a,b] = await Promise.all([fetchJson<any>("/api/inspections"), fetchJson<any>("/api/rooms")]); setHistory(a.inspections); setRooms(b.rooms); }
-  useEffect(() => { load(); }, []);
+  useEffect(() => { void load().catch(error => setError(error.message)); }, []);
   async function chooseRoom(value: string) { setRoomId(value); setError(""); setUnexpected([]); setScanMessage(null); if (!value) { setRows([]); return; } setLoadingRoom(true); const data = await fetchJson<any>(`/api/inspections?roomId=${value}`); setRows(data.items.map((item: InventoryItem) => ({ item, checked: false, actualQuantity: item.quantity, observedCondition: item.condition, notes: "" }))); setLoadingRoom(false); window.setTimeout(()=>scanInput.current?.focus(), 50); }
   const checked = rows.filter(r=>r.checked); const missing = rows.filter(r=>!r.checked); const discrepancies = checked.filter(r=>r.actualQuantity !== r.item.quantity).length; const changes = checked.filter(r=>r.observedCondition !== r.item.condition).length;
   useEffect(() => {
