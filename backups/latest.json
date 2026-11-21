@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:55:09.479Z",
+  "exportedAt": "2026-11-21T18:59:20.260Z",
   "tables": {
     "rooms": [
       {
@@ -27057,6 +27057,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1771,
+        "code": "EUR-001771",
+        "name": "ფეხი დაფის (სხვადასხვა ზომაზე მიდის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0332348380, (445468388) შპს კანცბუმი, 25.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:59:19.977Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:59:19.977Z"
+      },
+      {
+        "id": 1772,
+        "code": "EUR-001772",
+        "name": "ფეხი დაფის (სხვადასხვა ზომაზე მიდის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0332348380, (445468388) შპს კანცბუმი, 25.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:59:19.977Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:59:19.977Z"
       }
     ],
     "inventory_photos": [],
@@ -45985,6 +46015,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1893,
+        "inventory_id": 1771,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:59:19.977Z"
+      },
+      {
+        "id": 1894,
+        "inventory_id": 1772,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:59:19.977Z"
       }
     ],
     "app_metadata": [
