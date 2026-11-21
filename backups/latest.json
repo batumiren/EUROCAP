@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:25:02.751Z",
+  "exportedAt": "2026-11-21T17:27:00.021Z",
   "tables": {
     "rooms": [
       {
@@ -18342,6 +18342,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:25:02.497Z"
+      },
+      {
+        "id": 1190,
+        "code": "EUR-001190",
+        "name": "წყლის გამაცხელებელი ( ბოილერი GRANDI  24L სტ შიგა წვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0304417255, (445388946) შპს ლიკა-2011\t11.05.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:26:59.794Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:26:59.794Z"
       }
     ],
     "inventory_photos": [],
@@ -31440,6 +31455,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:25:02.497Z"
+      },
+      {
+        "id": 1310,
+        "inventory_id": 1190,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:26:59.794Z"
       }
     ],
     "app_metadata": [
