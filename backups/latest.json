@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:19:46.829Z",
+  "exportedAt": "2026-11-21T17:22:44.020Z",
   "tables": {
     "rooms": [
       {
@@ -18312,6 +18312,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:19:46.602Z"
+      },
+      {
+        "id": 1188,
+        "code": "EUR-001188",
+        "name": "პროექტორის საკიდი ( Brateck PRB-18S Universal 380mm-580mm)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0341158333, (245439271) შპს ივიჯი, 08.11.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:22:43.795Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:22:43.795Z"
       }
     ],
     "inventory_photos": [],
@@ -31390,6 +31405,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:19:46.602Z"
+      },
+      {
+        "id": 1308,
+        "inventory_id": 1188,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:22:43.795Z"
       }
     ],
     "app_metadata": [
