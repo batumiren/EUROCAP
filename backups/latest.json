@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:42:54.302Z",
+  "exportedAt": "2026-11-21T19:43:45.221Z",
   "tables": {
     "rooms": [
       {
@@ -27196,167 +27196,137 @@
       {
         "id": 1780,
         "code": "EUR-001780",
-        "name": "საათი კედლის (\"ხილი\" 18სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:41:55.903Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:41:55.903Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1781,
         "code": "EUR-001781",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1782,
         "code": "EUR-001782",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1783,
         "code": "EUR-001783",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1784,
         "code": "EUR-001784",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1785,
         "code": "EUR-001785",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1786,
         "code": "EUR-001786",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1787,
         "code": "EUR-001787",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1788,
         "code": "EUR-001788",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "საათი კედლის (მრგვალი YP9514A (30))",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:43:45.016Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1789,
-        "code": "EUR-001789",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1790,
-        "code": "EUR-001790",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:43:45.016Z"
       }
     ],
     "inventory_photos": [],
@@ -46384,7 +46354,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:41:55.903Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1903,
@@ -46394,7 +46364,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1904,
@@ -46404,7 +46374,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1905,
@@ -46414,7 +46384,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1906,
@@ -46424,7 +46394,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1907,
@@ -46434,7 +46404,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1908,
@@ -46444,7 +46414,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1909,
@@ -46454,7 +46424,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       },
       {
         "id": 1910,
@@ -46464,27 +46434,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1911,
-        "inventory_id": 1789,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1912,
-        "inventory_id": 1790,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:43:45.016Z"
       }
     ],
     "app_metadata": [
