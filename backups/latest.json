@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T15:47:10.583Z",
+  "exportedAt": "2026-11-21T15:58:37.756Z",
   "tables": {
     "rooms": [
       {
@@ -16257,6 +16257,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1051,
+        "code": "EUR-001051",
+        "name": "საათი კედლის",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0034644621, (448384882) შპს კანცელარიის სამყარო, 12.10.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T15:58:37.545Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T15:58:37.545Z"
       }
     ],
     "inventory_photos": [],
@@ -27885,6 +27900,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1163,
+        "inventory_id": 1051,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:58:37.545Z"
       }
     ],
     "app_metadata": [
