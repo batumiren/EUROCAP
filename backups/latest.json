@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:50:32.168Z",
+  "exportedAt": "2026-11-21T19:56:41.107Z",
   "tables": {
     "rooms": [
       {
@@ -20851,7 +20851,7 @@
       {
         "id": 1357,
         "code": "EUR-001357",
-        "name": "ჩაიდანი (GRAETZ - KEC-1795)",
+        "name": "ჩაიდანივ (GRAETZ - KEC-1795)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
@@ -20861,7 +20861,7 @@
         "registered_at": "2026-11-21T18:24:00.669Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:45:31.524Z"
+        "updated_at": "2026-11-21T18:24:00.669Z"
       },
       {
         "id": 1358,
@@ -27196,227 +27196,92 @@
       {
         "id": 1780,
         "code": "EUR-001780",
-        "name": "საათი კედლის (\"ხილი\" 18სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:41:55.903Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:41:55.903Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1781,
         "code": "EUR-001781",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1782,
         "code": "EUR-001782",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1783,
         "code": "EUR-001783",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1784,
         "code": "EUR-001784",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1785,
         "code": "EUR-001785",
-        "name": "საათი კედლის (21სმ. (60))",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
+        "registered_at": "2026-11-21T19:56:40.885Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1786,
-        "code": "EUR-001786",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1787,
-        "code": "EUR-001787",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1788,
-        "code": "EUR-001788",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1789,
-        "code": "EUR-001789",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1790,
-        "code": "EUR-001790",
-        "name": "საათი კედლის (21სმ. (60))",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:42:54.123Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1791,
-        "code": "EUR-001791",
-        "name": "ჩაიდანი ელექტრო (SC-EK21S60 )",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0402572995, (211334830) შპს ომეგა, 13.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:45:13.545Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:45:13.545Z"
-      },
-      {
-        "id": 1792,
-        "code": "EUR-001792",
-        "name": "ჩაიდანი ელექტრო (SC-EK21S60 )",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0402572995, (211334830) შპს ომეგა, 13.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:45:13.545Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:45:13.545Z"
-      },
-      {
-        "id": 1793,
-        "code": "EUR-001793",
-        "name": "წყლის გამაცხელებელი (ელექტრო PRO ECO 100)",
-        "room_id": 111,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "საწყობში",
-        "notes": "ს/ზ 0402572995, (211334830) შპს ომეგა, 13.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:48:07.031Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:48:07.031Z"
-      },
-      {
-        "id": 1794,
-        "code": "EUR-001794",
-        "name": "ჭურჭლის სარეცხი მანქანა (HDP1L39W)",
-        "room_id": 111,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "საწყობში",
-        "notes": "ს/ზ 0402595310, (211334830) შპს ომეგა, 13.09.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:50:31.994Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:50:31.994Z"
+        "updated_at": "2026-11-21T19:56:40.885Z"
       }
     ],
     "inventory_photos": [],
@@ -46444,7 +46309,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:41:55.903Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1903,
@@ -46454,7 +46319,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1904,
@@ -46464,7 +46329,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1905,
@@ -46474,7 +46339,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1906,
@@ -46484,7 +46349,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       },
       {
         "id": 1907,
@@ -46494,107 +46359,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1908,
-        "inventory_id": 1786,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1909,
-        "inventory_id": 1787,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1910,
-        "inventory_id": 1788,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1911,
-        "inventory_id": 1789,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1912,
-        "inventory_id": 1790,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:42:54.123Z"
-      },
-      {
-        "id": 1913,
-        "inventory_id": 1791,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:45:13.545Z"
-      },
-      {
-        "id": 1914,
-        "inventory_id": 1792,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:45:13.545Z"
-      },
-      {
-        "id": 1915,
-        "inventory_id": 1357,
-        "action": "ჩანაწერის რედაქტირება",
-        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:45:31.524Z"
-      },
-      {
-        "id": 1916,
-        "inventory_id": 1793,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:48:07.031Z"
-      },
-      {
-        "id": 1917,
-        "inventory_id": 1794,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:50:31.994Z"
+        "created_at": "2026-11-21T19:56:40.885Z"
       }
     ],
     "app_metadata": [
