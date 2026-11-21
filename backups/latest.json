@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:13:44.563Z",
+  "exportedAt": "2026-11-21T19:17:23.961Z",
   "tables": {
     "rooms": [
       {
@@ -27132,6 +27132,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T19:13:44.373Z"
+      },
+      {
+        "id": 1776,
+        "code": "EUR-001776",
+        "name": "ეკრანის საკიდი (SkyTech LAZER-17-55TB WALL MOUNTS)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408891252, (445399300) შპს მეგა ელექტრონიქსი 2011, 12.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T19:17:23.789Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T19:17:23.789Z"
+      },
+      {
+        "id": 1777,
+        "code": "EUR-001777",
+        "name": "ეკრანის საკიდი (SkyTech LAZER-17-55TB WALL MOUNTS)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408891252, (445399300) შპს მეგა ელექტრონიქსი 2011, 12.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T19:17:23.789Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T19:17:23.789Z"
       }
     ],
     "inventory_photos": [],
@@ -46110,6 +46140,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T19:13:44.373Z"
+      },
+      {
+        "id": 1898,
+        "inventory_id": 1776,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T19:17:23.789Z"
+      },
+      {
+        "id": 1899,
+        "inventory_id": 1777,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T19:17:23.789Z"
       }
     ],
     "app_metadata": [
