@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:22:44.020Z",
+  "exportedAt": "2026-11-21T17:25:02.751Z",
   "tables": {
     "rooms": [
       {
@@ -18327,6 +18327,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:22:43.795Z"
+      },
+      {
+        "id": 1189,
+        "code": "EUR-001189",
+        "name": "ელექტრო პერფორატორი (დრელი 1050)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0327766209, (445441326) შპს შპს 2014, 04.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:25:02.497Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:25:02.497Z"
       }
     ],
     "inventory_photos": [],
@@ -31415,6 +31430,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:22:43.795Z"
+      },
+      {
+        "id": 1309,
+        "inventory_id": 1189,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:25:02.497Z"
       }
     ],
     "app_metadata": [
