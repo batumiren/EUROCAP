@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:36:16.703Z",
+  "exportedAt": "2026-11-21T17:37:05.694Z",
   "tables": {
     "rooms": [
       {
@@ -18522,6 +18522,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:36:16.487Z"
+      },
+      {
+        "id": 1202,
+        "code": "EUR-001202",
+        "name": "დროშა ევროკავშირის (90X145)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330127284, (445468388) შპს კანცბუმი, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:37:05.443Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:37:05.443Z"
       }
     ],
     "inventory_photos": [],
@@ -31740,6 +31755,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:36:16.487Z"
+      },
+      {
+        "id": 1322,
+        "inventory_id": 1202,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:37:05.443Z"
       }
     ],
     "app_metadata": [
