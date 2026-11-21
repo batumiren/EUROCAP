@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:03:48.060Z",
+  "exportedAt": "2026-11-21T18:04:47.538Z",
   "tables": {
     "rooms": [
       {
@@ -20622,6 +20622,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:03:47.772Z"
+      },
+      {
+        "id": 1342,
+        "code": "EUR-001342",
+        "name": "გაზის სანთურა (\"UNIGAS\" NG 400 (TN.M.RU.A.0.25- 25mbar)(185-420 Kw)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:04:47.281Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:04:47.281Z"
+      },
+      {
+        "id": 1343,
+        "code": "EUR-001343",
+        "name": "გაზის სანთურა (\"UNIGAS\" NG 400 (TN.M.RU.A.0.25- 25mbar)(185-420 Kw)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338782633, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:04:47.281Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:04:47.281Z"
       }
     ],
     "inventory_photos": [],
@@ -35250,6 +35280,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:03:47.772Z"
+      },
+      {
+        "id": 1463,
+        "inventory_id": 1342,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:04:47.281Z"
+      },
+      {
+        "id": 1464,
+        "inventory_id": 1343,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:04:47.281Z"
       }
     ],
     "app_metadata": [
