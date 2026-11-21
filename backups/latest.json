@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:58:49.520Z",
+  "exportedAt": "2026-11-21T20:01:39.510Z",
   "tables": {
     "rooms": [
       {
@@ -27286,17 +27286,77 @@
       {
         "id": 1786,
         "code": "EUR-001786",
-        "name": "სახანძრო სისტემის სამართავი პულტი (Tiras-8p , 8)",
+        "name": "სახანძრო ღილაკი ხელის (სახანძრო მოწყობილობა)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:58:49.280Z",
+        "registered_at": "2026-11-21T20:01:39.249Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:58:49.280Z"
+        "updated_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1787,
+        "code": "EUR-001787",
+        "name": "სახანძრო ღილაკი ხელის (სახანძრო მოწყობილობა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T20:01:39.249Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1788,
+        "code": "EUR-001788",
+        "name": "სახანძრო ღილაკი ხელის (სახანძრო მოწყობილობა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T20:01:39.249Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1789,
+        "code": "EUR-001789",
+        "name": "სახანძრო ღილაკი ხელის (სახანძრო მოწყობილობა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T20:01:39.249Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1790,
+        "code": "EUR-001790",
+        "name": "სახანძრო ღილაკი ხელის (სახანძრო მოწყობილობა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T20:01:39.249Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T20:01:39.249Z"
       }
     ],
     "inventory_photos": [],
@@ -46384,7 +46444,47 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:58:49.280Z"
+        "created_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1909,
+        "inventory_id": 1787,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1910,
+        "inventory_id": 1788,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1911,
+        "inventory_id": 1789,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T20:01:39.249Z"
+      },
+      {
+        "id": 1912,
+        "inventory_id": 1790,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T20:01:39.249Z"
       }
     ],
     "app_metadata": [
