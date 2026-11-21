@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:27:47.525Z",
+  "exportedAt": "2026-11-21T16:29:44.437Z",
   "tables": {
     "rooms": [
       {
@@ -16827,6 +16827,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:27:47.316Z"
+      },
+      {
+        "id": 1089,
+        "code": "EUR-001089",
+        "name": "აკუსტიკური სისტემა (დინამიკი MICROLAB - B-51/107540)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0101288146, (202268928) სს ელიტ ელექტრონიქსი, 11.02.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:29:44.202Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:29:44.202Z"
       }
     ],
     "inventory_photos": [],
@@ -28835,6 +28850,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:27:47.316Z"
+      },
+      {
+        "id": 1201,
+        "inventory_id": 1089,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:29:44.202Z"
       }
     ],
     "app_metadata": [
