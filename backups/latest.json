@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:39:20.937Z",
+  "exportedAt": "2026-11-21T17:41:17.033Z",
   "tables": {
     "rooms": [
       {
@@ -18582,6 +18582,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1206,
+        "code": "EUR-001206",
+        "name": "ირემი ციგით მანათობელი 60x125სმ პლასტმ. 1/1 (საშობაო დეკორაწია)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0347870448, (404508154) შპს სანნა, 12.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:41:16.796Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:41:16.796Z"
+      },
+      {
+        "id": 1207,
+        "code": "EUR-001207",
+        "name": "ირემი ციგით მანათობელი 60x125სმ პლასტმ. 1/1 (საშობაო დეკორაწია)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0347870448, (404508154) შპს სანნა, 12.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:41:16.796Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:41:16.796Z"
       }
     ],
     "inventory_photos": [],
@@ -31850,6 +31880,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:39:20.660Z"
+      },
+      {
+        "id": 1327,
+        "inventory_id": 1206,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:41:16.796Z"
+      },
+      {
+        "id": 1328,
+        "inventory_id": 1207,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:41:16.796Z"
       }
     ],
     "app_metadata": [
