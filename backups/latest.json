@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:05:14.443Z",
+  "exportedAt": "2026-11-21T16:06:45.239Z",
   "tables": {
     "rooms": [
       {
@@ -16332,6 +16332,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1056,
+        "code": "EUR-001056",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1057,
+        "code": "EUR-001057",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1058,
+        "code": "EUR-001058",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1059,
+        "code": "EUR-001059",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1060,
+        "code": "EUR-001060",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1061,
+        "code": "EUR-001061",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1062,
+        "code": "EUR-001062",
+        "name": "MP3 ფლეერი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0006013646, (448384659) შპს ეგა ტექნიქსი, 08.05.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:06:44.990Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:06:44.990Z"
       }
     ],
     "inventory_photos": [],
@@ -28010,6 +28115,76 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1168,
+        "inventory_id": 1056,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1169,
+        "inventory_id": 1057,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1170,
+        "inventory_id": 1058,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1171,
+        "inventory_id": 1059,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1172,
+        "inventory_id": 1060,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1173,
+        "inventory_id": 1061,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
+      },
+      {
+        "id": 1174,
+        "inventory_id": 1062,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:06:44.990Z"
       }
     ],
     "app_metadata": [
