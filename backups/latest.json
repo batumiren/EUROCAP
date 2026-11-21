@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:30:59.650Z",
+  "exportedAt": "2026-11-21T16:31:13.657Z",
   "tables": {
     "rooms": [
       {
@@ -15950,13 +15950,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
         "responsible_person": "",
         "registered_at": "2026-11-20T06:56:55.583Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T06:56:55.583Z"
+        "updated_at": "2026-11-21T16:31:13.363Z"
       },
       {
         "id": 1031,
@@ -15965,13 +15965,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
         "responsible_person": "",
         "registered_at": "2026-11-20T06:56:55.583Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T16:30:59.439Z"
+        "updated_at": "2026-11-20T06:56:55.583Z"
       },
       {
         "id": 1032,
@@ -15995,13 +15995,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
+        "status": "მცირეფასიანი მარაგები",
         "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
         "responsible_person": "",
         "registered_at": "2026-11-20T07:02:26.209Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T07:02:26.209Z"
+        "updated_at": "2026-11-21T16:30:43.166Z"
       },
       {
         "id": 1034,
@@ -16010,13 +16010,13 @@
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
+        "status": "საწყობში",
         "notes": "ს/ზ 0236641211, (205224201) შპს სმართ ჰაუს ენდ ოფის, 10.05.2016",
         "responsible_person": "",
         "registered_at": "2026-11-20T07:02:26.209Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T16:30:25.365Z"
+        "updated_at": "2026-11-20T07:02:26.209Z"
       },
       {
         "id": 1035,
@@ -28863,23 +28863,23 @@
       },
       {
         "id": 1202,
-        "inventory_id": 1034,
+        "inventory_id": 1033,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T16:30:25.365Z"
+        "created_at": "2026-11-21T16:30:43.166Z"
       },
       {
         "id": 1203,
-        "inventory_id": 1031,
+        "inventory_id": 1030,
         "action": "ჩანაწერის რედაქტირება",
         "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T16:30:59.439Z"
+        "created_at": "2026-11-21T16:31:13.363Z"
       }
     ],
     "app_metadata": [
