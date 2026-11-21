@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:35:06.624Z",
+  "exportedAt": "2026-11-21T17:36:16.703Z",
   "tables": {
     "rooms": [
       {
@@ -18507,6 +18507,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:35:06.354Z"
+      },
+      {
+        "id": 1201,
+        "code": "EUR-001201",
+        "name": "დროშა საქართველოს (90X145)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0330127284, (445468388) შპს კანცბუმი, 14.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:36:16.487Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:36:16.487Z"
       }
     ],
     "inventory_photos": [],
@@ -31715,6 +31730,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:35:06.354Z"
+      },
+      {
+        "id": 1321,
+        "inventory_id": 1201,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:36:16.487Z"
       }
     ],
     "app_metadata": [
