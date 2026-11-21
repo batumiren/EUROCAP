@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:58:08.029Z",
+  "exportedAt": "2026-11-21T18:03:48.060Z",
   "tables": {
     "rooms": [
       {
@@ -20592,6 +20592,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1340,
+        "code": "EUR-001340",
+        "name": "ქვაბი ფოლადის  (372 kw/h Erensan NAR 320 000 kcal/h)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338777613, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:03:47.772Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:03:47.772Z"
+      },
+      {
+        "id": 1341,
+        "code": "EUR-001341",
+        "name": "ქვაბი ფოლადის  (372 kw/h Erensan NAR 320 000 kcal/h)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0338777613, (202283242) სს ქებული კლიმატი, 27.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:03:47.772Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:03:47.772Z"
       }
     ],
     "inventory_photos": [],
@@ -35200,6 +35230,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1461,
+        "inventory_id": 1340,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:03:47.772Z"
+      },
+      {
+        "id": 1462,
+        "inventory_id": 1341,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:03:47.772Z"
       }
     ],
     "app_metadata": [
