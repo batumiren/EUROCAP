@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:04:18.184Z",
+  "exportedAt": "2026-11-21T17:05:37.072Z",
   "tables": {
     "rooms": [
       {
@@ -18177,6 +18177,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:04:17.955Z"
+      },
+      {
+        "id": 1179,
+        "code": "EUR-001179",
+        "name": "ვიდეოჩამწერი ციფრული (Mini NVR Onvif 8ch NVR 720P/1080P Network HD Video Recorder for IP Camera)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0196690959, (448388806) შპს MXM, 20.09.2015 1",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:05:36.838Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:05:36.838Z"
       }
     ],
     "inventory_photos": [],
@@ -31135,6 +31150,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:04:17.955Z"
+      },
+      {
+        "id": 1296,
+        "inventory_id": 1179,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:05:36.838Z"
       }
     ],
     "app_metadata": [
