@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:14:38.913Z",
+  "exportedAt": "2026-11-21T17:15:48.322Z",
   "tables": {
     "rooms": [
       {
@@ -18267,6 +18267,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:14:38.655Z"
+      },
+      {
+        "id": 1185,
+        "code": "EUR-001185",
+        "name": "კამერა (DL444)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0202475632, (448388806) შპს MXM, 22.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:15:48.101Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:15:48.101Z"
       }
     ],
     "inventory_photos": [],
@@ -31315,6 +31330,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:14:38.655Z"
+      },
+      {
+        "id": 1305,
+        "inventory_id": 1185,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:15:48.101Z"
       }
     ],
     "app_metadata": [
