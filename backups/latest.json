@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:44:10.865Z",
+  "exportedAt": "2026-11-21T16:45:37.050Z",
   "tables": {
     "rooms": [
       {
@@ -17292,6 +17292,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:44:10.609Z"
+      },
+      {
+        "id": 1120,
+        "code": "EUR-001120",
+        "name": "ნიჩაბი (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:45:36.788Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:45:36.788Z"
+      },
+      {
+        "id": 1121,
+        "code": "EUR-001121",
+        "name": "ნიჩაბი (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:45:36.788Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:45:36.788Z"
       }
     ],
     "inventory_photos": [],
@@ -29650,6 +29680,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:44:10.609Z"
+      },
+      {
+        "id": 1236,
+        "inventory_id": 1120,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:45:36.788Z"
+      },
+      {
+        "id": 1237,
+        "inventory_id": 1121,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:45:36.788Z"
       }
     ],
     "app_metadata": [
