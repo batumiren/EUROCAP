@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:44:39.905Z",
+  "exportedAt": "2026-11-21T18:47:06.208Z",
   "tables": {
     "rooms": [
       {
@@ -24477,6 +24477,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:44:39.608Z"
+      },
+      {
+        "id": 1599,
+        "code": "EUR-001599",
+        "name": "სარეკლამო აბრა განათებით",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0329352094, (445495045) შპს ვისტა, 11.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:47:05.954Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:47:05.954Z"
       }
     ],
     "inventory_photos": [],
@@ -41685,6 +41700,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:44:39.608Z"
+      },
+      {
+        "id": 1721,
+        "inventory_id": 1599,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:47:05.954Z"
       }
     ],
     "app_metadata": [
