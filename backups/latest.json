@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:49:15.250Z",
+  "exportedAt": "2026-11-21T18:52:08.816Z",
   "tables": {
     "rooms": [
       {
@@ -26892,6 +26892,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:49:14.918Z"
+      },
+      {
+        "id": 1760,
+        "code": "EUR-001760",
+        "name": "თარო თეთრი UGGERBY (90x180x41სმ  1/1)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0348847865, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:52:08.586Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:52:08.586Z"
+      },
+      {
+        "id": 1761,
+        "code": "EUR-001761",
+        "name": "თარო თეთრი UGGERBY (90x180x41სმ  1/1)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0348847865, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:52:08.586Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:52:08.586Z"
       }
     ],
     "inventory_photos": [],
@@ -45710,6 +45740,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:49:14.918Z"
+      },
+      {
+        "id": 1882,
+        "inventory_id": 1760,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:52:08.586Z"
+      },
+      {
+        "id": 1883,
+        "inventory_id": 1761,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:52:08.586Z"
       }
     ],
     "app_metadata": [
