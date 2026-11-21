@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:00:45.873Z",
+  "exportedAt": "2026-11-21T16:05:14.443Z",
   "tables": {
     "rooms": [
       {
@@ -16287,6 +16287,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:00:45.644Z"
+      },
+      {
+        "id": 1053,
+        "code": "EUR-001053",
+        "name": "ნაგვის ურნა პატარა ოფისის (4116)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0040996742, (448384882) შპს კანცელარიის სამყარო, 22.11.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:05:14.167Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1054,
+        "code": "EUR-001054",
+        "name": "ნაგვის ურნა პატარა ოფისის (4116)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0040996742, (448384882) შპს კანცელარიის სამყარო, 22.11.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:05:14.167Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1055,
+        "code": "EUR-001055",
+        "name": "ნაგვის ურნა პატარა ოფისის (4116)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0040996742, (448384882) შპს კანცელარიის სამყარო, 22.11.2012",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:05:14.167Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:05:14.167Z"
       }
     ],
     "inventory_photos": [],
@@ -27935,6 +27980,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:00:45.644Z"
+      },
+      {
+        "id": 1165,
+        "inventory_id": 1053,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1166,
+        "inventory_id": 1054,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:05:14.167Z"
+      },
+      {
+        "id": 1167,
+        "inventory_id": 1055,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:05:14.167Z"
       }
     ],
     "app_metadata": [
