@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:53:48.766Z",
+  "exportedAt": "2026-11-21T18:55:09.479Z",
   "tables": {
     "rooms": [
       {
@@ -26952,6 +26952,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:53:48.507Z"
+      },
+      {
+        "id": 1764,
+        "code": "EUR-001764",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1765,
+        "code": "EUR-001765",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1766,
+        "code": "EUR-001766",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1767,
+        "code": "EUR-001767",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1768,
+        "code": "EUR-001768",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1769,
+        "code": "EUR-001769",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1770,
+        "code": "EUR-001770",
+        "name": "თარო სურათის თეთრი (60სმ  PS)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს//ზ 0348848067, (404508154) შპს სანნა, 17.12.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:55:09.244Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:55:09.244Z"
       }
     ],
     "inventory_photos": [],
@@ -45810,6 +45915,76 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:53:48.507Z"
+      },
+      {
+        "id": 1886,
+        "inventory_id": 1764,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1887,
+        "inventory_id": 1765,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1888,
+        "inventory_id": 1766,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1889,
+        "inventory_id": 1767,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1890,
+        "inventory_id": 1768,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1891,
+        "inventory_id": 1769,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
+      },
+      {
+        "id": 1892,
+        "inventory_id": 1770,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:55:09.244Z"
       }
     ],
     "app_metadata": [
