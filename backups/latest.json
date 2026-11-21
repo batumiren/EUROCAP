@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T15:45:10.923Z",
+  "exportedAt": "2026-11-21T15:47:10.583Z",
   "tables": {
     "rooms": [
       {
@@ -4712,7 +4712,7 @@
         "id": 281,
         "code": "EUR-000281",
         "name": "მაუსი (Mouse/ Logitech/ M105 USB Mouse white 910-002941)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -4721,13 +4721,13 @@
         "registered_at": "2026-11-18T08:42:57.891Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T13:02:06.852Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 282,
         "code": "EUR-000282",
         "name": "მაუსი (Mouse/ Logitech/ M105 USB Mouse white 910-002941)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -4736,7 +4736,7 @@
         "registered_at": "2026-11-18T08:42:57.891Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:54:40.820Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 283,
@@ -5342,7 +5342,7 @@
         "id": 323,
         "code": "EUR-000323",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5351,13 +5351,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:55:59.499Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 324,
         "code": "EUR-000324",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5366,13 +5366,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:53:52.850Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 325,
         "code": "EUR-000325",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5381,13 +5381,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:56:30.120Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 326,
         "code": "EUR-000326",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5396,13 +5396,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:57:10.924Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 327,
         "code": "EUR-000327",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5411,13 +5411,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:58:20.560Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 328,
         "code": "EUR-000328",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5426,13 +5426,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:59:17.578Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 329,
         "code": "EUR-000329",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5441,13 +5441,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T13:00:13.918Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 330,
         "code": "EUR-000330",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5456,13 +5456,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T13:01:04.115Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 331,
         "code": "EUR-000331",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5471,13 +5471,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:53:13.195Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 332,
         "code": "EUR-000332",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5486,13 +5486,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:52:48.202Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 333,
         "code": "EUR-000333",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5501,13 +5501,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:47:10.034Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 334,
         "code": "EUR-000334",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5516,13 +5516,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:51:15.402Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 335,
         "code": "EUR-000335",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5531,13 +5531,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:49:40.947Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 336,
         "code": "EUR-000336",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5546,13 +5546,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:50:39.808Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 337,
         "code": "EUR-000337",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5561,13 +5561,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:46:30.157Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 338,
         "code": "EUR-000338",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5576,13 +5576,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:44:50.017Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 339,
         "code": "EUR-000339",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5591,13 +5591,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:50:26.488Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 340,
         "code": "EUR-000340",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5606,13 +5606,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:48:51.587Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 341,
         "code": "EUR-000341",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5621,13 +5621,13 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:42:54.742Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 342,
         "code": "EUR-000342",
         "name": "მაუსი (Mouse/ Genius/ Netscroll 100X Black USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -5636,7 +5636,7 @@
         "registered_at": "2026-11-18T08:50:28.640Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:44:15.571Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 343,
@@ -9227,7 +9227,7 @@
         "id": 582,
         "code": "EUR-000582",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9236,13 +9236,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:42:17.664Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 583,
         "code": "EUR-000583",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9251,13 +9251,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:47:57.167Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 584,
         "code": "EUR-000584",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9266,13 +9266,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:40:38.779Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 585,
         "code": "EUR-000585",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9281,13 +9281,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:43:38.042Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 586,
         "code": "EUR-000586",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9296,13 +9296,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:38:48.269Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 587,
         "code": "EUR-000587",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9311,13 +9311,13 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:38:02.650Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 588,
         "code": "EUR-000588",
         "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -9326,7 +9326,7 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:34:31.578Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 589,
@@ -13307,7 +13307,7 @@
         "id": 854,
         "code": "EUR-000854",
         "name": "მაუსი (Trust 15862 Optical Mouse USB)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -13316,13 +13316,13 @@
         "registered_at": "2026-11-18T13:13:27.132Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:39:35.679Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 855,
         "code": "EUR-000855",
         "name": "მაუსი (Trust 15862 Optical Mouse USB)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -13331,7 +13331,7 @@
         "registered_at": "2026-11-18T13:13:27.132Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:34:00.904Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       },
       {
         "id": 856,
@@ -16247,7 +16247,7 @@
         "id": 1050,
         "code": "EUR-001050",
         "name": "მაუსი (Genius Netscroll 100 Mouse Silver 800DPI USB G5)",
-        "room_id": 111,
+        "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
@@ -16256,7 +16256,7 @@
         "registered_at": "2026-11-20T12:13:36.663Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-20T12:33:41.994Z"
+        "updated_at": "2026-11-21T15:47:10.150Z"
       }
     ],
     "inventory_photos": [],
@@ -27565,6 +27565,326 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T15:45:10.497Z"
+      },
+      {
+        "id": 1131,
+        "inventory_id": 281,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1132,
+        "inventory_id": 282,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1133,
+        "inventory_id": 323,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1134,
+        "inventory_id": 324,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1135,
+        "inventory_id": 325,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1136,
+        "inventory_id": 326,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1137,
+        "inventory_id": 327,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1138,
+        "inventory_id": 328,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1139,
+        "inventory_id": 329,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1140,
+        "inventory_id": 330,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1141,
+        "inventory_id": 331,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1142,
+        "inventory_id": 332,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1143,
+        "inventory_id": 333,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1144,
+        "inventory_id": 334,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1145,
+        "inventory_id": 335,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1146,
+        "inventory_id": 336,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1147,
+        "inventory_id": 337,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1148,
+        "inventory_id": 338,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1149,
+        "inventory_id": 339,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1150,
+        "inventory_id": 340,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1151,
+        "inventory_id": 341,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1152,
+        "inventory_id": 342,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1153,
+        "inventory_id": 582,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1154,
+        "inventory_id": 583,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1155,
+        "inventory_id": 584,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1156,
+        "inventory_id": 585,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1157,
+        "inventory_id": 586,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1158,
+        "inventory_id": 587,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1159,
+        "inventory_id": 588,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1160,
+        "inventory_id": 854,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1161,
+        "inventory_id": 855,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
+      },
+      {
+        "id": 1162,
+        "inventory_id": 1050,
+        "action": "ფაილიდან იმპორტი",
+        "details": "ოთახი",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T15:47:10.150Z"
       }
     ],
     "app_metadata": [
