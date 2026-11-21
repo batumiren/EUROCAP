@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:55:43.264Z",
+  "exportedAt": "2026-11-21T17:58:08.029Z",
   "tables": {
     "rooms": [
       {
@@ -20547,6 +20547,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:55:42.992Z"
+      },
+      {
+        "id": 1337,
+        "code": "EUR-001337",
+        "name": "ტელევიზორი (SAMSUNG - UE49M5550)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0330350625, (202268928) სს ელიტ ელექტრონიქსი, 15.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:58:07.749Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1338,
+        "code": "EUR-001338",
+        "name": "ტელევიზორი (SAMSUNG - UE49M5550)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0330350625, (202268928) სს ელიტ ელექტრონიქსი, 15.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:58:07.749Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1339,
+        "code": "EUR-001339",
+        "name": "ტელევიზორი (SAMSUNG - UE49M5550)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0330350625, (202268928) სს ელიტ ელექტრონიქსი, 15.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:58:07.749Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:58:07.749Z"
       }
     ],
     "inventory_photos": [],
@@ -35125,6 +35170,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:55:42.992Z"
+      },
+      {
+        "id": 1458,
+        "inventory_id": 1337,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1459,
+        "inventory_id": 1338,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:58:07.749Z"
+      },
+      {
+        "id": 1460,
+        "inventory_id": 1339,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:58:07.749Z"
       }
     ],
     "app_metadata": [
