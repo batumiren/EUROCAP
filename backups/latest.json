@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:02:37.798Z",
+  "exportedAt": "2026-11-21T17:04:18.184Z",
   "tables": {
     "rooms": [
       {
@@ -18162,6 +18162,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:02:37.537Z"
+      },
+      {
+        "id": 1178,
+        "code": "EUR-001178",
+        "name": "კამერის ჩამწერი (16CH Channel H.264 CCTV Surveillance Network DVR HDMI Digital Video System)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0196690959, (448388806) შპს MXM, 20.09.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:04:17.955Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:04:17.955Z"
       }
     ],
     "inventory_photos": [],
@@ -31110,6 +31125,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:02:37.537Z"
+      },
+      {
+        "id": 1295,
+        "inventory_id": 1178,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:04:17.955Z"
       }
     ],
     "app_metadata": [
