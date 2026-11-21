@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:48:38.398Z",
+  "exportedAt": "2026-11-21T16:49:49.032Z",
   "tables": {
     "rooms": [
       {
@@ -17401,7 +17401,7 @@
       {
         "id": 1127,
         "code": "EUR-001127",
-        "name": "ცეცხლმაქრი (სახანძრო მოწყობილოდა)",
+        "name": "ცეცხლმაქრი ბაგორი (სახანძრო მოწყობილოდა)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
@@ -17411,7 +17411,7 @@
         "registered_at": "2026-11-21T16:48:38.174Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T16:48:38.174Z"
+        "updated_at": "2026-11-21T16:49:48.796Z"
       }
     ],
     "inventory_photos": [],
@@ -29850,6 +29850,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:48:38.174Z"
+      },
+      {
+        "id": 1244,
+        "inventory_id": 1127,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:49:48.796Z"
       }
     ],
     "app_metadata": [
