@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:45:37.050Z",
+  "exportedAt": "2026-11-21T16:47:22.008Z",
   "tables": {
     "rooms": [
       {
@@ -17322,6 +17322,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:45:36.788Z"
+      },
+      {
+        "id": 1122,
+        "code": "EUR-001122",
+        "name": "ვედრო სახანძრო (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:47:21.767Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1123,
+        "code": "EUR-001123",
+        "name": "ვედრო სახანძრო (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:47:21.767Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1124,
+        "code": "EUR-001124",
+        "name": "ვედრო სახანძრო (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:47:21.767Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1125,
+        "code": "EUR-001125",
+        "name": "ვედრო სახანძრო (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0200658360, (445391326) შპს სახანძრო უსაფრთხოება, 12.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:47:21.767Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:47:21.767Z"
       }
     ],
     "inventory_photos": [],
@@ -29700,6 +29760,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:45:36.788Z"
+      },
+      {
+        "id": 1238,
+        "inventory_id": 1122,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1239,
+        "inventory_id": 1123,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1240,
+        "inventory_id": 1124,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:47:21.767Z"
+      },
+      {
+        "id": 1241,
+        "inventory_id": 1125,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:47:21.767Z"
       }
     ],
     "app_metadata": [
