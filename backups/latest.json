@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:09:27.757Z",
+  "exportedAt": "2026-11-21T18:10:34.451Z",
   "tables": {
     "rooms": [
       {
@@ -20757,6 +20757,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:09:27.500Z"
+      },
+      {
+        "id": 1351,
+        "code": "EUR-001351",
+        "name": "საოფისე სავარძელი",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:10:34.109Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1352,
+        "code": "EUR-001352",
+        "name": "საოფისე სავარძელი",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:10:34.109Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1353,
+        "code": "EUR-001353",
+        "name": "საოფისე სავარძელი",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:10:34.109Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1354,
+        "code": "EUR-001354",
+        "name": "საოფისე სავარძელი",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:10:34.109Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1355,
+        "code": "EUR-001355",
+        "name": "საოფისე სავარძელი",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0331786148, (445468388) შპს კანცბუმი, 22.09.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:10:34.109Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:10:34.109Z"
       }
     ],
     "inventory_photos": [],
@@ -35475,6 +35550,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:09:27.500Z"
+      },
+      {
+        "id": 1472,
+        "inventory_id": 1351,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1473,
+        "inventory_id": 1352,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1474,
+        "inventory_id": 1353,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1475,
+        "inventory_id": 1354,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:10:34.109Z"
+      },
+      {
+        "id": 1476,
+        "inventory_id": 1355,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:10:34.109Z"
       }
     ],
     "app_metadata": [
