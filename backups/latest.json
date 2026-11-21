@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:20:51.164Z",
+  "exportedAt": "2026-11-21T16:23:35.590Z",
   "tables": {
     "rooms": [
       {
@@ -16632,6 +16632,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:20:50.874Z"
+      },
+      {
+        "id": 1076,
+        "code": "EUR-001076",
+        "name": "ნაგვის ურნა მეტალის (9058)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0134265147, (445389393) შპს EMI, 10.09.2014",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:23:35.386Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:23:35.386Z"
       }
     ],
     "inventory_photos": [],
@@ -28510,6 +28525,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:20:50.874Z"
+      },
+      {
+        "id": 1188,
+        "inventory_id": 1076,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:23:35.386Z"
       }
     ],
     "app_metadata": [
