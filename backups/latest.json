@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:09:00.642Z",
+  "exportedAt": "2026-11-21T16:11:37.843Z",
   "tables": {
     "rooms": [
       {
@@ -16467,6 +16467,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:09:00.333Z"
+      },
+      {
+        "id": 1065,
+        "code": "EUR-001065",
+        "name": "ვებ კამერა (Web Camera/ Logitech/WebCam C270 HD 960-000636)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0048680313, (211380691) შპს ალტა, 18.01.2013",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:11:37.569Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:11:37.569Z"
       }
     ],
     "inventory_photos": [],
@@ -28235,6 +28250,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:09:00.333Z"
+      },
+      {
+        "id": 1177,
+        "inventory_id": 1065,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:11:37.569Z"
       }
     ],
     "app_metadata": [
