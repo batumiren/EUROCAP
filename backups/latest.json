@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:29:00.286Z",
+  "exportedAt": "2026-11-21T19:39:06.432Z",
   "tables": {
     "rooms": [
       {
@@ -27177,6 +27177,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T19:29:00.051Z"
+      },
+      {
+        "id": 1779,
+        "code": "EUR-001779",
+        "name": "WiFi როუტერი (Epson ELPAP10 Wireless LAN Adapter (V12H731P01))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0381384088, (202052054) შპს ორიენტ ლოჯიკი, 05.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T19:39:06.227Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T19:39:06.227Z"
       }
     ],
     "inventory_photos": [],
@@ -46185,6 +46200,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T19:29:00.051Z"
+      },
+      {
+        "id": 1901,
+        "inventory_id": 1779,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T19:39:06.227Z"
       }
     ],
     "app_metadata": [
