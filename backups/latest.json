@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:25:21.107Z",
+  "exportedAt": "2026-11-21T19:26:57.494Z",
   "tables": {
     "rooms": [
       {
@@ -27166,17 +27166,17 @@
       {
         "id": 1778,
         "code": "EUR-001778",
-        "name": "დეკორატიული ხე (ლითონის )",
+        "name": "WiFi როუტერი (TP-Link)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0359979195, (445405954) შპს დავინჩი, 19.02.2018",
+        "notes": "ს/ზ 0417533629, (447862420) შპს ვი აი იპ მობილე, 23.11.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:25:20.863Z",
+        "registered_at": "2026-11-21T19:26:57.303Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:25:20.863Z"
+        "updated_at": "2026-11-21T19:26:57.303Z"
       }
     ],
     "inventory_photos": [],
@@ -46184,7 +46184,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:25:20.863Z"
+        "created_at": "2026-11-21T19:26:57.303Z"
       }
     ],
     "app_metadata": [
