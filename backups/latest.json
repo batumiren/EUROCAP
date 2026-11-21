@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T19:01:12.534Z",
+  "exportedAt": "2026-11-21T19:09:29.758Z",
   "tables": {
     "rooms": [
       {
@@ -27106,32 +27106,17 @@
       {
         "id": 1774,
         "code": "EUR-001774",
-        "name": "დაფა ფლიფჩარტის",
+        "name": "ჩაიდანი (GORENJE - K17FEII)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0332348380, (445468388) შპს კანცბუმი2, 5.09.2017",
+        "notes": "ს/ზ 0380474155, (202268928) სს ელიტ ელექტრონიქსი, 31.05.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-21T19:01:12.294Z",
+        "registered_at": "2026-11-21T19:09:29.544Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T19:01:12.294Z"
-      },
-      {
-        "id": 1775,
-        "code": "EUR-001775",
-        "name": "დაფა ფლიფჩარტის",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0332348380, (445468388) შპს კანცბუმი2, 5.09.2017",
-        "responsible_person": "",
-        "registered_at": "2026-11-21T19:01:12.294Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-21T19:01:12.294Z"
+        "updated_at": "2026-11-21T19:09:29.544Z"
       }
     ],
     "inventory_photos": [],
@@ -46099,17 +46084,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:01:12.294Z"
-      },
-      {
-        "id": 1897,
-        "inventory_id": 1775,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-21T19:01:12.294Z"
+        "created_at": "2026-11-21T19:09:29.544Z"
       }
     ],
     "app_metadata": [
