@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T18:06:14.860Z",
+  "exportedAt": "2026-11-21T18:07:56.654Z",
   "tables": {
     "rooms": [
       {
@@ -20712,6 +20712,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1348,
+        "code": "EUR-001348",
+        "name": "ურიკა",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0318763088, (445488703), შპს ნიუ-ლაინ\t20.07.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T18:07:56.410Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T18:07:56.410Z"
       }
     ],
     "inventory_photos": [],
@@ -35400,6 +35415,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T18:06:14.635Z"
+      },
+      {
+        "id": 1469,
+        "inventory_id": 1348,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T18:07:56.410Z"
       }
     ],
     "app_metadata": [
