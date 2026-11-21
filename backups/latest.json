@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:31:55.756Z",
+  "exportedAt": "2026-11-21T17:32:34.442Z",
   "tables": {
     "rooms": [
       {
@@ -18462,6 +18462,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:31:55.496Z"
+      },
+      {
+        "id": 1198,
+        "code": "EUR-001198",
+        "name": "ალუმინის ფეხსაწმენდი ( 1,30 - 2,80 )",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0306688720, (245621288) შპს ბი ემ სი გორგია, 23.05.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:32:34.179Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:32:34.179Z"
+      },
+      {
+        "id": 1199,
+        "code": "EUR-001199",
+        "name": "ალუმინის ფეხსაწმენდი ( 1,30 - 2,80 )",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0306688720, (245621288) შპს ბი ემ სი გორგია, 23.05.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:32:34.179Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:32:34.179Z"
       }
     ],
     "inventory_photos": [],
@@ -31640,6 +31670,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:31:55.496Z"
+      },
+      {
+        "id": 1318,
+        "inventory_id": 1198,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:32:34.179Z"
+      },
+      {
+        "id": 1319,
+        "inventory_id": 1199,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:32:34.179Z"
       }
     ],
     "app_metadata": [
