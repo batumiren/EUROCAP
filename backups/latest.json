@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T16:35:28.180Z",
+  "exportedAt": "2026-11-21T16:37:35.111Z",
   "tables": {
     "rooms": [
       {
@@ -17067,6 +17067,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T16:35:27.898Z"
+      },
+      {
+        "id": 1105,
+        "code": "EUR-001105",
+        "name": "ქსელის ჰაბი (Tenda S5 5-Port 10/100Mbps Fast Ethernet Switch)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0199787683, (245439271) შპს ივიჯი, 07.10.2015",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T16:37:34.879Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T16:37:34.879Z"
       }
     ],
     "inventory_photos": [],
@@ -29275,6 +29290,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T16:35:27.898Z"
+      },
+      {
+        "id": 1221,
+        "inventory_id": 1105,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T16:37:34.879Z"
       }
     ],
     "app_metadata": [
