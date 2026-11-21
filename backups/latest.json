@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-21T17:28:06.448Z",
+  "exportedAt": "2026-11-21T17:29:35.758Z",
   "tables": {
     "rooms": [
       {
@@ -18402,6 +18402,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1194,
+        "code": "EUR-001194",
+        "name": "ბოქსის ტომარა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0336010634, (245627175) შპს გლობალ პლიუსი, 13.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:29:35.556Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:29:35.556Z"
+      },
+      {
+        "id": 1195,
+        "code": "EUR-001195",
+        "name": "ბოქსის ტომარა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0336010634, (245627175) შპს გლობალ პლიუსი, 13.10.2017",
+        "responsible_person": "",
+        "registered_at": "2026-11-21T17:29:35.556Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-21T17:29:35.556Z"
       }
     ],
     "inventory_photos": [],
@@ -31540,6 +31570,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-21T17:28:06.132Z"
+      },
+      {
+        "id": 1314,
+        "inventory_id": 1194,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:29:35.556Z"
+      },
+      {
+        "id": 1315,
+        "inventory_id": 1195,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-21T17:29:35.556Z"
       }
     ],
     "app_metadata": [
