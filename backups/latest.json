@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:57:06.292Z",
+  "exportedAt": "2026-11-23T17:04:04.099Z",
   "tables": {
     "rooms": [
       {
@@ -29573,10 +29573,10 @@
         "status": "საწყობში",
         "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-23T16:57:05.979Z",
+        "registered_at": "2026-11-23T17:04:03.813Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T16:57:05.979Z"
+        "updated_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 1939,
@@ -29588,10 +29588,10 @@
         "status": "საწყობში",
         "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-23T16:57:05.979Z",
+        "registered_at": "2026-11-23T17:04:03.813Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T16:57:05.979Z"
+        "updated_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 1940,
@@ -29603,10 +29603,10 @@
         "status": "საწყობში",
         "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-23T16:57:05.979Z",
+        "registered_at": "2026-11-23T17:04:03.813Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T16:57:05.979Z"
+        "updated_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 1941,
@@ -29618,10 +29618,10 @@
         "status": "საწყობში",
         "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-23T16:57:05.979Z",
+        "registered_at": "2026-11-23T17:04:03.813Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T16:57:05.979Z"
+        "updated_at": "2026-11-23T17:04:03.813Z"
       }
     ],
     "inventory_photos": [],
@@ -50299,7 +50299,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:57:05.979Z"
+        "created_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 2068,
@@ -50309,7 +50309,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:57:05.979Z"
+        "created_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 2069,
@@ -50319,7 +50319,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:57:05.979Z"
+        "created_at": "2026-11-23T17:04:03.813Z"
       },
       {
         "id": 2070,
@@ -50329,7 +50329,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:57:05.979Z"
+        "created_at": "2026-11-23T17:04:03.813Z"
       }
     ],
     "app_metadata": [
