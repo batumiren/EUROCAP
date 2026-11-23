@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:32:52.437Z",
+  "exportedAt": "2026-11-23T16:34:32.931Z",
   "tables": {
     "rooms": [
       {
@@ -29232,6 +29232,126 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:32:52.152Z"
+      },
+      {
+        "id": 1916,
+        "code": "EUR-001916",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1917,
+        "code": "EUR-001917",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1918,
+        "code": "EUR-001918",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1919,
+        "code": "EUR-001919",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1920,
+        "code": "EUR-001920",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1921,
+        "code": "EUR-001921",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1922,
+        "code": "EUR-001922",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 1923,
+        "code": "EUR-001923",
+        "name": "სახანძრო კარადა (BURTAS 30 M 65*65)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0423894754, (245619763) შპს ლაშვარდი, 24.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:34:32.622Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:34:32.622Z"
       }
     ],
     "inventory_photos": [],
@@ -49680,6 +49800,86 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:32:52.152Z"
+      },
+      {
+        "id": 2045,
+        "inventory_id": 1916,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2046,
+        "inventory_id": 1917,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2047,
+        "inventory_id": 1918,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2048,
+        "inventory_id": 1919,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2049,
+        "inventory_id": 1920,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2050,
+        "inventory_id": 1921,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2051,
+        "inventory_id": 1922,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
+      },
+      {
+        "id": 2052,
+        "inventory_id": 1923,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:34:32.622Z"
       }
     ],
     "app_metadata": [
