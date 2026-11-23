@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:06:51.167Z",
+  "exportedAt": "2026-11-23T16:07:54.170Z",
   "tables": {
     "rooms": [
       {
@@ -28557,6 +28557,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:06:50.882Z"
+      },
+      {
+        "id": 1871,
+        "code": "EUR-001871",
+        "name": "ვიდეო (MIP-313O5/K, 1.0mp ip camera, 3.6mm lens, 18pcs Namo leds, with bracket,  Grey color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:07:53.776Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:07:53.776Z"
       }
     ],
     "inventory_photos": [],
@@ -48555,6 +48570,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:06:50.882Z"
+      },
+      {
+        "id": 2000,
+        "inventory_id": 1871,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:07:53.776Z"
       }
     ],
     "app_metadata": [
