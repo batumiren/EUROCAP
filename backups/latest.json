@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:50:19.285Z",
+  "exportedAt": "2026-11-23T15:52:08.515Z",
   "tables": {
     "rooms": [
       {
@@ -28017,6 +28017,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:50:18.992Z"
+      },
+      {
+        "id": 1835,
+        "code": "EUR-001835",
+        "name": "სახანძრო ღილაკი ხელის SPR-Tiras (სახანძრო მოწყობილობა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:52:08.217Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:52:08.217Z"
       }
     ],
     "inventory_photos": [],
@@ -47655,6 +47670,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:50:18.992Z"
+      },
+      {
+        "id": 1964,
+        "inventory_id": 1835,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:52:08.217Z"
       }
     ],
     "app_metadata": [
