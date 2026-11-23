@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:02:15.629Z",
+  "exportedAt": "2026-11-23T16:04:06.896Z",
   "tables": {
     "rooms": [
       {
@@ -28422,6 +28422,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1862,
+        "code": "EUR-001862",
+        "name": "კამერის ჩამწერი (EN-2724L, 24CH NVR,24 ch 1080P record or 32ch 960P,Support 2 HDD,No Alarm, App: XMEYE)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:04:06.536Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:04:06.536Z"
       }
     ],
     "inventory_photos": [],
@@ -48330,6 +48345,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1991,
+        "inventory_id": 1862,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:04:06.536Z"
       }
     ],
     "app_metadata": [
