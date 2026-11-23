@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:28:02.353Z",
+  "exportedAt": "2026-11-23T16:29:06.862Z",
   "tables": {
     "rooms": [
       {
@@ -29097,6 +29097,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:28:02.045Z"
+      },
+      {
+        "id": 1907,
+        "code": "EUR-001907",
+        "name": "კლავიატურა (DEFENDER - ELEMENT HB-520 USB 45522)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:29:06.580Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:29:06.580Z"
+      },
+      {
+        "id": 1908,
+        "code": "EUR-001908",
+        "name": "კლავიატურა (DEFENDER - ELEMENT HB-520 USB 45522)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:29:06.580Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:29:06.580Z"
       }
     ],
     "inventory_photos": [],
@@ -49455,6 +49485,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:28:02.045Z"
+      },
+      {
+        "id": 2036,
+        "inventory_id": 1907,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:29:06.580Z"
+      },
+      {
+        "id": 2037,
+        "inventory_id": 1908,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:29:06.580Z"
       }
     ],
     "app_metadata": [
