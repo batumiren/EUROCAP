@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:04:06.896Z",
+  "exportedAt": "2026-11-23T16:05:28.454Z",
   "tables": {
     "rooms": [
       {
@@ -28437,6 +28437,111 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:04:06.536Z"
+      },
+      {
+        "id": 1863,
+        "code": "EUR-001863",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1864,
+        "code": "EUR-001864",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1865,
+        "code": "EUR-001865",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1866,
+        "code": "EUR-001866",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1867,
+        "code": "EUR-001867",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1868,
+        "code": "EUR-001868",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1869,
+        "code": "EUR-001869",
+        "name": "ვიდეო (MIP-312B, 1.0mp ip camera, 2.8mm lens, 36pcs leds,  white color)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:05:28.103Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:05:28.103Z"
       }
     ],
     "inventory_photos": [],
@@ -48355,6 +48460,76 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:04:06.536Z"
+      },
+      {
+        "id": 1992,
+        "inventory_id": 1863,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1993,
+        "inventory_id": 1864,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1994,
+        "inventory_id": 1865,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1995,
+        "inventory_id": 1866,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1996,
+        "inventory_id": 1867,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1997,
+        "inventory_id": 1868,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
+      },
+      {
+        "id": 1998,
+        "inventory_id": 1869,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:05:28.103Z"
       }
     ],
     "app_metadata": [
