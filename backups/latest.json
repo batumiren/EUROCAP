@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:46:02.617Z",
+  "exportedAt": "2026-11-23T16:49:28.553Z",
   "tables": {
     "rooms": [
       {
@@ -29472,6 +29472,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:46:02.320Z"
+      },
+      {
+        "id": 1932,
+        "code": "EUR-001932",
+        "name": "შლიფმანქანა კუთხის (GWS 9-125 S Professional)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0366100736, (400113854) შპს ენერჯი, 22.03.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:49:28.241Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:49:28.241Z"
       }
     ],
     "inventory_photos": [],
@@ -50080,6 +50095,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:46:02.320Z"
+      },
+      {
+        "id": 2061,
+        "inventory_id": 1932,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:49:28.241Z"
       }
     ],
     "app_metadata": [
