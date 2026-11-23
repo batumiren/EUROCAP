@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:30:26.840Z",
+  "exportedAt": "2026-11-23T16:31:38.151Z",
   "tables": {
     "rooms": [
       {
@@ -29172,6 +29172,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 1912,
+        "code": "EUR-001912",
+        "name": "კომპიუტერის პროცესორი (EE - PC GDC i3/7100 241N50A1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:31:37.863Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 1913,
+        "code": "EUR-001913",
+        "name": "კომპიუტერის პროცესორი (EE - PC GDC i3/7100 241N50A1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:31:37.863Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 1914,
+        "code": "EUR-001914",
+        "name": "კომპიუტერის პროცესორი (EE - PC GDC i3/7100 241N50A1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:31:37.863Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:31:37.863Z"
       }
     ],
     "inventory_photos": [],
@@ -49580,6 +49625,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 2041,
+        "inventory_id": 1912,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 2042,
+        "inventory_id": 1913,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 2043,
+        "inventory_id": 1914,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:31:37.863Z"
       }
     ],
     "app_metadata": [
