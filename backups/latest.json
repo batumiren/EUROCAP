@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:25:56.096Z",
+  "exportedAt": "2026-11-23T16:27:00.726Z",
   "tables": {
     "rooms": [
       {
@@ -29037,6 +29037,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:25:55.793Z"
+      },
+      {
+        "id": 1903,
+        "code": "EUR-001903",
+        "name": "მაუსი (A4TECH - OP-530NU/083892)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:27:00.363Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:27:00.363Z"
+      },
+      {
+        "id": 1904,
+        "code": "EUR-001904",
+        "name": "მაუსი (A4TECH - OP-530NU/083892)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:27:00.363Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:27:00.363Z"
+      },
+      {
+        "id": 1905,
+        "code": "EUR-001905",
+        "name": "მაუსი (A4TECH - OP-530NU/083892)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:27:00.363Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:27:00.363Z"
       }
     ],
     "inventory_photos": [],
@@ -49355,6 +49400,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:25:55.793Z"
+      },
+      {
+        "id": 2032,
+        "inventory_id": 1903,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:27:00.363Z"
+      },
+      {
+        "id": 2033,
+        "inventory_id": 1904,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:27:00.363Z"
+      },
+      {
+        "id": 2034,
+        "inventory_id": 1905,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:27:00.363Z"
       }
     ],
     "app_metadata": [
