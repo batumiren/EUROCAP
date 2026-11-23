@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:26:12.074Z",
+  "exportedAt": "2026-11-23T15:28:02.839Z",
   "tables": {
     "rooms": [
       {
@@ -9226,17 +9226,17 @@
       {
         "id": 582,
         "code": "EUR-000582",
-        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "name": "ელექტრო ჩაიდანი (SC-EK21S60)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "notes": "ს/ზ 0402572995, (211334830) შპს ომეგა, 13.09.2018",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T15:47:10.150Z"
+        "updated_at": "2026-11-23T15:28:02.556Z"
       },
       {
         "id": 583,
@@ -46410,6 +46410,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:26:11.692Z"
+      },
+      {
+        "id": 1913,
+        "inventory_id": 582,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:28:02.556Z"
       }
     ],
     "app_metadata": [
