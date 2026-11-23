@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:43:44.346Z",
+  "exportedAt": "2026-11-23T15:45:20.599Z",
   "tables": {
     "rooms": [
       {
@@ -27912,6 +27912,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:43:44.043Z"
+      },
+      {
+        "id": 1828,
+        "code": "EUR-001828",
+        "name": "წყლის გამაცხელებელი ელ. ( ბოილერი  PRO ECO 100)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402595310, (211334830) შპს ომეგა, 13.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:45:20.334Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:45:20.334Z"
       }
     ],
     "inventory_photos": [],
@@ -47480,6 +47495,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:43:44.043Z"
+      },
+      {
+        "id": 1957,
+        "inventory_id": 1828,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:45:20.334Z"
       }
     ],
     "app_metadata": [
