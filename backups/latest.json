@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:41:43.214Z",
+  "exportedAt": "2026-11-23T16:42:33.148Z",
   "tables": {
     "rooms": [
       {
@@ -29382,6 +29382,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:41:42.925Z"
+      },
+      {
+        "id": 1926,
+        "code": "EUR-001926",
+        "name": "კომპიუტერის მონიტორი \"22\"",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0372703606, (13001068106) თამთა აბაზაშვილი, 25.04.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:42:32.869Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:42:32.869Z"
+      },
+      {
+        "id": 1927,
+        "code": "EUR-001927",
+        "name": "კომპიუტერის მონიტორი \"22\"",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0372703606, (13001068106) თამთა აბაზაშვილი, 25.04.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:42:32.869Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:42:32.869Z"
       }
     ],
     "inventory_photos": [],
@@ -49930,6 +49960,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:41:42.925Z"
+      },
+      {
+        "id": 2055,
+        "inventory_id": 1926,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:42:32.869Z"
+      },
+      {
+        "id": 2056,
+        "inventory_id": 1927,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:42:32.869Z"
       }
     ],
     "app_metadata": [
