@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:01:04.999Z",
+  "exportedAt": "2026-11-23T16:02:15.629Z",
   "tables": {
     "rooms": [
       {
@@ -28332,6 +28332,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:01:04.685Z"
+      },
+      {
+        "id": 1856,
+        "code": "EUR-001856",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1857,
+        "code": "EUR-001857",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1858,
+        "code": "EUR-001858",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1859,
+        "code": "EUR-001859",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1860,
+        "code": "EUR-001860",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1861,
+        "code": "EUR-001861",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0405152261, (448388806) შპს MXM, 25.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:02:15.322Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:02:15.322Z"
       }
     ],
     "inventory_photos": [],
@@ -48180,6 +48270,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:01:04.685Z"
+      },
+      {
+        "id": 1985,
+        "inventory_id": 1856,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1986,
+        "inventory_id": 1857,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1987,
+        "inventory_id": 1858,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1988,
+        "inventory_id": 1859,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1989,
+        "inventory_id": 1860,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
+      },
+      {
+        "id": 1990,
+        "inventory_id": 1861,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:02:15.322Z"
       }
     ],
     "app_metadata": [
