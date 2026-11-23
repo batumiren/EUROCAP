@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:53:31.159Z",
+  "exportedAt": "2026-11-23T16:55:23.182Z",
   "tables": {
     "rooms": [
       {
@@ -29502,6 +29502,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:53:30.877Z"
+      },
+      {
+        "id": 1934,
+        "code": "EUR-001934",
+        "name": "მაგიდა პლასმასის ჰმ-620",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:55:22.873Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 1935,
+        "code": "EUR-001935",
+        "name": "მაგიდა პლასმასის ჰმ-620",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:55:22.873Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 1936,
+        "code": "EUR-001936",
+        "name": "მაგიდა პლასმასის ჰმ-620",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:55:22.873Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 1937,
+        "code": "EUR-001937",
+        "name": "მაგიდა პლასმასის ჰმ-620",
+        "room_id": 110,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0380681677, (412731717) შპს  აივანი, 01.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:55:22.873Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:55:22.873Z"
       }
     ],
     "inventory_photos": [],
@@ -50130,6 +50190,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:53:30.877Z"
+      },
+      {
+        "id": 2063,
+        "inventory_id": 1934,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 2064,
+        "inventory_id": 1935,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 2065,
+        "inventory_id": 1936,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:55:22.873Z"
+      },
+      {
+        "id": 2066,
+        "inventory_id": 1937,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:55:22.873Z"
       }
     ],
     "app_metadata": [
