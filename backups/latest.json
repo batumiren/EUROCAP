@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:35:58.031Z",
+  "exportedAt": "2026-11-23T15:37:48.714Z",
   "tables": {
     "rooms": [
       {
@@ -27597,6 +27597,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:35:57.755Z"
+      },
+      {
+        "id": 1807,
+        "code": "EUR-001807",
+        "name": "საათი კედლის ( \"ხილი\" 18სმ. (60))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:37:48.349Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:37:48.349Z"
       }
     ],
     "inventory_photos": [],
@@ -46955,6 +46970,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:35:57.755Z"
+      },
+      {
+        "id": 1936,
+        "inventory_id": 1807,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:37:48.349Z"
       }
     ],
     "app_metadata": [
