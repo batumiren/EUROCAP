@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:54:02.521Z",
+  "exportedAt": "2026-11-23T15:56:38.366Z",
   "tables": {
     "rooms": [
       {
@@ -28182,6 +28182,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:54:02.222Z"
+      },
+      {
+        "id": 1846,
+        "code": "EUR-001846",
+        "name": "სახანძრო ყუთი მეტალის (30*40*16)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:56:38.057Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:56:38.057Z"
+      },
+      {
+        "id": 1847,
+        "code": "EUR-001847",
+        "name": "სახანძრო ყუთი მეტალის (30*40*16)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:56:38.057Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:56:38.057Z"
       }
     ],
     "inventory_photos": [],
@@ -47930,6 +47960,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:54:02.222Z"
+      },
+      {
+        "id": 1975,
+        "inventory_id": 1846,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:56:38.057Z"
+      },
+      {
+        "id": 1976,
+        "inventory_id": 1847,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:56:38.057Z"
       }
     ],
     "app_metadata": [
