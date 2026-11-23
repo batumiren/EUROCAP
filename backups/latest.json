@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:37:02.080Z",
+  "exportedAt": "2026-11-23T16:39:55.412Z",
   "tables": {
     "rooms": [
       {
@@ -29356,62 +29356,17 @@
       {
         "id": 1924,
         "code": "EUR-001924",
-        "name": "ხაზის ტელეფონი (Grandstream GXP 1620)",
+        "name": "კომპიუტერის პროცესორი",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0357426671, (205270473) შპს მაიფონი, 06.02.2018",
+        "notes": "ს/ზ 0360871035, (13001068106) თამთა აბაზაშვილი, 23.02.2018",
         "responsible_person": "",
-        "registered_at": "2026-11-23T16:37:01.782Z",
+        "registered_at": "2026-11-23T16:39:55.139Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 1925,
-        "code": "EUR-001925",
-        "name": "ხაზის ტელეფონი (Grandstream GXP 1620)",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0357426671, (205270473) შპს მაიფონი, 06.02.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-23T16:37:01.782Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 1926,
-        "code": "EUR-001926",
-        "name": "ხაზის ტელეფონი (Grandstream GXP 1620)",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0357426671, (205270473) შპს მაიფონი, 06.02.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-23T16:37:01.782Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 1927,
-        "code": "EUR-001927",
-        "name": "ხაზის ტელეფონი (Grandstream GXP 1620)",
-        "room_id": 112,
-        "quantity": 1,
-        "condition": "კარგი",
-        "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0357426671, (205270473) შპს მაიფონი, 06.02.2018",
-        "responsible_person": "",
-        "registered_at": "2026-11-23T16:37:01.782Z",
-        "last_inspected_at": null,
-        "archived_at": null,
-        "updated_at": "2026-11-23T16:37:01.782Z"
+        "updated_at": "2026-11-23T16:39:55.139Z"
       }
     ],
     "inventory_photos": [],
@@ -49949,37 +49904,7 @@
         "reference_type": null,
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 2054,
-        "inventory_id": 1925,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 2055,
-        "inventory_id": 1926,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:37:01.782Z"
-      },
-      {
-        "id": 2056,
-        "inventory_id": 1927,
-        "action": "ჩანაწერის შექმნა",
-        "details": "რაოდენობა: 1",
-        "reference_type": null,
-        "reference_id": null,
-        "operator_email": "lasha@euro.edu.ge",
-        "created_at": "2026-11-23T16:37:01.782Z"
+        "created_at": "2026-11-23T16:39:55.139Z"
       }
     ],
     "app_metadata": [
