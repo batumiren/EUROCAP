@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T14:57:41.838Z",
+  "exportedAt": "2026-11-23T15:21:48.398Z",
   "tables": {
     "rooms": [
       {
@@ -9271,17 +9271,17 @@
       {
         "id": 585,
         "code": "EUR-000585",
-        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "name": "ხე დეკორატიული ლითონის (საახალწლო დეკორაცია)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "notes": "ს/ზ 0359979195, (445405954) შპს დავინჩი, 19.02.2018",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T15:47:10.150Z"
+        "updated_at": "2026-11-23T15:21:48.125Z"
       },
       {
         "id": 586,
@@ -46380,6 +46380,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T14:57:41.456Z"
+      },
+      {
+        "id": 1910,
+        "inventory_id": 585,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:21:48.125Z"
       }
     ],
     "app_metadata": [
