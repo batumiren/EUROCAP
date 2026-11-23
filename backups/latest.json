@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:29:06.862Z",
+  "exportedAt": "2026-11-23T16:30:26.840Z",
   "tables": {
     "rooms": [
       {
@@ -29127,6 +29127,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:29:06.580Z"
+      },
+      {
+        "id": 1909,
+        "code": "EUR-001909",
+        "name": "კომპიუტერის მონიტორი (PHILIPS - 223V5LSB/62)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:30:26.461Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 1910,
+        "code": "EUR-001910",
+        "name": "კომპიუტერის მონიტორი (PHILIPS - 223V5LSB/62)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:30:26.461Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 1911,
+        "code": "EUR-001911",
+        "name": "კომპიუტერის მონიტორი (PHILIPS - 223V5LSB/62)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0408142449, (202268928) სს ელიტ ელექტრონიქსი, 09.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:30:26.461Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:30:26.461Z"
       }
     ],
     "inventory_photos": [],
@@ -49505,6 +49550,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:29:06.580Z"
+      },
+      {
+        "id": 2038,
+        "inventory_id": 1909,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 2039,
+        "inventory_id": 1910,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:30:26.461Z"
+      },
+      {
+        "id": 2040,
+        "inventory_id": 1911,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:30:26.461Z"
       }
     ],
     "app_metadata": [
