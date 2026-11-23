@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:45:20.599Z",
+  "exportedAt": "2026-11-23T15:47:57.458Z",
   "tables": {
     "rooms": [
       {
@@ -27927,6 +27927,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:45:20.334Z"
+      },
+      {
+        "id": 1829,
+        "code": "EUR-001829",
+        "name": "8 ზონიანი სახანძრო პანელი Tiras-8p  (სახანძრო მოწყობილოდა)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0401869785, (448388806) შპს MXM, 10.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:47:57.203Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:47:57.203Z"
       }
     ],
     "inventory_photos": [],
@@ -47505,6 +47520,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:45:20.334Z"
+      },
+      {
+        "id": 1958,
+        "inventory_id": 1829,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:47:57.203Z"
       }
     ],
     "app_metadata": [
