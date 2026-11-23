@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T16:31:38.151Z",
+  "exportedAt": "2026-11-23T16:32:52.437Z",
   "tables": {
     "rooms": [
       {
@@ -29217,6 +29217,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 1915,
+        "code": "EUR-001915",
+        "name": "ტელევიზორი (TOSHIBA - 39S2750EV)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0408784250, (202268928) სს ელიტ ელექტრონიქსი, 12.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T16:32:52.152Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T16:32:52.152Z"
       }
     ],
     "inventory_photos": [],
@@ -49655,6 +49670,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T16:31:37.863Z"
+      },
+      {
+        "id": 2044,
+        "inventory_id": 1915,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T16:32:52.152Z"
       }
     ],
     "app_metadata": [
