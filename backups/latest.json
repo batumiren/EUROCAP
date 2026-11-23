@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:28:02.839Z",
+  "exportedAt": "2026-11-23T15:29:12.498Z",
   "tables": {
     "rooms": [
       {
@@ -9241,7 +9241,7 @@
       {
         "id": 583,
         "code": "EUR-000583",
-        "name": "ელექტრო ჩაიდანი (SC-EK21S60 )",
+        "name": "ელექტრო ჩაიდანი (SC-EK21S60)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
@@ -9251,7 +9251,7 @@
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-23T15:26:11.692Z"
+        "updated_at": "2026-11-23T15:29:12.145Z"
       },
       {
         "id": 584,
@@ -46420,6 +46420,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:28:02.556Z"
+      },
+      {
+        "id": 1914,
+        "inventory_id": 583,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:29:12.145Z"
       }
     ],
     "app_metadata": [
