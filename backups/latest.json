@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:21:48.398Z",
+  "exportedAt": "2026-11-23T15:24:00.348Z",
   "tables": {
     "rooms": [
       {
@@ -9256,17 +9256,17 @@
       {
         "id": 584,
         "code": "EUR-000584",
-        "name": "მაუსი (Super Power (Codegen) 3D Optical Mouse MS-001 Black/ 1000dp)",
+        "name": "WiFi როუტერი (Epson ELPAP10 Wireless LAN Adapter (V12H731P01)",
         "room_id": 112,
         "quantity": 1,
         "condition": "კარგი",
         "status": "მცირეფასიანი მარაგები",
-        "notes": "ს/ზ 0090570728, (245439271) შპს ივიჯი, 21.11.2013",
+        "notes": "ს/ზ 0381384088, (202052054) შპს ორიენტ ლოჯიკი, 05.06.2018",
         "responsible_person": "",
         "registered_at": "2026-11-18T10:33:36.344Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-21T15:47:10.150Z"
+        "updated_at": "2026-11-23T15:24:00.091Z"
       },
       {
         "id": 585,
@@ -46390,6 +46390,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:21:48.125Z"
+      },
+      {
+        "id": 1911,
+        "inventory_id": 584,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:24:00.091Z"
       }
     ],
     "app_metadata": [
