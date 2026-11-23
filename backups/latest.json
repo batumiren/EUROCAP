@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T15:42:00.474Z",
+  "exportedAt": "2026-11-23T15:43:44.346Z",
   "tables": {
     "rooms": [
       {
@@ -27897,6 +27897,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T15:42:00.172Z"
+      },
+      {
+        "id": 1827,
+        "code": "EUR-001827",
+        "name": "ჩაიდანი თერმოსი (SC-ET10D01)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0402572995, (211334830) შპს ომეგა, 13.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-23T15:43:44.043Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-23T15:43:44.043Z"
       }
     ],
     "inventory_photos": [],
@@ -47455,6 +47470,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T15:42:00.172Z"
+      },
+      {
+        "id": 1956,
+        "inventory_id": 1827,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-23T15:43:44.043Z"
       }
     ],
     "app_metadata": [
