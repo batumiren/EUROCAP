@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:52:00.511Z",
+  "exportedAt": "2026-11-24T14:53:42.264Z",
   "tables": {
     "rooms": [
       {
@@ -38052,6 +38052,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:52:00.188Z"
+      },
+      {
+        "id": 2504,
+        "code": "EUR-002504",
+        "name": "ნაგვის ურნა მეტალის (ოფისის)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:53:41.971Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2505,
+        "code": "EUR-002505",
+        "name": "ნაგვის ურნა მეტალის (ოფისის)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:53:41.971Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2506,
+        "code": "EUR-002506",
+        "name": "ნაგვის ურნა მეტალის (ოფისის)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:53:41.971Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2507,
+        "code": "EUR-002507",
+        "name": "ნაგვის ურნა მეტალის (ოფისის)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:53:41.971Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:53:41.971Z"
       }
     ],
     "inventory_photos": [],
@@ -64390,6 +64450,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:52:00.188Z"
+      },
+      {
+        "id": 2634,
+        "inventory_id": 2504,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2635,
+        "inventory_id": 2505,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2636,
+        "inventory_id": 2506,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2637,
+        "inventory_id": 2507,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:53:41.971Z"
       }
     ],
     "app_metadata": [
