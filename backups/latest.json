@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:28:47.702Z",
+  "exportedAt": "2026-11-24T15:30:40.538Z",
   "tables": {
     "rooms": [
       {
@@ -40557,6 +40557,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2671,
+        "code": "EUR-002671",
+        "name": "ნოუტბუკი (Notebook/ACER - E5-576/NX.GRYER.007)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0428979001\t(202268928) სს ელიტ ელექტრონიქსი\t25.01.2019 14:33:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:30:40.123Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:30:40.123Z"
       }
     ],
     "inventory_photos": [],
@@ -68565,6 +68580,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2801,
+        "inventory_id": 2671,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:30:40.123Z"
       }
     ],
     "app_metadata": [
