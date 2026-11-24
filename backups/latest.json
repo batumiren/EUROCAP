@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:47:57.748Z",
+  "exportedAt": "2026-11-24T14:49:21.231Z",
   "tables": {
     "rooms": [
       {
@@ -37917,6 +37917,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:47:57.464Z"
+      },
+      {
+        "id": 2495,
+        "code": "EUR-002495",
+        "name": "წყლის გამაცხელებელი ( ბოილერი ”ELECTROLUX” 80ლ.)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0481017072\t(245621288) შპს ბი ემ სი გორგია\t28.09.2019 09:57:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:49:20.884Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:49:20.884Z"
       }
     ],
     "inventory_photos": [],
@@ -64165,6 +64180,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:47:57.464Z"
+      },
+      {
+        "id": 2625,
+        "inventory_id": 2495,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:49:20.884Z"
       }
     ],
     "app_metadata": [
