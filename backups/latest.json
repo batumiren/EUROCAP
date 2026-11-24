@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:29:27.594Z",
+  "exportedAt": "2026-11-24T14:30:46.595Z",
   "tables": {
     "rooms": [
       {
@@ -35487,6 +35487,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:29:27.303Z"
+      },
+      {
+        "id": 2333,
+        "code": "EUR-002333",
+        "name": "მადუღარა ყავის (ელ. DC203 SOKANY)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481413930\t(445402859) შპს გენამო\t30.09.2019 17:20:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:30:46.227Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:30:46.227Z"
+      },
+      {
+        "id": 2334,
+        "code": "EUR-002334",
+        "name": "მადუღარა ყავის (ელ. DC203 SOKANY)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481413930\t(445402859) შპს გენამო\t30.09.2019 17:20:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:30:46.227Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:30:46.227Z"
       }
     ],
     "inventory_photos": [],
@@ -60115,6 +60145,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:29:27.303Z"
+      },
+      {
+        "id": 2463,
+        "inventory_id": 2333,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:30:46.227Z"
+      },
+      {
+        "id": 2464,
+        "inventory_id": 2334,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:30:46.227Z"
       }
     ],
     "app_metadata": [
