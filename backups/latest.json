@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:46:23.783Z",
+  "exportedAt": "2026-11-24T14:47:57.748Z",
   "tables": {
     "rooms": [
       {
@@ -37902,6 +37902,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2494,
+        "code": "EUR-002494",
+        "name": "ქოთანი ყვავილის (პლასტმასის DCUB ნაცრისფერი 400მმ 7529U)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0445994317\t(245621288) შპს ბი ემ სი გორგია\t19.04.2019 11:41:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:47:57.464Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:47:57.464Z"
       }
     ],
     "inventory_photos": [],
@@ -64140,6 +64155,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2624,
+        "inventory_id": 2494,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:47:57.464Z"
       }
     ],
     "app_metadata": [
