@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:33:15.431Z",
+  "exportedAt": "2026-11-24T14:34:00.328Z",
   "tables": {
     "rooms": [
       {
@@ -35547,6 +35547,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:33:15.152Z"
+      },
+      {
+        "id": 2337,
+        "code": "EUR-002337",
+        "name": "საკიდი ტანსაცმლის (SkyTech LAZER-42FULL WALL)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0438482481\t(445399300) შპს მეგა ელექტრონიქსი 2011\t14.03.2019 16:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:34:00.015Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:34:00.015Z"
       }
     ],
     "inventory_photos": [],
@@ -60215,6 +60230,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:33:15.152Z"
+      },
+      {
+        "id": 2467,
+        "inventory_id": 2337,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:34:00.015Z"
       }
     ],
     "app_metadata": [
