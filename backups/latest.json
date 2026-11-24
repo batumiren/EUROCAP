@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:21:26.019Z",
+  "exportedAt": "2026-11-24T15:23:57.217Z",
   "tables": {
     "rooms": [
       {
@@ -38712,6 +38712,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:21:25.725Z"
+      },
+      {
+        "id": 2548,
+        "code": "EUR-002548",
+        "name": "კომპიუტერის კომპლექტი (ეკრანი, კლავიატურა, მაუსი) (HP 200 G3 (3VA37EA) All-in-One 21.5\"  i3-8130U(2.2GHz), 4GB, 1TB, DVD, HDMI, USB Keyboard & Mouse)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0451678303\t(245439271) შპს ივიჯი\t17.05.2019 18:09:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:23:56.909Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:23:56.909Z"
+      },
+      {
+        "id": 2549,
+        "code": "EUR-002549",
+        "name": "კომპიუტერის კომპლექტი (ეკრანი, კლავიატურა, მაუსი) (HP 200 G3 (3VA37EA) All-in-One 21.5\"  i3-8130U(2.2GHz), 4GB, 1TB, DVD, HDMI, USB Keyboard & Mouse)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0451678303\t(245439271) შპს ივიჯი\t17.05.2019 18:09:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:23:56.909Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:23:56.909Z"
       }
     ],
     "inventory_photos": [],
@@ -65490,6 +65520,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:21:25.725Z"
+      },
+      {
+        "id": 2678,
+        "inventory_id": 2548,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:23:56.909Z"
+      },
+      {
+        "id": 2679,
+        "inventory_id": 2549,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:23:56.909Z"
       }
     ],
     "app_metadata": [
