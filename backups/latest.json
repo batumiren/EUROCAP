@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:47:07.496Z",
+  "exportedAt": "2026-11-24T13:49:00.543Z",
   "tables": {
     "rooms": [
       {
@@ -35022,6 +35022,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:47:07.122Z"
+      },
+      {
+        "id": 2302,
+        "code": "EUR-002302",
+        "name": "მაგიდა ტენისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:49:00.148Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:49:00.148Z"
       }
     ],
     "inventory_photos": [],
@@ -59330,6 +59345,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:47:07.122Z"
+      },
+      {
+        "id": 2431,
+        "inventory_id": 2302,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:49:00.148Z"
       }
     ],
     "app_metadata": [
