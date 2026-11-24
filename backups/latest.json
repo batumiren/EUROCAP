@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:30:46.595Z",
+  "exportedAt": "2026-11-24T14:33:15.431Z",
   "tables": {
     "rooms": [
       {
@@ -35517,6 +35517,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:30:46.227Z"
+      },
+      {
+        "id": 2335,
+        "code": "EUR-002335",
+        "name": "საკიდი ტანსაცმლის (SkyTech LAZER-20M WALL MOUNTS)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0438482481\t(445399300) შპს მეგა ელექტრონიქსი 2011\t14.03.2019 16:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:33:15.152Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:33:15.152Z"
+      },
+      {
+        "id": 2336,
+        "code": "EUR-002336",
+        "name": "საკიდი ტანსაცმლის (SkyTech LAZER-20M WALL MOUNTS)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0438482481\t(445399300) შპს მეგა ელექტრონიქსი 2011\t14.03.2019 16:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:33:15.152Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:33:15.152Z"
       }
     ],
     "inventory_photos": [],
@@ -60165,6 +60195,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:30:46.227Z"
+      },
+      {
+        "id": 2465,
+        "inventory_id": 2335,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:33:15.152Z"
+      },
+      {
+        "id": 2466,
+        "inventory_id": 2336,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:33:15.152Z"
       }
     ],
     "app_metadata": [
