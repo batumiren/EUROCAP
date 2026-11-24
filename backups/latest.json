@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:00:24.503Z",
+  "exportedAt": "2026-11-24T13:03:13.443Z",
   "tables": {
     "rooms": [
       {
@@ -30492,6 +30492,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2000,
+        "code": "EUR-002000",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0378909205, (445468388) შპს კანცბუმი, 24.05.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:03:13.190Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2001,
+        "code": "EUR-002001",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0378909205, (445468388) შპს კანცბუმი, 24.05.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:03:13.190Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2002,
+        "code": "EUR-002002",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0378909205, (445468388) შპს კანცბუმი, 24.05.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:03:13.190Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2003,
+        "code": "EUR-002003",
+        "name": "დროშის სადგამი (შტენდერი 200-სმ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0378909205, (445468388) შპს კანცბუმი, 24.05.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:03:13.190Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:03:13.190Z"
       }
     ],
     "inventory_photos": [],
@@ -51780,6 +51840,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2129,
+        "inventory_id": 2000,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2130,
+        "inventory_id": 2001,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2131,
+        "inventory_id": 2002,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:03:13.190Z"
+      },
+      {
+        "id": 2132,
+        "inventory_id": 2003,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:03:13.190Z"
       }
     ],
     "app_metadata": [
