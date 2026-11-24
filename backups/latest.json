@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:52:18.399Z",
+  "exportedAt": "2026-11-24T13:55:25.901Z",
   "tables": {
     "rooms": [
       {
@@ -35232,6 +35232,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2316,
+        "code": "EUR-002316",
+        "name": "ავეჯი (სამზარეულოს)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:55:25.591Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:55:25.591Z"
       }
     ],
     "inventory_photos": [],
@@ -59690,6 +59705,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2446,
+        "inventory_id": 2316,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:55:25.591Z"
       }
     ],
     "app_metadata": [
