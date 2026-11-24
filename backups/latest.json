@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:00:52.347Z",
+  "exportedAt": "2026-11-24T15:01:24.108Z",
   "tables": {
     "rooms": [
       {
@@ -38187,6 +38187,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:00:51.961Z"
+      },
+      {
+        "id": 2513,
+        "code": "EUR-002513",
+        "name": "განათება საახალწლო მოსართ. 10-მეტ. 100-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:01:23.821Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:01:23.821Z"
+      },
+      {
+        "id": 2514,
+        "code": "EUR-002514",
+        "name": "განათება საახალწლო მოსართ. 10-მეტ. 100-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:01:23.821Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:01:23.821Z"
+      },
+      {
+        "id": 2515,
+        "code": "EUR-002515",
+        "name": "განათება საახალწლო მოსართ. 10-მეტ. 100-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:01:23.821Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:01:23.821Z"
       }
     ],
     "inventory_photos": [],
@@ -64615,6 +64660,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:00:51.961Z"
+      },
+      {
+        "id": 2643,
+        "inventory_id": 2513,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:01:23.821Z"
+      },
+      {
+        "id": 2644,
+        "inventory_id": 2514,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:01:23.821Z"
+      },
+      {
+        "id": 2645,
+        "inventory_id": 2515,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:01:23.821Z"
       }
     ],
     "app_metadata": [
