@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:22:47.327Z",
+  "exportedAt": "2026-11-24T13:23:46.861Z",
   "tables": {
     "rooms": [
       {
@@ -31872,6 +31872,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:22:46.956Z"
+      },
+      {
+        "id": 2092,
+        "code": "EUR-002092",
+        "name": "ტელევიზორი (H50A6100)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0410798906, (211334830) შპს ომეგა, 22.10.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:23:46.569Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:23:46.569Z"
       }
     ],
     "inventory_photos": [],
@@ -54080,6 +54095,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:22:46.956Z"
+      },
+      {
+        "id": 2221,
+        "inventory_id": 2092,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:23:46.569Z"
       }
     ],
     "app_metadata": [
