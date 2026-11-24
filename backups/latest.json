@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:58:22.581Z",
+  "exportedAt": "2026-11-24T15:00:52.347Z",
   "tables": {
     "rooms": [
       {
@@ -38157,6 +38157,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:58:22.253Z"
+      },
+      {
+        "id": 2511,
+        "code": "EUR-002511",
+        "name": "განათება საახალწლო მოსართ. 10-მეტ. 100-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0497837484\t(445468388) შპს კანცბუმი\t16.12.2019 10:48:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:00:51.961Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:00:51.961Z"
+      },
+      {
+        "id": 2512,
+        "code": "EUR-002512",
+        "name": "განათება საახალწლო მოსართ. 10-მეტ. 100-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0497837484\t(445468388) შპს კანცბუმი\t16.12.2019 10:48:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:00:51.961Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:00:51.961Z"
       }
     ],
     "inventory_photos": [],
@@ -64565,6 +64595,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:58:22.253Z"
+      },
+      {
+        "id": 2641,
+        "inventory_id": 2511,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:00:51.961Z"
+      },
+      {
+        "id": 2642,
+        "inventory_id": 2512,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:00:51.961Z"
       }
     ],
     "app_metadata": [
