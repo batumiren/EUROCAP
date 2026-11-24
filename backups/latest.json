@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:45:29.816Z",
+  "exportedAt": "2026-11-24T15:45:53.873Z",
   "tables": {
     "rooms": [
       {
@@ -49167,6 +49167,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:45:29.480Z"
+      },
+      {
+        "id": 3245,
+        "code": "EUR-003245",
+        "name": "პრინტერი (hp 1102)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0449583553\t(445548275) შპს პრინტერმენ\t08.05.2019 16:32:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:45:53.591Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:45:53.591Z"
+      },
+      {
+        "id": 3246,
+        "code": "EUR-003246",
+        "name": "პრინტერი (hp 1102)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0449583553\t(445548275) შპს პრინტერმენ\t08.05.2019 16:32:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:45:53.591Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:45:53.591Z"
       }
     ],
     "inventory_photos": [],
@@ -82915,6 +82945,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:45:29.480Z"
+      },
+      {
+        "id": 3375,
+        "inventory_id": 3245,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:45:53.591Z"
+      },
+      {
+        "id": 3376,
+        "inventory_id": 3246,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:45:53.591Z"
       }
     ],
     "app_metadata": [
