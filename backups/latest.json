@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:27:58.229Z",
+  "exportedAt": "2026-11-24T15:28:47.702Z",
   "tables": {
     "rooms": [
       {
@@ -40467,6 +40467,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:27:57.853Z"
+      },
+      {
+        "id": 2665,
+        "code": "EUR-002665",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2666,
+        "code": "EUR-002666",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2667,
+        "code": "EUR-002667",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2668,
+        "code": "EUR-002668",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2669,
+        "code": "EUR-002669",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2670,
+        "code": "EUR-002670",
+        "name": "სკამი ოფისის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478637011\t(245599348) შპს სეფა\t17.09.2019 16:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:28:47.389Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:28:47.389Z"
       }
     ],
     "inventory_photos": [],
@@ -68415,6 +68505,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:27:57.853Z"
+      },
+      {
+        "id": 2795,
+        "inventory_id": 2665,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2796,
+        "inventory_id": 2666,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2797,
+        "inventory_id": 2667,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2798,
+        "inventory_id": 2668,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2799,
+        "inventory_id": 2669,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
+      },
+      {
+        "id": 2800,
+        "inventory_id": 2670,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:28:47.389Z"
       }
     ],
     "app_metadata": [
