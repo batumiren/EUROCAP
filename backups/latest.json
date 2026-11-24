@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:49:21.231Z",
+  "exportedAt": "2026-11-24T14:50:43.564Z",
   "tables": {
     "rooms": [
       {
@@ -37932,6 +37932,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:49:20.884Z"
+      },
+      {
+        "id": 2496,
+        "code": "EUR-002496",
+        "name": "საშობაო ნაძვის (ელექტრ. საპირფარ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:50:43.260Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2497,
+        "code": "EUR-002497",
+        "name": "საშობაო ნაძვის (ელექტრ. საპირფარ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:50:43.260Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2498,
+        "code": "EUR-002498",
+        "name": "საშობაო ნაძვის (ელექტრ. საპირფარ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:50:43.260Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2499,
+        "code": "EUR-002499",
+        "name": "საშობაო ნაძვის (ელექტრ. საპირფარ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:50:43.260Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2500,
+        "code": "EUR-002500",
+        "name": "საშობაო ნაძვის (ელექტრ. საპირფარ.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481556444\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:01:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:50:43.260Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:50:43.260Z"
       }
     ],
     "inventory_photos": [],
@@ -64190,6 +64265,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:49:20.884Z"
+      },
+      {
+        "id": 2626,
+        "inventory_id": 2496,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2627,
+        "inventory_id": 2497,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2628,
+        "inventory_id": 2498,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2629,
+        "inventory_id": 2499,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:50:43.260Z"
+      },
+      {
+        "id": 2630,
+        "inventory_id": 2500,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:50:43.260Z"
       }
     ],
     "app_metadata": [
