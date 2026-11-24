@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:13:04.709Z",
+  "exportedAt": "2026-11-24T14:20:01.993Z",
   "tables": {
     "rooms": [
       {
@@ -35397,6 +35397,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:13:04.400Z"
+      },
+      {
+        "id": 2327,
+        "code": "EUR-002327",
+        "name": "WiFi როუტერი (Ubiquiti UAP-AC-LR Unifi AP AC Long-Range Access Point 450mb/s 2.4GHz/5GHz)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0496079998, (245439271) შპს ივიჯი, 07.12.2019",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:20:01.625Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:20:01.625Z"
       }
     ],
     "inventory_photos": [],
@@ -59965,6 +59980,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:13:04.400Z"
+      },
+      {
+        "id": 2457,
+        "inventory_id": 2327,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:20:01.625Z"
       }
     ],
     "app_metadata": [
