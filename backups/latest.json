@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:33:15.472Z",
+  "exportedAt": "2026-11-24T15:34:37.071Z",
   "tables": {
     "rooms": [
       {
@@ -40647,6 +40647,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:33:15.156Z"
+      },
+      {
+        "id": 2677,
+        "code": "EUR-002677",
+        "name": "ფოტოაპარატი (Canon EOS 800D 18-55 IS STM KIT)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0478611879\t(202462717) შპს ზუმერი ჯორჯია\t17.09.2019 15:34:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:34:36.784Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:34:36.784Z"
       }
     ],
     "inventory_photos": [],
@@ -68715,6 +68730,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:33:15.156Z"
+      },
+      {
+        "id": 2807,
+        "inventory_id": 2677,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:34:36.784Z"
       }
     ],
     "app_metadata": [
