@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T12:59:19.234Z",
+  "exportedAt": "2026-11-24T13:00:24.503Z",
   "tables": {
     "rooms": [
       {
@@ -30402,6 +30402,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1994,
+        "code": "EUR-001994",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 1995,
+        "code": "EUR-001995",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 1996,
+        "code": "EUR-001996",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 1997,
+        "code": "EUR-001997",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 1998,
+        "code": "EUR-001998",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 1999,
+        "code": "EUR-001999",
+        "name": "კლავიატურა (Codegen KB 2005 CA Keyboard EN, RU, LT/ USB)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:00:24.201Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:00:24.201Z"
       }
     ],
     "inventory_photos": [],
@@ -51630,6 +51720,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2123,
+        "inventory_id": 1994,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2124,
+        "inventory_id": 1995,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2125,
+        "inventory_id": 1996,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2126,
+        "inventory_id": 1997,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2127,
+        "inventory_id": 1998,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
+      },
+      {
+        "id": 2128,
+        "inventory_id": 1999,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:00:24.201Z"
       }
     ],
     "app_metadata": [
