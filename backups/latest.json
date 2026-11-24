@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:56:27.846Z",
+  "exportedAt": "2026-11-24T13:57:38.583Z",
   "tables": {
     "rooms": [
       {
@@ -35292,6 +35292,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:56:27.570Z"
+      },
+      {
+        "id": 2320,
+        "code": "EUR-002320",
+        "name": "კარადა (ტანსაცმელის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0421240045, (61003003633) გრიგოლ გოგუაძე, 12.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:57:38.275Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:57:38.275Z"
       }
     ],
     "inventory_photos": [],
@@ -59790,6 +59805,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:56:27.570Z"
+      },
+      {
+        "id": 2450,
+        "inventory_id": 2320,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:57:38.275Z"
       }
     ],
     "app_metadata": [
