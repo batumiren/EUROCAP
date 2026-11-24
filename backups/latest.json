@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-23T17:08:38.575Z",
+  "exportedAt": "2026-11-24T12:47:21.900Z",
   "tables": {
     "rooms": [
       {
@@ -30072,6 +30072,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-23T17:08:38.288Z"
+      },
+      {
+        "id": 1972,
+        "code": "EUR-001972",
+        "name": "პროექტორი (Projector Epson EB-X41 V11H843040)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0381384088, (202052054) შპს ორიენტ ლოჯიკი, 05.06.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:47:21.553Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:47:21.553Z"
       }
     ],
     "inventory_photos": [],
@@ -51080,6 +51095,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-23T17:08:38.288Z"
+      },
+      {
+        "id": 2101,
+        "inventory_id": 1972,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:47:21.553Z"
       }
     ],
     "app_metadata": [
