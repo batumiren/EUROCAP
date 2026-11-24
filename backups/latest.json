@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T12:52:15.473Z",
+  "exportedAt": "2026-11-24T12:53:50.987Z",
   "tables": {
     "rooms": [
       {
@@ -30117,6 +30117,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T12:52:15.158Z"
+      },
+      {
+        "id": 1975,
+        "code": "EUR-001975",
+        "name": "კლავიატურა (KB-110X Black USB, Genius Water Resistant Keyboard)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360421559, (245550185) შპს საბატა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:53:50.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 1976,
+        "code": "EUR-001976",
+        "name": "კლავიატურა (KB-110X Black USB, Genius Water Resistant Keyboard)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360421559, (245550185) შპს საბატა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:53:50.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 1977,
+        "code": "EUR-001977",
+        "name": "კლავიატურა (KB-110X Black USB, Genius Water Resistant Keyboard)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360421559, (245550185) შპს საბატა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:53:50.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 1978,
+        "code": "EUR-001978",
+        "name": "კლავიატურა (KB-110X Black USB, Genius Water Resistant Keyboard)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360421559, (245550185) შპს საბატა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:53:50.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 1979,
+        "code": "EUR-001979",
+        "name": "კლავიატურა (KB-110X Black USB, Genius Water Resistant Keyboard)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360421559, (245550185) შპს საბატა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:53:50.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:53:50.731Z"
       }
     ],
     "inventory_photos": [],
@@ -51155,6 +51230,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T12:52:15.158Z"
+      },
+      {
+        "id": 2104,
+        "inventory_id": 1975,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 2105,
+        "inventory_id": 1976,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 2106,
+        "inventory_id": 1977,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 2107,
+        "inventory_id": 1978,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:53:50.731Z"
+      },
+      {
+        "id": 2108,
+        "inventory_id": 1979,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:53:50.731Z"
       }
     ],
     "app_metadata": [
