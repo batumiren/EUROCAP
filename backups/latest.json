@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:02:16.907Z",
+  "exportedAt": "2026-11-24T15:03:16.711Z",
   "tables": {
     "rooms": [
       {
@@ -38262,6 +38262,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:02:16.506Z"
+      },
+      {
+        "id": 2518,
+        "code": "EUR-002518",
+        "name": "განათება საახალწლო მოსართ. 3X2 320-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:03:16.387Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2519,
+        "code": "EUR-002519",
+        "name": "განათება საახალწლო მოსართ. 3X2 320-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:03:16.387Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2520,
+        "code": "EUR-002520",
+        "name": "განათება საახალწლო მოსართ. 3X2 320-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:03:16.387Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2521,
+        "code": "EUR-002521",
+        "name": "განათება საახალწლო მოსართ. 3X2 320-ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0498366621\t(445468388) შპს კანცბუმი\t18.12.2019 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:03:16.387Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:03:16.387Z"
       }
     ],
     "inventory_photos": [],
@@ -64740,6 +64800,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:02:16.506Z"
+      },
+      {
+        "id": 2648,
+        "inventory_id": 2518,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2649,
+        "inventory_id": 2519,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2650,
+        "inventory_id": 2520,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2651,
+        "inventory_id": 2521,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:03:16.387Z"
       }
     ],
     "app_metadata": [
