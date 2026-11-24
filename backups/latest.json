@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:18:58.362Z",
+  "exportedAt": "2026-11-24T15:20:32.347Z",
   "tables": {
     "rooms": [
       {
@@ -38682,6 +38682,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:18:58.058Z"
+      },
+      {
+        "id": 2546,
+        "code": "EUR-002546",
+        "name": "სახანძრო სირენა (LS-103 sound and flash siren)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:20:32.035Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:20:32.035Z"
       }
     ],
     "inventory_photos": [],
@@ -65440,6 +65455,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:18:58.058Z"
+      },
+      {
+        "id": 2676,
+        "inventory_id": 2546,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:20:32.035Z"
       }
     ],
     "app_metadata": [
