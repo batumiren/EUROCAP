@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:53:42.264Z",
+  "exportedAt": "2026-11-24T14:54:53.328Z",
   "tables": {
     "rooms": [
       {
@@ -38112,6 +38112,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2508,
+        "code": "EUR-002508",
+        "name": "ნაგვის ურნა 50ლ.",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0481573462\t(245621288) შპს ბი ემ სი გორგია\t01.10.2019 11:49:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:54:53.011Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:54:53.011Z"
       }
     ],
     "inventory_photos": [],
@@ -64490,6 +64505,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:53:41.971Z"
+      },
+      {
+        "id": 2638,
+        "inventory_id": 2508,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:54:53.011Z"
       }
     ],
     "app_metadata": [
