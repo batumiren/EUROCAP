@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:15:15.000Z",
+  "exportedAt": "2026-11-24T15:16:37.836Z",
   "tables": {
     "rooms": [
       {
@@ -38577,6 +38577,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:15:14.689Z"
+      },
+      {
+        "id": 2539,
+        "code": "EUR-002539",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2540,
+        "code": "EUR-002540",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2541,
+        "code": "EUR-002541",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2542,
+        "code": "EUR-002542",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2543,
+        "code": "EUR-002543",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2544,
+        "code": "EUR-002544",
+        "name": "კვამლის დეტექტორი სახანძრო  (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:16:37.412Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:16:37.412Z"
       }
     ],
     "inventory_photos": [],
@@ -65265,6 +65355,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:15:14.689Z"
+      },
+      {
+        "id": 2669,
+        "inventory_id": 2539,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2670,
+        "inventory_id": 2540,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2671,
+        "inventory_id": 2541,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2672,
+        "inventory_id": 2542,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2673,
+        "inventory_id": 2543,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
+      },
+      {
+        "id": 2674,
+        "inventory_id": 2544,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:16:37.412Z"
       }
     ],
     "app_metadata": [
