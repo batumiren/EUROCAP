@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:32:07.877Z",
+  "exportedAt": "2026-11-24T15:33:15.472Z",
   "tables": {
     "rooms": [
       {
@@ -40617,6 +40617,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:32:07.583Z"
+      },
+      {
+        "id": 2675,
+        "code": "EUR-002675",
+        "name": "კონდიციონერი (SAMSUNG - AR24RSFPAWQNER)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0462232486\t(202268928) სს ელიტ ელექტრონიქსი\t03.07.2019 19:53:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:33:15.156Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:33:15.156Z"
+      },
+      {
+        "id": 2676,
+        "code": "EUR-002676",
+        "name": "კონდიციონერი (SAMSUNG - AR24RSFPAWQNER)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0462232486\t(202268928) სს ელიტ ელექტრონიქსი\t03.07.2019 19:53:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:33:15.156Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:33:15.156Z"
       }
     ],
     "inventory_photos": [],
@@ -68665,6 +68695,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:32:07.583Z"
+      },
+      {
+        "id": 2805,
+        "inventory_id": 2675,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:33:15.156Z"
+      },
+      {
+        "id": 2806,
+        "inventory_id": 2676,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:33:15.156Z"
       }
     ],
     "app_metadata": [
