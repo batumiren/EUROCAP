@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:03:16.711Z",
+  "exportedAt": "2026-11-24T15:04:35.778Z",
   "tables": {
     "rooms": [
       {
@@ -38322,6 +38322,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2522,
+        "code": "EUR-002522",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2523,
+        "code": "EUR-002523",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2524,
+        "code": "EUR-002524",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2525,
+        "code": "EUR-002525",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2526,
+        "code": "EUR-002526",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2527,
+        "code": "EUR-002527",
+        "name": "ნოხი საბავშვო (100x120სმ GULSILDRE PS 6/1)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0454780205\t(404508154) შპს სანნა\t31.05.2019 18:51:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:04:35.479Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:04:35.479Z"
       }
     ],
     "inventory_photos": [],
@@ -64840,6 +64930,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:03:16.387Z"
+      },
+      {
+        "id": 2652,
+        "inventory_id": 2522,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2653,
+        "inventory_id": 2523,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2654,
+        "inventory_id": 2524,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2655,
+        "inventory_id": 2525,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2656,
+        "inventory_id": 2526,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
+      },
+      {
+        "id": 2657,
+        "inventory_id": 2527,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:04:35.479Z"
       }
     ],
     "app_metadata": [
