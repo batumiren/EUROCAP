@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:18:18.979Z",
+  "exportedAt": "2026-11-24T13:19:26.775Z",
   "tables": {
     "rooms": [
       {
@@ -31737,6 +31737,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:18:18.705Z"
+      },
+      {
+        "id": 2083,
+        "code": "EUR-002083",
+        "name": "მაგიდა (105X50X74)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:19:26.425Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2084,
+        "code": "EUR-002084",
+        "name": "მაგიდა (105X50X74)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:19:26.425Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2085,
+        "code": "EUR-002085",
+        "name": "მაგიდა (105X50X74)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:19:26.425Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2086,
+        "code": "EUR-002086",
+        "name": "მაგიდა (105X50X74)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0404918204, (202066655) შპს დი და ჯი, 24.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:19:26.425Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:19:26.425Z"
       }
     ],
     "inventory_photos": [],
@@ -53855,6 +53915,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:18:18.705Z"
+      },
+      {
+        "id": 2212,
+        "inventory_id": 2083,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2213,
+        "inventory_id": 2084,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2214,
+        "inventory_id": 2085,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:19:26.425Z"
+      },
+      {
+        "id": 2215,
+        "inventory_id": 2086,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:19:26.425Z"
       }
     ],
     "app_metadata": [
