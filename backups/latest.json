@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:24:24.104Z",
+  "exportedAt": "2026-11-24T14:29:27.594Z",
   "tables": {
     "rooms": [
       {
@@ -35472,6 +35472,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:24:23.772Z"
+      },
+      {
+        "id": 2332,
+        "code": "EUR-002332",
+        "name": "ნათურა საახალწლო (ლაზერშოუ 807)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0495515157\t(405237765) შპს მეგა ჰოულდინგ\t05.12.2019 05:30:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:29:27.303Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:29:27.303Z"
       }
     ],
     "inventory_photos": [],
@@ -60090,6 +60105,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:24:23.772Z"
+      },
+      {
+        "id": 2462,
+        "inventory_id": 2332,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:29:27.303Z"
       }
     ],
     "app_metadata": [
