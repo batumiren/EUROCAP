@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T12:48:24.755Z",
+  "exportedAt": "2026-11-24T12:52:15.473Z",
   "tables": {
     "rooms": [
       {
@@ -30102,6 +30102,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T12:48:24.471Z"
+      },
+      {
+        "id": 1974,
+        "code": "EUR-001974",
+        "name": "ელექტრო პიანინოს სადგამი (QUIKLOK T20 BK T-reX double braced single tier keyboard stand - Black)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0422618977, (205073212) შპს შოუ ტექნიკის ცენტრი, 18.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:52:15.158Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:52:15.158Z"
       }
     ],
     "inventory_photos": [],
@@ -51130,6 +51145,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T12:48:24.471Z"
+      },
+      {
+        "id": 2103,
+        "inventory_id": 1974,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:52:15.158Z"
       }
     ],
     "app_metadata": [
