@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:21:49.516Z",
+  "exportedAt": "2026-11-24T13:22:47.327Z",
   "tables": {
     "rooms": [
       {
@@ -31842,6 +31842,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:21:49.200Z"
+      },
+      {
+        "id": 2090,
+        "code": "EUR-002090",
+        "name": "სარკე დასადგმელი (RUDE 40x160სმ თეთრი)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360373208, (404508154) შპს სანნა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:22:46.956Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:22:46.956Z"
+      },
+      {
+        "id": 2091,
+        "code": "EUR-002091",
+        "name": "სარკე დასადგმელი (RUDE 40x160სმ თეთრი)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0360373208, (404508154) შპს სანნა, 21.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:22:46.956Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:22:46.956Z"
       }
     ],
     "inventory_photos": [],
@@ -54030,6 +54060,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:21:49.200Z"
+      },
+      {
+        "id": 2219,
+        "inventory_id": 2090,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:22:46.956Z"
+      },
+      {
+        "id": 2220,
+        "inventory_id": 2091,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:22:46.956Z"
       }
     ],
     "app_metadata": [
