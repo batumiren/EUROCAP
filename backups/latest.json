@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:20:01.993Z",
+  "exportedAt": "2026-11-24T14:21:12.972Z",
   "tables": {
     "rooms": [
       {
@@ -35412,6 +35412,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:20:01.625Z"
+      },
+      {
+        "id": 2328,
+        "code": "EUR-002328",
+        "name": "ჩაიდანი (BOSCH - TWK7801)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480964337, (202268928) სს ელიტ ელექტრონიქსი, 27.09.2019",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:21:12.683Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:21:12.683Z"
       }
     ],
     "inventory_photos": [],
@@ -59990,6 +60005,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:20:01.625Z"
+      },
+      {
+        "id": 2458,
+        "inventory_id": 2328,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:21:12.683Z"
       }
     ],
     "app_metadata": [
