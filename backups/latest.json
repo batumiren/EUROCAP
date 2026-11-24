@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:51:06.647Z",
+  "exportedAt": "2026-11-24T13:52:18.399Z",
   "tables": {
     "rooms": [
       {
@@ -35112,6 +35112,126 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2308,
+        "code": "EUR-002308",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2309,
+        "code": "EUR-002309",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2310,
+        "code": "EUR-002310",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2311,
+        "code": "EUR-002311",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2312,
+        "code": "EUR-002312",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2313,
+        "code": "EUR-002313",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2314,
+        "code": "EUR-002314",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2315,
+        "code": "EUR-002315",
+        "name": "კარადა (ბაინდერებისათვის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:52:18.041Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:52:18.041Z"
       }
     ],
     "inventory_photos": [],
@@ -59490,6 +59610,86 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2438,
+        "inventory_id": 2308,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2439,
+        "inventory_id": 2309,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2440,
+        "inventory_id": 2310,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2441,
+        "inventory_id": 2311,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2442,
+        "inventory_id": 2312,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2443,
+        "inventory_id": 2313,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2444,
+        "inventory_id": 2314,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
+      },
+      {
+        "id": 2445,
+        "inventory_id": 2315,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:52:18.041Z"
       }
     ],
     "app_metadata": [
