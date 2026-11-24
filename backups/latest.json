@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:23:57.217Z",
+  "exportedAt": "2026-11-24T15:24:58.058Z",
   "tables": {
     "rooms": [
       {
@@ -38742,6 +38742,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:23:56.909Z"
+      },
+      {
+        "id": 2550,
+        "code": "EUR-002550",
+        "name": "კლავიატურა (Defender Element HB-520 Keyboard USB Black)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0477248035\t(245439271) შპს ივიჯი\t11.09.2019 11:40:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:24:57.731Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:24:57.731Z"
       }
     ],
     "inventory_photos": [],
@@ -65540,6 +65555,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:23:56.909Z"
+      },
+      {
+        "id": 2680,
+        "inventory_id": 2550,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:24:57.731Z"
       }
     ],
     "app_metadata": [
