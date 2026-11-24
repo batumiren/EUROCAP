@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:49:46.545Z",
+  "exportedAt": "2026-11-24T13:51:06.647Z",
   "tables": {
     "rooms": [
       {
@@ -35037,6 +35037,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:49:46.237Z"
+      },
+      {
+        "id": 2303,
+        "code": "EUR-002303",
+        "name": "მაგიდა კაბინეტის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:51:06.286Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2304,
+        "code": "EUR-002304",
+        "name": "მაგიდა კაბინეტის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:51:06.286Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2305,
+        "code": "EUR-002305",
+        "name": "მაგიდა კაბინეტის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:51:06.286Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2306,
+        "code": "EUR-002306",
+        "name": "მაგიდა კაბინეტის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:51:06.286Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2307,
+        "code": "EUR-002307",
+        "name": "მაგიდა კაბინეტის",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0402754612, (61003003633) გრიგოლ გოგუაძე, 14.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:51:06.286Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:51:06.286Z"
       }
     ],
     "inventory_photos": [],
@@ -59365,6 +59440,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:49:46.237Z"
+      },
+      {
+        "id": 2433,
+        "inventory_id": 2303,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2434,
+        "inventory_id": 2304,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2435,
+        "inventory_id": 2305,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2436,
+        "inventory_id": 2306,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:51:06.286Z"
+      },
+      {
+        "id": 2437,
+        "inventory_id": 2307,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:51:06.286Z"
       }
     ],
     "app_metadata": [
