@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:30:50.052Z",
+  "exportedAt": "2026-11-24T13:33:53.138Z",
   "tables": {
     "rooms": [
       {
@@ -34902,6 +34902,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:30:49.718Z"
+      },
+      {
+        "id": 2294,
+        "code": "EUR-002294",
+        "name": "მაგიდა (კაბინეტის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:33:52.844Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:33:52.844Z"
       }
     ],
     "inventory_photos": [],
@@ -59130,6 +59145,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:30:49.718Z"
+      },
+      {
+        "id": 2423,
+        "inventory_id": 2294,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:33:52.844Z"
       }
     ],
     "app_metadata": [
