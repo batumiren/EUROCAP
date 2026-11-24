@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:20:32.347Z",
+  "exportedAt": "2026-11-24T15:21:26.019Z",
   "tables": {
     "rooms": [
       {
@@ -38697,6 +38697,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:20:32.035Z"
+      },
+      {
+        "id": 2547,
+        "code": "EUR-002547",
+        "name": "WiFi როუტერი (TL-WR941HP,TP-Link)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480596377\t(448388806) შპს MXM\t26.09.2019 13:00:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:21:25.725Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:21:25.725Z"
       }
     ],
     "inventory_photos": [],
@@ -65465,6 +65480,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:20:32.035Z"
+      },
+      {
+        "id": 2677,
+        "inventory_id": 2547,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:21:25.725Z"
       }
     ],
     "app_metadata": [
