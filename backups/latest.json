@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:10:54.579Z",
+  "exportedAt": "2026-11-24T14:12:05.821Z",
   "tables": {
     "rooms": [
       {
@@ -35367,6 +35367,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:10:54.229Z"
+      },
+      {
+        "id": 2325,
+        "code": "EUR-002325",
+        "name": "WiFi როუტერი (TP-Link TL-WR940N 450Mbps Advanced wireless N Router 2.4GHz 802.11n/g/b Built-in 4port Switch)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0485490812, (245439271) შპს ივიჯი, 18.10.2019",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:12:05.486Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:12:05.486Z"
       }
     ],
     "inventory_photos": [],
@@ -59915,6 +59930,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:10:54.229Z"
+      },
+      {
+        "id": 2455,
+        "inventory_id": 2325,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:12:05.486Z"
       }
     ],
     "app_metadata": [
