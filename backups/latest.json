@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:58:53.211Z",
+  "exportedAt": "2026-11-24T14:09:02.957Z",
   "tables": {
     "rooms": [
       {
@@ -35337,6 +35337,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:58:52.900Z"
+      },
+      {
+        "id": 2323,
+        "code": "EUR-002323",
+        "name": "კამმუტატორი (TP-Link TL-SG1024D 24-port Gigabit Rackmount Switch 1000Mbps)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0477248035, (245439271) შპს ივიჯი, 11.09.2019",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:09:02.617Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:09:02.617Z"
       }
     ],
     "inventory_photos": [],
@@ -59865,6 +59880,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:58:52.900Z"
+      },
+      {
+        "id": 2453,
+        "inventory_id": 2323,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:09:02.617Z"
       }
     ],
     "app_metadata": [
