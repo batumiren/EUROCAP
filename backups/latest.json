@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:33:53.138Z",
+  "exportedAt": "2026-11-24T13:35:03.127Z",
   "tables": {
     "rooms": [
       {
@@ -34917,6 +34917,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:33:52.844Z"
+      },
+      {
+        "id": 2295,
+        "code": "EUR-002295",
+        "name": "კარადა (მოსწავლის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:35:02.830Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:35:02.830Z"
       }
     ],
     "inventory_photos": [],
@@ -59155,6 +59170,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:33:52.844Z"
+      },
+      {
+        "id": 2424,
+        "inventory_id": 2295,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:35:02.830Z"
       }
     ],
     "app_metadata": [
