@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:43:29.879Z",
+  "exportedAt": "2026-11-24T13:44:45.329Z",
   "tables": {
     "rooms": [
       {
@@ -34962,6 +34962,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:43:29.439Z"
+      },
+      {
+        "id": 2298,
+        "code": "EUR-002298",
+        "name": "დაფა საინფორმაციო",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:44:45.044Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:44:45.044Z"
+      },
+      {
+        "id": 2299,
+        "code": "EUR-002299",
+        "name": "დაფა საინფორმაციო",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:44:45.044Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:44:45.044Z"
+      },
+      {
+        "id": 2300,
+        "code": "EUR-002300",
+        "name": "დაფა საინფორმაციო",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0358494121, (61003003633) გრიგოლ გოგუაძე, 12.02.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:44:45.044Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:44:45.044Z"
       }
     ],
     "inventory_photos": [],
@@ -59230,6 +59275,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:43:29.439Z"
+      },
+      {
+        "id": 2427,
+        "inventory_id": 2298,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:44:45.044Z"
+      },
+      {
+        "id": 2428,
+        "inventory_id": 2299,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:44:45.044Z"
+      },
+      {
+        "id": 2429,
+        "inventory_id": 2300,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:44:45.044Z"
       }
     ],
     "app_metadata": [
