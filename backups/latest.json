@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:57:38.583Z",
+  "exportedAt": "2026-11-24T13:58:53.211Z",
   "tables": {
     "rooms": [
       {
@@ -35307,6 +35307,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:57:38.275Z"
+      },
+      {
+        "id": 2321,
+        "code": "EUR-002321",
+        "name": "მაგიდა (სამზარეულოს)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0421240045, (61003003633) გრიგოლ გოგუაძე, 12.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:58:52.900Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:58:52.900Z"
+      },
+      {
+        "id": 2322,
+        "code": "EUR-002322",
+        "name": "მაგიდა (სამზარეულოს)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0421240045, (61003003633) გრიგოლ გოგუაძე, 12.12.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:58:52.900Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:58:52.900Z"
       }
     ],
     "inventory_photos": [],
@@ -59815,6 +59845,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:57:38.275Z"
+      },
+      {
+        "id": 2451,
+        "inventory_id": 2321,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:58:52.900Z"
+      },
+      {
+        "id": 2452,
+        "inventory_id": 2322,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:58:52.900Z"
       }
     ],
     "app_metadata": [
