@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T14:45:35.869Z",
+  "exportedAt": "2026-11-24T14:46:23.783Z",
   "tables": {
     "rooms": [
       {
@@ -37827,6 +37827,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T14:45:35.530Z"
+      },
+      {
+        "id": 2489,
+        "code": "EUR-002489",
+        "name": "სახანძრო სირენა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0446516407\t(406262208) შპს პროტეჩი \t22.04.2019 13:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:46:23.525Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2490,
+        "code": "EUR-002490",
+        "name": "სახანძრო სირენა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0446516407\t(406262208) შპს პროტეჩი \t22.04.2019 13:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:46:23.525Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2491,
+        "code": "EUR-002491",
+        "name": "სახანძრო სირენა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0446516407\t(406262208) შპს პროტეჩი \t22.04.2019 13:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:46:23.525Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2492,
+        "code": "EUR-002492",
+        "name": "სახანძრო სირენა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0446516407\t(406262208) შპს პროტეჩი \t22.04.2019 13:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:46:23.525Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2493,
+        "code": "EUR-002493",
+        "name": "სახანძრო სირენა",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0446516407\t(406262208) შპს პროტეჩი \t22.04.2019 13:55:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T14:46:23.525Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T14:46:23.525Z"
       }
     ],
     "inventory_photos": [],
@@ -64015,6 +64090,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T14:45:35.530Z"
+      },
+      {
+        "id": 2619,
+        "inventory_id": 2489,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2620,
+        "inventory_id": 2490,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2621,
+        "inventory_id": 2491,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2622,
+        "inventory_id": 2492,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:46:23.525Z"
+      },
+      {
+        "id": 2623,
+        "inventory_id": 2493,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T14:46:23.525Z"
       }
     ],
     "app_metadata": [
