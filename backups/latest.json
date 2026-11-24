@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T13:04:48.561Z",
+  "exportedAt": "2026-11-24T13:06:05.008Z",
   "tables": {
     "rooms": [
       {
@@ -30912,6 +30912,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T13:04:48.140Z"
+      },
+      {
+        "id": 2028,
+        "code": "EUR-002028",
+        "name": "დაფა ორმხრივი სასკოლო (100X200.)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0400271970, (445468388) შპს კანცბუმი, 03.09.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T13:06:04.673Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T13:06:04.673Z"
       }
     ],
     "inventory_photos": [],
@@ -52480,6 +52495,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T13:04:48.140Z"
+      },
+      {
+        "id": 2157,
+        "inventory_id": 2028,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T13:06:04.673Z"
       }
     ],
     "app_metadata": [
