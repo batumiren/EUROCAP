@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T15:12:04.879Z",
+  "exportedAt": "2026-11-24T15:15:15.000Z",
   "tables": {
     "rooms": [
       {
@@ -38562,6 +38562,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T15:12:04.559Z"
+      },
+      {
+        "id": 2538,
+        "code": "EUR-002538",
+        "name": "კამერა (MIP-313O5 / DB, 1mp ip camera,  3.6mm lens 6pcs blue leds with bracket , White colo)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0463083925\t(448388806) შპს MXM\t08.07.2019 08:03:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T15:15:14.689Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T15:15:14.689Z"
       }
     ],
     "inventory_photos": [],
@@ -65240,6 +65255,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T15:12:04.559Z"
+      },
+      {
+        "id": 2668,
+        "inventory_id": 2538,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T15:15:14.689Z"
       }
     ],
     "app_metadata": [
