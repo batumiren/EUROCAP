@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-24T12:56:46.989Z",
+  "exportedAt": "2026-11-24T12:59:19.234Z",
   "tables": {
     "rooms": [
       {
@@ -30312,6 +30312,96 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-24T12:56:46.704Z"
+      },
+      {
+        "id": 1988,
+        "code": "EUR-001988",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1989,
+        "code": "EUR-001989",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1990,
+        "code": "EUR-001990",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1991,
+        "code": "EUR-001991",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1992,
+        "code": "EUR-001992",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 1993,
+        "code": "EUR-001993",
+        "name": "მაუსი (A4Tech mouse OP-530NU V-Track Padless Mouse USB (Black))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0414234860, (245550185) შპს საბატა, 07.11.2018",
+        "responsible_person": "",
+        "registered_at": "2026-11-24T12:59:18.970Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-24T12:59:18.970Z"
       }
     ],
     "inventory_photos": [],
@@ -51480,6 +51570,66 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-24T12:56:46.704Z"
+      },
+      {
+        "id": 2117,
+        "inventory_id": 1988,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2118,
+        "inventory_id": 1989,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2119,
+        "inventory_id": 1990,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2120,
+        "inventory_id": 1991,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2121,
+        "inventory_id": 1992,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
+      },
+      {
+        "id": 2122,
+        "inventory_id": 1993,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-24T12:59:18.970Z"
       }
     ],
     "app_metadata": [
