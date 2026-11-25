@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:28:52.264Z",
+  "exportedAt": "2026-11-25T11:29:50.220Z",
   "tables": {
     "rooms": [
       {
@@ -51612,6 +51612,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3408,
+        "code": "EUR-003408",
+        "name": "ქოთანი (პლასტმასის  DLOFR მწვანე 400მმ)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:29:49.880Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:29:49.880Z"
+      },
+      {
+        "id": 3409,
+        "code": "EUR-003409",
+        "name": "ქოთანი (პლასტმასის  DLOFR მწვანე 400მმ)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:29:49.880Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:29:49.880Z"
+      },
+      {
+        "id": 3410,
+        "code": "EUR-003410",
+        "name": "ქოთანი (პლასტმასის  DLOFR მწვანე 400მმ)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:29:49.880Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:29:49.880Z"
       }
     ],
     "inventory_photos": [],
@@ -87020,6 +87065,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3541,
+        "inventory_id": 3408,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:29:49.880Z"
+      },
+      {
+        "id": 3542,
+        "inventory_id": 3409,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:29:49.880Z"
+      },
+      {
+        "id": 3543,
+        "inventory_id": 3410,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:29:49.880Z"
       }
     ],
     "app_metadata": [
