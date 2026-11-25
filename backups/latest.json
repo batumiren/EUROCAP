@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:17:33.528Z",
+  "exportedAt": "2026-11-25T09:18:40.438Z",
   "tables": {
     "rooms": [
       {
@@ -49797,6 +49797,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3287,
+        "code": "EUR-003287",
+        "name": "მობილური ტელეფონი (Mobile and Smartphones/ Apple/ Apple iPhone 11 Pro Max 256GB Gold (A2218))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0487103990\t(402033312) შპს ალტა რითეილი\t25.10.2019 18:49:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:18:40.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:18:40.144Z"
+      },
+      {
+        "id": 3288,
+        "code": "EUR-003288",
+        "name": "მობილური ტელეფონი (Mobile and Smartphones/ Apple/ Apple iPhone 11 Pro Max 256GB Gold (A2218))",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0487103990\t(402033312) შპს ალტა რითეილი\t25.10.2019 18:49:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:18:40.144Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:18:40.144Z"
       }
     ],
     "inventory_photos": [],
@@ -83995,6 +84025,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3420,
+        "inventory_id": 3287,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:18:40.144Z"
+      },
+      {
+        "id": 3421,
+        "inventory_id": 3288,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:18:40.144Z"
       }
     ],
     "app_metadata": [
