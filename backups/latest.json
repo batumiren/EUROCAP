@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T10:48:45.600Z",
+  "exportedAt": "2026-11-25T10:49:52.476Z",
   "tables": {
     "rooms": [
       {
@@ -51012,6 +51012,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T10:48:45.245Z"
+      },
+      {
+        "id": 3368,
+        "code": "EUR-003368",
+        "name": "ქოთანი სადგამით (პლასტმასის DLOF ნაცრისფერი 400მმ 405U)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T10:49:52.195Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T10:49:52.195Z"
+      },
+      {
+        "id": 3369,
+        "code": "EUR-003369",
+        "name": "ქოთანი სადგამით (პლასტმასის DLOF ნაცრისფერი 400მმ 405U)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T10:49:52.195Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T10:49:52.195Z"
       }
     ],
     "inventory_photos": [],
@@ -86020,6 +86050,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T10:48:45.245Z"
+      },
+      {
+        "id": 3501,
+        "inventory_id": 3368,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T10:49:52.195Z"
+      },
+      {
+        "id": 3502,
+        "inventory_id": 3369,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T10:49:52.195Z"
       }
     ],
     "app_metadata": [
