@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:47:09.326Z",
+  "exportedAt": "2026-11-25T09:48:15.542Z",
   "tables": {
     "rooms": [
       {
@@ -50262,6 +50262,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:47:08.936Z"
+      },
+      {
+        "id": 3318,
+        "code": "EUR-003318",
+        "name": "მაგიდა (ოფისის)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0488677355\t(61003003633) გრიგოლ გოგუაძე\t02.11.2019 11:32:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:48:15.170Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:48:15.170Z"
       }
     ],
     "inventory_photos": [],
@@ -84770,6 +84785,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:47:08.936Z"
+      },
+      {
+        "id": 3451,
+        "inventory_id": 3318,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:48:15.170Z"
       }
     ],
     "app_metadata": [
