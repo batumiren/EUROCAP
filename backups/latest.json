@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T08:19:22.333Z",
+  "exportedAt": "2026-11-25T08:34:22.158Z",
   "tables": {
     "rooms": [
       {
@@ -49632,6 +49632,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T08:19:22.008Z"
+      },
+      {
+        "id": 3276,
+        "code": "EUR-003276",
+        "name": "კონდიციონერი (CH-S 24 FTXAM2S-SC R-410A)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0461298608\t(445388704) შპს კერა\t29.06.2019 12:15:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T08:34:21.767Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T08:34:21.767Z"
       }
     ],
     "inventory_photos": [],
@@ -83690,6 +83705,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T08:19:22.008Z"
+      },
+      {
+        "id": 3406,
+        "inventory_id": 3276,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T08:34:21.767Z"
       }
     ],
     "app_metadata": [
