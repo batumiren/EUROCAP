@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:21:24.278Z",
+  "exportedAt": "2026-11-25T11:28:52.264Z",
   "tables": {
     "rooms": [
       {
@@ -51552,6 +51552,66 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:21:24.010Z"
+      },
+      {
+        "id": 3404,
+        "code": "EUR-003404",
+        "name": "ქოთანი (პლასტმასის DUSP 130მმ მწვანე CPY2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:28:51.973Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3405,
+        "code": "EUR-003405",
+        "name": "ქოთანი (პლასტმასის DUSP 130მმ მწვანე CPY2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:28:51.973Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3406,
+        "code": "EUR-003406",
+        "name": "ქოთანი (პლასტმასის DUSP 130მმ მწვანე CPY2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:28:51.973Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3407,
+        "code": "EUR-003407",
+        "name": "ქოთანი (პლასტმასის DUSP 130მმ მწვანე CPY2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0509456181\t(245621288) შპს ბი ემ სი გორგია\t18.02.2020 18:10:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:28:51.973Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:28:51.973Z"
       }
     ],
     "inventory_photos": [],
@@ -86920,6 +86980,46 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:21:24.010Z"
+      },
+      {
+        "id": 3537,
+        "inventory_id": 3404,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3538,
+        "inventory_id": 3405,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3539,
+        "inventory_id": 3406,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:28:51.973Z"
+      },
+      {
+        "id": 3540,
+        "inventory_id": 3407,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:28:51.973Z"
       }
     ],
     "app_metadata": [
