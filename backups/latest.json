@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T08:44:30.716Z",
+  "exportedAt": "2026-11-25T08:55:47.389Z",
   "tables": {
     "rooms": [
       {
@@ -49662,6 +49662,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T08:44:30.377Z"
+      },
+      {
+        "id": 3278,
+        "code": "EUR-003278",
+        "name": "კიბე ორმხრივი (PERILLA 5+5 12505)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0482384237\t(245621288) შპს ბი ემ სი გორგია\t04.10.2019 14:06:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T08:55:46.419Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T08:55:46.419Z"
       }
     ],
     "inventory_photos": [],
@@ -83750,6 +83765,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T08:44:30.377Z"
+      },
+      {
+        "id": 3409,
+        "inventory_id": 3278,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T08:55:46.419Z"
       }
     ],
     "app_metadata": [
