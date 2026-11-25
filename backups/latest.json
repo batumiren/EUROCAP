@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:02:24.654Z",
+  "exportedAt": "2026-11-25T09:10:49.024Z",
   "tables": {
     "rooms": [
       {
@@ -49696,17 +49696,17 @@
       {
         "id": 3280,
         "code": "EUR-003280",
-        "name": "თარო ლითონის ( 4-იანი 1600*700*1600)",
+        "name": "ელექტრო პერფორატორი (დრელი GBH 2-26 DRE  Rotary Hammer+ZB)",
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
-        "status": "საწყობში",
-        "notes": "ს/ზ 0477621378\t(245558793) შპს TRG Group\t12.09.2019 18:17:00",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0480443818\t(400113854) შპს ენერჯი\t25.09.2019 18:25:00",
         "responsible_person": "",
         "registered_at": "2026-11-25T08:59:22.686Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-25T08:59:22.686Z"
+        "updated_at": "2026-11-25T09:10:48.735Z"
       },
       {
         "id": 3281,
@@ -83850,6 +83850,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:02:24.249Z"
+      },
+      {
+        "id": 3413,
+        "inventory_id": 3280,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:10:48.735Z"
       }
     ],
     "app_metadata": [
