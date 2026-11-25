@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:40:42.807Z",
+  "exportedAt": "2026-11-25T09:41:33.460Z",
   "tables": {
     "rooms": [
       {
@@ -50232,6 +50232,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:40:42.502Z"
+      },
+      {
+        "id": 3316,
+        "code": "EUR-003316",
+        "name": "კარადა (ჩამოსაკიდი)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0488677355\t(61003003633) გრიგოლ გოგუაძე\t02.11.2019 11:32:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:41:33.140Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:41:33.140Z"
       }
     ],
     "inventory_photos": [],
@@ -84720,6 +84735,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:40:42.502Z"
+      },
+      {
+        "id": 3449,
+        "inventory_id": 3316,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:41:33.140Z"
       }
     ],
     "app_metadata": [
