@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:21:51.458Z",
+  "exportedAt": "2026-11-25T09:23:39.195Z",
   "tables": {
     "rooms": [
       {
@@ -49902,6 +49902,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:21:51.092Z"
+      },
+      {
+        "id": 3294,
+        "code": "EUR-003294",
+        "name": "ტელევიზორი (H65B7300)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0477809925\t(211334830) შპს ომეგა\t13.09.2019 14:30:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:23:38.843Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:23:38.843Z"
       }
     ],
     "inventory_photos": [],
@@ -84170,6 +84185,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:21:51.092Z"
+      },
+      {
+        "id": 3427,
+        "inventory_id": 3294,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:23:38.843Z"
       }
     ],
     "app_metadata": [
