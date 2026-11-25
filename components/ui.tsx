@@ -29,8 +29,8 @@ export async function submitJson(url: string, method: string, body: unknown) {
   const data = await response.json(); if (!response.ok) throw new Error(data.error || "მოთხოვნა ვერ შესრულდა."); return data;
 }
 
-export async function fetchJson<T = any>(url: string): Promise<T> {
-  const response = await fetch(url, { cache: "no-store" });
+export async function fetchJson<T = any>(url: string, signal?: AbortSignal): Promise<T> {
+  const response = await fetch(url, { cache: "no-store", signal });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error || "მონაცემების მიღება ვერ მოხერხდა.");
   return data;

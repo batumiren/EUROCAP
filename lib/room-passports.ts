@@ -1,4 +1,4 @@
-import type Database from "better-sqlite3";
+import type { Database } from "@/lib/db";
 
 export type RoomPassport = {
   id: number;
@@ -8,10 +8,10 @@ export type RoomPassport = {
   total: number;
 };
 
-export function getRoomPassports(database: Database.Database, roomId?: number): RoomPassport[] {
-  const rooms = database.prepare(`SELECT id,name FROM rooms WHERE archived_at IS NULL${roomId === undefined ? "" : " AND id=?"} ORDER BY name COLLATE NOCASE`).all(...(roomId === undefined ? [] : [roomId])) as Array<{ id: number; name: string }>;
-  const items = database.prepare(`SELECT i.room_id,i.name,i.quantity,i.responsible_person FROM inventory i JOIN rooms r ON r.id=i.room_id
-    WHERE i.archived_at IS NULL AND r.archived_at IS NULL${roomId === undefined ? "" : " AND i.room_id=?"} ORDER BY i.id`).all(...(roomId === undefined ? [] : [roomId])) as Array<{ room_id: number; name: string; quantity: number; responsible_person: string }>;
+export async function getRoomPassports(database: Database, roomId?: number): Promise<RoomPassport[]> {
+  const rooms = (await database.prepare(`SELECT id,name FROM rooms WHERE archived_at IS NULL${roomId === undefined ? "" : " AND id=?"} ORDER BY name `).all(...(roomId === undefined ? [] : [roomId]))) as Array<{ id: number; name: string }>;
+  const items = (await database.prepare(`SELECT i.room_id,i.name,i.quantity,i.responsible_person FROM inventory i JOIN rooms r ON r.id=i.room_id
+    WHERE i.archived_at IS NULL AND r.archived_at IS NULL${roomId === undefined ? "" : " AND i.room_id=?"} ORDER BY i.id`).all(...(roomId === undefined ? [] : [roomId]))) as Array<{ room_id: number; name: string; quantity: number; responsible_person: string }>;
   const passports = new Map(rooms.map(room => [room.id, { ...room, responsiblePeople: [], inventory: [], total: 0 } as RoomPassport]));
   const groups = new Map<number, Map<string, { name: string; quantity: number }>>();
   for (const item of items) {

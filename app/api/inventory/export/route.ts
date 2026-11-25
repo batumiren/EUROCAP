@@ -1,3 +1,4 @@
+import { apiError } from "@/lib/http";
 import { NextRequest, NextResponse } from "next/server";
 import { strToU8, zipSync } from "fflate";
 import { db } from "@/lib/db";
@@ -10,8 +11,8 @@ function formatDate(value: string | null) {
   return value ? new Intl.DateTimeFormat("ka-GE", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Tbilisi" }).format(new Date(value)) : "";
 }
 
-function inventoryRows() {
-  const items = db.prepare("SELECT i.*,r.name AS room_name FROM inventory i JOIN rooms r ON r.id=i.room_id ORDER BY i.id").all() as Record<string, any>[];
+async function inventoryRows() {
+  const items = (await db.prepare("SELECT i.*,r.name AS room_name FROM inventory i JOIN rooms r ON r.id=i.room_id ORDER BY i.id").all()) as Record<string, any>[];
   return items.map((item) => [item.code, item.name, item.room_name, item.quantity, item.condition, item.status, formatDate(item.last_inspected_at), item.notes, item.responsible_person, formatDate(item.registered_at), item.archived_at ? "დაარქივებული" : "აქტიური"]);
 }
 
@@ -37,14 +38,16 @@ function createXlsx(rows: unknown[][]) {
 }
 
 export async function GET(request: NextRequest) {
-  const format = request.nextUrl.searchParams.get("format");
-  const rows = inventoryRows();
-  if (format === "csv") {
-    const csv = `\uFEFF${[headers, ...rows].map((row) => row.map(csvCell).join(",")).join("\r\n")}`;
-    return new NextResponse(csv, { headers: { "Content-Type": "text/csv; charset=utf-8", "Content-Disposition": 'attachment; filename="EURO-Inventory.csv"' } });
-  }
-  if (format === "xlsx") {
-    return new NextResponse(Buffer.from(createXlsx(rows)), { headers: { "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Content-Disposition": 'attachment; filename="EURO-Inventory.xlsx"' } });
-  }
-  return NextResponse.json({ error: "აირჩიეთ CSV ან XLSX ფორმატი." }, { status: 400 });
+  try {
+    const format = request.nextUrl.searchParams.get("format");
+    const rows = (await inventoryRows());
+    if (format === "csv") {
+      const csv = `\uFEFF${[headers, ...rows].map((row) => row.map(csvCell).join(",")).join("\r\n")}`;
+      return new NextResponse(csv, { headers: { "Content-Type": "text/csv; charset=utf-8", "Content-Disposition": 'attachment; filename="EURO-Inventory.csv"' } });
+    }
+    if (format === "xlsx") {
+      return new NextResponse(Buffer.from(createXlsx(rows)), { headers: { "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Content-Disposition": 'attachment; filename="EURO-Inventory.xlsx"' } });
+    }
+    return NextResponse.json({ error: "აირჩიეთ CSV ან XLSX ფორმატი." }, { status: 400 });
+  } catch (error) { return apiError(error); }
 }

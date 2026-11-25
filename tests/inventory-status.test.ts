@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { createInventoryItems } from "@/lib/services";
 import { GET } from "@/app/api/inventory/route";
 import { NextRequest } from "next/server";
+import { resetDatabase } from "./postgres-test";
 
 const status = "მცირეფასიანი მარაგები";
 
@@ -38,11 +39,13 @@ it("upgrades an existing database without losing inventory IDs, references or in
 });
 
 it("saves the new status and includes it in inventory filter results", async () => {
-  const room = db.prepare("INSERT INTO rooms(name) VALUES (?)").run("სტატუსის სატესტო ოთახი");
+  await resetDatabase();
+  await db.query("INSERT INTO settings (id,operator_name,operator_email) VALUES (1,'Test','test@example.test')");
+  const room = (await db.prepare("INSERT INTO rooms(name) VALUES (?)").insert("სტატუსის სატესტო ოთახი"));
   try {
-    const fields = { name: "სატესტო ნივთი", roomId: Number(room.lastInsertRowid), quantity: 1, condition: "კარგი" };
-    const created = createInventoryItems(db, { ...fields, status });
-    const other = createInventoryItems(db, { ...fields, status: "საწყობში" });
+    const fields = { name: "სატესტო ნივთი", roomId: Number(room.id), quantity: 1, condition: "კარგი" };
+    const created = (await createInventoryItems(db, { ...fields, status }));
+    const other = (await createInventoryItems(db, { ...fields, status: "საწყობში" }));
     const url = new URL("https://inventory.test/api/inventory");
     url.searchParams.set("status", status);
     const response = await GET(new NextRequest(url));
@@ -50,8 +53,8 @@ it("saves the new status and includes it in inventory filter results", async () 
     expect(items).toContainEqual(expect.objectContaining({ code: created.code, status }));
     expect(items).not.toContainEqual(expect.objectContaining({ code: other.code }));
   } finally {
-    db.prepare("DELETE FROM item_history WHERE inventory_id IN (SELECT id FROM inventory WHERE room_id=?)").run(room.lastInsertRowid);
-    db.prepare("DELETE FROM inventory WHERE room_id=?").run(room.lastInsertRowid);
-    db.prepare("DELETE FROM rooms WHERE id=?").run(room.lastInsertRowid);
+    (await db.prepare("DELETE FROM item_history WHERE inventory_id IN (SELECT id FROM inventory WHERE room_id=?)").run(room.id));
+    (await db.prepare("DELETE FROM inventory WHERE room_id=?").run(room.id));
+    (await db.prepare("DELETE FROM rooms WHERE id=?").run(room.id));
   }
 });
