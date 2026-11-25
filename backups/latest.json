@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:45:05.173Z",
+  "exportedAt": "2026-11-25T11:46:25.949Z",
   "tables": {
     "rooms": [
       {
@@ -51957,6 +51957,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:45:04.835Z"
+      },
+      {
+        "id": 3431,
+        "code": "EUR-003431",
+        "name": "პროექტორი (Vivitek DH268 DLP Projector 1080p (1920 x1080) 3500 ANSI Lumens 15 000 1 contrast 2 X HDMI)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0543266509\t(404431432) შპს allmarket.ge\t27.08.2020 06:22:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:46:25.571Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:46:25.571Z"
       }
     ],
     "inventory_photos": [],
@@ -87595,6 +87610,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:45:04.835Z"
+      },
+      {
+        "id": 3564,
+        "inventory_id": 3431,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:46:25.571Z"
       }
     ],
     "app_metadata": [
