@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:14:35.454Z",
+  "exportedAt": "2026-11-25T09:17:33.528Z",
   "tables": {
     "rooms": [
       {
@@ -49752,6 +49752,51 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:14:35.137Z"
+      },
+      {
+        "id": 3284,
+        "code": "EUR-003284",
+        "name": "ტელევიზორი (TV/ LED/ TCL/ 40\"(101cm)/ 40D3000/RD512KS-RU Black  16:9 Full HD 1920x1080  6.5ms 178* 250cd/m2 5000:1 DVB-T/T2/S2 HDMI USB VGA 2x8W VESA 200x200)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0438858865\t(402033312) შპს ალტაოქეი\t16.03.2019 11:46:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:17:33.162Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3285,
+        "code": "EUR-003285",
+        "name": "ტელევიზორი (TV/ LED/ TCL/ 40\"(101cm)/ 40D3000/RD512KS-RU Black  16:9 Full HD 1920x1080  6.5ms 178* 250cd/m2 5000:1 DVB-T/T2/S2 HDMI USB VGA 2x8W VESA 200x200)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0438858865\t(402033312) შპს ალტაოქეი\t16.03.2019 11:46:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:17:33.162Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3286,
+        "code": "EUR-003286",
+        "name": "ტელევიზორი (TV/ LED/ TCL/ 40\"(101cm)/ 40D3000/RD512KS-RU Black  16:9 Full HD 1920x1080  6.5ms 178* 250cd/m2 5000:1 DVB-T/T2/S2 HDMI USB VGA 2x8W VESA 200x200)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0438858865\t(402033312) შპს ალტაოქეი\t16.03.2019 11:46:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:17:33.162Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:17:33.162Z"
       }
     ],
     "inventory_photos": [],
@@ -83920,6 +83965,36 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:14:35.137Z"
+      },
+      {
+        "id": 3417,
+        "inventory_id": 3284,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3418,
+        "inventory_id": 3285,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:17:33.162Z"
+      },
+      {
+        "id": 3419,
+        "inventory_id": 3286,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:17:33.162Z"
       }
     ],
     "app_metadata": [
