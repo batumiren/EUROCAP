@@ -33,7 +33,7 @@ export class Database {
     };
   }
 
-  async transaction<T>(operation: (tx: Database) => Promise<T>): Promise<T> {
+  async transaction<T>(operation: (tx: Database) => Promise<T>, serializeInventory = true): Promise<T> {
     if (this.client) throw new Error("Nested inventory transaction");
     const client = await getPool().connect();
     let discard = false;
@@ -42,7 +42,7 @@ export class Database {
       await client.query("SET LOCAL lock_timeout = '8s'");
       await client.query("SET LOCAL statement_timeout = '15s'");
       // Serialize inventory mutations (including room changes) across app instances.
-      await client.query("SELECT pg_advisory_xact_lock(1798468271)");
+      if (serializeInventory) await client.query("SELECT pg_advisory_xact_lock(1798468271)");
       const result = await operation(new Database(client));
       try {
         if ((await client.query("COMMIT")).command !== "COMMIT") throw new Error("Inventory transaction did not commit.");

@@ -237,7 +237,7 @@ export function InventoryPhotos({
     setBinaryErrors(current => ({ ...current, [photoId]: "" }));
     const controller = new AbortController();
     const request = fetch(`/api/inventory/${inventoryId}/photos/${photoId}`, {
-      cache: "no-store",
+      cache: "no-cache",
       signal: controller.signal,
     }).then(async response => {
       if (!response.ok) {

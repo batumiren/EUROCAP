@@ -1,7 +1,6 @@
-import { createHash, createHmac, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
-import { mkdir, open, readFile, rename, rm } from "node:fs/promises";
-import path from "node:path";
-import { BlobPreconditionFailedError, get, put } from "@vercel/blob";
+import { createHash, createHmac, randomUUID, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
+import { db } from "@/lib/db";
+import { documentSchema, hashSchema, type CredentialDocument } from "@/lib/auth-document";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
@@ -9,21 +8,11 @@ export type AuthRole = "admin" | "check";
 export type AuthUser = { username: AuthRole; role: AuthRole };
 export const SESSION_COOKIE = "euro_session";
 export const SESSION_SECONDS = 8 * 60 * 60;
-const blobPath = "eurocap/auth/credentials-v1.json";
+export const VERIFIED_USER_HEADER = "x-eurocap-verified-user";
 const deriveKey = (password: string, salt: string) => new Promise<Buffer>((resolve, reject) => {
   scrypt(password, salt, 64, { N: 32768, r: 8, p: 1, maxmem: 64 * 1024 * 1024 }, (error, key) => error ? reject(error) : resolve(key));
 });
-const hashSchema = z.string().regex(/^scrypt\$[a-f0-9]{32}\$[a-f0-9]{128}$/);
-const accountSchema = z.object({ hash: hashSchema, revision: z.string().uuid() });
-const documentSchema = z.object({
-  version: z.literal(1),
-  secret: z.string().regex(/^[a-f0-9]{64}$/),
-  users: z.object({ admin: accountSchema, check: accountSchema }),
-  revoked: z.array(z.object({ digest: z.string(), expires: z.number() })).default([]),
-  attempts: z.object({ admin: z.object({ start: z.number(), count: z.number().int().nonnegative() }), check: z.object({ start: z.number(), count: z.number().int().nonnegative() }), unknown: z.object({ start: z.number(), count: z.number().int().nonnegative() }) }),
-});
-type CredentialDocument = z.infer<typeof documentSchema>;
-const sessionSchema = z.object({ username: z.enum(["admin", "check"]), revision: z.string().uuid(), expires: z.number().int(), version: z.literal(1) }).strict();
+const sessionSchema = z.object({ username: z.enum(["admin", "check"]), revision: z.string().uuid(), expires: z.number().int(), version: z.literal(1), nonce: z.string().uuid().optional() }).strict();
 type Session = z.infer<typeof sessionSchema>;
 
 export class AuthError extends Error {
@@ -73,120 +62,70 @@ export function verifySessionToken(token: string | undefined, secret: string, no
     if (parts.length !== 2 || !/^[A-Za-z0-9_-]+$/.test(parts[0]) || !/^[A-Za-z0-9_-]{43}$/.test(parts[1])) return null;
     const expected = createHmac("sha256", secret).update(parts[0]).digest();
     const signature = Buffer.from(parts[1], "base64url");
-    if (signature.length !== expected.length || !timingSafeEqual(signature, expected)) return null;
+    if (signature.toString("base64url") !== parts[1] || signature.length !== expected.length || !timingSafeEqual(signature, expected)) return null;
     const parsed = sessionSchema.safeParse(JSON.parse(Buffer.from(parts[0], "base64url").toString("utf8")));
     return parsed.success && parsed.data.expires > now && parsed.data.expires <= now + SESSION_SECONDS * 1000 ? parsed.data : null;
   } catch { return null; }
 }
 
-function signingSecret(document: CredentialDocument) {
-  return process.env.BLOB_READ_WRITE_TOKEN
-    ? createHmac("sha256", process.env.BLOB_READ_WRITE_TOKEN).update("eurocap/auth/session-v1").digest("hex")
-    : document.secret;
+function signingSecret() {
+  const secret = process.env.AUTH_SESSION_SECRET;
+  if (!secret || !/^[a-f0-9]{64}$/i.test(secret)) throw new AuthError("Authentication storage unavailable.", 503);
+  return secret;
 }
 
-async function initialDocument(): Promise<CredentialDocument> {
-  const { randomUUID } = await import("node:crypto");
-  return { version: 1, secret: randomBytes(32).toString("hex"), revoked: [], users: {
-    admin: { hash: await hashPassword("admin"), revision: randomUUID() },
-    check: { hash: await hashPassword("check"), revision: randomUUID() },
-  }, attempts: { admin: { start: 0, count: 0 }, check: { start: 0, count: 0 }, unknown: { start: 0, count: 0 } } };
-}
-
-async function readBlob() {
-  const result = await get(blobPath, { access: "private", useCache: false });
-  if (!result) return null;
-  if (result.statusCode !== 200) throw new Error("Auth storage unavailable");
-  // Blob download responses use weak HTTP ETags; conditional writes expect the strong tag.
-  return { document: documentSchema.parse(await new Response(result.stream).json()), etag: result.blob.etag.replace(/^W\//, "") };
-}
-
-// Local writes are locked across processes and atomically renamed. Never use ephemeral Vercel disk.
 async function withDocument<T>(operation: (document: CredentialDocument) => Promise<T>, write = false): Promise<T> {
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
-    let stored = await readBlob();
-    if (!stored) {
-      const initial = await initialDocument();
-      try {
-        await put(blobPath, JSON.stringify(initial), { access: "private", addRandomSuffix: false, allowOverwrite: false, contentType: "application/json" });
-      } catch {
-        // A concurrent bootstrap may win; only proceed if authoritative credentials now exist.
-        stored = await readBlob();
-        if (!stored) throw new Error("Auth initialization failed");
-      }
-      stored ??= await readBlob();
-    }
-    for (let retry = 0; retry < 5; retry++) {
-      if (!stored) throw new Error("Auth storage unavailable");
-      const result = await operation(stored.document);
-      if (!write) return result;
-      try {
-        await put(blobPath, JSON.stringify(stored.document), { access: "private", addRandomSuffix: false, ifMatch: stored.etag, contentType: "application/json" });
-        return result;
-      } catch (error) {
-        if (!(error instanceof BlobPreconditionFailedError)) throw error;
-        stored = await readBlob();
-      }
-    }
-    throw new AuthError("Authentication busy; retry shortly.", 503);
-  }
-  if (process.env.VERCEL) throw new AuthError("Private authentication storage is not configured.", 503);
-  const directory = path.join(process.cwd(), "data");
-  const filename = path.join(directory, "auth.json");
-  const lock = path.join(directory, "auth.lock");
-  await mkdir(directory, { recursive: true });
-  let acquired = false;
-  for (let retry = 0; retry < 100; retry++) {
-    try { await mkdir(lock); acquired = true; break; }
-    catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "EEXIST") throw error;
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-  }
-  if (!acquired) throw new AuthError("Authentication busy; retry shortly.", 503);
-  let temporary: string | undefined;
-  try {
-    let document: CredentialDocument;
-    let initialized = false;
-    try { document = documentSchema.parse(JSON.parse(await readFile(filename, "utf8"))); }
-    catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
-      document = await initialDocument(); initialized = true;
-    }
+  const use = async (database: typeof db) => {
+    const { rows } = await database.query(`SELECT document FROM eurocap_auth WHERE id=1${write ? " FOR UPDATE" : ""}`);
+    if (!rows[0]) throw new AuthError("Authentication storage unavailable.", 503);
+    const document = documentSchema.parse(rows[0].document);
     const result = await operation(document);
-    if (write || initialized) {
-      temporary = `${filename}.${randomBytes(8).toString("hex")}`;
-      const file = await open(/* turbopackIgnore: true */ temporary, "wx", 0o600);
-      try { await file.writeFile(JSON.stringify(document)); await file.sync(); } finally { await file.close(); }
-      await rename(temporary, filename);
-      const directoryHandle = await open(directory, "r");
-      try { await directoryHandle.sync(); } finally { await directoryHandle.close(); }
-    }
+    if (write) await database.query("UPDATE eurocap_auth SET document=$1 WHERE id=1", [document]);
     return result;
-  } finally {
-    if (temporary) await rm(temporary, { force: true });
-    await rm(lock, { recursive: true });
-  }
+  };
+  return write ? db.transaction(use, false) : use(db);
+}
+
+function activeSession(document: CredentialDocument, token: string, session: Session) {
+  return document.users[session.username].revision === session.revision &&
+    !document.revoked.some(entry => entry.digest === createHash("sha256").update(token).digest("hex"));
 }
 
 export async function getSessionUser(token: string | undefined): Promise<AuthUser | null> {
-  if (!token || token.length > 1024) return null;
-  return withDocument(async document => {
-    const session = verifySessionToken(token, signingSecret(document));
-    if (!session || document.users[session.username].revision !== session.revision || document.revoked.some(entry => entry.digest === createHash("sha256").update(token).digest("hex"))) return null;
-    return { username: session.username, role: session.username };
-  });
+  if (!token) return null;
+  const session = verifySessionToken(token, signingSecret());
+  if (!session) return null;
+  return withDocument(async document => activeSession(document, token, session)
+    ? { username: session.username, role: session.username } : null);
+}
+
+// Proxy strips client values and forwards this proof only after checking Neon.
+// It is bound to the cookie, short-lived, and never returned as a response header.
+export function attestUser(user: AuthUser, token: string, now = Date.now()) {
+  const payload = `${user.username}.${now}`;
+  const mac = createHmac("sha256", signingSecret()).update(`proxy-v1:${payload}:${token}`).digest("hex");
+  return `${payload}.${mac}`;
+}
+
+export function readAttestedUser(proof: string | null, token: string | undefined, now = Date.now()): AuthUser | null {
+  if (!proof || !token) return null;
+  const match = /^(admin|check)\.(\d{13})\.([a-f0-9]{64})$/.exec(proof);
+  if (!match || Math.abs(now - Number(match[2])) > 10000) return null;
+  const role = match[1] as AuthRole;
+  const expected = attestUser({ username: role, role }, token, Number(match[2]));
+  return timingSafeEqual(Buffer.from(proof), Buffer.from(expected)) ? { username: role, role } : null;
 }
 
 export async function getCurrentUser(): Promise<AuthUser | null> {
-  const { cookies } = await import("next/headers");
-  return getSessionUser((await cookies()).get(SESSION_COOKIE)?.value);
+  const { cookies, headers } = await import("next/headers");
+  const token = (await cookies()).get(SESSION_COOKIE)?.value;
+  return readAttestedUser((await headers()).get(VERIFIED_USER_HEADER), token) ?? getSessionUser(token);
 }
 
 export async function revokeSession(token: string | undefined) {
   if (!token) return;
   await withDocument(async document => {
-    const session = verifySessionToken(token, signingSecret(document));
+    const session = verifySessionToken(token, signingSecret());
     if (!session) return;
     const digest = createHash("sha256").update(token).digest("hex");
     document.revoked = document.revoked.filter(entry => entry.expires > Date.now() && entry.digest !== digest);
@@ -207,6 +146,7 @@ async function reserveAttempt(username: AuthRole | null) {
 }
 
 export async function authenticate(usernameInput: unknown, password: string) {
+  const secret = signingSecret();
   const username = normalizeUsername(usernameInput);
   await reserveAttempt(username);
   return withDocument(async document => {
@@ -214,7 +154,7 @@ export async function authenticate(usernameInput: unknown, password: string) {
     if (!username || !valid) throw new AuthError("Invalid username or password.", 401);
     const user = { username, role: username };
     const expires = Date.now() + SESSION_SECONDS * 1000;
-    const token = signSession({ username, revision: document.users[username].revision, expires, version: 1 }, signingSecret(document));
+    const token = signSession({ username, revision: document.users[username].revision, expires, version: 1, nonce: randomUUID() }, secret);
     return { user, token, expires };
   });
 }
@@ -225,16 +165,14 @@ export async function changePassword(token: string | undefined, usernameInput: u
   if (newPassword.length < 10 || newPassword.length > 1024 || !/[A-Za-z]/.test(newPassword) || !/[0-9]/.test(newPassword) || !/[^A-Za-z0-9]/.test(newPassword)) {
     throw new AuthError("Password must be 10-1024 characters with a letter, number and special character.", 400);
   }
-  const user = await getSessionUser(token);
-  if (!user) throw new AuthError("Authentication required.", 401);
-  if (user.role !== "admin") throw new AuthError("Forbidden.", 403);
+  const session = token ? verifySessionToken(token, signingSecret()) : null;
+  if (!session || !token) throw new AuthError("Authentication required.", 401);
+  if (session.username !== "admin") throw new AuthError("Forbidden.", 403);
   await reserveAttempt("admin");
   const hash = await hashPassword(newPassword);
   return withDocument(async document => {
-    const session = verifySessionToken(token, signingSecret(document));
-    if (!session || session.username !== "admin" || session.revision !== document.users.admin.revision) throw new AuthError("Authentication required.", 401);
+    if (!activeSession(document, token, session)) throw new AuthError("Authentication required.", 401);
     if (!await verifyPassword(currentPassword, document.users.admin.hash)) throw new AuthError("Incorrect current admin password.", 401);
-    const { randomUUID } = await import("node:crypto");
     document.users[username] = { hash, revision: randomUUID() };
     return { ok: true, username, requiresLogin: username === "admin" };
   }, true);

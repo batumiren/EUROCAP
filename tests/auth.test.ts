@@ -2,37 +2,25 @@ import { randomUUID } from "node:crypto";
 import { beforeEach, afterEach, describe, expect, it, vi } from "vitest";
 import { NextRequest } from "next/server";
 
-const storage = vi.hoisted(() => ({ content: null as string | null, revision: 0, failPasswordSave: false, conflict: false }));
-vi.mock("@vercel/blob", () => {
-  class BlobPreconditionFailedError extends Error {}
-  return {
-    BlobPreconditionFailedError,
-    get: vi.fn(async () => storage.content === null ? null : {
-      statusCode: 200, stream: new Response(storage.content).body, blob: { etag: `W/"${storage.revision}"` },
-    }),
-    put: vi.fn(async (_path: string, content: string, options: { allowOverwrite?: boolean; ifMatch?: string }) => {
-      if (storage.content !== null && options.allowOverwrite === false) throw new Error("Already exists");
-      if (options.ifMatch && options.ifMatch !== `"${storage.revision}"`) throw new BlobPreconditionFailedError();
-      if (storage.conflict && options.ifMatch) { storage.conflict = false; storage.revision++; throw new BlobPreconditionFailedError(); }
-      if (storage.failPasswordSave && storage.content && JSON.stringify(JSON.parse(content).users) !== JSON.stringify(JSON.parse(storage.content).users)) throw new Error("Storage offline");
-      storage.content = content; storage.revision++;
-      return { etag: String(storage.revision) };
-    }),
-  };
-});
-
 import { authenticate, canAccess, changePassword, getSessionUser, hashPassword, isSameOrigin, normalizeUsername, SESSION_COOKIE, SESSION_SECONDS, signSession, verifyPassword, verifySessionToken } from "@/lib/auth";
 import { proxy, config } from "@/proxy";
 import { POST as login } from "@/app/api/auth/login/route";
 import { POST as passwordEndpoint } from "@/app/api/auth/password/route";
 import { POST as logout } from "@/app/api/auth/logout/route";
 import { unstable_doesMiddlewareMatch } from "next/experimental/testing/server";
-import { get, put } from "@vercel/blob";
+import { db } from "@/lib/db";
+import "./postgres-test";
+import { attestUser, readAttestedUser, VERIFIED_USER_HEADER } from "@/lib/auth";
 
-beforeEach(() => {
-  vi.stubEnv("BLOB_READ_WRITE_TOKEN", "test-only-not-a-real-blob-token");
-  storage.content = null; storage.revision = 0; storage.failPasswordSave = false; storage.conflict = false;
-  vi.clearAllMocks();
+const fixture = {
+  version: 1, secret: "a".repeat(64),
+  users: { admin: { hash: await hashPassword("admin"), revision: randomUUID() }, check: { hash: await hashPassword("check"), revision: randomUUID() } },
+  revoked: [], attempts: { admin: { start: 0, count: 0 }, check: { start: 0, count: 0 }, unknown: { start: 0, count: 0 } },
+};
+
+beforeEach(async () => {
+  vi.stubEnv("AUTH_SESSION_SECRET", "1".repeat(64));
+  await db.query("INSERT INTO eurocap_auth VALUES (1,$1) ON CONFLICT(id) DO UPDATE SET document=EXCLUDED.document", [fixture]);
 });
 afterEach(() => vi.unstubAllEnvs());
 
@@ -85,18 +73,15 @@ describe("auth primitives", () => {
 });
 
 describe("private credential storage and sessions", () => {
-  it("bootstraps once without overwrite under concurrent logins", async () => {
+  it("supports concurrent logins with explicitly migrated accounts", async () => {
     const sessions = await Promise.all([authenticate("ADMIN", "admin"), authenticate("check", "check")]);
     expect(await getSessionUser(sessions[0].token)).toEqual({ username: "admin", role: "admin" });
     expect(await getSessionUser(sessions[1].token)).toEqual({ username: "check", role: "check" });
-    expect(vi.mocked(put).mock.calls.filter(call => call[2]?.allowOverwrite === false).length).toBeGreaterThanOrEqual(1);
-    expect(vi.mocked(get).mock.calls.every(call => call[1].useCache === false && call[1].access === "private")).toBe(true);
-    expect(storage.content).not.toContain('"hash":"admin"');
+    expect((await db.query("SELECT document FROM eurocap_auth")).rows[0].document.users).toEqual(fixture.users);
   });
-  it("retries conditional write conflicts and invalidates target sessions", async () => {
+  it("invalidates target sessions without invalidating the other role", async () => {
     const admin = await authenticate("admin", "admin");
     const check = await authenticate("check", "check");
-    storage.conflict = true;
     expect(await changePassword(admin.token, "CHECK", "admin", "New-password123!")).toEqual({ ok: true, username: "check", requiresLogin: false });
     expect(await getSessionUser(check.token)).toBeNull();
     expect(await getSessionUser(admin.token)).not.toBeNull();
@@ -112,27 +97,37 @@ describe("private credential storage and sessions", () => {
   });
   it("never reports successful password updates when durable save fails", async () => {
     const admin = await authenticate("admin", "admin");
-    storage.failPasswordSave = true;
-    await expect(changePassword(admin.token, "check", "admin", "New-password123!")).rejects.toThrow("Storage offline");
+    await db.query(`ALTER TABLE eurocap_auth ADD CONSTRAINT test_auth_failure CHECK (document->'users'->'check'->>'revision' = '${fixture.users.check.revision}')`);
+    try { await expect(changePassword(admin.token, "check", "admin", "New-password123!")).rejects.toMatchObject({ code: "23514" }); }
+    finally { await db.query("ALTER TABLE eurocap_auth DROP CONSTRAINT test_auth_failure"); }
     expect((await authenticate("check", "check")).user.role).toBe("check");
   });
   it("persists a bounded per-account attempt limit", async () => {
     for (let i = 0; i < 10; i++) await expect(authenticate("admin", "wrong")).rejects.toMatchObject({ status: 401 });
     await expect(authenticate("ADMIN", "admin")).rejects.toMatchObject({ status: 429 });
-    expect(JSON.parse(storage.content!).attempts.admin.count).toBe(10);
+    expect((await db.query("SELECT document FROM eurocap_auth WHERE id=1")).rows[0].document.attempts.admin.count).toBe(10);
   });
-  it("does not replace corrupt existing credentials or fall back when Blob fails", async () => {
-    storage.content = '{"version":1,"users":{}}';
+  it("fails closed on corrupt credentials for a correctly signed session", async () => {
+    const session = await authenticate("admin", "admin");
+    await db.query(`UPDATE eurocap_auth SET document='{}'::jsonb WHERE id=1`);
     await expect(authenticate("admin", "admin")).rejects.toThrow();
-    expect(put).not.toHaveBeenCalled();
-    vi.mocked(get).mockRejectedValueOnce(new Error("Storage offline"));
+    expect((await proxy(request("/api/rooms", "GET", session.token))).status).toBe(503);
+  });
+  it("does not bootstrap missing accounts; missing secret fails closed", async () => {
+    await db.query("DELETE FROM eurocap_auth WHERE id=1");
+    await expect(authenticate("admin", "admin")).rejects.toMatchObject({ status: 503 });
+    vi.stubEnv("AUTH_SESSION_SECRET", "");
     expect((await proxy(request("/api/rooms", "GET", "malformed.cookie"))).status).toBe(503);
   });
-  it("refuses ephemeral Vercel local storage when the token is absent", async () => {
-    vi.stubEnv("BLOB_READ_WRITE_TOKEN", "");
-    vi.stubEnv("VERCEL", "1");
-    await expect(authenticate("admin", "admin")).rejects.toMatchObject({ status: 503 });
-    expect(put).not.toHaveBeenCalled();
+  it("allows only a fresh signed proxy proof bound to the same cookie", async () => {
+    const session = await authenticate("check", "check");
+    const proof = attestUser(session.user, session.token);
+    expect(readAttestedUser(proof, session.token)).toEqual(session.user);
+    expect(readAttestedUser(proof.replace(/^check/, "admin"), session.token)).toBeNull();
+    expect(readAttestedUser(proof, "other-cookie")).toBeNull();
+    expect(readAttestedUser(proof, session.token, Date.now() + 11000)).toBeNull();
+    const forged = request("/api/settings"); forged.headers.set(VERIFIED_USER_HEADER, proof);
+    expect((await proxy(forged)).status).toBe(401);
   });
 });
 
@@ -155,7 +150,7 @@ describe("proxy and API contracts", () => {
   it("revalidates authoritative revisions on every protected request", async () => {
     const check = await authenticate("check", "check");
     expect((await proxy(request("/api/rooms", "GET", check.token))).status).toBe(200);
-    const document = JSON.parse(storage.content!); document.users.check.revision = randomUUID(); storage.content = JSON.stringify(document);
+    await db.query("UPDATE eurocap_auth SET document=jsonb_set(document, '{users,check,revision}', to_jsonb($1::text)) WHERE id=1", [randomUUID()]);
     expect((await proxy(request("/api/rooms", "GET", check.token))).status).toBe(401);
   });
   it("sets httpOnly cookies and exposes only safe login data; clears on logout", async () => {

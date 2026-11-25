@@ -1,7 +1,8 @@
 "use client";
 
-import { FormEvent, useCallback, useEffect, useState } from "react";
+import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import { Empty, fetchJson, formatDate, Modal, Notice, submitJson } from "@/components/ui";
+import { useDebouncedValue } from "@/lib/use-debounced-value";
 import { InventoryItem } from "@/lib/types";
 
 type Room = { id: number; name: string };
@@ -31,19 +32,27 @@ export default function TransfersPage() {
   const [error, setError] = useState("");
   const [saving, setSaving] = useState(false);
 
-  const load = useCallback(async () => {
-    const query = new URLSearchParams(filters);
-    const [transferData, inventoryData, roomData] = await Promise.all([
-      fetchJson<{ transfers: Transfer[] }>(`/api/transfers?${query}`),
-      fetchJson<{ items: InventoryItem[] }>("/api/inventory"),
-      fetchJson<{ rooms: Room[] }>("/api/rooms"),
-    ]);
-    setTransfers(transferData.transfers);
-    setItems(inventoryData.items);
-    setRooms(roomData.rooms);
-  }, [filters]);
-
-  useEffect(() => { void load().catch(error => setError(error.message)); }, [load]);
+  const search = useDebouncedValue(filters.search);
+  const room = useDebouncedValue(filters.room);
+  const { date } = filters;
+  const historyRequest = useRef(0);
+  const load = useCallback(async (signal?: AbortSignal) => {
+    const request = ++historyRequest.current;
+    const query = new URLSearchParams({ search, room, date });
+    const data = await fetchJson<{ transfers: Transfer[] }>(`/api/transfers?${query}`, signal);
+    if (request === historyRequest.current && !signal?.aborted) setTransfers(data.transfers);
+  }, [search, room, date]);
+  const loadInventory = useCallback(async () => {
+    setItems((await fetchJson<{ items: InventoryItem[] }>("/api/inventory")).items);
+  }, []);
+  useEffect(() => {
+    void fetchJson<{ rooms: Room[] }>("/api/rooms").then(data => setRooms(data.rooms)).catch(error => setError(error.message));
+  }, []);
+  useEffect(() => {
+    const controller = new AbortController();
+    void load(controller.signal).catch(error => { if (!controller.signal.aborted) setError(error.message); });
+    return () => controller.abort();
+  }, [load]);
 
   const sourceItems = sourceRoom ? items.filter(item => item.room_id === Number(sourceRoom)) : [];
   const sourceRoomName = rooms.find(room => room.id === Number(sourceRoom))?.name;
@@ -78,8 +87,8 @@ export default function TransfersPage() {
       }) as { created: number };
       setOpen(false);
       reset();
-      await load();
       setMessage(`${result.created} ჩანაწერის გადაადგილება დასრულდა.`);
+      await load();
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "გადაადგილება ვერ შესრულდა.");
     } finally {
@@ -90,7 +99,7 @@ export default function TransfersPage() {
   return <div className="mx-auto max-w-7xl">
     <div className="mb-7 flex flex-wrap items-end justify-between gap-4">
       <div><h1 className="text-2xl font-bold">გადაადგილება</h1><p className="mt-1 text-sm text-slate-500">ინვენტარის უსაფრთხო გადატანა ოთახებს შორის</p></div>
-      <button className="btn-primary" onClick={() => { reset(); setOpen(true); setMessage(""); }}>+ ახალი გადაადგილება</button>
+      <button className="btn-primary" onClick={() => { reset(); setItems([]); setOpen(true); setMessage(""); void loadInventory().catch(error => setError(error.message)); }}>+ ახალი გადაადგილება</button>
     </div>
     {message && <Notice message={message} />} {error && <Notice message={error} error />}
     <div className="card mb-5 grid gap-3 p-4 sm:grid-cols-3">

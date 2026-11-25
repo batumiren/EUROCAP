@@ -13,9 +13,18 @@ export async function GET(request: NextRequest, context: { params: Promise<{ id:
     const { id, photoId } = await context.params;
     const photo = await db.prepare("SELECT * FROM inventory_photos WHERE id=? AND inventory_id=?").get(Number(photoId), Number(id)) as StoredInventoryPhoto | undefined;
     if (!photo) return json({ error: "ფოტო ვერ მოიძებნა." }, 404);
-    const blob = await get(photo.blob_path, { access: "private", useCache: false });
+    const etag = `"${photo.sha256}"`;
+    const headers = { "Cache-Control": "private, no-cache", "ETag": etag, "Vary": "Cookie", "X-Content-Type-Options": "nosniff" };
+    if (request.headers.get("if-none-match")?.split(",").some(value => value.trim().replace(/^W\//, "") === etag)) {
+      return new NextResponse(null, { status: 304, headers });
+    }
+    // UUID-suffixed upload keys are immutable. Older keys could have been reused.
+    const immutable = /-[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}\.jpg$/i.test(photo.blob_path);
+    const previewToken = process.env.VERCEL_ENV === "preview" ? process.env.PREVIEW_BLOB_READ_WRITE_TOKEN : undefined;
+    if (process.env.VERCEL_ENV === "preview" && !previewToken) return json({ error: "Preview ფოტოების საცავი არ არის კონფიგურირებული." }, 503);
+    const blob = await get(photo.blob_path, { access: "private", useCache: immutable, ...(previewToken ? { token: previewToken } : {}) });
     if (!blob?.stream) return json({ error: "ფოტო ვერ მოიძებნა." }, 404);
-    return new NextResponse(blob.stream, { headers: { "Cache-Control": "private, max-age=300", "Content-Length": String(blob.blob.size), "Content-Type": "image/jpeg", "ETag": blob.blob.etag, "Vary": "Authorization", "X-Content-Type-Options": "nosniff" } });
+    return new NextResponse(blob.stream, { headers: { ...headers, "Content-Length": String(blob.blob.size), "Content-Type": "image/jpeg" } });
   } catch (error) {
     console.error("EUROCAP photo read failed", error);
     return json({ error: "ფოტოს წაკითხვა ვერ მოხერხდა." }, 500);

@@ -14,6 +14,8 @@ beforeAll(async () => {
   if (!existing.rows[0].inventory) {
     await db.query(readFileSync("migrations/001-inventory.sql", "utf8"));
   }
+  const auth = await db.query("SELECT to_regclass('public.eurocap_auth') AS auth");
+  if (!auth.rows[0].auth) await db.query(readFileSync("migrations/002-auth.sql", "utf8"));
 });
 
 export async function resetDatabase() {

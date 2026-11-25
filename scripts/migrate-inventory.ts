@@ -25,6 +25,7 @@ async function main() {
     const existing = await client.query("SELECT tablename FROM pg_tables WHERE schemaname='public' LIMIT 1");
     if (existing.rowCount) throw new Error("Target public schema is not empty; no rows were changed.");
     await client.query(readFileSync(resolve("migrations/001-inventory.sql"), "utf8"));
+    await client.query(readFileSync(resolve("migrations/002-auth.sql"), "utf8"));
     for (const table of tables) {
       const rows = snapshot.tables[table] as Record<string, unknown>[];
       const key = keys[table] ?? "id";

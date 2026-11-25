@@ -2,6 +2,7 @@
 import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import { CONDITIONS, InventoryItem, STATUSES } from "@/lib/types";
 import { Badge, ConditionBadge, Empty, fetchJson, formatDate, Modal, Notice, submitJson } from "@/components/ui";
+import { useDebouncedValue } from "@/lib/use-debounced-value";
 import { InventoryPhotos } from "@/components/inventory-photos";
 
 type Room = { id: number; name: string };
@@ -39,20 +40,27 @@ export default function InventoryPage() {
       else sessionStorage.removeItem("eurocap.pendingInventoryCreate");
     } catch { /* Retries still use the in-memory request key. */ }
   }
-  const load = useCallback(async () => {
+  const search = useDebouncedValue(filters.search);
+  const { room, condition, status, archived } = filters;
+  const loadRooms = useCallback(async () => {
+    try { setRooms((await fetchJson<{ rooms: Room[] }>("/api/rooms")).rooms); }
+    catch { setError("ოთახების ჩატვირთვა ვერ მოხერხდა. სცადეთ განახლება."); }
+  }, []);
+  useEffect(() => { void loadRooms(); }, [loadRooms]);
+  const load = useCallback(async (signal?: AbortSignal) => {
     const request = ++listRequest.current;
-    setLoading(true); const q = new URLSearchParams(); Object.entries(filters).forEach(([k, v]) => v && q.set(k, String(v)));
+    setLoading(true); const q = new URLSearchParams(); Object.entries({ search, room, condition, status, archived }).forEach(([k, v]) => v && q.set(k, String(v)));
     try {
-      const [inventory, roomData] = await Promise.all([fetchJson<any>(`/api/inventory?${q}`), fetchJson<any>("/api/rooms")]);
+      const inventory = await fetchJson<any>(`/api/inventory?${q}`, signal);
       if (request !== listRequest.current) return true;
-      setItems(inventory.items); setSummary(inventory.summary); setRooms(roomData.rooms); setNextCode(inventory.nextCode);
+      setItems(inventory.items); setSummary(inventory.summary); setNextCode(inventory.nextCode);
       return true;
     } catch {
-      if (request === listRequest.current) setError("ინვენტარის ჩატვირთვა ვერ მოხერხდა. სცადეთ განახლება.");
+      if (!signal?.aborted && request === listRequest.current) setError("ინვენტარის ჩატვირთვა ვერ მოხერხდა. სცადეთ განახლება.");
       return false;
     } finally { if (request === listRequest.current) setLoading(false); }
-  }, [filters]);
-  useEffect(() => { setVisibleCount(10); load(); }, [load]);
+  }, [search, room, condition, status, archived]);
+  useEffect(() => { const controller = new AbortController(); setVisibleCount(10); void load(controller.signal); return () => controller.abort(); }, [load]);
   const notify = (text: string) => { setMessage(text); setError(""); window.setTimeout(() => setMessage(""), 4000); };
   const fail = (e: unknown) => setError(e instanceof Error ? e.message : "მოთხოვნა ვერ შესრულდა.");
   async function submitItem(event: FormEvent<HTMLFormElement>) {
@@ -102,7 +110,7 @@ export default function InventoryPage() {
     }
   }
   return <div className="mx-auto max-w-[1600px]">
-    <div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><h1 className="text-2xl font-bold">ინვენტარი</h1><p className="mt-1 text-sm text-slate-500">აქტივების სრული აღრიცხვა ოთახების მიხედვით</p></div><div className="flex flex-wrap items-center gap-2"><button className="btn-secondary" disabled={loading} onClick={load}>{loading ? "ახლდება..." : "განახლება"}</button><span className="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm font-bold text-red-700">სულ {filteredUnitCount}</span><button className="btn-primary" onClick={() => { setSelected(null); setRecovered(pendingCreate.current ? JSON.parse(pendingCreate.current.body) : null); setCreateMessage(""); setModal("create"); }}>+ ნივთის დამატება</button></div></div>
+    <div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><h1 className="text-2xl font-bold">ინვენტარი</h1><p className="mt-1 text-sm text-slate-500">აქტივების სრული აღრიცხვა ოთახების მიხედვით</p></div><div className="flex flex-wrap items-center gap-2"><button className="btn-secondary" disabled={loading} onClick={() => { void load(); void loadRooms(); }}>{loading ? "ახლდება..." : "განახლება"}</button><span className="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm font-bold text-red-700">სულ {filteredUnitCount}</span><button className="btn-primary" onClick={() => { setSelected(null); setRecovered(pendingCreate.current ? JSON.parse(pendingCreate.current.body) : null); setCreateMessage(""); setModal("create"); }}>+ ნივთის დამატება</button></div></div>
     {message && <Notice message={message} />}{error && <Notice message={error} error />}
     <div className="mb-6 grid gap-4 sm:grid-cols-3">
       {[['აქტიური ჩანაწერები', summary.records, 'ჩანაწერი'], ['სულ ერთეული', summary.units, 'ერთეული'], ['საჭიროებს შეკეთებას', summary.repairs || 0, 'ჩანაწერი']].map(([label, value, unit]) => <div className="card p-5" key={String(label)}><p className="text-sm font-medium text-slate-500">{label}</p><div className="mt-2 flex items-baseline gap-2"><strong className="text-3xl">{value}</strong><span className="text-xs text-slate-400">{unit}</span></div></div>)}
