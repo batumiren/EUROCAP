@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:06:32.220Z",
+  "exportedAt": "2026-11-25T11:10:21.072Z",
   "tables": {
     "rooms": [
       {
@@ -51462,6 +51462,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:06:31.726Z"
+      },
+      {
+        "id": 3398,
+        "code": "EUR-003398",
+        "name": "ყვავილის სარწყავი (IKON5-G800 Konewka Koni - GROSZKOWY)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:10:20.651Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:10:20.651Z"
       }
     ],
     "inventory_photos": [],
@@ -86770,6 +86785,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:06:31.726Z"
+      },
+      {
+        "id": 3531,
+        "inventory_id": 3398,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:10:20.651Z"
       }
     ],
     "app_metadata": [
