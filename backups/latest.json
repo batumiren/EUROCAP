@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:10:49.024Z",
+  "exportedAt": "2026-11-25T09:12:56.105Z",
   "tables": {
     "rooms": [
       {
@@ -49711,17 +49711,17 @@
       {
         "id": 3281,
         "code": "EUR-003281",
-        "name": "გამწოვი კედლის ფილტრიანი",
+        "name": "დივანი (GEDVED 154x85x84სმ რუხი MDF/პოლ 1/1)",
         "room_id": 111,
         "quantity": 1,
         "condition": "კარგი",
         "status": "საწყობში",
-        "notes": "ს/ზ 0477621378\t(245558793) შპს TRG Group\t12.09.2019 18:17:00",
+        "notes": "ს/ზ 0443354071\t(404508154) შპს სანნა\t07.04.2019 15:46:00",
         "responsible_person": "",
         "registered_at": "2026-11-25T09:02:24.249Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-25T09:02:24.249Z"
+        "updated_at": "2026-11-25T09:12:55.554Z"
       }
     ],
     "inventory_photos": [],
@@ -83860,6 +83860,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:10:48.735Z"
+      },
+      {
+        "id": 3414,
+        "inventory_id": 3281,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:12:55.554Z"
       }
     ],
     "app_metadata": [
