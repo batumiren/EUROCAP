@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T10:57:43.938Z",
+  "exportedAt": "2026-11-25T11:03:21.329Z",
   "tables": {
     "rooms": [
       {
@@ -51162,6 +51162,81 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T10:57:43.637Z"
+      },
+      {
+        "id": 3378,
+        "code": "EUR-003378",
+        "name": "ქოთანი (პლასტმასის მრგვალი 22X18 გრანიტი ბს-1902)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:03:20.891Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3379,
+        "code": "EUR-003379",
+        "name": "ქოთანი (პლასტმასის მრგვალი 22X18 გრანიტი ბს-1902)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:03:20.891Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3380,
+        "code": "EUR-003380",
+        "name": "ქოთანი (პლასტმასის მრგვალი 22X18 გრანიტი ბს-1902)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:03:20.891Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3381,
+        "code": "EUR-003381",
+        "name": "ქოთანი (პლასტმასის მრგვალი 22X18 გრანიტი ბს-1902)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:03:20.891Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3382,
+        "code": "EUR-003382",
+        "name": "ქოთანი (პლასტმასის მრგვალი 22X18 გრანიტი ბს-1902)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:03:20.891Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:03:20.891Z"
       }
     ],
     "inventory_photos": [],
@@ -86270,6 +86345,56 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T10:57:43.637Z"
+      },
+      {
+        "id": 3511,
+        "inventory_id": 3378,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3512,
+        "inventory_id": 3379,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3513,
+        "inventory_id": 3380,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3514,
+        "inventory_id": 3381,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:03:20.891Z"
+      },
+      {
+        "id": 3515,
+        "inventory_id": 3382,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:03:20.891Z"
       }
     ],
     "app_metadata": [
