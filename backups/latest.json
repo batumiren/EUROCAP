@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:39:44.106Z",
+  "exportedAt": "2026-11-25T11:41:14.039Z",
   "tables": {
     "rooms": [
       {
@@ -51792,6 +51792,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:39:43.790Z"
+      },
+      {
+        "id": 3420,
+        "code": "EUR-003420",
+        "name": "კომპიუტერის კომპლექტი (ეკრანი, კლავიატურა, მაუსი) (HP 24-f0159ur (8TY31EA) All-in-One 23.8\" FHD, i5-9400T, 8GB, 1TB, Mouse and keyboard, White)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0511963723\t(245439271) შპს ივიჯი\t02.03.2020 15:43:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:41:13.741Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:41:13.741Z"
+      },
+      {
+        "id": 3421,
+        "code": "EUR-003421",
+        "name": "კომპიუტერის კომპლექტი (ეკრანი, კლავიატურა, მაუსი) (HP 24-f0159ur (8TY31EA) All-in-One 23.8\" FHD, i5-9400T, 8GB, 1TB, Mouse and keyboard, White)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0511963723\t(245439271) შპს ივიჯი\t02.03.2020 15:43:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:41:13.741Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:41:13.741Z"
       }
     ],
     "inventory_photos": [],
@@ -87320,6 +87350,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:39:43.790Z"
+      },
+      {
+        "id": 3553,
+        "inventory_id": 3420,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:41:13.741Z"
+      },
+      {
+        "id": 3554,
+        "inventory_id": 3421,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:41:13.741Z"
       }
     ],
     "app_metadata": [
