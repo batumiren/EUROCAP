@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T11:38:06.319Z",
+  "exportedAt": "2026-11-25T11:39:44.106Z",
   "tables": {
     "rooms": [
       {
@@ -51777,6 +51777,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T11:38:06.023Z"
+      },
+      {
+        "id": 3419,
+        "code": "EUR-003419",
+        "name": "კვამლის დეტექტორი (SPD2)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0505544203\t(448388806) შპს MXM\t29.01.2020 11:58:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T11:39:43.790Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T11:39:43.790Z"
       }
     ],
     "inventory_photos": [],
@@ -87295,6 +87310,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T11:38:06.023Z"
+      },
+      {
+        "id": 3552,
+        "inventory_id": 3419,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T11:39:43.790Z"
       }
     ],
     "app_metadata": [
