@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T08:37:53.881Z",
+  "exportedAt": "2026-11-25T08:44:30.716Z",
   "tables": {
     "rooms": [
       {
@@ -49656,12 +49656,12 @@
         "quantity": 1,
         "condition": "კარგი",
         "status": "საწყობში",
-        "notes": "ს/ზ 0461298608\t(445388704) შპს კერა\t29.06.2019 12:15:00",
+        "notes": "ს/ზ 0480154596\t(404488826) შპს კერხერი\t24.09.2019 16:33:00",
         "responsible_person": "",
         "registered_at": "2026-11-25T08:37:53.534Z",
         "last_inspected_at": null,
         "archived_at": null,
-        "updated_at": "2026-11-25T08:37:53.534Z"
+        "updated_at": "2026-11-25T08:44:30.377Z"
       }
     ],
     "inventory_photos": [],
@@ -83740,6 +83740,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T08:37:53.534Z"
+      },
+      {
+        "id": 3408,
+        "inventory_id": 3277,
+        "action": "ჩანაწერის რედაქტირება",
+        "details": "განახლდა დასახელება, მდგომარეობა, სტატუსი ან აღწერითი ველები",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T08:44:30.377Z"
       }
     ],
     "app_metadata": [
