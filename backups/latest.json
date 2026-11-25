@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T10:52:12.113Z",
+  "exportedAt": "2026-11-25T10:55:38.265Z",
   "tables": {
     "rooms": [
       {
@@ -51072,6 +51072,36 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T10:52:11.794Z"
+      },
+      {
+        "id": 3372,
+        "code": "EUR-003372",
+        "name": "ქოთანი ყვავილის (თოკით (2.5ლტ) სხ-517041)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T10:55:37.972Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T10:55:37.972Z"
+      },
+      {
+        "id": 3373,
+        "code": "EUR-003373",
+        "name": "ქოთანი ყვავილის (თოკით (2.5ლტ) სხ-517041)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0508900854\t(245621288) შპს ბი ემ სი გორგია\t15.02.2020 14:56:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T10:55:37.972Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T10:55:37.972Z"
       }
     ],
     "inventory_photos": [],
@@ -86120,6 +86150,26 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T10:52:11.794Z"
+      },
+      {
+        "id": 3505,
+        "inventory_id": 3372,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T10:55:37.972Z"
+      },
+      {
+        "id": 3506,
+        "inventory_id": 3373,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T10:55:37.972Z"
       }
     ],
     "app_metadata": [
