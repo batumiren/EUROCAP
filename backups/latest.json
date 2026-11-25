@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:35:03.135Z",
+  "exportedAt": "2026-11-25T09:36:03.210Z",
   "tables": {
     "rooms": [
       {
@@ -50187,6 +50187,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:35:02.816Z"
+      },
+      {
+        "id": 3313,
+        "code": "EUR-003313",
+        "name": "შირმა 3მ ფრთიანი",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0479897803\t(400003287) შპს ბიოიმპიანტი ჯორჯია\t23.09.2019 16:59:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:36:02.896Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:36:02.896Z"
       }
     ],
     "inventory_photos": [],
@@ -84645,6 +84660,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:35:02.816Z"
+      },
+      {
+        "id": 3446,
+        "inventory_id": 3313,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:36:02.896Z"
       }
     ],
     "app_metadata": [
