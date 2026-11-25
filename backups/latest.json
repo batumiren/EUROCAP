@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T08:12:34.915Z",
+  "exportedAt": "2026-11-25T08:19:22.333Z",
   "tables": {
     "rooms": [
       {
@@ -49617,6 +49617,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T08:12:34.580Z"
+      },
+      {
+        "id": 3275,
+        "code": "EUR-003275",
+        "name": "WiFi როუტერი (TL-WR841HP, TP-LINK, 300MBPS HIGH POWER WIRELESS N ROUTER 2X 9DBI)",
+        "room_id": 112,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "მცირეფასიანი მარაგები",
+        "notes": "ს/ზ 0441306628\t(437070269) შპს გალაქსი\t28.03.2019 11:53:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T08:19:22.008Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T08:19:22.008Z"
       }
     ],
     "inventory_photos": [],
@@ -83665,6 +83680,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T08:12:34.580Z"
+      },
+      {
+        "id": 3405,
+        "inventory_id": 3275,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T08:19:22.008Z"
       }
     ],
     "app_metadata": [
