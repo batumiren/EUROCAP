@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T08:56:38.194Z",
+  "exportedAt": "2026-11-25T08:59:23.000Z",
   "tables": {
     "rooms": [
       {
@@ -49692,6 +49692,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T08:56:37.890Z"
+      },
+      {
+        "id": 3280,
+        "code": "EUR-003280",
+        "name": "თარო ლითონის ( 4-იანი 1600*700*1600)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0477621378\t(245558793) შპს TRG Group\t12.09.2019 18:17:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T08:59:22.686Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T08:59:22.686Z"
       }
     ],
     "inventory_photos": [],
@@ -83800,6 +83815,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T08:56:37.890Z"
+      },
+      {
+        "id": 3411,
+        "inventory_id": 3280,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T08:59:22.686Z"
       }
     ],
     "app_metadata": [
