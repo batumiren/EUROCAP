@@ -1,6 +1,6 @@
 {
   "format": "EUROCAP-data-v1",
-  "exportedAt": "2026-11-25T09:24:57.427Z",
+  "exportedAt": "2026-11-25T09:28:51.063Z",
   "tables": {
     "rooms": [
       {
@@ -49947,6 +49947,21 @@
         "last_inspected_at": null,
         "archived_at": null,
         "updated_at": "2026-11-25T09:24:57.122Z"
+      },
+      {
+        "id": 3297,
+        "code": "EUR-003297",
+        "name": "ტელევიზორი (H55B7300)",
+        "room_id": 111,
+        "quantity": 1,
+        "condition": "კარგი",
+        "status": "საწყობში",
+        "notes": "ს/ზ 0481823275\t(211334830) შპს ომეგა\t02.10.2019 11:41:00",
+        "responsible_person": "",
+        "registered_at": "2026-11-25T09:28:50.684Z",
+        "last_inspected_at": null,
+        "archived_at": null,
+        "updated_at": "2026-11-25T09:28:50.684Z"
       }
     ],
     "inventory_photos": [],
@@ -84245,6 +84260,16 @@
         "reference_id": null,
         "operator_email": "lasha@euro.edu.ge",
         "created_at": "2026-11-25T09:24:57.122Z"
+      },
+      {
+        "id": 3430,
+        "inventory_id": 3297,
+        "action": "ჩანაწერის შექმნა",
+        "details": "რაოდენობა: 1",
+        "reference_type": null,
+        "reference_id": null,
+        "operator_email": "lasha@euro.edu.ge",
+        "created_at": "2026-11-25T09:28:50.684Z"
       }
     ],
     "app_metadata": [
